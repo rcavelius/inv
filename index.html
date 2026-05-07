@@ -1,0 +1,1513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crabby Matty's — Invoice Generator</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --red: #C41E1E;
+    --red-dark: #8B1515;
+    --red-deeper: #5C0E0E;
+    --gold: #C9A84C;
+    --gold-light: #E8D48B;
+    --cream: #FDF6ED;
+    --charcoal: #1A1A1A;
+    --dark: #0D0D0D;
+    --white: #FFFFFF;
+    --green: #2E7D32;
+    --green-light: #E8F5E9;
+    --orange: #E65100;
+    --orange-light: #FFF3E0;
+    --gray: #F5F5F5;
+    --border: #E0D6CC;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--cream);
+    color: var(--charcoal);
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ── */
+  header {
+    background: var(--dark);
+    border-bottom: 3px solid var(--red);
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  .header-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  .header-brand h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: var(--white);
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+  }
+  .header-brand .subtitle {
+    color: var(--gold);
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .header-crab {
+    font-size: 2rem;
+  }
+
+  /* ── TABS ── */
+  .tab-bar {
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 0;
+    padding: 0 2rem;
+    overflow-x: auto;
+  }
+  .tab-btn {
+    padding: 1rem 1.5rem;
+    border: none;
+    background: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  .tab-btn:hover { color: var(--red); }
+  .tab-btn.active {
+    color: var(--red);
+    border-bottom-color: var(--red);
+  }
+  .tab-btn[data-tab="pricing"] { order: 1; }
+  .tab-btn[data-tab="pending"] { order: 2; }
+  .tab-btn[data-tab="invoices"] { order: 3; }
+  .tab-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 22px;
+    height: 22px;
+    margin-left: 0.45rem;
+    padding: 0 0.45rem;
+    border-radius: 999px;
+    background: var(--red);
+    color: var(--white);
+    font-size: 0.72rem;
+    line-height: 1;
+  }
+
+  /* ── PANELS ── */
+  .panel { display: none; padding: 2rem; max-width: 1100px; margin: 0 auto; }
+  .panel.active { display: block; }
+
+  /* Pending order manager */
+  .pending-topline {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+  }
+  .pending-topline h2,
+  .section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: var(--red-dark);
+  }
+  .pending-actions,
+  .process-actions,
+  .pending-card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+  }
+  .utility-btn {
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    background: var(--white);
+    color: var(--charcoal);
+    padding: 0.7rem 0.95rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .utility-btn:hover { background: var(--gray); }
+  .pending-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+  }
+  .pending-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    padding: 1rem;
+  }
+  .pending-card-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.7rem;
+  }
+  .pending-card h3 {
+    font-size: 1.05rem;
+    color: var(--charcoal);
+  }
+  .pending-meta,
+  .pending-items,
+  .log-row {
+    color: #666;
+    font-size: 0.86rem;
+    line-height: 1.45;
+  }
+  .pending-items { margin: 0.55rem 0 0.85rem; }
+  .status-pill {
+    display: inline-flex;
+    align-items: center;
+    height: 28px;
+    padding: 0 0.65rem;
+    border-radius: 999px;
+    background: var(--orange-light);
+    color: var(--orange);
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+  }
+  .status-pill.quoted,
+  .status-pill.quote-drafted {
+    background: var(--green-light);
+    color: var(--green);
+  }
+  .pending-total {
+    color: var(--red-dark);
+    font-weight: 800;
+  }
+  .log-panel {
+    margin-top: 1.5rem;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem;
+  }
+  .log-panel h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: var(--red-dark);
+    letter-spacing: 1px;
+    margin-bottom: 0.75rem;
+  }
+  .log-list {
+    display: grid;
+    gap: 0.6rem;
+    max-height: 260px;
+    overflow: auto;
+  }
+  .log-row {
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid #f0ebe4;
+  }
+  .log-row:last-child { border-bottom: none; }
+
+  /* ── PRICING TABLE ── */
+  .pricing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  .pricing-header h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: var(--red-dark);
+  }
+  .save-indicator {
+    font-size: 0.8rem;
+    color: var(--green);
+    font-weight: 500;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .save-indicator.show { opacity: 1; }
+
+  .product-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+  .product-table thead th {
+    background: var(--dark);
+    color: var(--white);
+    padding: 0.9rem 1rem;
+    text-align: left;
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .product-table tbody tr {
+    border-bottom: 1px solid var(--border);
+    transition: background 0.15s;
+  }
+  .product-table tbody tr:hover { background: #FFFBF5; }
+  .product-table tbody tr.out-of-stock { background: var(--orange-light); }
+  .product-table td {
+    padding: 0.8rem 1rem;
+    vertical-align: middle;
+  }
+  .product-table .emoji-cell { font-size: 1.3rem; text-align: center; width: 50px; }
+  .product-table .name-cell { font-weight: 600; }
+  .product-table .unit-cell { color: #888; font-size: 0.85rem; }
+
+  .price-input {
+    width: 100px;
+    padding: 0.5rem 0.6rem;
+    border: 1.5px solid var(--border);
+    border-radius: 6px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-align: right;
+    transition: border-color 0.2s;
+  }
+  .price-input:focus {
+    outline: none;
+    border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.15);
+  }
+
+  .stock-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .stock-switch {
+    position: relative;
+    width: 44px;
+    height: 24px;
+    cursor: pointer;
+  }
+  .stock-switch input { opacity: 0; width: 0; height: 0; }
+  .stock-slider {
+    position: absolute;
+    inset: 0;
+    background: #ccc;
+    border-radius: 24px;
+    transition: 0.3s;
+  }
+  .stock-slider::before {
+    content: '';
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+  .stock-switch input:checked + .stock-slider { background: var(--green); }
+  .stock-switch input:checked + .stock-slider::before { transform: translateX(20px); }
+  .stock-label { font-size: 0.8rem; font-weight: 600; }
+  .stock-label.in { color: var(--green); }
+  .stock-label.out { color: var(--orange); }
+
+  /* ── EMAIL PARSER ── */
+  .parser-section { display: flex; gap: 2rem; flex-wrap: wrap; }
+  .parser-left, .parser-right { flex: 1; min-width: 320px; }
+
+  .email-paste-box {
+    width: 100%;
+    min-height: 300px;
+    padding: 1.2rem;
+    border: 2px dashed var(--border);
+    border-radius: 12px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    resize: vertical;
+    background: var(--white);
+    transition: border-color 0.2s;
+  }
+  .email-paste-box:focus {
+    outline: none;
+    border-color: var(--gold);
+    border-style: solid;
+  }
+
+  .parse-btn {
+    margin-top: 1rem;
+    padding: 0.9rem 2rem;
+    background: var(--red);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    width: 100%;
+  }
+  .parse-btn:hover { background: var(--red-dark); }
+  .parse-btn:active { transform: scale(0.98); }
+  .process-actions .parse-btn {
+    flex: 1 1 180px;
+    width: auto;
+  }
+  .parse-btn.secondary {
+    background: var(--charcoal);
+  }
+  .parse-btn.secondary:hover {
+    background: var(--dark);
+  }
+
+  /* ── PARSED ORDER / INVOICE ── */
+  .parsed-order {
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    overflow: hidden;
+  }
+  .parsed-header {
+    background: var(--dark);
+    padding: 1.2rem 1.5rem;
+    color: var(--white);
+  }
+  .parsed-header h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+  }
+  .parsed-header .customer-info {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.7);
+    margin-top: 0.3rem;
+  }
+  .parsed-body { padding: 1.5rem; }
+
+  .invoice-line {
+    display: flex;
+    align-items: center;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid #f0ebe4;
+    gap: 0.8rem;
+  }
+  .invoice-line:last-child { border-bottom: none; }
+  .invoice-line .il-emoji { font-size: 1.2rem; width: 30px; text-align: center; }
+  .invoice-line .il-name { flex: 1; font-weight: 500; }
+  .invoice-line .il-qty {
+    background: var(--gray);
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .invoice-line .il-unit { color: #888; font-size: 0.8rem; width: 60px; }
+  .invoice-line .il-price { font-weight: 700; width: 80px; text-align: right; }
+  .invoice-line .il-total { font-weight: 700; width: 90px; text-align: right; color: var(--red-dark); }
+  .invoice-line .il-stock-badge {
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .il-stock-badge.in-stock { background: var(--green-light); color: var(--green); }
+  .il-stock-badge.out-of-stock { background: var(--orange-light); color: var(--orange); }
+
+  .invoice-total-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem 0 0.5rem;
+    margin-top: 0.5rem;
+    border-top: 2px solid var(--dark);
+    gap: 1rem;
+  }
+  .invoice-total-label {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+  .invoice-total-amount {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--red);
+  }
+
+  .invoice-notes {
+    margin-top: 1rem;
+    padding: 0.8rem 1rem;
+    background: #FFF8E1;
+    border-radius: 8px;
+    border-left: 4px solid var(--gold);
+    font-size: 0.85rem;
+    color: #5D4037;
+  }
+
+  .invoice-actions {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 1.2rem;
+    flex-wrap: wrap;
+  }
+  .action-btn {
+    padding: 0.7rem 1.4rem;
+    border: none;
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .action-btn.copy-btn {
+    background: var(--dark);
+    color: white;
+  }
+  .action-btn.copy-btn:hover { background: #333; }
+  .action-btn.email-btn {
+    background: var(--gold);
+    color: var(--dark);
+  }
+  .action-btn.email-btn:hover { background: var(--gold-light); }
+  .action-btn.print-btn {
+    background: var(--white);
+    border: 1.5px solid var(--border);
+    color: var(--charcoal);
+  }
+  .action-btn.print-btn:hover { background: var(--gray); }
+
+  /* ── QTY EDITOR in invoice ── */
+  .il-qty-edit {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  .il-qty-edit button {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    background: var(--gray);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .il-qty-edit button:hover { background: var(--gold-light); }
+  .il-qty-edit input {
+    width: 45px;
+    text-align: center;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+
+  /* ── ADD LINE ITEM ── */
+  .add-line-section {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px dashed var(--border);
+  }
+  .add-line-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .add-line-row select, .add-line-row input {
+    padding: 0.5rem;
+    border: 1.5px solid var(--border);
+    border-radius: 6px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+  }
+  .add-line-row select { flex: 1; min-width: 160px; }
+  .add-line-row input { width: 70px; }
+  .add-line-btn {
+    padding: 0.5rem 1rem;
+    background: var(--green);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.85rem;
+  }
+  .add-line-btn:hover { background: #1B5E20; }
+
+  /* ── EMPTY STATE ── */
+  .empty-state {
+    text-align: center;
+    padding: 3rem 2rem;
+    color: #aaa;
+  }
+  .empty-state .empty-icon { font-size: 3rem; margin-bottom: 1rem; }
+  .empty-state p { font-size: 0.95rem; }
+
+  /* ── SECTION TITLE ── */
+  .section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: var(--red-dark);
+    margin-bottom: 1.5rem;
+  }
+
+  .help-text {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+
+  /* ── PRINT STYLES ── */
+  @media print {
+    header, .tab-bar, .parser-left, .invoice-actions, .add-line-section, .il-qty-edit button { display: none !important; }
+    .panel { display: block !important; max-width: 100%; padding: 0; }
+    .parsed-order { box-shadow: none; border: 1px solid #ccc; }
+    body { background: white; }
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 700px) {
+    header { padding: 0.8rem 1rem; }
+    .header-brand h1 { font-size: 1.2rem; }
+    .tab-bar { padding: 0 0.5rem; }
+    .tab-btn { padding: 0.8rem 0.8rem; font-size: 0.75rem; }
+    .panel { padding: 1rem; }
+    .parser-section { flex-direction: column; gap: 1.5rem; }
+    .parser-left, .parser-right { min-width: 100%; }
+    .price-input { width: 80px; }
+    .pending-topline,
+    .pending-card-header {
+      flex-direction: column;
+    }
+    .pending-actions,
+    .pending-card-actions {
+      width: 100%;
+    }
+    .utility-btn {
+      flex: 1 1 140px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-brand">
+    <span class="header-crab">🦀</span>
+    <div>
+      <h1>Crabby Matty's</h1>
+      <div class="subtitle">Invoice & Order Manager</div>
+    </div>
+  </div>
+  <span class="save-indicator" id="saveIndicator">✓ Saved</span>
+</header>
+
+<div class="tab-bar">
+  <button class="tab-btn" data-tab="pending">Pending Orders <span class="tab-count" id="pendingCount">0</span></button>
+  <button class="tab-btn active" data-tab="pricing">📋 Pricing & Stock</button>
+  <button class="tab-btn" data-tab="invoices">📨 Process Orders</button>
+</div>
+
+<!-- ═══════════ PRICING PANEL ═══════════ -->
+<div class="panel active" id="panel-pricing">
+  <div class="pricing-header">
+    <h2>Current Pricing & Stock</h2>
+  </div>
+  <p class="help-text">Set your prices and toggle stock status. Everything saves automatically in your browser so it's there next time you open this file.</p>
+  <table class="product-table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Item</th>
+        <th>Unit</th>
+        <th>Price</th>
+        <th>In Stock</th>
+      </tr>
+    </thead>
+    <tbody id="pricingBody"></tbody>
+  </table>
+</div>
+
+<!-- Pending Orders Panel -->
+<div class="panel" id="panel-pending">
+  <div class="pending-topline">
+    <div>
+      <h2>Pending Orders</h2>
+      <p class="help-text">Website order requests land here. Open one to adjust quantities, price it from the current pricing table, and draft a quote email.</p>
+    </div>
+    <div class="pending-actions">
+      <button class="utility-btn" id="refreshPendingBtn">Refresh</button>
+      <button class="utility-btn" id="copyLogBtn">Copy Log</button>
+    </div>
+  </div>
+  <div class="pending-grid" id="pendingOrdersList"></div>
+  <div class="log-panel">
+    <h3>Activity Log</h3>
+    <div class="log-list" id="activityLog"></div>
+  </div>
+</div>
+
+<!-- ═══════════ INVOICES PANEL ═══════════ -->
+<div class="panel" id="panel-invoices">
+  <h2 class="section-title">Process an Order</h2>
+  <p class="help-text">Paste a customer's order email (or just the text) below, and hit "Generate Invoice." The tool will match items to your current pricing and stock status.</p>
+  <div class="parser-section">
+    <div class="parser-left">
+      <textarea class="email-paste-box" id="emailInput" placeholder="Paste customer order email here...
+
+Example:
+Hey, I'd like to order 2 dozen large crabs, 3 lbs snow crab legs, 1 dozen clams, 4 ears of corn, and 2 sides of butter. 
+
+Name: John Smith
+Phone: 302-555-1234
+Pickup: Saturday at 2pm"></textarea>
+      <button class="parse-btn secondary" id="savePendingBtn">Save to Pending</button>
+      <button class="parse-btn" id="parseBtn">🦀 Generate Invoice</button>
+    </div>
+    <div class="parser-right">
+      <div id="invoiceOutput">
+        <div class="empty-state">
+          <div class="empty-icon">📬</div>
+          <p>Paste an order email and click Generate Invoice to get started.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ═══════════ PRODUCT CATALOG ═══════════
+const PRODUCTS = [
+  { id: 'steamed-crabs-medium', name: 'Medium Crabs', emoji: '🦀', unit: 'dozen', defaultPrice: 0, category: 'crabs' },
+  { id: 'steamed-crabs-medium-large', name: 'Medium/Large Crabs', emoji: '🦀', unit: 'dozen', defaultPrice: 0, category: 'crabs' },
+  { id: 'steamed-crabs-large', name: 'Large Crabs', emoji: '🦀', unit: 'dozen', defaultPrice: 0, category: 'crabs' },
+  { id: 'steamed-crabs-xlarge', name: 'XLarge Crabs', emoji: '🦀', unit: 'dozen', defaultPrice: 0, category: 'crabs' },
+  { id: 'steamed-crabs-jumbo', name: 'Jumbo Crabs', emoji: '🦀', unit: 'dozen', defaultPrice: 0, category: 'crabs' },
+  { id: 'snow-crab-legs', name: 'Snow Crab Legs', emoji: '🦀', unit: 'lb', defaultPrice: 0, category: 'seafood' },
+  { id: 'steamed-shrimp', name: 'Large Steamed Shrimp', emoji: '🦐', unit: 'lb', defaultPrice: 0, category: 'seafood' },
+  { id: 'corn', name: 'Corn on the Cob', emoji: '🌽', unit: 'ear', defaultPrice: 0, category: 'sides' },
+  { id: 'clams', name: 'Clams', emoji: '🐚', unit: 'dozen', defaultPrice: 0, category: 'seafood' },
+  { id: 'clams-casino', name: 'Clams Casino', emoji: '🥟', unit: 'dozen', defaultPrice: 0, category: 'seafood' },
+  { id: 'side-old-bay', name: 'Side of Old Bay', emoji: '🥫', unit: 'side', defaultPrice: 0, category: 'extras' },
+  { id: 'side-vinegar', name: 'Side of Vinegar', emoji: '🍶', unit: 'side', defaultPrice: 0, category: 'extras' },
+  { id: 'cocktail-sauce', name: 'Cocktail Sauce', emoji: '🍅', unit: 'side', defaultPrice: 0, category: 'extras' },
+  { id: 'tartar-sauce', name: 'Tartar Sauce', emoji: '🥄', unit: 'side', defaultPrice: 0, category: 'extras' },
+  { id: 'butter', name: 'Drawn Butter', emoji: '🧈', unit: 'side', defaultPrice: 0, category: 'extras' },
+  { id: 'table-paper', name: 'Table Paper', emoji: '📋', unit: 'roll', defaultPrice: 0, category: 'extras' },
+  { id: 'crab-crackers', name: 'Crab Crackers', emoji: '🔧', unit: 'each', defaultPrice: 0, category: 'extras' },
+  { id: 'mallets', name: 'Mallets', emoji: '🔨', unit: 'each', defaultPrice: 0, category: 'extras' },
+];
+
+// ═══════════ STATE ═══════════
+let pricing = {};
+let stockStatus = {};
+let pendingOrders = [];
+let orderLog = [];
+let activePendingId = null;
+const PENDING_KEY = 'crabbyMattys_pendingOrders';
+const LOG_KEY = 'crabbyMattys_orderLog';
+const PAYLOAD_START = 'CRABBY_MATTYS_ORDER_PAYLOAD';
+const PAYLOAD_END = 'END_CRABBY_MATTYS_ORDER_PAYLOAD';
+
+function escapeHtml(value) {
+  return String(value || '').replace(/[&<>"']/g, ch => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;'
+  }[ch]));
+}
+
+function formatDateTime(value) {
+  if (!value) return '';
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+  return date.toLocaleString([], { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+}
+
+function money(value) {
+  return '$' + value.toFixed(2);
+}
+
+function safeRead(key, fallback) {
+  try {
+    const raw = localStorage.getItem(key);
+    return raw ? JSON.parse(raw) : fallback;
+  } catch(e) {
+    return fallback;
+  }
+}
+
+function safeWrite(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+    return true;
+  } catch(e) {
+    return false;
+  }
+}
+
+function makeOrderId() {
+  const d = new Date();
+  const stamp = d.getFullYear().toString()
+    + String(d.getMonth() + 1).padStart(2, '0')
+    + String(d.getDate()).padStart(2, '0')
+    + '-'
+    + String(d.getHours()).padStart(2, '0')
+    + String(d.getMinutes()).padStart(2, '0')
+    + String(d.getSeconds()).padStart(2, '0');
+  return 'CM-' + stamp + '-' + Math.random().toString(36).slice(2, 6).toUpperCase();
+}
+
+function normalizeOrder(order, source = 'invoice-tool') {
+  const clean = order || {};
+  const items = (clean.items || []).map(item => ({
+    id: item.id || item.key || '',
+    qty: Number(item.qty) || 0,
+    name: item.name || '',
+    unit: item.unit || ''
+  })).filter(item => item.id && item.qty > 0);
+  return {
+    id: clean.id || makeOrderId(),
+    status: clean.status || 'pending',
+    source: clean.source || source,
+    createdAt: clean.createdAt || new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
+    customer: clean.customer || {},
+    pickup: clean.pickup || {},
+    notes: clean.notes || '',
+    summary: clean.summary || '',
+    items
+  };
+}
+
+function orderTotal(order) {
+  return (order.items || []).reduce((sum, item) => {
+    const product = PRODUCTS.find(p => p.id === item.id);
+    if (!product) return sum;
+    return sum + ((pricing[product.id] || 0) * item.qty);
+  }, 0);
+}
+
+function logOrderEvent(order, type, note = '') {
+  const entry = {
+    id: order && order.id ? order.id : makeOrderId(),
+    type,
+    note,
+    at: new Date().toISOString(),
+    customer: order && order.customer ? order.customer : {},
+    total: order && order.items ? orderTotal(order) : null
+  };
+  orderLog.unshift(entry);
+  orderLog = orderLog.slice(0, 250);
+  safeWrite(LOG_KEY, orderLog);
+  renderActivityLog();
+}
+
+function savePendingOrders() {
+  safeWrite(PENDING_KEY, pendingOrders);
+  renderPendingOrders();
+}
+
+function upsertPendingOrder(order, eventType = 'request_imported') {
+  const normalized = normalizeOrder(order);
+  const existing = pendingOrders.findIndex(o => o.id === normalized.id);
+  if (existing >= 0) pendingOrders.splice(existing, 1);
+  pendingOrders.unshift(normalized);
+  savePendingOrders();
+  logOrderEvent(normalized, eventType, 'Saved to pending orders');
+  return normalized;
+}
+
+function loadState() {
+  try {
+    const saved = localStorage.getItem('crabbyMattys_pricing');
+    if (saved) pricing = JSON.parse(saved);
+    const savedStock = localStorage.getItem('crabbyMattys_stock');
+    if (savedStock) stockStatus = JSON.parse(savedStock);
+  } catch(e) {}
+  pendingOrders = safeRead(PENDING_KEY, []).map(order => normalizeOrder(order));
+  orderLog = safeRead(LOG_KEY, []);
+  // Fill defaults
+  PRODUCTS.forEach(p => {
+    if (pricing[p.id] === undefined) pricing[p.id] = p.defaultPrice;
+    if (stockStatus[p.id] === undefined) stockStatus[p.id] = true;
+  });
+}
+
+function saveState() {
+  try {
+    localStorage.setItem('crabbyMattys_pricing', JSON.stringify(pricing));
+    localStorage.setItem('crabbyMattys_stock', JSON.stringify(stockStatus));
+  } catch(e) {}
+  const indicator = document.getElementById('saveIndicator');
+  indicator.classList.add('show');
+  setTimeout(() => indicator.classList.remove('show'), 1500);
+  renderPendingOrders();
+}
+
+// ═══════════ TABS ═══════════
+function showTab(tabName) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === tabName));
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  const panel = document.getElementById('panel-' + tabName);
+  if (panel) panel.classList.add('active');
+}
+
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => showTab(btn.dataset.tab));
+});
+
+// ═══════════ RENDER PRICING TABLE ═══════════
+function renderPricing() {
+  const tbody = document.getElementById('pricingBody');
+  tbody.innerHTML = '';
+  PRODUCTS.forEach(p => {
+    const inStock = stockStatus[p.id];
+    const tr = document.createElement('tr');
+    if (!inStock) tr.classList.add('out-of-stock');
+    tr.innerHTML = `
+      <td class="emoji-cell">${p.emoji}</td>
+      <td class="name-cell">${p.name}</td>
+      <td class="unit-cell">per ${p.unit}</td>
+      <td>
+        <span style="font-weight:600;color:#888;margin-right:2px;">$</span>
+        <input type="number" class="price-input" value="${pricing[p.id] || ''}" 
+               placeholder="0.00" min="0" step="0.25" data-id="${p.id}">
+      </td>
+      <td>
+        <div class="stock-toggle">
+          <label class="stock-switch">
+            <input type="checkbox" ${inStock ? 'checked' : ''} data-stock-id="${p.id}">
+            <span class="stock-slider"></span>
+          </label>
+          <span class="stock-label ${inStock ? 'in' : 'out'}">${inStock ? 'In Stock' : 'Out'}</span>
+        </div>
+      </td>
+    `;
+    tbody.appendChild(tr);
+  });
+
+  // Price inputs
+  tbody.querySelectorAll('.price-input').forEach(input => {
+    input.addEventListener('change', () => {
+      pricing[input.dataset.id] = parseFloat(input.value) || 0;
+      saveState();
+    });
+    input.addEventListener('input', () => {
+      pricing[input.dataset.id] = parseFloat(input.value) || 0;
+    });
+    input.addEventListener('blur', () => saveState());
+  });
+
+  // Stock toggles
+  tbody.querySelectorAll('[data-stock-id]').forEach(cb => {
+    cb.addEventListener('change', () => {
+      stockStatus[cb.dataset.stockId] = cb.checked;
+      saveState();
+      renderPricing();
+    });
+  });
+}
+
+// ═══════════ EMAIL PARSER ═══════════
+// Pending orders
+function renderOrderItemSummary(order) {
+  const labels = (order.items || []).map(item => {
+    const product = PRODUCTS.find(p => p.id === item.id);
+    const name = product ? product.name : (item.name || item.id);
+    const unit = product ? product.unit : (item.unit || '');
+    return `${item.qty} ${unit} ${name}`.trim();
+  });
+  if (!labels.length) return 'No items yet';
+  return escapeHtml(labels.slice(0, 4).join(' · ')) + (labels.length > 4 ? ` <strong>+${labels.length - 4} more</strong>` : '');
+}
+
+function renderPendingOrders() {
+  const count = document.getElementById('pendingCount');
+  if (count) count.textContent = String(pendingOrders.length);
+  const list = document.getElementById('pendingOrdersList');
+  if (!list) return;
+  if (!pendingOrders.length) {
+    list.innerHTML = `
+      <div class="empty-state">
+        <div class="empty-icon">📬</div>
+        <p>No pending orders yet. Website requests and saved pasted orders will show up here.</p>
+      </div>
+    `;
+    renderActivityLog();
+    return;
+  }
+
+  list.innerHTML = pendingOrders.map(order => {
+    const total = orderTotal(order);
+    const customer = order.customer || {};
+    const pickup = order.pickup || {};
+    const name = customer.name || 'Unnamed customer';
+    const contact = [customer.phone, customer.email].filter(Boolean).join(' · ');
+    const pickupText = [pickup.date, pickup.time].filter(Boolean).join(' at ') || 'Pickup not set';
+    const statusClass = String(order.status || 'pending').replace(/_/g, '-');
+    return `
+      <article class="pending-card" data-order-id="${escapeHtml(order.id)}">
+        <div class="pending-card-header">
+          <div>
+            <h3>${escapeHtml(name)}</h3>
+            <div class="pending-meta">${escapeHtml(contact || 'No contact yet')}</div>
+            <div class="pending-meta">${escapeHtml(pickupText)} · ${escapeHtml(formatDateTime(order.createdAt))}</div>
+          </div>
+          <span class="status-pill ${escapeHtml(statusClass)}">${escapeHtml(order.status || 'pending')}</span>
+        </div>
+        <div class="pending-items">${renderOrderItemSummary(order)}</div>
+        <div class="pending-meta">Quote total from current prices: <span class="pending-total">${total > 0 ? money(total) : 'Pricing TBD'}</span></div>
+        <div class="pending-card-actions" style="margin-top:0.85rem;">
+          <button class="utility-btn" onclick="loadPendingOrder('${escapeHtml(order.id)}')">Open Quote</button>
+          <button class="utility-btn" onclick="markPendingQuoted('${escapeHtml(order.id)}')">Mark Quoted</button>
+          <button class="utility-btn" onclick="archivePendingOrder('${escapeHtml(order.id)}')">Archive</button>
+        </div>
+      </article>
+    `;
+  }).join('');
+  renderActivityLog();
+}
+
+function renderActivityLog() {
+  const list = document.getElementById('activityLog');
+  if (!list) return;
+  if (!orderLog.length) {
+    list.innerHTML = '<div class="log-row">No activity yet.</div>';
+    return;
+  }
+  list.innerHTML = orderLog.slice(0, 30).map(entry => {
+    const name = entry.customer && entry.customer.name ? entry.customer.name : 'Order';
+    const total = typeof entry.total === 'number' && entry.total > 0 ? ` · ${money(entry.total)}` : '';
+    return `<div class="log-row"><strong>${escapeHtml(entry.type)}</strong> · ${escapeHtml(name)} · ${escapeHtml(formatDateTime(entry.at))}${total}<br>${escapeHtml(entry.note || entry.id || '')}</div>`;
+  }).join('');
+}
+
+function findPendingOrder(id) {
+  return pendingOrders.find(order => order.id === id);
+}
+
+function updatePendingStatus(id, status, eventType, note) {
+  const order = findPendingOrder(id);
+  if (!order) return;
+  order.status = status;
+  order.updatedAt = new Date().toISOString();
+  savePendingOrders();
+  logOrderEvent(order, eventType, note);
+}
+
+function loadPendingOrder(id) {
+  const order = findPendingOrder(id);
+  if (!order) return;
+  activePendingId = id;
+  currentInvoice = normalizeOrder(JSON.parse(JSON.stringify(order)), order.source || 'pending');
+  renderInvoice(currentInvoice);
+  showTab('invoices');
+  logOrderEvent(currentInvoice, 'quote_opened', 'Loaded pending order for pricing');
+}
+
+function markPendingQuoted(id) {
+  updatePendingStatus(id, 'quoted', 'quote_marked', 'Quote marked as sent');
+}
+
+function archivePendingOrder(id) {
+  const idx = pendingOrders.findIndex(order => order.id === id);
+  if (idx < 0) return;
+  const [order] = pendingOrders.splice(idx, 1);
+  savePendingOrders();
+  logOrderEvent(order, 'order_archived', 'Removed from pending orders');
+  if (activePendingId === id) activePendingId = null;
+}
+
+function saveCurrentToPending() {
+  if (!currentInvoice || !currentInvoice.items || !currentInvoice.items.length) {
+    const text = document.getElementById('emailInput').value.trim();
+    if (!text) return;
+    currentInvoice = parseEmail(text);
+  }
+  if (!currentInvoice.items || !currentInvoice.items.length) {
+    alert('No order items found to save.');
+    return;
+  }
+  const order = upsertPendingOrder(currentInvoice, 'request_saved');
+  activePendingId = order.id;
+  showTab('pending');
+}
+
+function extractStructuredPayload(text) {
+  const start = text.indexOf(PAYLOAD_START);
+  const end = text.indexOf(PAYLOAD_END);
+  if (start < 0 || end < 0 || end <= start) return null;
+  const json = text.slice(start + PAYLOAD_START.length, end).trim();
+  try {
+    return normalizeOrder(JSON.parse(json), 'website-email');
+  } catch(e) {
+    return null;
+  }
+}
+
+function parseEmail(text) {
+  const structured = extractStructuredPayload(text);
+  if (structured) return structured;
+  const lower = text.toLowerCase();
+  const lines = [];
+  let customerName = '';
+  let customerPhone = '';
+  let customerEmail = '';
+  let pickupDate = '';
+  let pickupTime = '';
+  let notes = '';
+
+  // Extract customer info
+  const nameMatch = text.match(/(?:name|from)[:\s]*([^\n\r,]+)/i);
+  if (nameMatch) customerName = nameMatch[1].trim();
+
+  const phoneMatch = text.match(/(?:phone|cell|mobile|tel|#)[:\s]*([\d\s\-().+]+)/i) 
+    || text.match(/(\(?\d{3}\)?[\s\-.]?\d{3}[\s\-.]?\d{4})/);
+  if (phoneMatch) customerPhone = phoneMatch[1].trim();
+
+  const emailMatch = text.match(/(?:email)[:\s]*([^\s\n\r]+@[^\s\n\r]+)/i)
+    || text.match(/([a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,})/);
+  if (emailMatch) customerEmail = emailMatch[1].trim();
+
+  const pickupMatch = text.match(/(?:pickup|pick[\s-]?up|date)[:\s]*([^\n\r]+)/i);
+  if (pickupMatch) {
+    const pText = pickupMatch[1].trim();
+    // Check if it contains time info too
+    const timeInPickup = pText.match(/(\d{1,2}(?::\d{2})?\s*(?:am|pm|AM|PM)?)/);
+    if (timeInPickup) pickupTime = timeInPickup[1];
+    pickupDate = pText;
+  }
+
+  const timeMatch = text.match(/(?:time)[:\s]*([^\n\r]+)/i);
+  if (timeMatch && !pickupTime) pickupTime = timeMatch[1].trim();
+
+  const notesMatch = text.match(/(?:notes?|special|instructions?|comments?)[:\s]*([^\n\r]+)/i);
+  if (notesMatch) notes = notesMatch[1].trim();
+
+  // Parse order items
+  const patterns = [
+    // "2 dozen large crabs" / "2 doz large"
+    { regex: /(\d+(?:\.\d+)?)\s*(?:dozen|doz\.?)\s+(?:of\s+)?(?:the\s+)?(medium[\/\s]*large|medium|large|xlarge|x[\s-]*large|jumbo)\s*(?:blue\s+)?crabs?/gi,
+      handler: (m) => {
+        const qty = parseFloat(m[1]);
+        const size = m[2].toLowerCase().replace(/[\s-]/g,'');
+        const sizeMap = { 'medium': 'steamed-crabs-medium', 'medium/large': 'steamed-crabs-medium-large', 
+                          'mediumlarge': 'steamed-crabs-medium-large', 'large': 'steamed-crabs-large', 
+                          'xlarge': 'steamed-crabs-xlarge', 'jumbo': 'steamed-crabs-jumbo' };
+        return { id: sizeMap[size] || 'steamed-crabs-large', qty };
+      }
+    },
+    // "2 dozen crabs" (no size specified → default large)
+    { regex: /(\d+(?:\.\d+)?)\s*(?:dozen|doz\.?)\s+(?:of\s+)?(?:the\s+)?(?:steamed\s+)?(?:blue\s+)?crabs?(?!\s*(?:leg|casino|cracker))/gi,
+      handler: (m) => ({ id: 'steamed-crabs-large', qty: parseFloat(m[1]) })
+    },
+    // Snow crab legs
+    { regex: /(\d+(?:\.\d+)?)\s*(?:lbs?|pounds?)\s+(?:of\s+)?(?:the\s+)?snow\s*crab\s*legs?/gi,
+      handler: (m) => ({ id: 'snow-crab-legs', qty: parseFloat(m[1]) })
+    },
+    { regex: /snow\s*crab\s*legs?\s*[:\-–]?\s*(\d+(?:\.\d+)?)\s*(?:lbs?|pounds?)/gi,
+      handler: (m) => ({ id: 'snow-crab-legs', qty: parseFloat(m[1]) })
+    },
+    // Shrimp
+    { regex: /(\d+(?:\.\d+)?)\s*(?:lbs?|pounds?)\s+(?:of\s+)?(?:the\s+)?(?:large\s+)?(?:steamed\s+)?(?:jumbo\s+)?shrimp/gi,
+      handler: (m) => ({ id: 'steamed-shrimp', qty: parseFloat(m[1]) })
+    },
+    { regex: /shrimp\s*[:\-–]?\s*(\d+(?:\.\d+)?)\s*(?:lbs?|pounds?)/gi,
+      handler: (m) => ({ id: 'steamed-shrimp', qty: parseFloat(m[1]) })
+    },
+    // Corn
+    { regex: /(\d+)\s*(?:ears?\s+(?:of\s+)?)?corn/gi,
+      handler: (m) => ({ id: 'corn', qty: parseInt(m[1]) })
+    },
+    { regex: /corn\s*[:\-–]?\s*(\d+)/gi,
+      handler: (m) => ({ id: 'corn', qty: parseInt(m[1]) })
+    },
+    // Clams Casino (must come before regular clams)
+    { regex: /(\d+(?:\.\d+)?)\s*(?:dozen|doz\.?)?\s*(?:of\s+)?clams?\s*casino/gi,
+      handler: (m) => ({ id: 'clams-casino', qty: parseFloat(m[1]) || 1 })
+    },
+    // Clams
+    { regex: /(\d+(?:\.\d+)?)\s*(?:dozen|doz\.?)?\s*(?:of\s+)?(?:the\s+)?(?:steamed\s+)?clams(?!\s*casino)/gi,
+      handler: (m) => ({ id: 'clams', qty: parseFloat(m[1]) || 1 })
+    },
+    // Old Bay
+    { regex: /(\d+)\s*(?:sides?\s+(?:of\s+)?)?old\s*bay/gi,
+      handler: (m) => ({ id: 'side-old-bay', qty: parseInt(m[1]) })
+    },
+    // Vinegar
+    { regex: /(\d+)\s*(?:sides?\s+(?:of\s+)?)?vinegar/gi,
+      handler: (m) => ({ id: 'side-vinegar', qty: parseInt(m[1]) })
+    },
+    // Cocktail sauce
+    { regex: /(\d+)\s*(?:sides?\s+(?:of\s+)?)?cocktail\s*sauce/gi,
+      handler: (m) => ({ id: 'cocktail-sauce', qty: parseInt(m[1]) })
+    },
+    // Tartar sauce
+    { regex: /(\d+)\s*(?:sides?\s+(?:of\s+)?)?tartar\s*sauce/gi,
+      handler: (m) => ({ id: 'tartar-sauce', qty: parseInt(m[1]) })
+    },
+    // Butter
+    { regex: /(\d+)\s*(?:sides?\s+(?:of\s+)?)?(?:drawn\s+)?butter/gi,
+      handler: (m) => ({ id: 'butter', qty: parseInt(m[1]) })
+    },
+    // Table paper
+    { regex: /(\d+)\s*(?:rolls?\s+(?:of\s+)?)?table\s*paper/gi,
+      handler: (m) => ({ id: 'table-paper', qty: parseInt(m[1]) })
+    },
+    // Crab crackers
+    { regex: /(\d+)\s*(?:sets?\s+(?:of\s+)?)?crab\s*crackers?/gi,
+      handler: (m) => ({ id: 'crab-crackers', qty: parseInt(m[1]) })
+    },
+    // Mallets
+    { regex: /(\d+)\s*mallets?/gi,
+      handler: (m) => ({ id: 'mallets', qty: parseInt(m[1]) })
+    },
+  ];
+
+  const found = {};
+  patterns.forEach(pat => {
+    let match;
+    const re = new RegExp(pat.regex.source, pat.regex.flags);
+    while ((match = re.exec(text)) !== null) {
+      const result = pat.handler(match);
+      if (result && result.id && !found[result.id]) {
+        found[result.id] = result.qty;
+      }
+    }
+  });
+
+  return {
+    items: Object.entries(found).map(([id, qty]) => ({ id, qty })),
+    customer: { name: customerName, phone: customerPhone, email: customerEmail },
+    pickup: { date: pickupDate, time: pickupTime },
+    notes
+  };
+}
+
+// ═══════════ RENDER INVOICE ═══════════
+let currentInvoice = null;
+
+function renderInvoice(parsed) {
+  currentInvoice = normalizeOrder(parsed, parsed && parsed.source ? parsed.source : 'invoice-tool');
+  parsed = currentInvoice;
+  const container = document.getElementById('invoiceOutput');
+  
+  if (parsed.items.length === 0) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <div class="empty-icon">🤔</div>
+        <p>Couldn't find any order items in that text. Try pasting a clearer order, or add items manually below.</p>
+      </div>
+      <div class="parsed-order" style="margin-top:1rem;">
+        <div class="parsed-header">
+          <h3>Build Invoice Manually</h3>
+        </div>
+        <div class="parsed-body">
+          ${renderAddLine()}
+          <div id="manualLines"></div>
+        </div>
+      </div>
+    `;
+    bindAddLine();
+    return;
+  }
+
+  const customerHtml = [parsed.customer.name, parsed.customer.phone, parsed.customer.email]
+    .map(escapeHtml).filter(Boolean).join(' &middot; ');
+  const pickupHtml = [parsed.pickup.date, parsed.pickup.time].map(escapeHtml).filter(Boolean).join(' at ');
+
+  let linesHtml = '';
+  let total = 0;
+  let hasOutOfStock = false;
+
+  parsed.items.forEach((item, idx) => {
+    const product = PRODUCTS.find(p => p.id === item.id);
+    if (!product) return;
+    const price = pricing[product.id] || 0;
+    const inStock = stockStatus[product.id];
+    const lineTotal = price * item.qty;
+    total += lineTotal;
+    if (!inStock) hasOutOfStock = true;
+
+    linesHtml += `
+      <div class="invoice-line" data-line-idx="${idx}">
+        <span class="il-emoji">${product.emoji}</span>
+        <span class="il-name">${product.name}</span>
+        <div class="il-qty-edit">
+          <button onclick="adjustQty(${idx}, -0.5)">−</button>
+          <input type="number" value="${item.qty}" min="0" step="0.5" 
+                 onchange="setQty(${idx}, this.value)" style="width:50px;">
+          <button onclick="adjustQty(${idx}, 0.5)">+</button>
+        </div>
+        <span class="il-unit">× ${product.unit}</span>
+        <span class="il-price">${price > 0 ? '$' + price.toFixed(2) : 'TBD'}</span>
+        <span class="il-total">${price > 0 ? '$' + lineTotal.toFixed(2) : '—'}</span>
+        <span class="il-stock-badge ${inStock ? 'in-stock' : 'out-of-stock'}">${inStock ? 'In Stock' : 'Out'}</span>
+      </div>
+    `;
+  });
+
+  container.innerHTML = `
+    <div class="parsed-order">
+      <div class="parsed-header">
+        <h3>🦀 Crabby Matty's — Invoice</h3>
+        ${customerHtml ? `<div class="customer-info">Customer: ${customerHtml}</div>` : ''}
+        ${pickupHtml ? `<div class="customer-info">Pickup: ${pickupHtml}</div>` : ''}
+      </div>
+      <div class="parsed-body">
+        ${linesHtml}
+        <div class="invoice-total-row">
+          <span class="invoice-total-label">Estimated Total</span>
+          <span class="invoice-total-amount">${total > 0 ? '$' + total.toFixed(2) : 'Pricing TBD'}</span>
+        </div>
+        ${hasOutOfStock ? `<div class="invoice-notes">⚠️ Some items are currently marked as out of stock. The customer should be notified.</div>` : ''}
+        ${parsed.notes ? `<div class="invoice-notes">📝 Customer notes: ${escapeHtml(parsed.notes)}</div>` : ''}
+        ${renderAddLine()}
+        <div class="invoice-actions">
+          <button class="action-btn copy-btn" onclick="copyInvoiceText()">📋 Copy Invoice Text</button>
+          <button class="action-btn email-btn" onclick="openEmailReply()">✉️ Open in Email</button>
+          <button class="action-btn print-btn" onclick="markCurrentQuoted()">Mark Quote Sent</button>
+          <button class="action-btn print-btn" onclick="completeCurrentOrder()">Complete & Archive</button>
+          <button class="action-btn print-btn" onclick="window.print()">🖨️ Print</button>
+        </div>
+      </div>
+    </div>
+  `;
+  bindAddLine();
+}
+
+function renderAddLine() {
+  let options = PRODUCTS.map(p => `<option value="${p.id}">${p.emoji} ${p.name} (per ${p.unit})</option>`).join('');
+  return `
+    <div class="add-line-section">
+      <div class="add-line-row">
+        <select id="addLineSelect"><option value="">+ Add item...</option>${options}</select>
+        <input type="number" id="addLineQty" placeholder="Qty" min="0.5" step="0.5" value="1">
+        <button class="add-line-btn" id="addLineBtn">Add</button>
+      </div>
+    </div>
+  `;
+}
+
+function bindAddLine() {
+  const btn = document.getElementById('addLineBtn');
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    const sel = document.getElementById('addLineSelect');
+    const qty = parseFloat(document.getElementById('addLineQty').value) || 1;
+    if (!sel.value) return;
+    if (!currentInvoice) currentInvoice = { items: [], customer: {}, pickup: {}, notes: '' };
+    currentInvoice.items.push({ id: sel.value, qty });
+    renderInvoice(currentInvoice);
+    syncCurrentPending('Added invoice line');
+  });
+}
+
+function adjustQty(idx, delta) {
+  if (!currentInvoice) return;
+  currentInvoice.items[idx].qty = Math.max(0, currentInvoice.items[idx].qty + delta);
+  if (currentInvoice.items[idx].qty <= 0) currentInvoice.items.splice(idx, 1);
+  renderInvoice(currentInvoice);
+  syncCurrentPending('Adjusted quantity');
+}
+
+function setQty(idx, val) {
+  if (!currentInvoice) return;
+  currentInvoice.items[idx].qty = Math.max(0, parseFloat(val) || 0);
+  if (currentInvoice.items[idx].qty <= 0) currentInvoice.items.splice(idx, 1);
+  renderInvoice(currentInvoice);
+  syncCurrentPending('Set quantity');
+}
+
+// ═══════════ GENERATE TEXT INVOICE ═══════════
+function syncCurrentPending(note = 'Order adjusted') {
+  if (!activePendingId || !currentInvoice) return;
+  const order = findPendingOrder(activePendingId);
+  if (!order) return;
+  Object.assign(order, normalizeOrder({
+    ...currentInvoice,
+    id: activePendingId,
+    status: order.status || currentInvoice.status || 'pending',
+    createdAt: order.createdAt || currentInvoice.createdAt
+  }, currentInvoice.source || 'pending'));
+  savePendingOrders();
+  logOrderEvent(order, 'order_adjusted', note);
+}
+
+function markCurrentQuoted() {
+  if (!currentInvoice) return;
+  if (activePendingId) {
+    updatePendingStatus(activePendingId, 'quoted', 'quote_marked', 'Quote marked as sent');
+  } else {
+    logOrderEvent(currentInvoice, 'quote_marked', 'Quote marked as sent');
+  }
+}
+
+function completeCurrentOrder() {
+  if (!currentInvoice) return;
+  if (activePendingId) {
+    archivePendingOrder(activePendingId);
+  } else {
+    logOrderEvent(currentInvoice, 'order_completed', 'Completed from invoice view');
+  }
+}
+
+function generateInvoiceText() {
+  if (!currentInvoice || !currentInvoice.items.length) return '';
+  let text = '🦀 CRABBY MATTY\'S — ORDER INVOICE\n';
+  text += '━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n';
+
+  if (currentInvoice.customer.name) text += `Customer: ${currentInvoice.customer.name}\n`;
+  if (currentInvoice.customer.phone) text += `Phone: ${currentInvoice.customer.phone}\n`;
+  if (currentInvoice.customer.email) text += `Email: ${currentInvoice.customer.email}\n`;
+  const pickup = [currentInvoice.pickup.date, currentInvoice.pickup.time].filter(Boolean).join(' at ');
+  if (pickup) text += `Pickup: ${pickup}\n`;
+  text += '\n';
+
+  let total = 0;
+  let hasOutOfStock = false;
+
+  currentInvoice.items.forEach(item => {
+    const product = PRODUCTS.find(p => p.id === item.id);
+    if (!product) return;
+    const price = pricing[product.id] || 0;
+    const inStock = stockStatus[product.id];
+    const lineTotal = price * item.qty;
+    total += lineTotal;
+
+    let line = `${product.emoji} ${product.name}`;
+    line += `  ×  ${item.qty} ${product.unit}`;
+    if (price > 0) {
+      line += `  @  $${price.toFixed(2)}/${product.unit}`;
+      line += `  =  $${lineTotal.toFixed(2)}`;
+    } else {
+      line += `  —  Price TBD`;
+    }
+    if (!inStock) {
+      line += `  ⚠️ OUT OF STOCK`;
+      hasOutOfStock = true;
+    }
+    text += line + '\n';
+  });
+
+  text += '\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n';
+  text += `ESTIMATED TOTAL: ${total > 0 ? '$' + total.toFixed(2) : 'TBD'}\n`;
+  text += '━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n';
+
+  if (hasOutOfStock) {
+    text += '\n⚠️ Note: Some items are currently out of stock. Please call us at (443) 322-4296 to discuss alternatives.\n';
+  }
+
+  if (currentInvoice.notes) {
+    text += `\n📝 Your notes: ${currentInvoice.notes}\n`;
+  }
+
+  text += '\nCrabby Matty\'s | 36345 Lighthouse Rd, Selbyville, DE 19975\n';
+  text += '📞 (443) 322-4296 | Carryout Only\n';
+
+  return text;
+}
+
+function copyInvoiceText() {
+  const text = generateInvoiceText();
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.querySelector('.copy-btn');
+    if (currentInvoice) logOrderEvent(currentInvoice, 'quote_copied', 'Invoice text copied');
+    btn.textContent = '✅ Copied!';
+    setTimeout(() => btn.textContent = '📋 Copy Invoice Text', 2000);
+  });
+}
+
+function openEmailReply() {
+  const text = generateInvoiceText();
+  const subject = encodeURIComponent('Your Crabby Matty\'s Order — Invoice');
+  const body = encodeURIComponent(text);
+  const to = currentInvoice.customer.email ? encodeURIComponent(currentInvoice.customer.email) : '';
+  if (currentInvoice) {
+    if (activePendingId) updatePendingStatus(activePendingId, 'quote_drafted', 'quote_email_opened', 'Opened email draft with quote');
+    else logOrderEvent(currentInvoice, 'quote_email_opened', 'Opened email draft with quote');
+  }
+  window.open(`mailto:${to}?subject=${subject}&body=${body}`);
+}
+
+// ═══════════ INIT ═══════════
+document.getElementById('parseBtn').addEventListener('click', () => {
+  const text = document.getElementById('emailInput').value.trim();
+  if (!text) return;
+  const parsed = parseEmail(text);
+  if (parsed.source && parsed.source.indexOf('website') === 0) {
+    upsertPendingOrder(parsed, 'request_imported');
+    activePendingId = parsed.id;
+  }
+  renderInvoice(parsed);
+});
+
+document.getElementById('savePendingBtn').addEventListener('click', () => {
+  const text = document.getElementById('emailInput').value.trim();
+  if (text) {
+    currentInvoice = parseEmail(text);
+    renderInvoice(currentInvoice);
+  }
+  saveCurrentToPending();
+});
+
+document.getElementById('refreshPendingBtn').addEventListener('click', () => {
+  pendingOrders = safeRead(PENDING_KEY, []).map(order => normalizeOrder(order));
+  orderLog = safeRead(LOG_KEY, []);
+  renderPendingOrders();
+});
+
+document.getElementById('copyLogBtn').addEventListener('click', () => {
+  const text = orderLog.map(entry => {
+    const name = entry.customer && entry.customer.name ? entry.customer.name : '';
+    return `${formatDateTime(entry.at)} | ${entry.type} | ${name} | ${entry.note || entry.id || ''}`;
+  }).join('\n');
+  navigator.clipboard.writeText(text || 'No activity yet.');
+});
+
+loadState();
+renderPricing();
+renderPendingOrders();
+</script>
+</body>
+</html>
