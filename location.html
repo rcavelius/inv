@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Location — Yellow Submarine | Ocean View, DE</title>
+<meta name="description" content="Find Yellow Submarine in Ocean View, DE. Located across from Drifting Grounds. Call 302-420-3595.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV DRAWER -->
+<div class="nav-overlay" id="navOverlay" onclick="closeNav()"></div>
+<nav class="nav-drawer" id="navDrawer">
+  <div class="nav-drawer-header">
+    <span class="nav-drawer-title">Yellow Submarine</span>
+    <button class="nav-close" onclick="closeNav()">&#10005;</button>
+  </div>
+  <div class="nav-drawer-links">
+    <a href="index.html"><span>🏠</span> Home</a>
+    <a href="menu.html"><span>🌊</span> Menu</a>
+    <a href="location.html" class="active"><span>📍</span> Location</a>
+    <a href="contact.html"><span>📞</span> Contact</a>
+    <a href="https://www.doordash.com" target="_blank" rel="noopener"><span>🛵</span> Order on DoorDash</a>
+  </div>
+  <div class="nav-drawer-footer">
+    <p>📞 <a href="tel:3024203595">302-420-3595</a></p>
+  </div>
+</nav>
+
+<!-- HEADER -->
+<header class="site-header">
+  <button class="header-hamburger" onclick="openNav()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="header-logo">
+    <div class="header-logo-text">YELLOW<br>SUBMARINE</div>
+  </div>
+  <nav class="top-nav-links">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="location.html" class="active">Location</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <a href="https://www.doordash.com" target="_blank" rel="noopener" class="header-order-btn">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+      <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+    </svg>
+    ORDER NOW
+  </a>
+</header>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <h1>FIND US</h1>
+  <p>Ocean View, Delaware — Est. 2011</p>
+</div>
+
+<div class="location-page">
+
+  <!-- MAP -->
+  <div class="map-container">
+    <iframe
+      title="Yellow Submarine location map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3099.3!2d-75.08!3d38.535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b8d7b3b3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2sOcean+View%2C+DE!5e0!3m2!1sen!2sus!4v1234567890"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <!-- ADDRESS -->
+  <div class="info-card">
+    <h3>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Address
+    </h3>
+    <div class="info-row">
+      <span class="info-icon">📍</span>
+      <div>
+        <strong>Located across from Drifting Grounds</strong><br>
+        Ocean View, Delaware
+      </div>
+    </div>
+    <div class="info-row" style="margin-top:8px;">
+      <span class="info-icon"></span>
+      <a href="https://maps.google.com/?q=Ocean+View+DE" target="_blank" rel="noopener"
+         style="color:var(--wave);font-size:13px;font-weight:600;">
+        Get Directions →
+      </a>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="info-card">
+    <h3>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.78a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      Contact
+    </h3>
+    <div class="info-row">
+      <span class="info-icon">📞</span>
+      <a href="tel:3024203595"><strong>302-420-3595</strong></a>
+    </div>
+  </div>
+
+  <!-- ORDER ONLINE -->
+  <div class="info-card">
+    <h3>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/></svg>
+      Order Online
+    </h3>
+    <div class="social-links">
+      <a href="https://www.doordash.com" target="_blank" rel="noopener" class="social-link">
+        <span class="social-icon">🛵</span>
+        <div>
+          <div style="font-size:14px;font-weight:700;">DoorDash</div>
+          <div style="font-size:11px;color:var(--text-mid);font-weight:400;">Order for delivery or pickup</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- SOCIAL -->
+  <div class="info-card">
+    <h3>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+      Follow Us
+    </h3>
+    <div class="social-links">
+      <a href="https://instagram.com/theyellowsubmarine" target="_blank" rel="noopener" class="social-link">
+        <span class="social-icon">📸</span>
+        <div>
+          <div style="font-size:14px;font-weight:700;">@theyellowsubmarine</div>
+          <div style="font-size:11px;color:var(--text-mid);font-weight:400;">Follow us on Instagram</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-logo-text">YELLOW SUBMARINE</div>
+  <div class="footer-tagline">Crafted fresh in Ocean View, Delaware</div>
+  <hr class="footer-divider">
+  <div class="footer-bottom">
+    Est. 2011 &nbsp;·&nbsp; Located across from Drifting Grounds<br>
+    <a href="tel:3024203595" style="color: rgba(255,255,255,0.5);">302-420-3595</a>
+    &nbsp;·&nbsp;
+    <a href="https://instagram.com/theyellowsubmarine" target="_blank" rel="noopener" style="color: rgba(255,255,255,0.5);">@theyellowsubmarine</a>
+  </div>
+</footer>
+
+<!-- BOTTOM NAV -->
+<nav class="bottom-nav">
+  <a href="index.html">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+    HOME
+  </a>
+  <a href="menu.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14l-5-5 1.41-1.41L11 13.17l7.59-7.59L20 7l-9 9z"/></svg>
+    MENU
+  </a>
+  <a href="https://www.doordash.com" target="_blank" rel="noopener" class="nav-center">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
+    ORDER
+  </a>
+  <a href="location.html" class="active">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+    LOCATION
+  </a>
+  <a href="contact.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.78a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    CONTACT
+  </a>
+</nav>
+
+<script>
+function openNav() {
+  document.getElementById('navDrawer').classList.add('open');
+  document.getElementById('navOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeNav() {
+  document.getElementById('navDrawer').classList.remove('open');
+  document.getElementById('navOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+</script>
+</body>
+</html>
