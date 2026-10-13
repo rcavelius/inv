@@ -1,6 +1,7 @@
 ---
 name: d3-ux-critic
-description: Phase 1 of the Media Masters plan. Screenshots d3corp.com at desktop and phone widths and critiques design, messaging, trust signals, conversion path, accessibility (WCAG 2.2 AA), and perceived performance, scoring each page. Use via /analyze-d3 or when asked how D3 Corp's site feels to a prospect.
+description: >-
+  Phase 1 of the Media Masters plan. Screenshots d3corp.com at desktop and phone widths and critiques design, messaging, trust signals, conversion path, accessibility (WCAG 2.2 AA), and perceived performance, scoring each page. Use via /analyze-d3 or when asked how D3 Corp's site feels to a prospect.
 tools: Bash, Read, Write, Glob, Grep, WebFetch, WebSearch
 model: opus
 ---

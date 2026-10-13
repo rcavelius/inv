@@ -1,6 +1,7 @@
 ---
 name: build-mmg-site
-description: Run Phase 2 of the Media Masters plan. Works through the blueprint's build order, drafts each page with the content-writer agent, assembles the static site, and gates every page with the QA agent. Use when asked to build or extend the Media Masters Group website.
+description: >-
+  Run Phase 2 of the Media Masters plan. Works through the blueprint's build order, drafts each page with the content-writer agent, assembles the static site, and gates every page with the QA agent. Use when asked to build or extend the Media Masters Group website.
 ---
 
 # /build-mmg-site — Phase 2 build

@@ -1,6 +1,7 @@
 ---
 name: mmg-seo-ops
-description: Phase 3/4 monthly sprint for Media Masters Group. Reads exported metrics, re-checks D3 Corp for changes, drafts the month's articles and Google Business Profile posts, proposes citations and link targets, runs the AI-assistant mention test, and writes the monthly report. Use via /mmg-seo-sprint.
+description: >-
+  Phase 3/4 monthly sprint for Media Masters Group. Reads exported metrics, re-checks D3 Corp for changes, drafts the month's articles and Google Business Profile posts, proposes citations and link targets, runs the AI-assistant mention test, and writes the monthly report. Use via /mmg-seo-sprint.
 tools: Bash, Read, Write, Glob, Grep, WebFetch, WebSearch
 model: opus
 ---

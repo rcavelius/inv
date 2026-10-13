@@ -1,6 +1,7 @@
 ---
 name: local-market-researcher
-description: Phase 1 of the Media Masters plan. Builds the Delmarva keyword universe (service × town), captures who ranks today including the map pack, notes SERP features, profiles the other local agencies, and lists area-specific link and citation sources. Use via /analyze-d3 or when asked what people search for and who wins locally.
+description: >-
+  Phase 1 of the Media Masters plan. Builds the Delmarva keyword universe (service × town), captures who ranks today including the map pack, notes SERP features, profiles the other local agencies, and lists area-specific link and citation sources. Use via /analyze-d3 or when asked what people search for and who wins locally.
 tools: Bash, Read, Write, Glob, Grep, WebFetch, WebSearch
 model: opus
 ---

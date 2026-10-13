@@ -1,6 +1,7 @@
 ---
 name: mmg-content-writer
-description: Phase 2 of the Media Masters plan. Writes complete page copy (or an article) from one content brief in the blueprint, to the plan's content standards: local, specific, proof-backed, with FAQ, schema-ready structure, and a clear CTA. Use via /build-mmg-site or when asked to write a page for the Media Masters site.
+description: >-
+  Phase 2 of the Media Masters plan. Writes complete page copy (or an article) from one content brief in the blueprint, to the plan's content standards: local, specific, proof-backed, with FAQ, schema-ready structure, and a clear CTA. Use via /build-mmg-site or when asked to write a page for the Media Masters site.
 tools: Read, Write, Glob, Grep, WebSearch
 model: opus
 ---

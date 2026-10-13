@@ -1,6 +1,7 @@
 ---
 name: d3-seo-analyst
-description: Phase 1 of the Media Masters plan. Audits d3corp.com's technical and on-page SEO, Core Web Vitals, schema, indexation, and its off-page footprint (backlinks from public sources, directory listings, NAP consistency, reviews, Google Business Profile). Use via /analyze-d3 or when asked how D3 Corp ranks and why.
+description: >-
+  Phase 1 of the Media Masters plan. Audits d3corp.com's technical and on-page SEO, Core Web Vitals, schema, indexation, and its off-page footprint (backlinks from public sources, directory listings, NAP consistency, reviews, Google Business Profile). Use via /analyze-d3 or when asked how D3 Corp ranks and why.
 tools: Bash, Read, Write, Glob, Grep, WebFetch, WebSearch
 model: opus
 ---

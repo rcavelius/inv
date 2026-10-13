@@ -1,6 +1,7 @@
 ---
 name: mmg-seo-sprint
-description: Run the monthly Phase 3/4 sprint for Media Masters Group with the mmg-seo-ops agent: scoreboard vs. D3 Corp, D3 change watch, AI-mention test, four articles, four Google Business Profile posts, citation and link targets, and the monthly report. Use on the first business day of each month or when asked for the monthly SEO sprint.
+description: >-
+  Run the monthly Phase 3/4 sprint for Media Masters Group with the mmg-seo-ops agent: scoreboard vs. D3 Corp, D3 change watch, AI-mention test, four articles, four Google Business Profile posts, citation and link targets, and the monthly report. Use on the first business day of each month or when asked for the monthly SEO sprint.
 ---
 
 # /mmg-seo-sprint — monthly sprint

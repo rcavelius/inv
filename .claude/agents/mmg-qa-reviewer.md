@@ -1,6 +1,7 @@
 ---
 name: mmg-qa-reviewer
-description: Phase 2 QA gate for the Media Masters site. Runs Lighthouse, schema validation, link checking, accessibility (axe), spelling, and reading-level checks on built pages and fails anything below the plan's bar. Use via /build-mmg-site before a page ships, or when asked to QA the Media Masters site.
+description: >-
+  Phase 2 QA gate for the Media Masters site. Runs Lighthouse, schema validation, link checking, accessibility (axe), spelling, and reading-level checks on built pages and fails anything below the plan's bar. Use via /build-mmg-site before a page ships, or when asked to QA the Media Masters site.
 tools: Bash, Read, Glob, Grep, Write
 model: opus
 ---

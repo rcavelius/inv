@@ -1,6 +1,7 @@
 ---
 name: mmg-site-architect
-description: Phase 1 synthesis for the Media Masters plan. Reads the four research outputs and the intake file and produces the site blueprint, a page-by-page spec with a "D3 has / we do better" table, content briefs, schema plan, conversion plan, and build order. Use via /analyze-d3 after the research agents finish, or when asked to turn the research into a site plan.
+description: >-
+  Phase 1 synthesis for the Media Masters plan. Reads the four research outputs and the intake file and produces the site blueprint, a page-by-page spec with a "D3 has / we do better" table, content briefs, schema plan, conversion plan, and build order. Use via /analyze-d3 after the research agents finish, or when asked to turn the research into a site plan.
 tools: Read, Write, Glob, Grep, Bash, WebSearch
 model: opus
 ---

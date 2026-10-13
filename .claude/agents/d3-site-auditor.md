@@ -1,6 +1,7 @@
 ---
 name: d3-site-auditor
-description: Phase 1 of the Media Masters plan. Crawls and inventories every page of d3corp.com (services, navigation, calls to action, forms, content depth, portfolio, testimonials, team, pricing signals, tech stack, tracking). Use via /analyze-d3 or whenever asked to inventory D3 Corp's website.
+description: >-
+  Phase 1 of the Media Masters plan. Crawls and inventories every page of d3corp.com (services, navigation, calls to action, forms, content depth, portfolio, testimonials, team, pricing signals, tech stack, tracking). Use via /analyze-d3 or whenever asked to inventory D3 Corp's website.
 tools: Bash, Read, Write, Glob, Grep, WebFetch, WebSearch
 model: opus
 ---

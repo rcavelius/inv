@@ -1,6 +1,7 @@
 ---
 name: analyze-d3
-description: Run Phase 1 of the Media Masters plan. Launches four Opus research agents in parallel against d3corp.com and the Delmarva market, then the architect agent that writes the site blueprint. Use when asked to analyze D3 Corp, refresh the competitive analysis, or start Phase 1.
+description: >-
+  Run Phase 1 of the Media Masters plan. Launches four Opus research agents in parallel against d3corp.com and the Delmarva market, then the architect agent that writes the site blueprint. Use when asked to analyze D3 Corp, refresh the competitive analysis, or start Phase 1.
 ---
 
 # /analyze-d3 — Phase 1 competitive analysis
