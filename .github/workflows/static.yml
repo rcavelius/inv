@@ -34,7 +34,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Exclude internal planning files from the published site
-        run: rm -rf media-masters .claude
+        run: rm -rf media-masters .claude scripts
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

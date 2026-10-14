@@ -1,0 +1,75 @@
+# Manual, on-demand crawl of a public competitor website for the Media Masters
+# competitive analysis. Runs on GitHub's runners (full internet access), respects
+# robots.txt, crawls at ~1 request/second, and saves results for the analysis agents.
+name: Crawl competitor site for analysis
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_origin:
+        description: "Site to crawl (origin only)"
+        default: "https://d3corp.com"
+        required: true
+      max_pages:
+        description: "Maximum pages to crawl"
+        default: "400"
+      results_branch:
+        description: "Throwaway branch that receives the results (force-pushed, orphan; delete it after analysis)"
+        default: "research-corpus-d3"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crawl-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install crawler dependencies
+        working-directory: scripts/d3-crawl
+        run: npm install --no-audit --no-fund
+      - name: Install Chromium for Playwright
+        working-directory: scripts/d3-crawl
+        run: npx playwright install --with-deps chromium
+      - name: Crawl
+        working-directory: scripts/d3-crawl
+        env:
+          TARGET_ORIGIN: ${{ inputs.target_origin }}
+          MAX_PAGES: ${{ inputs.max_pages }}
+          OUT_DIR: ${{ github.workspace }}/media-masters/research/raw/d3
+        run: node crawl.mjs
+      - name: Upload results as a workflow artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: d3-crawl-${{ github.run_number }}
+          path: media-masters/research/raw/d3
+          retention-days: 1
+      - name: Push results to the throwaway results branch
+        env:
+          RESULTS_BRANCH: ${{ inputs.results_branch }}
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -rf /tmp/corpus && mkdir -p /tmp/corpus && cp -r media-masters/research/raw/d3 /tmp/corpus/d3
+          git checkout --orphan "$RESULTS_BRANCH"
+          git rm -rf --quiet . || true
+          git clean -fdxq
+          mkdir -p corpus && cp -r /tmp/corpus/d3 corpus/d3
+          printf '# Crawl corpus (temporary)\n\nRaw crawl results for competitive analysis, produced by the "Crawl competitor site for analysis" workflow (run %s). This branch is a transfer mechanism only: fetch it, analyze locally, then delete the branch.\n' "${{ github.run_number }}" > README.md
+          git add -A
+          git commit -qm "Crawl corpus for analysis (run ${{ github.run_number }})"
+          git push --force origin "HEAD:$RESULTS_BRANCH"

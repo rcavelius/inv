@@ -1,0 +1,14 @@
+{
+  "name": "d3-crawl",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Polite, robots.txt-respecting crawl of a public website for competitive analysis. Saves metadata, text, screenshots, accessibility and speed results.",
+  "scripts": { "crawl": "node crawl.mjs" },
+  "dependencies": {
+    "playwright": "1.47.2",
+    "axe-core": "4.10.0",
+    "lighthouse": "12.2.1",
+    "chrome-launcher": "1.1.2"
+  }
+}
