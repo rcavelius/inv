@@ -1,0 +1,998 @@
+{
+ "url": "https://d3corp.com/case-study/boardwalk-hotel-group/",
+ "requestedUrl": "https://d3corp.com/case-study/boardwalk-hotel-group/",
+ "status": 200,
+ "headers": {
+  "content-encoding": "gzip",
+  "content-type": "text/html; charset=UTF-8",
+  "date": "Wed, 14 Oct 2026 00:31:28 GMT",
+  "etag": "\"4e31eb63e361883ab15a7ad6ea9389fb\"",
+  "last-modified": "Wed, 14 Oct 2026 00:31:28 GMT",
+  "link": "<https://d3corp.com/wp-json/>; rel=\"https://api.w.org/\"\n<https://d3corp.com/wp-json/wp/v2/case-study/1707>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\n<https://d3corp.com/?p=1707>; rel=shortlink",
+  "permissions-policy": "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+  "referrer-policy": "no-referrer-when-downgrade\nno-referrer-when-downgrade",
+  "server": "nginx",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block"
+ },
+ "loadMs": 2521,
+ "requestCount": 111,
+ "thirdPartyHosts": [
+  "www.youtube.com",
+  "fonts.googleapis.com",
+  "www.google.com",
+  "website-media.com",
+  "use.typekit.net",
+  "p.typekit.net",
+  "www.gstatic.com",
+  "www.googletagmanager.com",
+  "cdn.jsdelivr.net",
+  "d3forms.d3corp.com",
+  "acsbapp.com",
+  "cdn.acsbapp.com",
+  "cdn.apigateway.co",
+  "fonts.gstatic.com",
+  "static.doubleclick.net",
+  "googleads.g.doubleclick.net",
+  "i.ytimg.com",
+  "www.google-analytics.com",
+  "lexicon-prod.apigateway.co",
+  "conversation-prod.apigateway.co",
+  "lh3.googleusercontent.com",
+  "jnn-pa.googleapis.com"
+ ],
+ "internalLinks": [
+  "https://d3corp.com/request-a-quote",
+  "https://d3corp.com/",
+  "https://d3corp.com/meet-us/",
+  "https://d3corp.com/testimonials/",
+  "https://d3corp.com/services/",
+  "https://d3corp.com/ai-assistant/",
+  "https://d3corp.com/answer-engine-optimization/",
+  "https://d3corp.com/digital-advertising/",
+  "https://d3corp.com/email-marketing/",
+  "https://d3corp.com/graphic-design/",
+  "https://d3corp.com/multimedia/",
+  "https://d3corp.com/print/",
+  "https://d3corp.com/search-engine-optimization/",
+  "https://d3corp.com/social-media-marketing/",
+  "https://d3corp.com/strategy/",
+  "https://d3corp.com/websites/",
+  "https://d3corp.com/rapid-design-websites/",
+  "https://d3corp.com/case-study/boardwalk-hotel-group/",
+  "https://d3corp.com/case-studies/",
+  "https://d3corp.com/videos/",
+  "https://d3corp.com/id3as/",
+  "https://d3corp.com/careers/",
+  "https://d3corp.com/join-our-team/",
+  "https://d3corp.com/contact-us/",
+  "https://d3corp.com/privacy-policy/",
+  "https://d3corp.com/terms/",
+  "https://d3corp.com/webmail/",
+  "https://d3corp.com/accessibility/",
+  "https://d3corp.com/site-map/"
+ ],
+ "externalLinks": [
+  {
+   "href": "https://accessibe.com/blog/knowledgebase/screen-reader-guide",
+   "text": "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://boardwalkhotels.com/",
+   "text": "www.boardwalkhotels.com",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://hjoceanfrontplaza.com/",
+   "text": "Howard Johnson® Oceanfront Plaza",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://hjoceanfrontinn.com/",
+   "text": "Howard Johnson® Oceanfront Inn",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://daysinnboardwalk.com/",
+   "text": "Days Inn® Oceanfront",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://policies.google.com/privacy",
+   "text": "Privacy Policy",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/terms",
+   "text": "Terms of Service",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6",
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8",
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://visitoceancity.com/",
+   "text": "Ocean City MD",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://oceancity.org/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://salisburyarea.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://thequietresorts.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  }
+ ],
+ "lang": "en-US",
+ "title": "Boardwalk Hotel Group | D3 Case Study | Digital Marketing Agency",
+ "metas": {
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+  "format-detection": "telephone=no,email=no,url=no",
+  "description": "D3 is proud to partner with Boardwalk Hotel Group, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Boardwalk Hotel Group | D3 Case Study | Digital Marketing Agency",
+  "og:description": "D3 is proud to partner with Boardwalk Hotel Group, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+  "og:url": "https://d3corp.com/case-study/boardwalk-hotel-group/",
+  "og:site_name": "D3",
+  "og:updated_time": "2026-06-16T07:31:21-04:00",
+  "og:image": "https://website-media.com/d3corp/d3-website-2025/2026/01/19105721/bhg-tile-case-studies-03.jpg",
+  "og:image:secure_url": "https://website-media.com/d3corp/d3-website-2025/2026/01/19105721/bhg-tile-case-studies-03.jpg",
+  "og:image:width": "710",
+  "og:image:height": "362",
+  "og:image:alt": "Boardwalk Hotel Group",
+  "og:image:type": "image/jpeg",
+  "og:video": "https://www.youtube.com/embed/kZcofwzUHjs",
+  "ya:ovs:upload_date": "2026-01-19EST15:58:08-05:00",
+  "ya:ovs:allow_embed": "true",
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Boardwalk Hotel Group | D3 Case Study | Digital Marketing Agency",
+  "twitter:description": "D3 is proud to partner with Boardwalk Hotel Group, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+  "twitter:image": "https://website-media.com/d3corp/d3-website-2025/2026/01/19105721/bhg-tile-case-studies-03.jpg",
+  "generator": "WordPress 7.1.2",
+  "msapplication-tileimage": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102958/d3-favicon.png"
+ },
+ "canonical": "https://d3corp.com/case-study/boardwalk-hotel-group/",
+ "hreflang": [],
+ "generator": "WordPress 7.1.2",
+ "h1": [],
+ "h2": [],
+ "h3": [
+  "Subscribe"
+ ],
+ "wordCount": 633,
+ "text": "Press Alt+1 for screen-reader mode, Alt+0 to cancel Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window D3 Meet Us Services Our Work Blog Careers Contact Us REQUEST A QUOTE Case Study: Boardwalk Hotel Group What We Did Multimedia Graphic Design Marketing Print Websites www.boardwalkhotels.com Their Story Boardwalk Hotel Group, a long-standing partner of D3 for over two decades, owns and operates three of the most iconic oceanfront hotels in Ocean City, MD: Howard Johnson® Oceanfront Plaza, Howard Johnson® Oceanfront Inn, and Days Inn® Oceanfront. As a trusted extension of their team, D3 works closely with BHG on all aspects of marketing and strategy, providing daily guidance and support to ensure every initiative aligns with business goals. When the hotel group’s websites were ready for a refresh, this partnership allowed us to approach the project with insight and efficiency from day one Recognizing changing guest demands and the need for modernized design and an AI-forward approach to the extensive amount of content, our D3 team undertook a comprehensive overhaul of all four websites in the hotel group’s portfolio. With recently renovated rooms, reflecting the physical updates with new photography and video content was also key. After years of navigating evolving hospitality trends, booking technologies, and guest expectations, our team brings an established confidence to hospitality website design. Our Journey Because of our history, our D3 team was able to dive deeply into structuring content across the four sites, updating for clarity, removing redundancies, and modernizing it for today’s more visual user. Our primary goal was to ensure the content was refreshed and relevant, and presented optimally for search and AI. Thanks to streamlined asset organization and an enhanced client feedback process, the project moved forward seamlessly with a structured workflow, even during the height of the busy summer beach season. As part of the site renovation, the logos were updated to modernize the Boardwalk Hotel Group brand and to emphasize each hotel’s pet-friendly status. We also added a booking engine that locks to the top of the site, making real-time room availability accessible from every page—a critical feature in today’s competitive accommodation market. The responsive and trusting relationship between D3 and Boardwalk Hotel Group allowed for quality take the lead in this process. Our D3 team’s commitment to efficient project management ensured that the site launched smoothly and retained its earned search rankings. The same close collaboration continues across the accounts management of ongoing marketing efforts, from social media to content strategy, digital campaigns and email marketing, our team ensures that every initiative reflects Boardwalk Hotel Group’s brand and drives results. Testimonial “We’ve worked with D3 for many years and trust them with all of our marketing, from social media and digital advertising to print, reservations, website hosting, and more. Their team is knowledgeable, responsive, and just easy to work with. We recently went through a website redesign and had a great experience. D3’s project management team kept everything organized and made the whole process feel smooth and stress-free. We truly value our long-standing partnership and would highly recommend D3 to any business looking for a full-service marketing team they can count on!” – Boardwalk Hotel Group Subscribe Get the latest marketing news and advice. First Name Last Name Email SUBSCRIBE This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. 12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842 410-213-2400 212 West Main Street Salisbury, Maryland 21801 Meet Us Testimonials Services Case Studies Videos ID3AS Blog Careers Contact Us Privacy Policy Terms & Conditions Webmail Accessibility Site Map Copyright © 2026 D3. All Rights Reserved. Website Design by D3, Ocean City MD Our Partners PREVIOUS Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google NEXT",
+ "images": [
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website-300x151.png",
+   "alt": "D3",
+   "w": 300,
+   "h": 151,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/01/19105606/bhg-monitor-d3-homepage.png",
+   "alt": "Monitor displaying home page of Boardwalk Hotel Group",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/01/19105250/bhg-cell-phone.png",
+   "alt": "Cell phone showing Boardwalk Hotel Groups blog page.",
+   "w": 401,
+   "h": 668,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Robot-Small.webp",
+   "alt": "",
+   "w": 166,
+   "h": 213,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102744/ocean-city-chamber-logo.png",
+   "alt": "Ocean City chamber logo",
+   "w": 1059,
+   "h": 1500,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-82.webp",
+   "alt": "",
+   "w": 44,
+   "h": 62,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-83.webp",
+   "alt": "",
+   "w": 167,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo-300x68.webp",
+   "alt": "YouTube Logo",
+   "w": 192,
+   "h": 43,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo-300x86.webp",
+   "alt": "Shopify logo",
+   "w": 189,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 209,
+   "h": 59,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 78,
+   "h": 105,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo-300x61.webp",
+   "alt": "Woo Commerce logo",
+   "w": 192,
+   "h": 39,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo-300x52.webp",
+   "alt": "WordPress logo",
+   "w": 192,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo-300x60.webp",
+   "alt": "Bing logo",
+   "w": 192,
+   "h": 38,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 664,
+   "h": 196,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo-300x68.webp",
+   "alt": "YouTube Logo",
+   "w": 192,
+   "h": 43,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo-300x86.webp",
+   "alt": "Shopify logo",
+   "w": 189,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 209,
+   "h": 59,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 78,
+   "h": 105,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo-300x61.webp",
+   "alt": "Woo Commerce logo",
+   "w": 192,
+   "h": 39,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo-300x52.webp",
+   "alt": "WordPress logo",
+   "w": 192,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo-300x60.webp",
+   "alt": "Bing logo",
+   "w": 192,
+   "h": 38,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 664,
+   "h": 196,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  }
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "CreativeWork",
+     "name": "Boardwalk Hotel Group",
+     "description": "D3 leveraged its long-standing partnership with Boardwalk Hotel Group to modernize and elevate the digital presence of it Ocean City hotel portfolio through a comprehensive website redesign. We refreshed content, updated visuals and mobile responsiveness, adjust design strategy to be more booking-focused. Along with optimizing the site structure for improved SEO and AI-readiness. ",
+     "url": "https://d3corp.com/case-study/boardwalk-hotel-group/",
+     "about": [
+      {
+       "@type": "Place",
+       "name": "Ocean City, MD"
+      }
+     ],
+     "publisher": {
+      "@type": "Organization",
+      "name": "D3"
+     },
+     "author": {
+      "@type": "Organization",
+      "name": "D3"
+     },
+     "citation": "https://boardwalkhotels.com/"
+    },
+    {
+     "@type": "Organization",
+     "@id": "https://d3corp.com/#organization",
+     "name": "D3",
+     "url": "https://d3corp.com",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://d3corp.com/#logo",
+      "url": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "contentUrl": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "caption": "D3",
+      "inLanguage": "en-US",
+      "width": "694",
+      "height": "350"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://d3corp.com/#website",
+     "url": "https://d3corp.com",
+     "name": "D3",
+     "publisher": {
+      "@id": "https://d3corp.com/#organization"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://website-media.com/d3corp/d3-website-2025/2026/01/19105721/bhg-tile-case-studies-03.jpg",
+     "url": "https://website-media.com/d3corp/d3-website-2025/2026/01/19105721/bhg-tile-case-studies-03.jpg",
+     "width": "710",
+     "height": "362",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://d3corp.com/case-study/boardwalk-hotel-group/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://d3corp.com/case-studies/",
+        "name": "Case Studies"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://d3corp.com/case-study/boardwalk-hotel-group/",
+        "name": "Boardwalk Hotel Group"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://d3corp.com/case-study/boardwalk-hotel-group/#webpage",
+     "url": "https://d3corp.com/case-study/boardwalk-hotel-group/",
+     "name": "Boardwalk Hotel Group | D3 Case Study | Digital Marketing Agency",
+     "datePublished": "2026-01-19T15:58:08-05:00",
+     "dateModified": "2026-06-16T07:31:21-04:00",
+     "isPartOf": {
+      "@id": "https://d3corp.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://website-media.com/d3corp/d3-website-2025/2026/01/19105721/bhg-tile-case-studies-03.jpg"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://d3corp.com/case-study/boardwalk-hotel-group/#breadcrumb"
+     }
+    },
+    {
+     "@type": "VideoObject",
+     "name": "Boardwalk Hotel Group | D3 Case Study | Digital Marketing Agency",
+     "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+     "uploadDate": "2026-01-19T15:58:08-05:00",
+     "thumbnailUrl": "https://website-media.com/d3corp/d3-website-2025/2026/01/19105721/bhg-tile-case-studies-03.jpg",
+     "embedUrl": "https://www.youtube.com/embed/kZcofwzUHjs",
+     "isFamilyFriendly": "True",
+     "@id": "https://d3corp.com/case-study/boardwalk-hotel-group/#schema-41240",
+     "isPartOf": {
+      "@id": "https://d3corp.com/case-study/boardwalk-hotel-group/#webpage"
+     },
+     "publisher": {
+      "@id": "https://d3corp.com/#organization"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://d3corp.com/case-study/boardwalk-hotel-group/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "forms": [
+  {
+   "action": "ref: <Node>",
+   "method": "post",
+   "id": "frmD3Forms5112",
+   "fields": [
+    {
+     "name": "submit_to_system",
+     "type": "text",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "first_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "First Name",
+     "label": "First Name"
+    },
+    {
+     "name": "last_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "Last Name",
+     "label": "Last Name"
+    },
+    {
+     "name": "email",
+     "type": "email",
+     "required": false,
+     "placeholder": "Email",
+     "label": "Email"
+    }
+   ]
+  }
+ ],
+ "scripts": [
+  "https://www.youtube.com/s/player/22cb88bc/www-widgetapi.vflset/www-widgetapi.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-WY4W4ZLGEG&cx=c&gtm=4e6ac1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-NGGH6CL",
+  "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtlvjEjk2TqdwOQz/recaptcha__en.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+  "https://www.google.com/recaptcha/api.js?render=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6",
+  "https://www.youtube.com/iframe_api",
+  "https://cdn.apigateway.co/webchat-client..prod/sdk.js",
+  "https://d3corp.com/app/plugins/wpconsent-premium/build/frontend-pro.js?ver=69fedfaec866286d7fe0",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/d3forms.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/bload/bload.min.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.iframe-transport.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.fileupload.js",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-client-device-data.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-media-gate.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-youtube.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-vimeo.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-soundcloud.js?ver=2.0.5",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.14.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/bootstrap.bundle.min.js?ver=4.3.1",
+  "https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/slick.min.js?ver=1.8.1",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/lazyload.min.js?ver=12.4.0",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.matchHeight-min.js?ver=0.7.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.fancybox.v3.js?ver=3.5.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/global.js",
+  "https://d3forms.d3corp.com/d3fst/recaptcha.js?ver=7.1.2",
+  "https://acsbapp.com/apps/app/dist/js/app.js"
+ ],
+ "iframes": [
+  "https://www.youtube.com/embed/kZcofwzUHjs?si=Xt5dSzG_a_1ctxkP&enablejsapi=1&origin=https://d3corp.com",
+  "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6&co=aHR0cHM6Ly9kM2NvcnAuY29tOjQ0Mw..&hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz&size=invisible&anchor-ms=20000&execute-ms=30000&cb=cs3q4he8lw2n"
+ ],
+ "ctas": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  }
+ ],
+ "phones": [
+  "410-213-2400"
+ ],
+ "emails": [],
+ "telLinks": [
+  "tel:+1-4102132400"
+ ],
+ "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+ "nav": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "AI Assistant",
+   "href": "https://d3corp.com/ai-assistant/"
+  },
+  {
+   "text": "Answer Engine Optimization",
+   "href": "https://d3corp.com/answer-engine-optimization/"
+  },
+  {
+   "text": "Digital Advertising",
+   "href": "https://d3corp.com/digital-advertising/"
+  },
+  {
+   "text": "Email Marketing",
+   "href": "https://d3corp.com/email-marketing/"
+  },
+  {
+   "text": "Graphic Design",
+   "href": "https://d3corp.com/graphic-design/"
+  },
+  {
+   "text": "Multimedia",
+   "href": "https://d3corp.com/multimedia/"
+  },
+  {
+   "text": "Print",
+   "href": "https://d3corp.com/print/"
+  },
+  {
+   "text": "Search Engine Optimization",
+   "href": "https://d3corp.com/search-engine-optimization/"
+  },
+  {
+   "text": "Social Media Marketing",
+   "href": "https://d3corp.com/social-media-marketing/"
+  },
+  {
+   "text": "Strategy",
+   "href": "https://d3corp.com/strategy/"
+  },
+  {
+   "text": "Custom Websites",
+   "href": "https://d3corp.com/websites/"
+  },
+  {
+   "text": "Rapid Design Websites",
+   "href": "https://d3corp.com/rapid-design-websites/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Our Work",
+   "href": ""
+  },
+  {
+   "text": "Our Work",
+   "href": "https://d3corp.com/case-study/boardwalk-hotel-group/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Join Our Team",
+   "href": "https://d3corp.com/join-our-team/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  }
+ ],
+ "footer": [
+  {
+   "text": "Privacy Policy",
+   "href": "https://policies.google.com/privacy"
+  },
+  {
+   "text": "Terms of Service",
+   "href": "https://policies.google.com/terms"
+  },
+  {
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6"
+  },
+  {
+   "text": "410-213-2400",
+   "href": "tel:+1-4102132400"
+  },
+  {
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "ID3AS Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "Privacy Policy",
+   "href": "https://d3corp.com/privacy-policy/"
+  },
+  {
+   "text": "Terms & Conditions",
+   "href": "https://d3corp.com/terms/"
+  },
+  {
+   "text": "Webmail",
+   "href": "https://d3corp.com/webmail/"
+  },
+  {
+   "text": "Accessibility",
+   "href": "https://d3corp.com/accessibility/"
+  },
+  {
+   "text": "Site Map",
+   "href": "https://d3corp.com/site-map/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Website Design",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Ocean City MD",
+   "href": "https://visitoceancity.com/"
+  }
+ ]
+}

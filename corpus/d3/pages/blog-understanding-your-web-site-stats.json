@@ -1,0 +1,1013 @@
+{
+ "url": "https://d3corp.com/blog/understanding-your-web-site-stats/",
+ "requestedUrl": "https://d3corp.com/blog/understanding-your-web-site-stats/",
+ "status": 200,
+ "headers": {
+  "content-encoding": "gzip",
+  "content-type": "text/html; charset=UTF-8",
+  "date": "Wed, 14 Oct 2026 00:27:22 GMT",
+  "etag": "\"6750c4ff5222eb5fc457614db00a6b46\"",
+  "last-modified": "Wed, 14 Oct 2026 00:27:22 GMT",
+  "link": "<https://d3corp.com/wp-json/>; rel=\"https://api.w.org/\"\n<https://d3corp.com/wp-json/wp/v2/posts/796>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\n<https://d3corp.com/?p=796>; rel=shortlink",
+  "permissions-policy": "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+  "referrer-policy": "no-referrer-when-downgrade\nno-referrer-when-downgrade",
+  "server": "nginx",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-frame-options": "SAMEORIGIN",
+  "x-pingback": "https://d3corp.com/wp/xmlrpc.php",
+  "x-xss-protection": "1; mode=block"
+ },
+ "loadMs": 2223,
+ "requestCount": 90,
+ "thirdPartyHosts": [
+  "www.google.com",
+  "website-media.com",
+  "cdn.jsdelivr.net",
+  "d3forms.d3corp.com",
+  "fonts.googleapis.com",
+  "use.typekit.net",
+  "p.typekit.net",
+  "www.gstatic.com",
+  "www.googletagmanager.com",
+  "acsbapp.com",
+  "cdn.acsbapp.com",
+  "cdn.apigateway.co",
+  "fonts.gstatic.com",
+  "lexicon-prod.apigateway.co",
+  "conversation-prod.apigateway.co",
+  "lh3.googleusercontent.com",
+  "www.google-analytics.com"
+ ],
+ "internalLinks": [
+  "https://d3corp.com/request-a-quote",
+  "https://d3corp.com/",
+  "https://d3corp.com/meet-us/",
+  "https://d3corp.com/testimonials/",
+  "https://d3corp.com/services/",
+  "https://d3corp.com/ai-assistant/",
+  "https://d3corp.com/answer-engine-optimization/",
+  "https://d3corp.com/digital-advertising/",
+  "https://d3corp.com/email-marketing/",
+  "https://d3corp.com/graphic-design/",
+  "https://d3corp.com/multimedia/",
+  "https://d3corp.com/print/",
+  "https://d3corp.com/search-engine-optimization/",
+  "https://d3corp.com/social-media-marketing/",
+  "https://d3corp.com/strategy/",
+  "https://d3corp.com/websites/",
+  "https://d3corp.com/rapid-design-websites/",
+  "https://d3corp.com/blog/understanding-your-web-site-stats/",
+  "https://d3corp.com/case-studies/",
+  "https://d3corp.com/videos/",
+  "https://d3corp.com/id3as/",
+  "https://d3corp.com/careers/",
+  "https://d3corp.com/join-our-team/",
+  "https://d3corp.com/contact-us/",
+  "https://d3corp.com/blog/spam-prevention-tips/",
+  "https://d3corp.com/blog/tips-for-avoiding-common-seo-mistakes/",
+  "https://d3corp.com/privacy-policy/",
+  "https://d3corp.com/terms/",
+  "https://d3corp.com/webmail/",
+  "https://d3corp.com/accessibility/",
+  "https://d3corp.com/site-map/"
+ ],
+ "externalLinks": [
+  {
+   "href": "https://accessibe.com/blog/knowledgebase/screen-reader-guide",
+   "text": "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://policies.google.com/privacy",
+   "text": "Privacy Policy",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/terms",
+   "text": "Terms of Service",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/privacy",
+   "text": "Privacy Policy",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/terms",
+   "text": "Terms of Service",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6",
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8",
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://visitoceancity.com/",
+   "text": "Ocean City MD",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://oceancity.org/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://salisburyarea.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://thequietresorts.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  }
+ ],
+ "lang": "en-US",
+ "title": "Understanding your Web Site Stats | D3 | Digital Marketing Agency",
+ "metas": {
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+  "format-detection": "telephone=no,email=no,url=no",
+  "description": "To retrieve your website statistics, contact us at 410-213-2400 or edits@siteupdates.com and we will send you a copy of your business's Google Analytics",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Understanding your Web Site Stats | D3 | Digital Marketing Agency",
+  "og:description": "To retrieve your website statistics, contact us at 410-213-2400 or edits@siteupdates.com and we will send you a copy of your business's Google Analytics",
+  "og:url": "https://d3corp.com/blog/understanding-your-web-site-stats/",
+  "og:site_name": "D3",
+  "article:section": "Uncategorized",
+  "og:updated_time": "2025-09-10T14:05:09-04:00",
+  "og:image": "https://website-media.com/d3corp/d3-website-2025/2020/04/09102842/john-schnobrich-fl-pc9-voc-j4-unsplash1-1024x683.jpg",
+  "og:image:secure_url": "https://website-media.com/d3corp/d3-website-2025/2020/04/09102842/john-schnobrich-fl-pc9-voc-j4-unsplash1-1024x683.jpg",
+  "og:image:width": "1024",
+  "og:image:height": "683",
+  "og:image:alt": "Two people using and pointing at laptop",
+  "og:image:type": "image/jpeg",
+  "article:published_time": "2020-04-06T18:38:08-04:00",
+  "article:modified_time": "2025-09-10T14:05:09-04:00",
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Understanding your Web Site Stats | D3 | Digital Marketing Agency",
+  "twitter:description": "To retrieve your website statistics, contact us at 410-213-2400 or edits@siteupdates.com and we will send you a copy of your business's Google Analytics",
+  "twitter:image": "https://website-media.com/d3corp/d3-website-2025/2020/04/09102842/john-schnobrich-fl-pc9-voc-j4-unsplash1-1024x683.jpg",
+  "twitter:label1": "Written by",
+  "twitter:data1": "D3 Support",
+  "twitter:label2": "Time to read",
+  "twitter:data2": "3 minutes",
+  "generator": "WordPress 7.1.2",
+  "msapplication-tileimage": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102958/d3-favicon.png"
+ },
+ "canonical": "https://d3corp.com/blog/understanding-your-web-site-stats/",
+ "hreflang": [],
+ "generator": "WordPress 7.1.2",
+ "h1": [],
+ "h2": [
+  "Understanding your Web Site Stats"
+ ],
+ "h3": [
+  "Understanding Website Analytic Jargon",
+  "",
+  "Acquisition channels",
+  "Subscribe"
+ ],
+ "wordCount": 894,
+ "text": "Press Alt+1 for screen-reader mode, Alt+0 to cancel Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window D3 Meet Us Services Our Work Blog Careers Contact Us REQUEST A QUOTE ID3AS Blog Understanding your Web Site Stats April 6, 2020 Understanding Website Analytic Jargon To retrieve your website statistics, contact us at 410-213-2400 or edits@siteupdates.com and we will send you a copy of your business’s Google Analytics report. We can also set up to have the report emailed to you on a monthly, weekly, or daily basis. Please keep in mind that all website statistics are slightly inaccurate. For example, some visitors’ IP addresses may change between visits or some visitors may go through proxy servers. Analytics are fairly accurate but they are constantly changing, so use all web statistics and analytics as a guiding point. To help you better understand website analytic jargon, we’ve included a cheat sheet of keywords below: Sessions: Once referred to as Visits, a Session is defined as the amount of time a user spends on your website; consisting of one or more page views, social interactions, e-commerce transactions, etc. A single session has a default session timeout of 30 minutes, which means that if a user is inactive on your website or leaves for more than 30 minutes, the session is ended. The number of sessions per day is one way to measure website traffic. Users: Previously known as Unique Visitors, the User metric shows how many individuals have been browsing your website within a specific date range. This includes both new and returning users. So even if a user has had multiple sessions within the specified date range, it will only be counted as one user. Page Views: This is the number of times users view a page that has the Google Analytics tracking code inserted. If a user visits the same page multiple times within a single session, each viewing of the page will add to its page view count. This covers all page views; if a user refreshes the page or leaves the page and returns, these are counted as additional page views. Unique Page Views: In Google Analytics, a Unique Page view is a single viewing of a page, even if it was viewed multiple times within a single session. For example, if a user viewed the page once in their visit or five times, the number of unique page views will record as just one. Bounce Rate: The percentage of single-page sessions on your site. Regardless of how a user got to your site or the time they spent on it, the percentage represents the number of visitors who navigate away from the site after viewing only one page. Medium: The type of traffic on your site is referred to as the Medium. This includes organic (unpaid search), CPC (cost-per-click, paid search), referral (referral), email (name of custom medium created), none (direct traffic has “none”). Acquisition channels Organic Search: This is what most marketers aim to increase. Organic (unpaid) search is traffic that comes from a search engine, such as Google or Bing. The results are determined by how well the page is optimized for search engines. One thing to note is that paid search ads are NOT counted in this category. Paid Search: This traffic counts how many people are clicking through to your website from paid ads. These purchased ads are managed through accounts such as Google AdWords or Bing Ads. Note that paid search is also referred to as Cost-per-click or CPC. Social: In Google Analytics, the acquisition reports automatically includes free traffic from social media, including Facebook, Twitter, Instagram, Pinterest, etc. The Acquisition report also includes a set of detailed social reports to further analyze the success of your inbound social traffic. Direct: This type of traffic occurs when users type your website’s URL into their browser or click on a link in an email application (without campaign tags). Also, be aware that instances when Google Analytics cannot determine a source they will automatically be assigned as direct. Referral: This traffic is reported when users land on your site by clicking from another third-party website. The referrals report gives you access to see all of the websites (by domain) that are sending traffic to your website. ID3AS Blog Stay up to date with the latest marketing tips, tricks, and trends from the experts at D3. Ready to brush up on something new to take your business to new heights? Check here for insight, inspiration, and most importantly – ID3AS! Subscribe Get the latest marketing news and advice. First Name Last Name Email SUBSCRIBE This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. « Previous Next » Subscribe Get the latest marketing news and advice. First Name Last Name Email SUBSCRIBE This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. 12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842 410-213-2400 212 West Main Street Salisbury, Maryland 21801 Meet Us Testimonials Services Case Studies Videos ID3AS Blog Careers Contact Us Privacy Policy Terms & Conditions Webmail Accessibility Site Map Copyright © 2026 D3. All Rights Reserved. Website Design by D3, Ocean City MD Our Partners PREVIOUS Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google NEXT",
+ "images": [
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website-300x151.png",
+   "alt": "D3",
+   "w": 300,
+   "h": 151,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2020/04/09102842/john-schnobrich-fl-pc9-voc-j4-unsplash1-1024x683.jpg",
+   "alt": "Two people using and pointing at laptop",
+   "w": 1024,
+   "h": 683,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Robot-Small.webp",
+   "alt": "",
+   "w": 166,
+   "h": 213,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102744/ocean-city-chamber-logo.png",
+   "alt": "Ocean City chamber logo",
+   "w": 1059,
+   "h": 1500,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-82.webp",
+   "alt": "",
+   "w": 44,
+   "h": 62,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-83.webp",
+   "alt": "",
+   "w": 167,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo-300x68.webp",
+   "alt": "YouTube Logo",
+   "w": 192,
+   "h": 43,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo-300x86.webp",
+   "alt": "Shopify logo",
+   "w": 189,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 209,
+   "h": 59,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 78,
+   "h": 105,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo-300x61.webp",
+   "alt": "Woo Commerce logo",
+   "w": 192,
+   "h": 39,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo-300x52.webp",
+   "alt": "WordPress logo",
+   "w": 192,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo-300x60.webp",
+   "alt": "Bing logo",
+   "w": 192,
+   "h": 38,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 664,
+   "h": 196,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo-300x68.webp",
+   "alt": "YouTube Logo",
+   "w": 192,
+   "h": 43,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo-300x86.webp",
+   "alt": "Shopify logo",
+   "w": 189,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 209,
+   "h": 59,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 78,
+   "h": 105,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo-300x61.webp",
+   "alt": "Woo Commerce logo",
+   "w": 192,
+   "h": 39,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo-300x52.webp",
+   "alt": "WordPress logo",
+   "w": 192,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo-300x60.webp",
+   "alt": "Bing logo",
+   "w": 192,
+   "h": 38,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 664,
+   "h": 196,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  }
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "Organization",
+     "@id": "https://d3corp.com/#organization",
+     "name": "D3",
+     "url": "https://d3corp.com",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://d3corp.com/#logo",
+      "url": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "contentUrl": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "caption": "D3",
+      "inLanguage": "en-US",
+      "width": "694",
+      "height": "350"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://d3corp.com/#website",
+     "url": "https://d3corp.com",
+     "name": "D3",
+     "publisher": {
+      "@id": "https://d3corp.com/#organization"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://website-media.com/d3corp/d3-website-2025/2020/04/09102842/john-schnobrich-fl-pc9-voc-j4-unsplash1-scaled.jpg",
+     "url": "https://website-media.com/d3corp/d3-website-2025/2020/04/09102842/john-schnobrich-fl-pc9-voc-j4-unsplash1-scaled.jpg",
+     "width": "2560",
+     "height": "1707",
+     "caption": "Two people using and pointing at laptop",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://d3corp.com/blog/understanding-your-web-site-stats/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://d3corp.com/blog/understanding-your-web-site-stats/",
+        "name": "Understanding your Web Site Stats"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://d3corp.com/blog/understanding-your-web-site-stats/#webpage",
+     "url": "https://d3corp.com/blog/understanding-your-web-site-stats/",
+     "name": "Understanding your Web Site Stats | D3 | Digital Marketing Agency",
+     "datePublished": "2020-04-06T18:38:08-04:00",
+     "dateModified": "2025-09-10T14:05:09-04:00",
+     "isPartOf": {
+      "@id": "https://d3corp.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://website-media.com/d3corp/d3-website-2025/2020/04/09102842/john-schnobrich-fl-pc9-voc-j4-unsplash1-scaled.jpg"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://d3corp.com/blog/understanding-your-web-site-stats/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://d3corp.com/blog/understanding-your-web-site-stats/#author",
+     "name": "D3 Support",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/4b06e363e9bc7ebe19454b1c1b57049dda89fdcb9ad96ca0065307e9ca3ecc0b?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/4b06e363e9bc7ebe19454b1c1b57049dda89fdcb9ad96ca0065307e9ca3ecc0b?s=96&amp;d=mm&amp;r=g",
+      "caption": "D3 Support",
+      "inLanguage": "en-US"
+     },
+     "worksFor": {
+      "@id": "https://d3corp.com/#organization"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "Understanding your Web Site Stats | D3 | Digital Marketing Agency",
+     "datePublished": "2020-04-06T18:38:08-04:00",
+     "dateModified": "2025-09-10T14:05:09-04:00",
+     "author": {
+      "@id": "https://d3corp.com/blog/understanding-your-web-site-stats/#author",
+      "name": "D3 Support"
+     },
+     "publisher": {
+      "@id": "https://d3corp.com/#organization"
+     },
+     "description": "To retrieve your website statistics, contact us at 410-213-2400 or edits@siteupdates.com and we will send you a copy of your business&#039;s Google Analytics",
+     "name": "Understanding your Web Site Stats | D3 | Digital Marketing Agency",
+     "@id": "https://d3corp.com/blog/understanding-your-web-site-stats/#richSnippet",
+     "isPartOf": {
+      "@id": "https://d3corp.com/blog/understanding-your-web-site-stats/#webpage"
+     },
+     "image": {
+      "@id": "https://website-media.com/d3corp/d3-website-2025/2020/04/09102842/john-schnobrich-fl-pc9-voc-j4-unsplash1-scaled.jpg"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://d3corp.com/blog/understanding-your-web-site-stats/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "forms": [
+  {
+   "action": "ref: <Node>",
+   "method": "post",
+   "id": "frmD3Forms5112",
+   "fields": [
+    {
+     "name": "submit_to_system",
+     "type": "text",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "first_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "First Name",
+     "label": "First Name"
+    },
+    {
+     "name": "last_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "Last Name",
+     "label": "Last Name"
+    },
+    {
+     "name": "email",
+     "type": "email",
+     "required": false,
+     "placeholder": "Email",
+     "label": "Email"
+    }
+   ]
+  },
+  {
+   "action": "ref: <Node>",
+   "method": "post",
+   "id": "frmD3Forms5112",
+   "fields": [
+    {
+     "name": "submit_to_system",
+     "type": "text",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "first_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "First Name",
+     "label": null
+    },
+    {
+     "name": "last_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "Last Name",
+     "label": null
+    },
+    {
+     "name": "email",
+     "type": "email",
+     "required": false,
+     "placeholder": "Email",
+     "label": null
+    }
+   ]
+  }
+ ],
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-WY4W4ZLGEG&cx=c&gtm=4e6ac1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-NGGH6CL",
+  "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtlvjEjk2TqdwOQz/recaptcha__en.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+  "https://www.google.com/recaptcha/api.js?render=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6",
+  "https://cdn.apigateway.co/webchat-client..prod/sdk.js",
+  "https://d3corp.com/app/plugins/wpconsent-premium/build/frontend-pro.js?ver=69fedfaec866286d7fe0",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/d3forms.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/bload/bload.min.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.iframe-transport.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.fileupload.js",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-client-device-data.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-media-gate.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-youtube.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-vimeo.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-soundcloud.js?ver=2.0.5",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.14.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/bootstrap.bundle.min.js?ver=4.3.1",
+  "https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/slick.min.js?ver=1.8.1",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/lazyload.min.js?ver=12.4.0",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.matchHeight-min.js?ver=0.7.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.fancybox.v3.js?ver=3.5.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/global.js",
+  "https://d3forms.d3corp.com/d3fst/recaptcha.js?ver=7.1.2",
+  "https://acsbapp.com/apps/app/dist/js/app.js"
+ ],
+ "iframes": [
+  "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6&co=aHR0cHM6Ly9kM2NvcnAuY29tOjQ0Mw..&hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz&size=invisible&anchor-ms=20000&execute-ms=30000&cb=948onzalbtwg"
+ ],
+ "ctas": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  }
+ ],
+ "phones": [
+  "410-213-2400"
+ ],
+ "emails": [
+  "edits@siteupdates.com"
+ ],
+ "telLinks": [
+  "tel:+1-4102132400"
+ ],
+ "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+ "nav": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "AI Assistant",
+   "href": "https://d3corp.com/ai-assistant/"
+  },
+  {
+   "text": "Answer Engine Optimization",
+   "href": "https://d3corp.com/answer-engine-optimization/"
+  },
+  {
+   "text": "Digital Advertising",
+   "href": "https://d3corp.com/digital-advertising/"
+  },
+  {
+   "text": "Email Marketing",
+   "href": "https://d3corp.com/email-marketing/"
+  },
+  {
+   "text": "Graphic Design",
+   "href": "https://d3corp.com/graphic-design/"
+  },
+  {
+   "text": "Multimedia",
+   "href": "https://d3corp.com/multimedia/"
+  },
+  {
+   "text": "Print",
+   "href": "https://d3corp.com/print/"
+  },
+  {
+   "text": "Search Engine Optimization",
+   "href": "https://d3corp.com/search-engine-optimization/"
+  },
+  {
+   "text": "Social Media Marketing",
+   "href": "https://d3corp.com/social-media-marketing/"
+  },
+  {
+   "text": "Strategy",
+   "href": "https://d3corp.com/strategy/"
+  },
+  {
+   "text": "Custom Websites",
+   "href": "https://d3corp.com/websites/"
+  },
+  {
+   "text": "Rapid Design Websites",
+   "href": "https://d3corp.com/rapid-design-websites/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Our Work",
+   "href": ""
+  },
+  {
+   "text": "Our Work",
+   "href": "https://d3corp.com/blog/understanding-your-web-site-stats/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Join Our Team",
+   "href": "https://d3corp.com/join-our-team/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  }
+ ],
+ "footer": [
+  {
+   "text": "Privacy Policy",
+   "href": "https://policies.google.com/privacy"
+  },
+  {
+   "text": "Terms of Service",
+   "href": "https://policies.google.com/terms"
+  },
+  {
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6"
+  },
+  {
+   "text": "410-213-2400",
+   "href": "tel:+1-4102132400"
+  },
+  {
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "ID3AS Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "Privacy Policy",
+   "href": "https://d3corp.com/privacy-policy/"
+  },
+  {
+   "text": "Terms & Conditions",
+   "href": "https://d3corp.com/terms/"
+  },
+  {
+   "text": "Webmail",
+   "href": "https://d3corp.com/webmail/"
+  },
+  {
+   "text": "Accessibility",
+   "href": "https://d3corp.com/accessibility/"
+  },
+  {
+   "text": "Site Map",
+   "href": "https://d3corp.com/site-map/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Website Design",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Ocean City MD",
+   "href": "https://visitoceancity.com/"
+  }
+ ]
+}

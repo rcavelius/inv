@@ -1,0 +1,986 @@
+{
+ "url": "https://d3corp.com/case-studies/",
+ "requestedUrl": "https://d3corp.com/case-studies/",
+ "status": 200,
+ "headers": {
+  "accept-ranges": "bytes",
+  "content-encoding": "gzip",
+  "content-length": "17978",
+  "content-type": "text/html",
+  "date": "Wed, 14 Oct 2026 00:30:16 GMT",
+  "etag": "\"6aceb52c-463a\"",
+  "last-modified": "Tue, 13 Oct 2026 22:48:12 GMT",
+  "referrer-policy": "no-referrer-when-downgrade",
+  "server": "nginx"
+ },
+ "loadMs": 1435,
+ "requestCount": 98,
+ "thirdPartyHosts": [
+  "fonts.googleapis.com",
+  "www.google.com",
+  "website-media.com",
+  "cdn.jsdelivr.net",
+  "d3forms.d3corp.com",
+  "use.typekit.net",
+  "p.typekit.net",
+  "www.gstatic.com",
+  "www.googletagmanager.com",
+  "acsbapp.com",
+  "cdn.acsbapp.com",
+  "cdn.apigateway.co",
+  "fonts.gstatic.com",
+  "lexicon-prod.apigateway.co",
+  "www.google-analytics.com",
+  "conversation-prod.apigateway.co",
+  "lh3.googleusercontent.com"
+ ],
+ "internalLinks": [
+  "https://d3corp.com/request-a-quote",
+  "https://d3corp.com/",
+  "https://d3corp.com/meet-us/",
+  "https://d3corp.com/testimonials/",
+  "https://d3corp.com/services/",
+  "https://d3corp.com/ai-assistant/",
+  "https://d3corp.com/answer-engine-optimization/",
+  "https://d3corp.com/digital-advertising/",
+  "https://d3corp.com/email-marketing/",
+  "https://d3corp.com/graphic-design/",
+  "https://d3corp.com/multimedia/",
+  "https://d3corp.com/print/",
+  "https://d3corp.com/search-engine-optimization/",
+  "https://d3corp.com/social-media-marketing/",
+  "https://d3corp.com/strategy/",
+  "https://d3corp.com/websites/",
+  "https://d3corp.com/rapid-design-websites/",
+  "https://d3corp.com/case-studies/",
+  "https://d3corp.com/videos/",
+  "https://d3corp.com/id3as/",
+  "https://d3corp.com/careers/",
+  "https://d3corp.com/join-our-team/",
+  "https://d3corp.com/contact-us/",
+  "https://d3corp.com/case-study/farmers-bank-of-willards/",
+  "https://d3corp.com/case-study/jolly-roger-amusements/",
+  "https://d3corp.com/case-study/partnership-for-the-delaware-estuary/",
+  "https://d3corp.com/case-study/visiting-angels-eastern-shore-md/",
+  "https://d3corp.com/case-study/babe-ruth-birthplace-museum/",
+  "https://d3corp.com/case-study/somerset-county-tourism/",
+  "https://d3corp.com/case-study/high-stakes-bar-grill/",
+  "https://d3corp.com/case-study/boardwalk-hotel-group/",
+  "https://d3corp.com/privacy-policy/",
+  "https://d3corp.com/terms/",
+  "https://d3corp.com/webmail/",
+  "https://d3corp.com/accessibility/",
+  "https://d3corp.com/site-map/"
+ ],
+ "externalLinks": [
+  {
+   "href": "https://accessibe.com/blog/knowledgebase/screen-reader-guide",
+   "text": "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://fbwbank.com/",
+   "text": "VIEW WEBSITE",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://jollyrogerpark.com/",
+   "text": "VIEW WEBSITE",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.delawareestuary.org/",
+   "text": "VIEW WEBSITE",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.visitingangels.com/easternshore",
+   "text": "VIEW WEBSITE",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.baberuthmuseum.org/",
+   "text": "VIEW WEBSITE",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://visitsomerset.com/",
+   "text": "VIEW WEBSITE",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://highstakesbarandgrill.com/",
+   "text": "VIEW WEBSITE",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://boardwalkhotels.com/",
+   "text": "VIEW WEBSITE",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://policies.google.com/privacy",
+   "text": "Privacy Policy",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/terms",
+   "text": "Terms of Service",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6",
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8",
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://visitoceancity.com/",
+   "text": "Ocean City MD",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://oceancity.org/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://salisburyarea.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://thequietresorts.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  }
+ ],
+ "lang": "en-US",
+ "title": "Case Studies | D3 | Web Development & Digital Marketing",
+ "metas": {
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+  "format-detection": "telephone=no,email=no,url=no",
+  "description": "Our case studies show full-service web, design, multimedia, and digital marketing work at D3 for clients local to Delmarva and beyond.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Case Studies | D3 | Web Development & Digital Marketing",
+  "og:description": "Our case studies show full-service web, design, multimedia, and digital marketing work at D3 for clients local to Delmarva and beyond.",
+  "og:url": "https://d3corp.com/case-studies/",
+  "og:site_name": "D3",
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Case Studies | D3 | Web Development & Digital Marketing",
+  "twitter:description": "Our case studies show full-service web, design, multimedia, and digital marketing work at D3 for clients local to Delmarva and beyond.",
+  "generator": "WordPress 7.1.2",
+  "msapplication-tileimage": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102958/d3-favicon.png"
+ },
+ "canonical": "https://d3corp.com/case-studies/",
+ "hreflang": [],
+ "generator": "WordPress 7.1.2",
+ "h1": [],
+ "h2": [],
+ "h3": [
+  "Subscribe"
+ ],
+ "wordCount": 552,
+ "text": "Press Alt+1 for screen-reader mode, Alt+0 to cancel Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window D3 Meet Us Services Our Work Blog Careers Contact Us REQUEST A QUOTE Case Studies Designed, developed, and always delivered. VIEW CASE STUDY VIEW WEBSITE Farmers Bank of Willards With 101 years of history on Delmarva, Farmers Bank of Willards has a longstanding commitment to the Eastern Shore. Nearly two years ago, the bank partnered with D3 to modernize and strengthen its marketing strategy. As the partnership evolved, D3 also refreshed the bank’s digital presence, creating a more cohesive brand experience across channels. VIEW CASE STUDY VIEW WEBSITE Jolly Roger Amusements Established in 1964, Jolly Roger Amusement Parks® have long been considered a staple in the Ocean City, MD experience. Now spanning five distinct park brands, SpeedWorld®, Splash Mountain®, Jolly Roger Mini Golf®, Jolly Roger at 30th Street®, and Jolly Roger at the Pier®, Jolly Roger has created a network of countless opportunities for adventure and family entertainment. VIEW CASE STUDY VIEW WEBSITE Partnership for the Delaware Estuary Partnership for the Delaware Estuary is a nationally recognized nonprofit focused on protecting and restoring the Delaware Estuary through scientific research, environmental restoration, and community engagement. With decades of impact and a growing resource library, PDE needed a modern website that could better communicate its large-scale mission and initiatives to a broad public audience. VIEW CASE STUDY VIEW WEBSITE Visiting Angels® Eastern Shore, MD Visiting Angels® Eastern Shore, MD is an in-home caregiving service that offers compassionate, personalized care for seniors on Delmarva. VIEW CASE STUDY VIEW WEBSITE Babe Ruth Birthplace & Museum The Babe Ruth Birthplace & Museum honors an icon of American culture and a legendary baseball player and brings Maryland sports fans to Baltimore to step into history. VIEW CASE STUDY VIEW WEBSITE Somerset County Tourism Somerset County Tourism represents one of Maryland’s most authentic waterfront destinations along the Eastern Shore. Known for its cultural heritage, outdoor adventure, signature festivals, and coastal charm, Somerset County invites visitors to slow down and explore a less-traveled side of Maryland. VIEW CASE STUDY VIEW WEBSITE High Stakes Bar & Grill Known for blending a relaxed coastal vibe while paying homage to its no-nonsense Philly roots, High Stakes Bar & Grill in Fenwick Island, DE is dedicated to great service, best-in-class sandwiches, and delicious drinks. VIEW CASE STUDY VIEW WEBSITE Boardwalk Hotel Group With three iconic oceanfront hotels under its ownership, Boardwalk Hotel Group is the premier owner of Howard Johnson® By Wyndham and Days Inn® By Wyndham brand hotels. The award-winning hotels boast easy access to Ocean City, MD, attractions as well as expansive views of the Atlantic Ocean. LOAD MORE Subscribe Get the latest marketing news and advice. First Name Last Name Email SUBSCRIBE This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. 12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842 410-213-2400 212 West Main Street Salisbury, Maryland 21801 Meet Us Testimonials Services Case Studies Videos ID3AS Blog Careers Contact Us Privacy Policy Terms & Conditions Webmail Accessibility Site Map Copyright © 2026 D3. All Rights Reserved. Website Design by D3, Ocean City MD Our Partners PREVIOUS Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google NEXT",
+ "images": [
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website-300x151.png",
+   "alt": "D3",
+   "w": 300,
+   "h": 151,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/09/16103632/farmers-bank-tile-case-studies-710x362-1.jpg",
+   "alt": "woman looking at her credit card for D3 Case Study of the Farmers Bank of Willards",
+   "w": 710,
+   "h": 362,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/15123851/D3-Featured-Image-1-1024x684.png",
+   "alt": "Aerial image of Jolly Roger Parks in OCMD, photographed by D3Corp",
+   "w": 1024,
+   "h": 684,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/05/06124105/Partnership-for-the-DE-Estuary-1024x768.jpg",
+   "alt": "Case Studies",
+   "w": 1024,
+   "h": 768,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/04/09090415/visiting-angels-tile-case-studies.jpg",
+   "alt": "An older man and a man from Visiting Angels standing beside each other",
+   "w": 540,
+   "h": 275,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/03/18160936/tile-case-studies-babe-ruth-museum.jpg",
+   "alt": "Exterior of the Babe Ruth Birthplace and Museum in Baltimore, MD",
+   "w": 540,
+   "h": 275,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/01/30130607/somerset-tile-case-studies.jpg",
+   "alt": "Somerset County MD Crab sign D3 photography",
+   "w": 540,
+   "h": 275,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/01/26074340/content-graphic-cheesesteak-768x530.png",
+   "alt": "High Stakes card deck and cheesesteak for D3 Case Study",
+   "w": 540,
+   "h": 372,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/01/19105721/bhg-tile-case-studies-03.jpg",
+   "alt": "Case Studies",
+   "w": 540,
+   "h": 275,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Robot-Small.webp",
+   "alt": "",
+   "w": 166,
+   "h": 213,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102744/ocean-city-chamber-logo.png",
+   "alt": "Ocean City chamber logo",
+   "w": 1059,
+   "h": 1500,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-82.webp",
+   "alt": "",
+   "w": 44,
+   "h": 62,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-83.webp",
+   "alt": "",
+   "w": 167,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo-300x68.webp",
+   "alt": "YouTube Logo",
+   "w": 192,
+   "h": 43,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo-300x86.webp",
+   "alt": "Shopify logo",
+   "w": 189,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 209,
+   "h": 59,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 78,
+   "h": 105,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo-300x61.webp",
+   "alt": "Woo Commerce logo",
+   "w": 192,
+   "h": 39,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo-300x52.webp",
+   "alt": "WordPress logo",
+   "w": 192,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo-300x60.webp",
+   "alt": "Bing logo",
+   "w": 192,
+   "h": 38,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 664,
+   "h": 196,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo-300x68.webp",
+   "alt": "YouTube Logo",
+   "w": 192,
+   "h": 43,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo-300x86.webp",
+   "alt": "Shopify logo",
+   "w": 189,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 209,
+   "h": 59,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 78,
+   "h": 105,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo-300x61.webp",
+   "alt": "Woo Commerce logo",
+   "w": 192,
+   "h": 39,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo-300x52.webp",
+   "alt": "WordPress logo",
+   "w": 192,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo-300x60.webp",
+   "alt": "Bing logo",
+   "w": 192,
+   "h": 38,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 664,
+   "h": 196,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  }
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "Organization",
+     "@id": "https://d3corp.com/#organization",
+     "name": "D3",
+     "url": "https://d3corp.com",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://d3corp.com/#logo",
+      "url": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "contentUrl": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "caption": "D3",
+      "inLanguage": "en-US",
+      "width": "694",
+      "height": "350"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://d3corp.com/#website",
+     "url": "https://d3corp.com",
+     "name": "D3",
+     "publisher": {
+      "@id": "https://d3corp.com/#organization"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://d3corp.com/case-studies/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://d3corp.com/case-studies/",
+        "name": "Case Studies"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "CollectionPage",
+     "@id": "https://d3corp.com/case-studies/#webpage",
+     "url": "https://d3corp.com/case-studies/",
+     "name": "Case Studies | D3 | Web Development &amp; Digital Marketing",
+     "isPartOf": {
+      "@id": "https://d3corp.com/#website"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://d3corp.com/case-studies/#breadcrumb"
+     }
+    }
+   ]
+  }
+ ],
+ "forms": [
+  {
+   "action": "ref: <Node>",
+   "method": "post",
+   "id": "frmD3Forms5112",
+   "fields": [
+    {
+     "name": "submit_to_system",
+     "type": "text",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "first_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "First Name",
+     "label": "First Name"
+    },
+    {
+     "name": "last_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "Last Name",
+     "label": "Last Name"
+    },
+    {
+     "name": "email",
+     "type": "email",
+     "required": false,
+     "placeholder": "Email",
+     "label": "Email"
+    }
+   ]
+  }
+ ],
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-WY4W4ZLGEG&cx=c&gtm=4e6ac1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-NGGH6CL",
+  "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtlvjEjk2TqdwOQz/recaptcha__en.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+  "https://www.google.com/recaptcha/api.js?render=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6",
+  "https://cdn.apigateway.co/webchat-client..prod/sdk.js",
+  "https://d3corp.com/app/plugins/wpconsent-premium/build/frontend-pro.js?ver=69fedfaec866286d7fe0",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/d3forms.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/bload/bload.min.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.iframe-transport.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.fileupload.js",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-client-device-data.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-media-gate.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-youtube.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-vimeo.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-soundcloud.js?ver=2.0.5",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.14.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/bootstrap.bundle.min.js?ver=4.3.1",
+  "https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/slick.min.js?ver=1.8.1",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/lazyload.min.js?ver=12.4.0",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.matchHeight-min.js?ver=0.7.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.fancybox.v3.js?ver=3.5.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/global.js",
+  "https://d3forms.d3corp.com/d3fst/recaptcha.js?ver=7.1.2",
+  "https://acsbapp.com/apps/app/dist/js/app.js"
+ ],
+ "iframes": [
+  "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6&co=aHR0cHM6Ly9kM2NvcnAuY29tOjQ0Mw..&hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz&size=invisible&anchor-ms=20000&execute-ms=30000&cb=c62h3juz1tk6"
+ ],
+ "ctas": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  }
+ ],
+ "phones": [
+  "410-213-2400"
+ ],
+ "emails": [],
+ "telLinks": [
+  "tel:+1-4102132400"
+ ],
+ "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+ "nav": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "AI Assistant",
+   "href": "https://d3corp.com/ai-assistant/"
+  },
+  {
+   "text": "Answer Engine Optimization",
+   "href": "https://d3corp.com/answer-engine-optimization/"
+  },
+  {
+   "text": "Digital Advertising",
+   "href": "https://d3corp.com/digital-advertising/"
+  },
+  {
+   "text": "Email Marketing",
+   "href": "https://d3corp.com/email-marketing/"
+  },
+  {
+   "text": "Graphic Design",
+   "href": "https://d3corp.com/graphic-design/"
+  },
+  {
+   "text": "Multimedia",
+   "href": "https://d3corp.com/multimedia/"
+  },
+  {
+   "text": "Print",
+   "href": "https://d3corp.com/print/"
+  },
+  {
+   "text": "Search Engine Optimization",
+   "href": "https://d3corp.com/search-engine-optimization/"
+  },
+  {
+   "text": "Social Media Marketing",
+   "href": "https://d3corp.com/social-media-marketing/"
+  },
+  {
+   "text": "Strategy",
+   "href": "https://d3corp.com/strategy/"
+  },
+  {
+   "text": "Custom Websites",
+   "href": "https://d3corp.com/websites/"
+  },
+  {
+   "text": "Rapid Design Websites",
+   "href": "https://d3corp.com/rapid-design-websites/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Our Work",
+   "href": ""
+  },
+  {
+   "text": "Our Work",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Join Our Team",
+   "href": "https://d3corp.com/join-our-team/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  }
+ ],
+ "footer": [
+  {
+   "text": "Privacy Policy",
+   "href": "https://policies.google.com/privacy"
+  },
+  {
+   "text": "Terms of Service",
+   "href": "https://policies.google.com/terms"
+  },
+  {
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6"
+  },
+  {
+   "text": "410-213-2400",
+   "href": "tel:+1-4102132400"
+  },
+  {
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "ID3AS Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "Privacy Policy",
+   "href": "https://d3corp.com/privacy-policy/"
+  },
+  {
+   "text": "Terms & Conditions",
+   "href": "https://d3corp.com/terms/"
+  },
+  {
+   "text": "Webmail",
+   "href": "https://d3corp.com/webmail/"
+  },
+  {
+   "text": "Accessibility",
+   "href": "https://d3corp.com/accessibility/"
+  },
+  {
+   "text": "Site Map",
+   "href": "https://d3corp.com/site-map/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Website Design",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Ocean City MD",
+   "href": "https://visitoceancity.com/"
+  }
+ ]
+}

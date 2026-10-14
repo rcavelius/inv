@@ -1,0 +1,984 @@
+{
+ "url": "https://d3corp.com/case-study/remember-me-glass/",
+ "requestedUrl": "https://d3corp.com/case-study/remember-me-glass/",
+ "status": 200,
+ "headers": {
+  "accept-ranges": "bytes",
+  "content-encoding": "gzip",
+  "content-length": "18312",
+  "content-type": "text/html",
+  "date": "Wed, 14 Oct 2026 00:34:56 GMT",
+  "etag": "\"6acece03-4788\"",
+  "last-modified": "Wed, 14 Oct 2026 00:34:11 GMT",
+  "referrer-policy": "no-referrer-when-downgrade",
+  "server": "nginx"
+ },
+ "loadMs": 46175,
+ "requestCount": 224,
+ "thirdPartyHosts": [
+  "www.google.com",
+  "fonts.googleapis.com",
+  "website-media.com",
+  "cdn.jsdelivr.net",
+  "d3forms.d3corp.com",
+  "use.typekit.net",
+  "p.typekit.net",
+  "www.gstatic.com",
+  "www.googletagmanager.com",
+  "acsbapp.com",
+  "cdn.acsbapp.com",
+  "www.youtube.com",
+  "cdn.apigateway.co",
+  "fonts.gstatic.com",
+  "googleads.g.doubleclick.net",
+  "lexicon-prod.apigateway.co",
+  "static.doubleclick.net",
+  "conversation-prod.apigateway.co",
+  "lh3.googleusercontent.com",
+  "www.google-analytics.com",
+  "i.ytimg.com",
+  "jnn-pa.googleapis.com"
+ ],
+ "internalLinks": [
+  "https://d3corp.com/request-a-quote",
+  "https://d3corp.com/",
+  "https://d3corp.com/meet-us/",
+  "https://d3corp.com/testimonials/",
+  "https://d3corp.com/services/",
+  "https://d3corp.com/ai-assistant/",
+  "https://d3corp.com/answer-engine-optimization/",
+  "https://d3corp.com/digital-advertising/",
+  "https://d3corp.com/email-marketing/",
+  "https://d3corp.com/graphic-design/",
+  "https://d3corp.com/multimedia/",
+  "https://d3corp.com/print/",
+  "https://d3corp.com/search-engine-optimization/",
+  "https://d3corp.com/social-media-marketing/",
+  "https://d3corp.com/strategy/",
+  "https://d3corp.com/websites/",
+  "https://d3corp.com/rapid-design-websites/",
+  "https://d3corp.com/case-study/remember-me-glass/",
+  "https://d3corp.com/case-studies/",
+  "https://d3corp.com/videos/",
+  "https://d3corp.com/id3as/",
+  "https://d3corp.com/careers/",
+  "https://d3corp.com/join-our-team/",
+  "https://d3corp.com/contact-us/",
+  "https://d3corp.com/privacy-policy/",
+  "https://d3corp.com/terms/",
+  "https://d3corp.com/webmail/",
+  "https://d3corp.com/accessibility/",
+  "https://d3corp.com/site-map/"
+ ],
+ "externalLinks": [
+  {
+   "href": "https://accessibe.com/blog/knowledgebase/screen-reader-guide",
+   "text": "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://remembermeglass.art/",
+   "text": "www.remembermeglass.art",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://policies.google.com/privacy",
+   "text": "Privacy Policy",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/terms",
+   "text": "Terms of Service",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6",
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8",
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://visitoceancity.com/",
+   "text": "Ocean City MD",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://oceancity.org/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://salisburyarea.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://thequietresorts.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  }
+ ],
+ "lang": "en-US",
+ "title": "Remember Me Glass | D3 Case Study | Digital Marketing Agency",
+ "metas": {
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+  "format-detection": "telephone=no,email=no,url=no",
+  "description": "D3 is proud to partner with Remember Me Glass, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Remember Me Glass | D3 Case Study | Digital Marketing Agency",
+  "og:description": "D3 is proud to partner with Remember Me Glass, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+  "og:url": "https://d3corp.com/case-study/remember-me-glass/",
+  "og:site_name": "D3",
+  "og:updated_time": "2026-05-07T15:49:15-04:00",
+  "og:image": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102832/tileremember-me-glass.jpg",
+  "og:image:secure_url": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102832/tileremember-me-glass.jpg",
+  "og:image:width": "710",
+  "og:image:height": "362",
+  "og:image:alt": "Assorted colors of glass spheres made by Remember Me Glass",
+  "og:image:type": "image/jpeg",
+  "og:video": "https://www.youtube.com/embed/nQXBkCybKJ8",
+  "ya:ovs:upload_date": "2025-07-28EDT14:36:58-04:00",
+  "ya:ovs:allow_embed": "true",
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Remember Me Glass | D3 Case Study | Digital Marketing Agency",
+  "twitter:description": "D3 is proud to partner with Remember Me Glass, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+  "twitter:image": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102832/tileremember-me-glass.jpg",
+  "generator": "WordPress 7.1.2",
+  "msapplication-tileimage": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102958/d3-favicon.png"
+ },
+ "canonical": "https://d3corp.com/case-study/remember-me-glass/",
+ "hreflang": [],
+ "generator": "WordPress 7.1.2",
+ "h1": [],
+ "h2": [],
+ "h3": [
+  "Subscribe"
+ ],
+ "wordCount": 848,
+ "text": "Press Alt+1 for screen-reader mode, Alt+0 to cancel Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window D3 Meet Us Services Our Work Blog Careers Contact Us REQUEST A QUOTE Case Study: Remember Me Glass What We Did Websites www.remembermeglass.art The Story Jeffrey Auxer’s venture into Venetian glassmaking started as a casual elective during his time at Salisbury University, quickly blossoming into a full-blown passion. In 2009, Jeffrey opened his own gallery and studio, Jeffrey Auxer Designs, in Berlin, Maryland and his enthusiasm for glassblowing evolved into a successful art career. In 2023, one of Jeffrey’s closest friends, Nick, lost his lab, Harper. A loyal family member, Harper was by Nick’s side through college, marriage, children and each milestone in between. Jeffrey wanted to use his talents to create something unique for Nick and his family. A glass memorial worthy of the life they lost. An idea sparked. Blending ashes into glass art to craft loving memorials that capture the essence of the life they represent. Remember Me Glass was ignited. Jeffrey took it a step further by incorporating human cremations into art. At its core, Remember Me Glass is devoted to honoring the life of a loved one through artistic expression. Our Journey Jeffrey brought his new business idea to D3 with the intention of starting a conversation about a new website to sell his custom-blown glass cremation keepsakes. “I knew I needed a specialized website that could handle a custom order 3-part shipping process for customers,” said Auxer. “I had no idea where to start and was uncertain if it would even work. What I did know is that I had a creative business idea and needed an equally creative marketing team to help me execute it. My uncertainty and apprehension quickly dissipated after my first consultation with the D3 team.” This wasn’t your typical e-commerce website where people ordered a product, paid and had it shipped to their home or business. The project was unique in many ways. The idea of asking people to ship the cremated ashes of a loved one or devoted pet is personal and must be handled with precision and care. Messaging on the website needed to reflect the vigilance Jeffrey and his team took with each order and educate customers about their detail oriented process to gain their trust. Shipping was a big part of that process. D3 worked with Jeffrey to add an “Ordering Process” page to the site that outlined specific steps on the ash collection process, sales order review and return shipping instructions. “Every piece is handcrafted in our studio with the utmost care and integrity to provide you with a piece of art that is as unique and beautiful as the life it was made in remembrance of.” What’s a website without vibrant imagery? D3’s professional multi-media team captured dynamic video of Jeffrey’s artistic process and still photography of each glass-blown piece representing an array of shapes to choose from. Other custom options displayed on the website include color, free engraving and a space to fill out who the keepsake is in memory for Jeffrey to include a certificate of authenticity to the buyer. To improve online visibility and attract organic traffic to ultimately boost sales, the D3 team took a comprehensive approach to building an effective SEO strategy for the Remember Me Glass website. Relevant keywords and phrases were included in the development of high-quality content on the site. Developers also designed the site to be responsive and mobile-friendly to provide a seamless user experience across all devices. “Collaborating with Jeffrey to bring his ideas to life offered D3 a stage to showcase our commitment to innovation and user-centric design. Through captivating imagery, SEO integration and streamlined functionality, we have created an online platform that not only displays Jeffrey’s work but also facilitates a seamless browsing experience. The introduction of a three-step shipping process illustrates our dedication to enhancing customer satisfaction and operational efficiency. This launch signifies a new chapter in our journey, empowering Remember Me Glass to thrive in a digital landscape.” – Jay Bosley, Chief Operating Officer, D3 Testimonial “D3 has all of the resources and professional expertise necessary under one roof which makes them a one-stop-shop for all your marketing needs. It simplified the process of developing an effective marketing strategy and made it attainable, less overwhelming and allowed me to focus on the other critical aspects of my business.” – Jeffrey Auxer, Remember Me Glass Subscribe Get the latest marketing news and advice. First Name Last Name Email SUBSCRIBE This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. 12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842 410-213-2400 212 West Main Street Salisbury, Maryland 21801 Meet Us Testimonials Services Case Studies Videos ID3AS Blog Careers Contact Us Privacy Policy Terms & Conditions Webmail Accessibility Site Map Copyright © 2026 D3. All Rights Reserved. Website Design by D3, Ocean City MD Our Partners PREVIOUS Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google NEXT",
+ "images": [
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website-300x151.png",
+   "alt": "D3",
+   "w": 300,
+   "h": 151,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102917/monitor-remember-me-glass.png",
+   "alt": "Monitor displaying website for Remember Me Glass",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102917/cell-phone-remember-me-glass.png",
+   "alt": "Cell phone displaying website for Remember Me Glass",
+   "w": 401,
+   "h": 668,
+   "loading": "auto"
+  },
+  {
+   "src": "https://d3corp.com/app/uploads/2025/07/bottom-graphic-remember-me-glass.png",
+   "alt": "Remember Me Glass",
+   "w": 0,
+   "h": 0,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Robot-Small.webp",
+   "alt": "",
+   "w": 166,
+   "h": 213,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102744/ocean-city-chamber-logo.png",
+   "alt": "Ocean City chamber logo",
+   "w": 1059,
+   "h": 1500,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-82.webp",
+   "alt": "",
+   "w": 44,
+   "h": 62,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-83.webp",
+   "alt": "",
+   "w": 167,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo-300x68.webp",
+   "alt": "YouTube Logo",
+   "w": 192,
+   "h": 43,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo-300x86.webp",
+   "alt": "Shopify logo",
+   "w": 189,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 209,
+   "h": 59,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 78,
+   "h": 105,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo-300x61.webp",
+   "alt": "Woo Commerce logo",
+   "w": 192,
+   "h": 39,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo-300x52.webp",
+   "alt": "WordPress logo",
+   "w": 192,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo-300x60.webp",
+   "alt": "Bing logo",
+   "w": 192,
+   "h": 38,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 664,
+   "h": 196,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo-300x68.webp",
+   "alt": "YouTube Logo",
+   "w": 192,
+   "h": 43,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo-300x86.webp",
+   "alt": "Shopify logo",
+   "w": 189,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 209,
+   "h": 59,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 78,
+   "h": 105,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo-300x61.webp",
+   "alt": "Woo Commerce logo",
+   "w": 192,
+   "h": 39,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo-300x52.webp",
+   "alt": "WordPress logo",
+   "w": 192,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo-300x60.webp",
+   "alt": "Bing logo",
+   "w": 192,
+   "h": 38,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 664,
+   "h": 196,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  }
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "CreativeWork",
+     "name": "Remember Me Glass",
+     "description": "D3 partnered with Remember Me Glass to create a custom e-commerce website that supports a highly personal and specialized ordering experience for handcrafted cremation keepsakes. Through thoughtful messaging, a streamlined multi-step shipping process, professional photography and video, and a strong SEO strategy, we built a compassionate and user-friendly platform reflects the care behind the brand while helping drive online visibility and sales.",
+     "url": "https://d3corp.com/case-study/remember-me-glass/",
+     "about": [
+      {
+       "@type": "Place",
+       "name": "Berlin, MD"
+      }
+     ],
+     "publisher": {
+      "@type": "Organization",
+      "name": "D3"
+     },
+     "author": {
+      "@type": "Organization",
+      "name": "D3"
+     },
+     "citation": "https://remembermeglass.art/"
+    },
+    {
+     "@type": "Organization",
+     "@id": "https://d3corp.com/#organization",
+     "name": "D3",
+     "url": "https://d3corp.com",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://d3corp.com/#logo",
+      "url": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "contentUrl": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "caption": "D3",
+      "inLanguage": "en-US",
+      "width": "694",
+      "height": "350"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://d3corp.com/#website",
+     "url": "https://d3corp.com",
+     "name": "D3",
+     "publisher": {
+      "@id": "https://d3corp.com/#organization"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102832/tileremember-me-glass.jpg",
+     "url": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102832/tileremember-me-glass.jpg",
+     "width": "710",
+     "height": "362",
+     "caption": "Assorted colors of glass spheres made by Remember Me Glass",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://d3corp.com/case-study/remember-me-glass/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://d3corp.com/case-studies/",
+        "name": "Case Studies"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://d3corp.com/case-study/remember-me-glass/",
+        "name": "Remember Me Glass"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://d3corp.com/case-study/remember-me-glass/#webpage",
+     "url": "https://d3corp.com/case-study/remember-me-glass/",
+     "name": "Remember Me Glass | D3 Case Study | Digital Marketing Agency",
+     "datePublished": "2025-07-28T14:36:58-04:00",
+     "dateModified": "2026-05-07T15:49:15-04:00",
+     "isPartOf": {
+      "@id": "https://d3corp.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102832/tileremember-me-glass.jpg"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://d3corp.com/case-study/remember-me-glass/#breadcrumb"
+     }
+    },
+    {
+     "@type": "VideoObject",
+     "name": "Remember Me Glass | D3 Case Study | Digital Marketing Agency",
+     "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+     "uploadDate": "2025-07-28T14:36:58-04:00",
+     "thumbnailUrl": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102832/tileremember-me-glass.jpg",
+     "embedUrl": "https://www.youtube.com/embed/nQXBkCybKJ8",
+     "isFamilyFriendly": "True",
+     "@id": "https://d3corp.com/case-study/remember-me-glass/#schema-41917",
+     "isPartOf": {
+      "@id": "https://d3corp.com/case-study/remember-me-glass/#webpage"
+     },
+     "publisher": {
+      "@id": "https://d3corp.com/#organization"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://d3corp.com/case-study/remember-me-glass/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "forms": [
+  {
+   "action": "ref: <Node>",
+   "method": "post",
+   "id": "frmD3Forms5112",
+   "fields": [
+    {
+     "name": "submit_to_system",
+     "type": "text",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "first_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "First Name",
+     "label": "First Name"
+    },
+    {
+     "name": "last_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "Last Name",
+     "label": "Last Name"
+    },
+    {
+     "name": "email",
+     "type": "email",
+     "required": false,
+     "placeholder": "Email",
+     "label": "Email"
+    }
+   ]
+  }
+ ],
+ "scripts": [
+  "https://www.youtube.com/s/player/22cb88bc/www-widgetapi.vflset/www-widgetapi.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-WY4W4ZLGEG&cx=c&gtm=4e6ac1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-NGGH6CL",
+  "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtlvjEjk2TqdwOQz/recaptcha__en.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+  "https://www.google.com/recaptcha/api.js?render=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6",
+  "https://www.youtube.com/iframe_api",
+  "https://cdn.apigateway.co/webchat-client..prod/sdk.js",
+  "https://d3corp.com/app/plugins/wpconsent-premium/build/frontend-pro.js?ver=69fedfaec866286d7fe0",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/d3forms.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/bload/bload.min.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.iframe-transport.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.fileupload.js",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-client-device-data.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-media-gate.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-youtube.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-vimeo.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-soundcloud.js?ver=2.0.5",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.14.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/bootstrap.bundle.min.js?ver=4.3.1",
+  "https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/slick.min.js?ver=1.8.1",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/lazyload.min.js?ver=12.4.0",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.matchHeight-min.js?ver=0.7.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.fancybox.v3.js?ver=3.5.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/global.js",
+  "https://d3forms.d3corp.com/d3fst/recaptcha.js?ver=7.1.2",
+  "https://acsbapp.com/apps/app/dist/js/app.js"
+ ],
+ "iframes": [
+  "https://www.youtube.com/embed/nQXBkCybKJ8?si=lMhiMHj0zqWc1aW-&enablejsapi=1&origin=https://d3corp.com",
+  "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6&co=aHR0cHM6Ly9kM2NvcnAuY29tOjQ0Mw..&hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz&size=invisible&anchor-ms=20000&execute-ms=30000&cb=tadwurebzq67"
+ ],
+ "ctas": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  }
+ ],
+ "phones": [
+  "410-213-2400"
+ ],
+ "emails": [],
+ "telLinks": [
+  "tel:+1-4102132400"
+ ],
+ "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+ "nav": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "AI Assistant",
+   "href": "https://d3corp.com/ai-assistant/"
+  },
+  {
+   "text": "Answer Engine Optimization",
+   "href": "https://d3corp.com/answer-engine-optimization/"
+  },
+  {
+   "text": "Digital Advertising",
+   "href": "https://d3corp.com/digital-advertising/"
+  },
+  {
+   "text": "Email Marketing",
+   "href": "https://d3corp.com/email-marketing/"
+  },
+  {
+   "text": "Graphic Design",
+   "href": "https://d3corp.com/graphic-design/"
+  },
+  {
+   "text": "Multimedia",
+   "href": "https://d3corp.com/multimedia/"
+  },
+  {
+   "text": "Print",
+   "href": "https://d3corp.com/print/"
+  },
+  {
+   "text": "Search Engine Optimization",
+   "href": "https://d3corp.com/search-engine-optimization/"
+  },
+  {
+   "text": "Social Media Marketing",
+   "href": "https://d3corp.com/social-media-marketing/"
+  },
+  {
+   "text": "Strategy",
+   "href": "https://d3corp.com/strategy/"
+  },
+  {
+   "text": "Custom Websites",
+   "href": "https://d3corp.com/websites/"
+  },
+  {
+   "text": "Rapid Design Websites",
+   "href": "https://d3corp.com/rapid-design-websites/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Our Work",
+   "href": ""
+  },
+  {
+   "text": "Our Work",
+   "href": "https://d3corp.com/case-study/remember-me-glass/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Join Our Team",
+   "href": "https://d3corp.com/join-our-team/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  }
+ ],
+ "footer": [
+  {
+   "text": "Privacy Policy",
+   "href": "https://policies.google.com/privacy"
+  },
+  {
+   "text": "Terms of Service",
+   "href": "https://policies.google.com/terms"
+  },
+  {
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6"
+  },
+  {
+   "text": "410-213-2400",
+   "href": "tel:+1-4102132400"
+  },
+  {
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "ID3AS Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "Privacy Policy",
+   "href": "https://d3corp.com/privacy-policy/"
+  },
+  {
+   "text": "Terms & Conditions",
+   "href": "https://d3corp.com/terms/"
+  },
+  {
+   "text": "Webmail",
+   "href": "https://d3corp.com/webmail/"
+  },
+  {
+   "text": "Accessibility",
+   "href": "https://d3corp.com/accessibility/"
+  },
+  {
+   "text": "Site Map",
+   "href": "https://d3corp.com/site-map/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Website Design",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Ocean City MD",
+   "href": "https://visitoceancity.com/"
+  }
+ ]
+}

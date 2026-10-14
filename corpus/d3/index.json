@@ -1,0 +1,3044 @@
+{
+ "meta": {
+  "origin": "https://d3corp.com",
+  "started": "2026-10-14T00:25:26.686Z",
+  "maxPages": 400,
+  "delayMs": 1100,
+  "errors": [
+   {
+    "url": "https://d3corp.com/",
+    "stage": "psi-mobile",
+    "error": "HTTP 429"
+   },
+   {
+    "url": "https://d3corp.com/",
+    "stage": "psi-desktop",
+    "error": "HTTP 429"
+   },
+   {
+    "url": "https://d3corp.com/services/",
+    "stage": "psi-mobile",
+    "error": "HTTP 429"
+   },
+   {
+    "url": "https://d3corp.com/services/",
+    "stage": "psi-desktop",
+    "error": "HTTP 429"
+   },
+   {
+    "url": "https://d3corp.com/websites/",
+    "stage": "psi-mobile",
+    "error": "HTTP 429"
+   },
+   {
+    "url": "https://d3corp.com/websites/",
+    "stage": "psi-desktop",
+    "error": "HTTP 429"
+   },
+   {
+    "url": "https://d3corp.com/rapid-design-websites/",
+    "stage": "psi-mobile",
+    "error": "HTTP 429"
+   },
+   {
+    "url": "https://d3corp.com/rapid-design-websites/",
+    "stage": "psi-desktop",
+    "error": "HTTP 429"
+   },
+   {
+    "url": "https://d3corp.com/blog/a-guide-to-website-seo/",
+    "stage": "psi-mobile",
+    "error": "HTTP 429"
+   },
+   {
+    "url": "https://d3corp.com/blog/a-guide-to-website-seo/",
+    "stage": "psi-desktop",
+    "error": "HTTP 429"
+   },
+   {
+    "url": "https://d3corp.com/blog/when-its-time-to-redesign-your-website/",
+    "stage": "psi-mobile",
+    "error": "HTTP 429"
+   },
+   {
+    "url": "https://d3corp.com/blog/when-its-time-to-redesign-your-website/",
+    "stage": "psi-desktop",
+    "error": "HTTP 429"
+   }
+  ],
+  "notes": [
+   "sitemap https://d3corp.com/sitemap_index.xml: 151 urls"
+  ],
+  "robots": {
+   "sitemaps": [
+    "https://d3corp.com/sitemap_index.xml"
+   ],
+   "disallow": [
+    "/wp/wp-admin/"
+   ],
+   "allow": [
+    "/wp/wp-admin/admin-ajax.php"
+   ]
+  },
+  "homeHeaders": {
+   "accept-ranges": "bytes",
+   "content-encoding": "gzip",
+   "content-length": "28806",
+   "content-type": "text/html",
+   "date": "Wed, 14 Oct 2026 00:25:31 GMT",
+   "etag": "\"6acebf70-7086\"",
+   "last-modified": "Tue, 13 Oct 2026 23:32:00 GMT",
+   "referrer-policy": "no-referrer-when-downgrade",
+   "server": "nginx"
+  },
+  "wwwVariantStatus": 200,
+  "finished": "2026-10-14T01:03:31.628Z",
+  "pagesCrawled": 158,
+  "screenshots": [
+   {
+    "url": "https://d3corp.com/",
+    "slug": "home",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/services/",
+    "slug": "services",
+    "axeViolations": 7
+   },
+   {
+    "url": "https://d3corp.com/websites/",
+    "slug": "websites",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/rapid-design-websites/",
+    "slug": "rapid-design-websites",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/blog/a-guide-to-website-seo/",
+    "slug": "blog-a-guide-to-website-seo",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/blog/when-its-time-to-redesign-your-website/",
+    "slug": "blog-when-its-time-to-redesign-your-website",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/blog/using-original-content-to-drive-traffic-to-your-website/",
+    "slug": "blog-using-original-content-to-drive-traffic-to-your-website",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/blog/how-an-ai-assistant-can-turn-website-visitors-into-leads/",
+    "slug": "blog-how-an-ai-assistant-can-turn-website-visitors-into-leads",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/search-engine-optimization/",
+    "slug": "search-engine-optimization",
+    "axeViolations": 9
+   },
+   {
+    "url": "https://d3corp.com/blog/search-engine-ranking-101/",
+    "slug": "blog-search-engine-ranking-101",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/blog/search-engine-optimization/",
+    "slug": "blog-search-engine-optimization",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/blog/important-seo-trends-to-watch/",
+    "slug": "blog-important-seo-trends-to-watch",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/blog/seo-social-when-worlds-collide/",
+    "slug": "blog-seo-social-when-worlds-collide",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/blog/tips-for-avoiding-common-seo-mistakes/",
+    "slug": "blog-tips-for-avoiding-common-seo-mistakes",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/digital-advertising/",
+    "slug": "digital-advertising",
+    "axeViolations": 9
+   },
+   {
+    "url": "https://d3corp.com/blog/connected-tv-advertising/",
+    "slug": "blog-connected-tv-advertising",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/",
+    "slug": "blog-digital-advertising-for-modern-marketing",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/social-media-marketing/",
+    "slug": "social-media-marketing",
+    "axeViolations": 9
+   },
+   {
+    "url": "https://d3corp.com/blog/have-you-defined-your-social-voice/",
+    "slug": "blog-have-you-defined-your-social-voice",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/blog/optimizing-your-social-media-profiles/",
+    "slug": "blog-optimizing-your-social-media-profiles",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/blog/social-media-metrics-and-why-they-matter/",
+    "slug": "blog-social-media-metrics-and-why-they-matter",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/blog/how-to-develop-an-effective-social-media-content-strategy/",
+    "slug": "blog-how-to-develop-an-effective-social-media-content-strategy",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/email-marketing/",
+    "slug": "email-marketing",
+    "axeViolations": 9
+   },
+   {
+    "url": "https://d3corp.com/blog/email-marketing-enhance-your-message/",
+    "slug": "blog-email-marketing-enhance-your-message",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/blog/why-your-business-needs-email-marketing/",
+    "slug": "blog-why-your-business-needs-email-marketing",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/blog/taking-email-marketing-to-the-next-level/",
+    "slug": "blog-taking-email-marketing-to-the-next-level",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/blog/why-do-people-unsubscribe-from-your-emails/",
+    "slug": "blog-why-do-people-unsubscribe-from-your-emails",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/graphic-design/",
+    "slug": "graphic-design",
+    "axeViolations": 9
+   },
+   {
+    "url": "https://d3corp.com/blog/are-you-breaking-up-the-brand-again/",
+    "slug": "blog-are-you-breaking-up-the-brand-again",
+    "axeViolations": 8
+   },
+   {
+    "url": "https://d3corp.com/blog/choosing-a-color-scheme-for-your-brand/",
+    "slug": "blog-choosing-a-color-scheme-for-your-brand",
+    "axeViolations": 8
+   }
+  ],
+  "thirdPartyHosts": {
+   "fonts.googleapis.com": 174,
+   "www.google.com": 647,
+   "website-media.com": 3054,
+   "www.gstatic.com": 871,
+   "use.typekit.net": 1162,
+   "cdn.jsdelivr.net": 174,
+   "www.googletagmanager.com": 356,
+   "p.typekit.net": 174,
+   "d3forms.d3corp.com": 198,
+   "acsbapp.com": 174,
+   "cdn.apigateway.co": 2606,
+   "cdn.acsbapp.com": 174,
+   "fonts.gstatic.com": 248,
+   "www.google-analytics.com": 167,
+   "lexicon-prod.apigateway.co": 318,
+   "conversation-prod.apigateway.co": 159,
+   "lh3.googleusercontent.com": 161,
+   "www.youtube.com": 770,
+   "googleads.g.doubleclick.net": 146,
+   "static.doubleclick.net": 73,
+   "i.ytimg.com": 70,
+   "jnn-pa.googleapis.com": 51,
+   "lh4.googleusercontent.com": 3,
+   "lh6.googleusercontent.com": 2,
+   "lh5.googleusercontent.com": 3,
+   "img.youtube.com": 8,
+   "yt3.ggpht.com": 37
+  }
+ },
+ "pages": [
+  {
+   "url": "https://d3corp.com/",
+   "requestedUrl": "https://d3corp.com/",
+   "status": 200,
+   "slug": "home",
+   "title": "D3 Digital Marketing Agency | Full-Service Marketing Experts in Ocean City & Salisbury, MD | AEO, SEO, PPC, Multimedia, Website & Email Marketing Services",
+   "h1": "A Full-Service Digital Marketing Agency That Drives Real Growth",
+   "wordCount": 3361,
+   "description": "D3, a full service digital marketing agency based in OCMD & Salisbury, MD, serves clients regionally with web design, digital ads, social media, SEO & more.",
+   "canonical": "https://d3corp.com/",
+   "jsonldTypes": [
+    "Organization+WebSite+WebPage+Person+Article"
+   ],
+   "forms": 2,
+   "loadMs": 3390
+  },
+  {
+   "url": "https://d3corp.com/id3as/",
+   "requestedUrl": "https://d3corp.com/id3as/",
+   "status": 200,
+   "slug": "id3as",
+   "title": "ID3AS Blog | D3 | Digital Marketing Tips & Advice",
+   "h1": null,
+   "wordCount": 684,
+   "description": "Looking for digital marketing tips? Check out the ID3AS Blog for expert digital marketing knowledge and prime time examples from our D3 team.",
+   "canonical": "https://d3corp.com/id3as/",
+   "jsonldTypes": [
+    "Organization+WebSite+CollectionPage"
+   ],
+   "forms": 2,
+   "loadMs": 1472
+  },
+  {
+   "url": "https://d3corp.com/blog/smarter-marketing-for-ai-strategies-that-work/",
+   "requestedUrl": "https://d3corp.com/blog/smarter-marketing-for-ai-strategies-that-work/",
+   "status": 200,
+   "slug": "blog-smarter-marketing-for-ai-strategies-that-work",
+   "title": "Smarter Marketing For AI: Strategies That Work | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 734,
+   "description": "AI is changing how customers find businesses. Instead of scrolling search results, people are asking questions and expecting direct answers. ",
+   "canonical": "https://d3corp.com/blog/smarter-marketing-for-ai-strategies-that-work/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2383
+  },
+  {
+   "url": "https://d3corp.com/blog/how-an-ai-assistant-can-turn-website-visitors-into-leads/",
+   "requestedUrl": "https://d3corp.com/blog/how-an-ai-assistant-can-turn-website-visitors-into-leads/",
+   "status": 200,
+   "slug": "blog-how-an-ai-assistant-can-turn-website-visitors-into-leads",
+   "title": "How an AI Assistant Can Turn Website Visitors into Leads | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 734,
+   "description": "Imagine being able to guide every visitor through your website, especially those who don’t know exactly what they want or how to find it. A custom AI",
+   "canonical": "https://d3corp.com/blog/how-an-ai-assistant-can-turn-website-visitors-into-leads/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 1461
+  },
+  {
+   "url": "https://d3corp.com/blog/when-its-time-to-redesign-your-website/",
+   "requestedUrl": "https://d3corp.com/blog/when-its-time-to-redesign-your-website/",
+   "status": 200,
+   "slug": "blog-when-its-time-to-redesign-your-website",
+   "title": "When It’s Time to Redesign Your Website | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 720,
+   "description": "“How do I know when it is time to redesign my website?” is one of the most common questions we hear from business owners. An outdated website can cost you",
+   "canonical": "https://d3corp.com/blog/when-its-time-to-redesign-your-website/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2422
+  },
+  {
+   "url": "https://d3corp.com/blog/five-reasons-pay-per-click-ads-generate-business/",
+   "requestedUrl": "https://d3corp.com/blog/five-reasons-pay-per-click-ads-generate-business/",
+   "status": 200,
+   "slug": "blog-five-reasons-pay-per-click-ads-generate-business",
+   "title": "Five Reasons Pay-Per-Click Ads Generate Business | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 770,
+   "description": "Wondering if pay-per-click advertising still matters as the world dives deeper into AI, ChatGPT, and other Answer Engines? According to DemandSage, businesses",
+   "canonical": "https://d3corp.com/blog/five-reasons-pay-per-click-ads-generate-business/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2416
+  },
+  {
+   "url": "https://d3corp.com/blog/google-ads-or-meta-heres-what-we-tell-clients/",
+   "requestedUrl": "https://d3corp.com/blog/google-ads-or-meta-heres-what-we-tell-clients/",
+   "status": 200,
+   "slug": "blog-google-ads-or-meta-heres-what-we-tell-clients",
+   "title": "Google Ads or Meta? Here’s What We Tell Clients | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 820,
+   "description": "Are you ready to take your advertising to the next level, but are unsure of where to begin? When D3 meets with business owners and decision makers, one of the",
+   "canonical": "https://d3corp.com/blog/google-ads-or-meta-heres-what-we-tell-clients/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 1331
+  },
+  {
+   "url": "https://d3corp.com/blog/retargeting-101-how-to-remarket-your-brand/",
+   "requestedUrl": "https://d3corp.com/blog/retargeting-101-how-to-remarket-your-brand/",
+   "status": 200,
+   "slug": "blog-retargeting-101-how-to-remarket-your-brand",
+   "title": "Retargeting 101: How to Remarket Your Brand | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 796,
+   "description": "In today’s competitive, crowded, and privacy-first digital environment, retargeting is essential in helping your brand reconnect with users who have already",
+   "canonical": "https://d3corp.com/blog/retargeting-101-how-to-remarket-your-brand/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 1324
+  },
+  {
+   "url": "https://d3corp.com/blog/25-years-of-d3/",
+   "requestedUrl": "https://d3corp.com/blog/25-years-of-d3/",
+   "status": 200,
+   "slug": "blog-25-years-of-d3",
+   "title": "25 Years of D3 | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 914,
+   "description": "https://youtu.be/KJozljbjOG0?feature=shared",
+   "canonical": "https://d3corp.com/blog/25-years-of-d3/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 1717
+  },
+  {
+   "url": "https://d3corp.com/blog/id3as-in-action-georges-mixes/",
+   "requestedUrl": "https://d3corp.com/blog/id3as-in-action-georges-mixes/",
+   "status": 200,
+   "slug": "blog-id3as-in-action-georges-mixes",
+   "title": "ID3AS in Action: GEORGE'S® MIXES | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 619,
+   "description": "https://georgesmixes.com/",
+   "canonical": "https://d3corp.com/blog/id3as-in-action-georges-mixes/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2442
+  },
+  {
+   "url": "https://d3corp.com/blog/id3as-in-action-thrashers-french-fries/",
+   "requestedUrl": "https://d3corp.com/blog/id3as-in-action-thrashers-french-fries/",
+   "status": 200,
+   "slug": "blog-id3as-in-action-thrashers-french-fries",
+   "title": "ID3AS in Action: Thrasher’s® French Fries | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 728,
+   "description": "https://thrashersfries.com/",
+   "canonical": "https://d3corp.com/blog/id3as-in-action-thrashers-french-fries/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 1970
+  },
+  {
+   "url": "https://d3corp.com/blog/id3as-in-action-remington-mulch-company/",
+   "requestedUrl": "https://d3corp.com/blog/id3as-in-action-remington-mulch-company/",
+   "status": 200,
+   "slug": "blog-id3as-in-action-remington-mulch-company",
+   "title": "ID3AS in Action: Remington Mulch Company | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 851,
+   "description": "https://remingtonmulch.com/",
+   "canonical": "https://d3corp.com/blog/id3as-in-action-remington-mulch-company/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2149
+  },
+  {
+   "url": "https://d3corp.com/blog/domain-names/",
+   "requestedUrl": "https://d3corp.com/blog/domain-names/",
+   "status": 200,
+   "slug": "blog-domain-names",
+   "title": "Domain Names | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 1019,
+   "description": "In order for your domain name to affect SEO, your keyword string should match your exact domain name. For example, www.homeloans.com and",
+   "canonical": "https://d3corp.com/blog/domain-names/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2327
+  },
+  {
+   "url": "https://d3corp.com/blog/owning-your-media-coverage/",
+   "requestedUrl": "https://d3corp.com/blog/owning-your-media-coverage/",
+   "status": 200,
+   "slug": "blog-owning-your-media-coverage",
+   "title": "Owning Your Media Coverage | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 867,
+   "description": "You can't always control what the media says about your business, but you can control what you do with it. After your business receives media coverage of any",
+   "canonical": "https://d3corp.com/blog/owning-your-media-coverage/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 46332
+  },
+  {
+   "url": "https://d3corp.com/blog/id3as-in-action-ropewalk/",
+   "requestedUrl": "https://d3corp.com/blog/id3as-in-action-ropewalk/",
+   "status": 200,
+   "slug": "blog-id3as-in-action-ropewalk",
+   "title": "ID3AS in Action: Ropewalk | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 642,
+   "description": "https://ropewalk.com/",
+   "canonical": "https://d3corp.com/blog/id3as-in-action-ropewalk/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 1967
+  },
+  {
+   "url": "https://d3corp.com/blog/geofencing-marketing/",
+   "requestedUrl": "https://d3corp.com/blog/geofencing-marketing/",
+   "status": 200,
+   "slug": "blog-geofencing-marketing",
+   "title": "Geofencing Marketing | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 704,
+   "description": "What if you were able to market to your target audience while they’re shopping with your competitor? Or, even as they’re preparing to use your service, or",
+   "canonical": "https://d3corp.com/blog/geofencing-marketing/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 1358
+  },
+  {
+   "url": "https://d3corp.com/blog/connected-tv-advertising/",
+   "requestedUrl": "https://d3corp.com/blog/connected-tv-advertising/",
+   "status": 200,
+   "slug": "blog-connected-tv-advertising",
+   "title": "Connected TV Advertising | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 703,
+   "description": "Connected TV is taking the digital advertising world by storm! From getting your ads on the big screen without the big price tag to engaging with a generation",
+   "canonical": "https://d3corp.com/blog/connected-tv-advertising/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 1390
+  },
+  {
+   "url": "https://d3corp.com/blog/facebook-and-instagram-ads/",
+   "requestedUrl": "https://d3corp.com/blog/facebook-and-instagram-ads/",
+   "status": 200,
+   "slug": "blog-facebook-and-instagram-ads",
+   "title": "Facebook and Instagram Ads | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 607,
+   "description": "Facebook and Instagram remain among some of the most popular advertising channels for digital advertising. Connect with your audience where you share content",
+   "canonical": "https://d3corp.com/blog/facebook-and-instagram-ads/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2241
+  },
+  {
+   "url": "https://d3corp.com/blog/google-ads/",
+   "requestedUrl": "https://d3corp.com/blog/google-ads/",
+   "status": 200,
+   "slug": "blog-google-ads",
+   "title": "Google Ads | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 817,
+   "description": "Google Ads (formerly known as Google AdWords) is Google’s paid advertising PPC  (pay-per-click) product. One of the most effective methods of paid online",
+   "canonical": "https://d3corp.com/blog/google-ads/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2005
+  },
+  {
+   "url": "https://d3corp.com/blog/choosing-a-color-scheme-for-your-brand/",
+   "requestedUrl": "https://d3corp.com/blog/choosing-a-color-scheme-for-your-brand/",
+   "status": 200,
+   "slug": "blog-choosing-a-color-scheme-for-your-brand",
+   "title": "Choosing a Color Scheme for Your Brand | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 977,
+   "description": "When considering your branding, you’ll want to cultivate a strong emotional connection with your audience. How a customer feels about a brand, has more pull",
+   "canonical": "https://d3corp.com/blog/choosing-a-color-scheme-for-your-brand/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2309
+  },
+  {
+   "url": "https://d3corp.com/blog/spam-prevention-tips/",
+   "requestedUrl": "https://d3corp.com/blog/spam-prevention-tips/",
+   "status": 200,
+   "slug": "blog-spam-prevention-tips",
+   "title": "Spam Prevention Tips | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 596,
+   "description": "Let’s face it, SPAM is not cool – no one wants to deal with an overflowing inbox filled with junk mail. Outlandish deals, irrelevant offers, phony e-mail",
+   "canonical": "https://d3corp.com/blog/spam-prevention-tips/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2136
+  },
+  {
+   "url": "https://d3corp.com/blog/understanding-your-web-site-stats/",
+   "requestedUrl": "https://d3corp.com/blog/understanding-your-web-site-stats/",
+   "status": 200,
+   "slug": "blog-understanding-your-web-site-stats",
+   "title": "Understanding your Web Site Stats | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 894,
+   "description": "To retrieve your website statistics, contact us at 410-213-2400 or edits@siteupdates.com and we will send you a copy of your business's Google Analytics",
+   "canonical": "https://d3corp.com/blog/understanding-your-web-site-stats/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2223
+  },
+  {
+   "url": "https://d3corp.com/blog/tips-for-avoiding-common-seo-mistakes/",
+   "requestedUrl": "https://d3corp.com/blog/tips-for-avoiding-common-seo-mistakes/",
+   "status": 200,
+   "slug": "blog-tips-for-avoiding-common-seo-mistakes",
+   "title": "Tips for Avoiding Common SEO Mistakes | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 798,
+   "description": "Every business can commiserate over the struggle to land in the coveted top spots of an organic search. Even a beautifully designed website can suffer from",
+   "canonical": "https://d3corp.com/blog/tips-for-avoiding-common-seo-mistakes/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2414
+  },
+  {
+   "url": "https://d3corp.com/blog/email-marketing-enhance-your-message/",
+   "requestedUrl": "https://d3corp.com/blog/email-marketing-enhance-your-message/",
+   "status": 200,
+   "slug": "blog-email-marketing-enhance-your-message",
+   "title": "Email Marketing: Enhance Your Message | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 589,
+   "description": "Email Marketing, or E-marketing, is one of the most popular, cost-effective ways to send a message to a large audience. You can reach hundreds of thousands of",
+   "canonical": "https://d3corp.com/blog/email-marketing-enhance-your-message/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2207
+  },
+  {
+   "url": "https://d3corp.com/blog/have-you-defined-your-social-voice/",
+   "requestedUrl": "https://d3corp.com/blog/have-you-defined-your-social-voice/",
+   "status": 200,
+   "slug": "blog-have-you-defined-your-social-voice",
+   "title": "Have You Defined Your Social Voice? | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 984,
+   "description": "Establishing a consistent Social Voice can take your marketing efforts from mediocre to amazing! Building your Social Voice should be a key part of your",
+   "canonical": "https://d3corp.com/blog/have-you-defined-your-social-voice/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2166
+  },
+  {
+   "url": "https://d3corp.com/blog/google-my-business/",
+   "requestedUrl": "https://d3corp.com/blog/google-my-business/",
+   "status": 200,
+   "slug": "blog-google-my-business",
+   "title": "Google My Business | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 488,
+   "description": "Google My Business makes it easier for users to find information about your company. It is your one-stop shop to update your business information, including",
+   "canonical": "https://d3corp.com/blog/google-my-business/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2124
+  },
+  {
+   "url": "https://d3corp.com/blog/search-engine-optimization/",
+   "requestedUrl": "https://d3corp.com/blog/search-engine-optimization/",
+   "status": 200,
+   "slug": "blog-search-engine-optimization",
+   "title": "Search Engine Optimization | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 809,
+   "description": "Strong content is one of the most important aspects of your site. While readers typically just skim your content, they always skim for keywords while surfing",
+   "canonical": "https://d3corp.com/blog/search-engine-optimization/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2076
+  },
+  {
+   "url": "https://d3corp.com/blog/important-seo-trends-to-watch/",
+   "requestedUrl": "https://d3corp.com/blog/important-seo-trends-to-watch/",
+   "status": 200,
+   "slug": "blog-important-seo-trends-to-watch",
+   "title": "Important SEO Trends to Watch | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 1317,
+   "description": "Search Engine Optimization, or SEO, is an evolving art form that is contingent on industry trends, and the forces of search engines themselves. A large aspect",
+   "canonical": "https://d3corp.com/blog/important-seo-trends-to-watch/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2158
+  },
+  {
+   "url": "https://d3corp.com/blog/d3s-5-pay-per-click-ad-super-powers/",
+   "requestedUrl": "https://d3corp.com/blog/d3s-5-pay-per-click-ad-super-powers/",
+   "status": 200,
+   "slug": "blog-d3s-5-pay-per-click-ad-super-powers",
+   "title": "D3’s 5 Pay-Per-Click Ad Super Powers | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 704,
+   "description": "You continuously see Google Ads and Facebook Ads pop up on your computer and phone screen. Now, it’s time to learn how useful they can be for your business!",
+   "canonical": "https://d3corp.com/blog/d3s-5-pay-per-click-ad-super-powers/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2222
+  },
+  {
+   "url": "https://d3corp.com/blog/using-original-content-to-drive-traffic-to-your-website/",
+   "requestedUrl": "https://d3corp.com/blog/using-original-content-to-drive-traffic-to-your-website/",
+   "status": 200,
+   "slug": "blog-using-original-content-to-drive-traffic-to-your-website",
+   "title": "Using Original Content to Drive Traffic to Your Website | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 1062,
+   "description": "Nobody wants to read old news, and that is especially true for visitors to your website! The content that you provide on your site should be fresh, new, and",
+   "canonical": "https://d3corp.com/blog/using-original-content-to-drive-traffic-to-your-website/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 1374
+  },
+  {
+   "url": "https://d3corp.com/blog/practical-approach-to-effective-public-relations/",
+   "requestedUrl": "https://d3corp.com/blog/practical-approach-to-effective-public-relations/",
+   "status": 200,
+   "slug": "blog-practical-approach-to-effective-public-relations",
+   "title": "Practical Approach To Effective Public Relations | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 1801,
+   "description": "Public Relations is often defined as “free advertising”, sending a simple press release to local newspapers or curating a productive message to the media.",
+   "canonical": "https://d3corp.com/blog/practical-approach-to-effective-public-relations/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2671
+  },
+  {
+   "url": "https://d3corp.com/blog/why-your-business-needs-email-marketing/",
+   "requestedUrl": "https://d3corp.com/blog/why-your-business-needs-email-marketing/",
+   "status": 200,
+   "slug": "blog-why-your-business-needs-email-marketing",
+   "title": "Why Your Business Needs Email Marketing | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 650,
+   "description": "Email marketing remains one of the most effective messaging channels for your business! If you’re not using email marketing, you’re missing out on a powerful",
+   "canonical": "https://d3corp.com/blog/why-your-business-needs-email-marketing/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 1902
+  },
+  {
+   "url": "https://d3corp.com/blog/taking-email-marketing-to-the-next-level/",
+   "requestedUrl": "https://d3corp.com/blog/taking-email-marketing-to-the-next-level/",
+   "status": 200,
+   "slug": "blog-taking-email-marketing-to-the-next-level",
+   "title": "Taking Email Marketing to the Next Level | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 748,
+   "description": "You already know that email marketing is a powerful tool to use for your business, but how do you take it to the next level? Email marketing can be a",
+   "canonical": "https://d3corp.com/blog/taking-email-marketing-to-the-next-level/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2177
+  },
+  {
+   "url": "https://d3corp.com/blog/social-media-metrics-and-why-they-matter/",
+   "requestedUrl": "https://d3corp.com/blog/social-media-metrics-and-why-they-matter/",
+   "status": 200,
+   "slug": "blog-social-media-metrics-and-why-they-matter",
+   "title": "Social Media Metrics and Why They Matter | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 1040,
+   "description": "The world of social media metrics can be confusing. From follower counts to post engagements. You may be wondering what you should track and what metrics are",
+   "canonical": "https://d3corp.com/blog/social-media-metrics-and-why-they-matter/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2269
+  },
+  {
+   "url": "https://d3corp.com/blog/how-to-develop-an-effective-social-media-content-strategy/",
+   "requestedUrl": "https://d3corp.com/blog/how-to-develop-an-effective-social-media-content-strategy/",
+   "status": 200,
+   "slug": "blog-how-to-develop-an-effective-social-media-content-strategy",
+   "title": "How to Develop an Effective Social Media Content Strategy | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 964,
+   "description": "The content that you post on social media has the power to turn your followers into fans, and your brand into a recognizable, household name. This impact only",
+   "canonical": "https://d3corp.com/blog/how-to-develop-an-effective-social-media-content-strategy/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 1996
+  },
+  {
+   "url": "https://d3corp.com/blog/optimizing-your-social-media-profiles/",
+   "requestedUrl": "https://d3corp.com/blog/optimizing-your-social-media-profiles/",
+   "status": 200,
+   "slug": "blog-optimizing-your-social-media-profiles",
+   "title": "Optimizing Your Social Media Profiles | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 904,
+   "description": "As social media continues to grow, one of the most important things that you can do for your brand, is to be sure that all of your social media profiles are",
+   "canonical": "https://d3corp.com/blog/optimizing-your-social-media-profiles/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2345
+  },
+  {
+   "url": "https://d3corp.com/blog/online-reputation-management-101/",
+   "requestedUrl": "https://d3corp.com/blog/online-reputation-management-101/",
+   "status": 200,
+   "slug": "blog-online-reputation-management-101",
+   "title": "Online Reputation Management 101 | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 1221,
+   "description": "Review sites and social media pages have quickly become some of the most influential and authoritative research tools while searching online. According to a",
+   "canonical": "https://d3corp.com/blog/online-reputation-management-101/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2228
+  },
+  {
+   "url": "https://d3corp.com/blog/capturing-leads-for-your-business/",
+   "requestedUrl": "https://d3corp.com/blog/capturing-leads-for-your-business/",
+   "status": 200,
+   "slug": "blog-capturing-leads-for-your-business",
+   "title": "Capturing Leads for Your Business | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 1037,
+   "description": "Many business owners have a general idea of who their target audience is, but how do you learn more about your customers? Understanding your clientele is key",
+   "canonical": "https://d3corp.com/blog/capturing-leads-for-your-business/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2371
+  },
+  {
+   "url": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/",
+   "requestedUrl": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/",
+   "status": 200,
+   "slug": "blog-digital-advertising-for-modern-marketing",
+   "title": "Digital Advertising for Modern Marketing | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 1359,
+   "description": "Digital advertising is a tried and true way to create brand awareness and increase sales. Did you know that paid, digital, advertising returns $2 for every $1",
+   "canonical": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2129
+  },
+  {
+   "url": "https://d3corp.com/blog/b2b-vs-b2c-marketing-made-easy/",
+   "requestedUrl": "https://d3corp.com/blog/b2b-vs-b2c-marketing-made-easy/",
+   "status": 200,
+   "slug": "blog-b2b-vs-b2c-marketing-made-easy",
+   "title": "B2B vs. B2C Marketing Made Easy | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 881,
+   "description": "Business-to-business (B2B), and business-to-consumer (B2C) marketing aim to capture the attention of two distinctly different audiences. While there are many",
+   "canonical": "https://d3corp.com/blog/b2b-vs-b2c-marketing-made-easy/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2145
+  },
+  {
+   "url": "https://d3corp.com/blog/planning-your-2021-digital-marketing-budget/",
+   "requestedUrl": "https://d3corp.com/blog/planning-your-2021-digital-marketing-budget/",
+   "status": 200,
+   "slug": "blog-planning-your-2021-digital-marketing-budget",
+   "title": "Planning Your 2021 Digital Marketing Budget | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 921,
+   "description": "Have you started planning your 2021 marketing budget? If not, now is the time to dive in! In the weeks and months following the COVID-19 pandemic, business",
+   "canonical": "https://d3corp.com/blog/planning-your-2021-digital-marketing-budget/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2099
+  },
+  {
+   "url": "https://d3corp.com/blog/why-do-people-unsubscribe-from-your-emails/",
+   "requestedUrl": "https://d3corp.com/blog/why-do-people-unsubscribe-from-your-emails/",
+   "status": 200,
+   "slug": "blog-why-do-people-unsubscribe-from-your-emails",
+   "title": "Why Do People Unsubscribe From Your Emails? | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 1091,
+   "description": "Marketers and business owners will agree that one of the key assets to growing your business is an email list that flourishes with your company. Customers",
+   "canonical": "https://d3corp.com/blog/why-do-people-unsubscribe-from-your-emails/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2335
+  },
+  {
+   "url": "https://d3corp.com/blog/what-does-ada-compliance-mean-for-you/",
+   "requestedUrl": "https://d3corp.com/blog/what-does-ada-compliance-mean-for-you/",
+   "status": 200,
+   "slug": "blog-what-does-ada-compliance-mean-for-you",
+   "title": "What Does ADA Compliance Mean for You | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 932,
+   "description": "As technology continues to power most of our interactions, it is more important than ever before to focus on the accessibility of technology. The services",
+   "canonical": "https://d3corp.com/blog/what-does-ada-compliance-mean-for-you/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 1937
+  },
+  {
+   "url": "https://d3corp.com/blog/top-secrets-to-digital-ad-success/",
+   "requestedUrl": "https://d3corp.com/blog/top-secrets-to-digital-ad-success/",
+   "status": 200,
+   "slug": "blog-top-secrets-to-digital-ad-success",
+   "title": "Top Secrets to Digital Ad Success | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 785,
+   "description": "In the world of digital advertising, one of the best things you can do for your business, and your budget, is to optimize. This seems easier said than done,",
+   "canonical": "https://d3corp.com/blog/top-secrets-to-digital-ad-success/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2155
+  },
+  {
+   "url": "https://d3corp.com/blog/blogging-for-business/",
+   "requestedUrl": "https://d3corp.com/blog/blogging-for-business/",
+   "status": 200,
+   "slug": "blog-blogging-for-business",
+   "title": "Blogging for Business | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 1171,
+   "description": "A blog about blogging? We know, pretty meta, right? The thing is, you probably already know what a blog is. I mean, let’s get real.  Your favorite influencer?",
+   "canonical": "https://d3corp.com/blog/blogging-for-business/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2398
+  },
+  {
+   "url": "https://d3corp.com/blog/search-engine-ranking-101/",
+   "requestedUrl": "https://d3corp.com/blog/search-engine-ranking-101/",
+   "status": 200,
+   "slug": "blog-search-engine-ranking-101",
+   "title": "Search Engine Ranking 101 | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 1045,
+   "description": "How can you optimize the search engine ranking of your business? While SEO can be a bit tricky to navigate, it’s an imperative part of your business that you",
+   "canonical": "https://d3corp.com/blog/search-engine-ranking-101/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2221
+  },
+  {
+   "url": "https://d3corp.com/blog/id3as-in-action-delaware-elevator-inc/",
+   "requestedUrl": "https://d3corp.com/blog/id3as-in-action-delaware-elevator-inc/",
+   "status": 200,
+   "slug": "blog-id3as-in-action-delaware-elevator-inc",
+   "title": "ID3AS In Action: Delaware Elevator, Inc | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 745,
+   "description": "https://delawareelevator.com/",
+   "canonical": "https://d3corp.com/blog/id3as-in-action-delaware-elevator-inc/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2477
+  },
+  {
+   "url": "https://d3corp.com/blog/understanding-your-target-customer/",
+   "requestedUrl": "https://d3corp.com/blog/understanding-your-target-customer/",
+   "status": 200,
+   "slug": "blog-understanding-your-target-customer",
+   "title": "Understanding Your Target Customer | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 966,
+   "description": "Understanding your target customer is key to successful marketing and promotion for businesses in all industries. Your business should aim to attract, gain,",
+   "canonical": "https://d3corp.com/blog/understanding-your-target-customer/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 1413
+  },
+  {
+   "url": "https://d3corp.com/blog/a-guide-to-website-seo/",
+   "requestedUrl": "https://d3corp.com/blog/a-guide-to-website-seo/",
+   "status": 200,
+   "slug": "blog-a-guide-to-website-seo",
+   "title": "A Guide to Website SEO | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 1069,
+   "description": "Maybe you’ve heard the term SEO, or maybe you haven’t, but if you currently have a website or are looking to build one, SEO needs to be top of mind. Search",
+   "canonical": "https://d3corp.com/blog/a-guide-to-website-seo/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2075
+  },
+  {
+   "url": "https://d3corp.com/blog/seo-social-when-worlds-collide/",
+   "requestedUrl": "https://d3corp.com/blog/seo-social-when-worlds-collide/",
+   "status": 200,
+   "slug": "blog-seo-social-when-worlds-collide",
+   "title": "SEO & Social: When Worlds Collide | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 815,
+   "description": "In digital marketing, SEO and social media are often placed in separate silos. SEO is known for playing the long game. Think keywords, technical tweaks, and",
+   "canonical": "https://d3corp.com/blog/seo-social-when-worlds-collide/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 1364
+  },
+  {
+   "url": "https://d3corp.com/blog/are-you-breaking-up-the-brand-again/",
+   "requestedUrl": "https://d3corp.com/blog/are-you-breaking-up-the-brand-again/",
+   "status": 200,
+   "slug": "blog-are-you-breaking-up-the-brand-again",
+   "title": "Are You Breaking Up the Brand Again? | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 556,
+   "description": "At D3, we see it all the time—businesses unintentionally chipping away at their brand and watering down hard-earned recognition and trust with inconsistent",
+   "canonical": "https://d3corp.com/blog/are-you-breaking-up-the-brand-again/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 1318
+  },
+  {
+   "url": "https://d3corp.com/blog/are-you-writing-for-ai-or-letting-ai-write-for-you/",
+   "requestedUrl": "https://d3corp.com/blog/are-you-writing-for-ai-or-letting-ai-write-for-you/",
+   "status": 200,
+   "slug": "blog-are-you-writing-for-ai-or-letting-ai-write-for-you",
+   "title": "Are You Writing for AI, or Letting AI Write for You? | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 847,
+   "description": "We get it, artificial intelligence is everywhere. It’s streamlining everyday tasks, saving time, and even producing a decent return with the right prompts.",
+   "canonical": "https://d3corp.com/blog/are-you-writing-for-ai-or-letting-ai-write-for-you/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 1289
+  },
+  {
+   "url": "https://d3corp.com/blog/crisis-communication/",
+   "requestedUrl": "https://d3corp.com/blog/crisis-communication/",
+   "status": 200,
+   "slug": "blog-crisis-communication",
+   "title": "Crisis Communication | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 704,
+   "description": "Pepsi, Facebook, Toyota, Chipotle. We have witnessed",
+   "canonical": "https://d3corp.com/blog/crisis-communication/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2961
+  },
+  {
+   "url": "https://d3corp.com/blog/ai-lessons-learned/",
+   "requestedUrl": "https://d3corp.com/blog/ai-lessons-learned/",
+   "status": 200,
+   "slug": "blog-ai-lessons-learned",
+   "title": "AI Lessons Learned | D3 | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 756,
+   "description": "Lately, the news has been flooded with information",
+   "canonical": "https://d3corp.com/blog/ai-lessons-learned/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+BlogPosting"
+   ],
+   "forms": 2,
+   "loadMs": 2035
+  },
+  {
+   "url": "https://d3corp.com/two-factor-authentication-2fa-mobile-number-registration/",
+   "requestedUrl": "https://d3corp.com/two-factor-authentication-2fa-mobile-number-registration/",
+   "status": 200,
+   "slug": "two-factor-authentication-2fa-mobile-number-registration",
+   "title": "Two-Factor Authentication (2FA) Mobile Number Registration | D3",
+   "h1": null,
+   "wordCount": 258,
+   "description": null,
+   "canonical": "https://d3corp.com/two-factor-authentication-2fa-mobile-number-registration/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 2,
+   "loadMs": 1562
+  },
+  {
+   "url": "https://d3corp.com/terms/",
+   "requestedUrl": "https://d3corp.com/terms/",
+   "status": 200,
+   "slug": "terms",
+   "title": "Terms & Conditions | D3 | Full Service Digital Marketing",
+   "h1": null,
+   "wordCount": 5182,
+   "description": "Please view the terms & conditions provided by the D3 team regarding our products and services.",
+   "canonical": "https://d3corp.com/terms/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 1,
+   "loadMs": 1358
+  },
+  {
+   "url": "https://d3corp.com/privacy-policy/",
+   "requestedUrl": "https://d3corp.com/privacy-policy/",
+   "status": 200,
+   "slug": "privacy-policy",
+   "title": "Privacy Policy | D3 | Full Service Digital Marketing",
+   "h1": null,
+   "wordCount": 1381,
+   "description": "This page informs you of our policies regarding the collection, use and disclosure of Personal Information when you use our Service.",
+   "canonical": "https://d3corp.com/privacy-policy/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 1,
+   "loadMs": 1322
+  },
+  {
+   "url": "https://d3corp.com/internships/",
+   "requestedUrl": "https://d3corp.com/internships/",
+   "status": 200,
+   "slug": "internships",
+   "title": "Internships | D3",
+   "h1": null,
+   "wordCount": 355,
+   "description": null,
+   "canonical": "https://d3corp.com/internships/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 2,
+   "loadMs": 2156
+  },
+  {
+   "url": "https://d3corp.com/services/",
+   "requestedUrl": "https://d3corp.com/services/",
+   "status": 200,
+   "slug": "services",
+   "title": "Full-Stack Digital Marketing Services | Top-Rated Marketing Services for Healthcare, Home Services, Hospitality, and Government Firms",
+   "h1": "End-to-End Digital Marketing Services",
+   "wordCount": 567,
+   "description": "D3 provides digital marketing services & strategic solutions that drive real results. Reach out to us for web design, digital ads, and more.",
+   "canonical": "https://d3corp.com/services/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 1,
+   "loadMs": 1428
+  },
+  {
+   "url": "https://d3corp.com/rapid-design-websites/",
+   "requestedUrl": "https://d3corp.com/rapid-design-websites/",
+   "status": 200,
+   "slug": "rapid-design-websites",
+   "title": "D3 Rapid Web Design Service",
+   "h1": "Launch Sites Quickly with D3’s Rapid Web Design Service",
+   "wordCount": 765,
+   "description": "D3 offers rapid design websites helping you fast-track your way to results with an expertly built and custom-tailored website.",
+   "canonical": "https://d3corp.com/rapid-design-websites/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 3,
+   "loadMs": 1385
+  },
+  {
+   "url": "https://d3corp.com/websites/",
+   "requestedUrl": "https://d3corp.com/websites/",
+   "status": 200,
+   "slug": "websites",
+   "title": "Custom Websites | D3 | Full Service Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 1072,
+   "description": "A professionally designed website is the foundation of all successful digital marketing. Trust D3 for attractive websites with all the functionality you need.",
+   "canonical": "https://d3corp.com/websites/",
+   "jsonldTypes": [
+    "Service+Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 2,
+   "loadMs": 1383
+  },
+  {
+   "url": "https://d3corp.com/strategy/",
+   "requestedUrl": "https://d3corp.com/strategy/",
+   "status": 200,
+   "slug": "strategy",
+   "title": "Expert Digital Strategy Consultants | MD's Top-Rated Full-Service Digital Agency",
+   "h1": "Digital Strategy Experts",
+   "wordCount": 951,
+   "description": "D3 finds the digital marketing strategy that works for your brand with an expert team dedicated to customer service & providing real results.",
+   "canonical": "https://d3corp.com/strategy/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 2,
+   "loadMs": 1403
+  },
+  {
+   "url": "https://d3corp.com/social-media-marketing/",
+   "requestedUrl": "https://d3corp.com/social-media-marketing/",
+   "status": 200,
+   "slug": "social-media-marketing",
+   "title": "Social Media Marketing Services | Local Social Experts for Every Platform (TikTok, Meta, YouTube, X/Twitter and More)",
+   "h1": "Social Media Marketing & Management Services",
+   "wordCount": 1424,
+   "description": "Choose a social media management team that helps you stand out! D3 is the trusted partner in Ocean City, MD to achieve real engagement & results on social.",
+   "canonical": "https://d3corp.com/social-media-marketing/",
+   "jsonldTypes": [
+    "Service+Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 3,
+   "loadMs": 1370
+  },
+  {
+   "url": "https://d3corp.com/search-engine-optimization/",
+   "requestedUrl": "https://d3corp.com/search-engine-optimization/",
+   "status": 200,
+   "slug": "search-engine-optimization",
+   "title": "SEO & AI Search Agency in MD | Top-Rated Search Marketing Services for Home Services, Hospitality, Healthcare, and Government",
+   "h1": "Expert SEO Services",
+   "wordCount": 839,
+   "description": "D3 provides comprehensive and advanced SEO services for all locations & industries, as well as AI & generative engine optimization (AEO, GEO).",
+   "canonical": "https://d3corp.com/search-engine-optimization/",
+   "jsonldTypes": [
+    "Service+Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 2,
+   "loadMs": 1397
+  },
+  {
+   "url": "https://d3corp.com/print/",
+   "requestedUrl": "https://d3corp.com/print/",
+   "status": 200,
+   "slug": "print",
+   "title": "Print Marketing Services | Comprehensive Marketing Agency Based in MD",
+   "h1": "Print Marketing Services",
+   "wordCount": 657,
+   "description": "High-quality print still has the power to make an impact. Reach out to D3 for business cards, menus, banners and more at competitive prices.",
+   "canonical": "https://d3corp.com/print/",
+   "jsonldTypes": [
+    "Service+Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 2,
+   "loadMs": 1342
+  },
+  {
+   "url": "https://d3corp.com/multimedia/",
+   "requestedUrl": "https://d3corp.com/multimedia/",
+   "status": 200,
+   "slug": "multimedia",
+   "title": "Multimedia Services | Video Marketing & Local Video Production Experts in MD",
+   "h1": "Multimedia Services & Local Production Experts",
+   "wordCount": 1145,
+   "description": "D3's multimedia services include expert brand content on-site, animations, high-quality video production, imagery, drone footage & more.",
+   "canonical": "https://d3corp.com/multimedia/",
+   "jsonldTypes": [
+    "Service+Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 2,
+   "loadMs": 1487
+  },
+  {
+   "url": "https://d3corp.com/email-marketing/",
+   "requestedUrl": "https://d3corp.com/email-marketing/",
+   "status": 200,
+   "slug": "email-marketing",
+   "title": "Email Marketing Services | Full-Stack Marketing Agency Serving the Mid-Atlantic",
+   "h1": "Email Marketing Services",
+   "wordCount": 838,
+   "description": "Email remains one of the most effective digital advertising tools when done right. Based in Delmarva, D3 provides expert email marketing & content.",
+   "canonical": "https://d3corp.com/email-marketing/",
+   "jsonldTypes": [
+    "Service+Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 2,
+   "loadMs": 1419
+  },
+  {
+   "url": "https://d3corp.com/answer-engine-optimization/",
+   "requestedUrl": "https://d3corp.com/answer-engine-optimization/",
+   "status": 200,
+   "slug": "answer-engine-optimization",
+   "title": "Expert AEO (AI Search) Agency Services | Get Visible in AI/LLM Search",
+   "h1": "Expert AEO Services with D3",
+   "wordCount": 940,
+   "description": "Make sure your website is visible in AI Search and LLMs. Trust D3 with Answer Engine Optimization (AEO) strategies for your business's digital marketing.",
+   "canonical": "https://d3corp.com/answer-engine-optimization/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 3,
+   "loadMs": 1432
+  },
+  {
+   "url": "https://d3corp.com/ai-assistant/",
+   "requestedUrl": "https://d3corp.com/ai-assistant/",
+   "status": 200,
+   "slug": "ai-assistant",
+   "title": "AI Assistant | D3 Services",
+   "h1": null,
+   "wordCount": 641,
+   "description": "An AI Assistant on your website can instantly answer customer questions, reduce bounce rates, and help you understand what questions your customers have.",
+   "canonical": "https://d3corp.com/ai-assistant/",
+   "jsonldTypes": [
+    "Organization+WebSite+ImageObject+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 3,
+   "loadMs": 1409
+  },
+  {
+   "url": "https://d3corp.com/digital-advertising/",
+   "requestedUrl": "https://d3corp.com/digital-advertising/",
+   "status": 200,
+   "slug": "digital-advertising",
+   "title": "Digital Ad (PPC) Agency | Google, Meta, Geofencing, and Programmatic Advertising Services",
+   "h1": "Digital Ad Services",
+   "wordCount": 977,
+   "description": "D3’s digital advertising services put your brand where it needs to be, offering Google Ads, Facebook Ads & many more innovative ad strategies.",
+   "canonical": "https://d3corp.com/digital-advertising/",
+   "jsonldTypes": [
+    "Service+Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 2,
+   "loadMs": 1423
+  },
+  {
+   "url": "https://d3corp.com/graphic-design/",
+   "requestedUrl": "https://d3corp.com/graphic-design/",
+   "status": 200,
+   "slug": "graphic-design",
+   "title": "Creative Graphic Design Experts | Top-Rated Graphic Design Agency in MD",
+   "h1": "Creative Graphic Design Services",
+   "wordCount": 938,
+   "description": "The D3 graphic design team turns your ideas into impactful visuals across all marketing channels. From logos to websites, print pieces, etc.",
+   "canonical": "https://d3corp.com/graphic-design/",
+   "jsonldTypes": [
+    "Service+Organization+WebSite+BreadcrumbList+WebPage"
+   ],
+   "forms": 2,
+   "loadMs": 1433
+  },
+  {
+   "url": "https://d3corp.com/su/",
+   "requestedUrl": "https://d3corp.com/su/",
+   "status": 200,
+   "slug": "su",
+   "title": "SU Entrepreneur Intake Form | Online Brand Performance Audit Checklist | D3",
+   "h1": null,
+   "wordCount": 986,
+   "description": null,
+   "canonical": "https://d3corp.com/su/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 2,
+   "loadMs": 2222
+  },
+  {
+   "url": "https://d3corp.com/ai-assistant-questionnaire/",
+   "requestedUrl": "https://d3corp.com/ai-assistant-questionnaire/",
+   "status": 200,
+   "slug": "ai-assistant-questionnaire",
+   "title": "AI Assistant Questionnaire | D3",
+   "h1": null,
+   "wordCount": 305,
+   "description": null,
+   "canonical": "https://d3corp.com/ai-assistant-questionnaire/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 2,
+   "loadMs": 1960
+  },
+  {
+   "url": "https://d3corp.com/cookie-policy/",
+   "requestedUrl": "https://d3corp.com/cookie-policy/",
+   "status": 200,
+   "slug": "cookie-policy",
+   "title": "Cookie Policy | D3",
+   "h1": null,
+   "wordCount": 426,
+   "description": null,
+   "canonical": "https://d3corp.com/cookie-policy/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 1,
+   "loadMs": 1307
+  },
+  {
+   "url": "https://d3corp.com/meet-us/",
+   "requestedUrl": "https://d3corp.com/meet-us/",
+   "status": 200,
+   "slug": "meet-us",
+   "title": "Meet D3 | Digital Marketing Agency | Ocean City & Salisbury, MD",
+   "h1": null,
+   "wordCount": 464,
+   "description": "D3 has been a local & nationally trusted digital marketing agency based in OCMD, for over 30 years, providing advertising to all industries.",
+   "canonical": "https://d3corp.com/meet-us/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 1,
+   "loadMs": 1310
+  },
+  {
+   "url": "https://d3corp.com/accessibility/",
+   "requestedUrl": "https://d3corp.com/accessibility/",
+   "status": 200,
+   "slug": "accessibility",
+   "title": "Accessibility | D3 | Full Service Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 294,
+   "description": "At D3, our digital marketing agency is committed to providing our users with a website that is accessible to the largest audience possible.",
+   "canonical": "https://d3corp.com/accessibility/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 1,
+   "loadMs": 1344
+  },
+  {
+   "url": "https://d3corp.com/site-down/",
+   "requestedUrl": "https://d3corp.com/site-down/",
+   "status": 200,
+   "slug": "site-down",
+   "title": "Site Down | D3",
+   "h1": null,
+   "wordCount": 166,
+   "description": null,
+   "canonical": "https://d3corp.com/site-down/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 2,
+   "loadMs": 1248
+  },
+  {
+   "url": "https://d3corp.com/contact-us/",
+   "requestedUrl": "https://d3corp.com/contact-us/",
+   "status": 200,
+   "slug": "contact-us",
+   "title": "Contact Us | D3 | Ocean City, MD Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 280,
+   "description": "Contact D3 about your business's challenges & goals. We have the expertise, platforms, content, and digital marketing strategies you need.",
+   "canonical": "https://d3corp.com/contact-us/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 2,
+   "loadMs": 1333
+  },
+  {
+   "url": "https://d3corp.com/join-our-team/",
+   "requestedUrl": "https://d3corp.com/join-our-team/",
+   "status": 200,
+   "slug": "join-our-team",
+   "title": "Join Our Team | D3 | Ocean City, MD Digital Marketing Company",
+   "h1": null,
+   "wordCount": 210,
+   "description": "Join our team at D3 and apply to work with creative professionals in all aspects of digital marketing, serving our local community & beyond.",
+   "canonical": "https://d3corp.com/join-our-team/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 2,
+   "loadMs": 1280
+  },
+  {
+   "url": "https://d3corp.com/request-a-quote/",
+   "requestedUrl": "https://d3corp.com/request-a-quote/",
+   "status": 200,
+   "slug": "request-a-quote",
+   "title": "Request a Quote | D3 | Local Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 284,
+   "description": "Your brand deserves more than just a website. Request a quote from D3 today for any of our digital marketing services.",
+   "canonical": "https://d3corp.com/request-a-quote/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 2,
+   "loadMs": 1253
+  },
+  {
+   "url": "https://d3corp.com/webmail/",
+   "requestedUrl": "https://d3corp.com/webmail/",
+   "status": 200,
+   "slug": "webmail",
+   "title": "Webmail | D3 | Full Service Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 228,
+   "description": "Your guide to accessing your webmail email, set up through D3, on your phone and other devices, as well as preference settings.",
+   "canonical": "https://d3corp.com/webmail/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 1,
+   "loadMs": 1319
+  },
+  {
+   "url": "https://d3corp.com/case-studies/",
+   "requestedUrl": "https://d3corp.com/case-studies/",
+   "status": 200,
+   "slug": "case-studies",
+   "title": "Case Studies | D3 | Web Development & Digital Marketing",
+   "h1": null,
+   "wordCount": 552,
+   "description": "Our case studies show full-service web, design, multimedia, and digital marketing work at D3 for clients local to Delmarva and beyond.",
+   "canonical": "https://d3corp.com/case-studies/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+CollectionPage"
+   ],
+   "forms": 1,
+   "loadMs": 1435
+  },
+  {
+   "url": "https://d3corp.com/site-map/",
+   "requestedUrl": "https://d3corp.com/site-map/",
+   "status": 200,
+   "slug": "site-map",
+   "title": "Site Map | D3 | Digital Marketing Agency for All Industries",
+   "h1": null,
+   "wordCount": 860,
+   "description": "For more information about the digital marketing services D3 has to offer your brand, please visit our site map.",
+   "canonical": "https://d3corp.com/site-map/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 1,
+   "loadMs": 1325
+  },
+  {
+   "url": "https://d3corp.com/careers/",
+   "requestedUrl": "https://d3corp.com/careers/",
+   "status": 200,
+   "slug": "careers",
+   "title": "Careers | D3 | Ocean City, MD Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 196,
+   "description": "View job openings for careers with D3, a full-service digital marketing & web development company based in Ocean City, MD.",
+   "canonical": "https://d3corp.com/careers/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 1,
+   "loadMs": 1318
+  },
+  {
+   "url": "https://d3corp.com/blog-search/",
+   "requestedUrl": "https://d3corp.com/blog-search/",
+   "status": 200,
+   "slug": "blog-search",
+   "title": "Blog Search | D3 | Digital Marketing Agency Tips",
+   "h1": null,
+   "wordCount": 714,
+   "description": "Learn more about the specific digital marketing topics you're interested in and search through D3's database of blog posts.",
+   "canonical": "https://d3corp.com/blog-search/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+WebPage+Person+Article"
+   ],
+   "forms": 2,
+   "loadMs": 1927
+  },
+  {
+   "url": "https://d3corp.com/career/client-success-manager/",
+   "requestedUrl": "https://d3corp.com/career/client-success-manager/",
+   "status": 200,
+   "slug": "career-client-success-manager",
+   "title": "Client Success Manager | D3 | Digital Marketing Jobs",
+   "h1": null,
+   "wordCount": 542,
+   "description": "D3 is seeking an experienced, full-time client services professional to join our digital marketing team based in Ocean City, MD.",
+   "canonical": "https://d3corp.com/career/client-success-manager/",
+   "jsonldTypes": [
+    "JobPosting+Organization+WebSite+BreadcrumbList+WebPage"
+   ],
+   "forms": 1,
+   "loadMs": 1347
+  },
+  {
+   "url": "https://d3corp.com/career/digital-marketing-specialist/",
+   "requestedUrl": "https://d3corp.com/career/digital-marketing-specialist/",
+   "status": 200,
+   "slug": "career-digital-marketing-specialist",
+   "title": "Digital Marketing Specialist | D3 | Jobs in Ocean City, MD",
+   "h1": null,
+   "wordCount": 447,
+   "description": "D3 has an on-site job opening for a Digital Marketing Specialist in their Ocean City, Maryland office. Apply here!",
+   "canonical": "https://d3corp.com/career/digital-marketing-specialist/",
+   "jsonldTypes": [
+    "JobPosting+Organization+WebSite+BreadcrumbList+WebPage"
+   ],
+   "forms": 1,
+   "loadMs": 1297
+  },
+  {
+   "url": "https://d3corp.com/case-study/farmers-bank-of-willards/",
+   "requestedUrl": "https://d3corp.com/case-study/farmers-bank-of-willards/",
+   "status": 200,
+   "slug": "case-study-farmers-bank-of-willards",
+   "title": "Farmers Bank of Willards | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 618,
+   "description": "D3 is proud to partner with Farmers Bank of Willards, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/farmers-bank-of-willards/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage"
+   ],
+   "forms": 1,
+   "loadMs": 1355
+  },
+  {
+   "url": "https://d3corp.com/case-study/jolly-roger-amusements/",
+   "requestedUrl": "https://d3corp.com/case-study/jolly-roger-amusements/",
+   "status": 200,
+   "slug": "case-study-jolly-roger-amusements",
+   "title": "Jolly Roger Amusements | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 701,
+   "description": "D3 is proud to partner with Jolly Roger Amusements, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/jolly-roger-amusements/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage+VideoObject"
+   ],
+   "forms": 1,
+   "loadMs": 2577
+  },
+  {
+   "url": "https://d3corp.com/case-study/white-marlin-open/",
+   "requestedUrl": "https://d3corp.com/case-study/white-marlin-open/",
+   "status": 200,
+   "slug": "case-study-white-marlin-open",
+   "title": "White Marlin Open | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 670,
+   "description": "D3 is proud to partner with White Marlin Open, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/white-marlin-open/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage+VideoObject"
+   ],
+   "forms": 1,
+   "loadMs": 46300
+  },
+  {
+   "url": "https://d3corp.com/case-study/idec-elevator-products/",
+   "requestedUrl": "https://d3corp.com/case-study/idec-elevator-products/",
+   "status": 200,
+   "slug": "case-study-idec-elevator-products",
+   "title": "IDEC Elevator Products | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 615,
+   "description": "D3 is proud to partner with IDEC Elevator Products, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/idec-elevator-products/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage+VideoObject"
+   ],
+   "forms": 1,
+   "loadMs": 1591
+  },
+  {
+   "url": "https://d3corp.com/case-study/boardwalk-hotel-group/",
+   "requestedUrl": "https://d3corp.com/case-study/boardwalk-hotel-group/",
+   "status": 200,
+   "slug": "case-study-boardwalk-hotel-group",
+   "title": "Boardwalk Hotel Group | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 633,
+   "description": "D3 is proud to partner with Boardwalk Hotel Group, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/boardwalk-hotel-group/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage+VideoObject"
+   ],
+   "forms": 1,
+   "loadMs": 2521
+  },
+  {
+   "url": "https://d3corp.com/case-study/partnership-for-the-delaware-estuary/",
+   "requestedUrl": "https://d3corp.com/case-study/partnership-for-the-delaware-estuary/",
+   "status": 200,
+   "slug": "case-study-partnership-for-the-delaware-estuary",
+   "title": "Partnership for the Delaware Estuary | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 547,
+   "description": "D3 is proud to partner with Partnership for the Delaware Estuary, providing a variety of digital marketing services that fit their needs and enhance their",
+   "canonical": "https://d3corp.com/case-study/partnership-for-the-delaware-estuary/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage"
+   ],
+   "forms": 1,
+   "loadMs": 2231
+  },
+  {
+   "url": "https://d3corp.com/case-study/babe-ruth-birthplace-museum/",
+   "requestedUrl": "https://d3corp.com/case-study/babe-ruth-birthplace-museum/",
+   "status": 200,
+   "slug": "case-study-babe-ruth-birthplace-museum",
+   "title": "Babe Ruth Birthplace & Museum | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 514,
+   "description": "D3 is proud to partner with Babe Ruth Birthplace & Museum, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/babe-ruth-birthplace-museum/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage+VideoObject+VideoObject"
+   ],
+   "forms": 1,
+   "loadMs": 46095
+  },
+  {
+   "url": "https://d3corp.com/case-study/castle-in-the-sand-hotel/",
+   "requestedUrl": "https://d3corp.com/case-study/castle-in-the-sand-hotel/",
+   "status": 200,
+   "slug": "case-study-castle-in-the-sand-hotel",
+   "title": "Castle in the Sand Hotel | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 592,
+   "description": "D3 is proud to partner with Castle in the Sand Hotel, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/castle-in-the-sand-hotel/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage+VideoObject"
+   ],
+   "forms": 1,
+   "loadMs": 46504
+  },
+  {
+   "url": "https://d3corp.com/case-study/dolles-candyland/",
+   "requestedUrl": "https://d3corp.com/case-study/dolles-candyland/",
+   "status": 200,
+   "slug": "case-study-dolles-candyland",
+   "title": "Dolles Candyland | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 388,
+   "description": "D3 is proud to partner with Dolles Candyland, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/dolles-candyland/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage"
+   ],
+   "forms": 1,
+   "loadMs": 2478
+  },
+  {
+   "url": "https://d3corp.com/case-study/salisbury-area-chamber-of-commerce/",
+   "requestedUrl": "https://d3corp.com/case-study/salisbury-area-chamber-of-commerce/",
+   "status": 200,
+   "slug": "case-study-salisbury-area-chamber-of-commerce",
+   "title": "Salisbury Area Chamber of Commerce | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 770,
+   "description": "D3 is proud to partner with Salisbury Area Chamber of Commerce, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/salisbury-area-chamber-of-commerce/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage+VideoObject"
+   ],
+   "forms": 1,
+   "loadMs": 2922
+  },
+  {
+   "url": "https://d3corp.com/case-study/delaware-elevator-inc/",
+   "requestedUrl": "https://d3corp.com/case-study/delaware-elevator-inc/",
+   "status": 200,
+   "slug": "case-study-delaware-elevator-inc",
+   "title": "Delaware Elevator, Inc. | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 814,
+   "description": "D3 is proud to partner with Delaware Elevator, Inc., providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/delaware-elevator-inc/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage+VideoObject"
+   ],
+   "forms": 1,
+   "loadMs": 2495
+  },
+  {
+   "url": "https://d3corp.com/case-study/our-harvest/",
+   "requestedUrl": "https://d3corp.com/case-study/our-harvest/",
+   "status": 200,
+   "slug": "case-study-our-harvest",
+   "title": "Our Harvest | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 422,
+   "description": "D3 is proud to partner with Our Harvest, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/our-harvest/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage"
+   ],
+   "forms": 1,
+   "loadMs": 2187
+  },
+  {
+   "url": "https://d3corp.com/case-study/georges-beverage-company/",
+   "requestedUrl": "https://d3corp.com/case-study/georges-beverage-company/",
+   "status": 200,
+   "slug": "case-study-georges-beverage-company",
+   "title": "George’s® Beverage Company | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 622,
+   "description": "D3 is proud to partner with George’s® Beverage Company, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/georges-beverage-company/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage"
+   ],
+   "forms": 1,
+   "loadMs": 45821
+  },
+  {
+   "url": "https://d3corp.com/case-study/remember-me-glass/",
+   "requestedUrl": "https://d3corp.com/case-study/remember-me-glass/",
+   "status": 200,
+   "slug": "case-study-remember-me-glass",
+   "title": "Remember Me Glass | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 848,
+   "description": "D3 is proud to partner with Remember Me Glass, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/remember-me-glass/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage+VideoObject"
+   ],
+   "forms": 1,
+   "loadMs": 46175
+  },
+  {
+   "url": "https://d3corp.com/case-study/burley-oak/",
+   "requestedUrl": "https://d3corp.com/case-study/burley-oak/",
+   "status": 200,
+   "slug": "case-study-burley-oak",
+   "title": "Burley Oak | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 770,
+   "description": "D3 is proud to partner with Burley Oak, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/burley-oak/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage"
+   ],
+   "forms": 1,
+   "loadMs": 1354
+  },
+  {
+   "url": "https://d3corp.com/case-study/chesapeake-health-care/",
+   "requestedUrl": "https://d3corp.com/case-study/chesapeake-health-care/",
+   "status": 200,
+   "slug": "case-study-chesapeake-health-care",
+   "title": "Chesapeake Health Care | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 694,
+   "description": "D3 is proud to partner with Chesapeake Health Care, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/chesapeake-health-care/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage+VideoObject"
+   ],
+   "forms": 1,
+   "loadMs": 46034
+  },
+  {
+   "url": "https://d3corp.com/case-study/delaware-crawl-space/",
+   "requestedUrl": "https://d3corp.com/case-study/delaware-crawl-space/",
+   "status": 200,
+   "slug": "case-study-delaware-crawl-space",
+   "title": "Delaware Crawl Space | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 546,
+   "description": "D3 is proud to partner with Delaware Crawl Space, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/delaware-crawl-space/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage"
+   ],
+   "forms": 1,
+   "loadMs": 2324
+  },
+  {
+   "url": "https://d3corp.com/case-study/zen-spa-studio-z/",
+   "requestedUrl": "https://d3corp.com/case-study/zen-spa-studio-z/",
+   "status": 200,
+   "slug": "case-study-zen-spa-studio-z",
+   "title": "Zen Spa & Studio Z | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 436,
+   "description": "D3 is proud to partner with Zen Spa & Studio Z, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/zen-spa-studio-z/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage+VideoObject"
+   ],
+   "forms": 1,
+   "loadMs": 46395
+  },
+  {
+   "url": "https://d3corp.com/case-study/the-land-group/",
+   "requestedUrl": "https://d3corp.com/case-study/the-land-group/",
+   "status": 200,
+   "slug": "case-study-the-land-group",
+   "title": "The Land Group | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 699,
+   "description": "D3 is proud to partner with The Land Group, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/the-land-group/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage"
+   ],
+   "forms": 1,
+   "loadMs": 2300
+  },
+  {
+   "url": "https://d3corp.com/case-study/seacrets-jamaica-usa/",
+   "requestedUrl": "https://d3corp.com/case-study/seacrets-jamaica-usa/",
+   "status": 200,
+   "slug": "case-study-seacrets-jamaica-usa",
+   "title": "Seacrets® Jamaica USA | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 542,
+   "description": "D3 is proud to partner with Seacrets® Jamaica USA, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/seacrets-jamaica-usa/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage+VideoObject"
+   ],
+   "forms": 1,
+   "loadMs": 2558
+  },
+  {
+   "url": "https://d3corp.com/case-study/chesapeake-country-byway/",
+   "requestedUrl": "https://d3corp.com/case-study/chesapeake-country-byway/",
+   "status": 200,
+   "slug": "case-study-chesapeake-country-byway",
+   "title": "Chesapeake Country Byway | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 838,
+   "description": "D3 is proud to partner with Chesapeake Country Byway, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/chesapeake-country-byway/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage+VideoObject"
+   ],
+   "forms": 1,
+   "loadMs": 1624
+  },
+  {
+   "url": "https://d3corp.com/case-study/youth-empowered-societys-yes-drop-in-center/",
+   "requestedUrl": "https://d3corp.com/case-study/youth-empowered-societys-yes-drop-in-center/",
+   "status": 200,
+   "slug": "case-study-youth-empowered-societys-yes-drop-in-center",
+   "title": "Youth Empowered Society’s YES Drop-In Center | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 826,
+   "description": "D3 is proud to partner with Youth Empowered Society’s YES Drop-In Center, providing a variety of digital marketing services that fit their needs and enhance",
+   "canonical": "https://d3corp.com/case-study/youth-empowered-societys-yes-drop-in-center/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage+VideoObject"
+   ],
+   "forms": 1,
+   "loadMs": 46334
+  },
+  {
+   "url": "https://d3corp.com/case-study/old-pro-golf/",
+   "requestedUrl": "https://d3corp.com/case-study/old-pro-golf/",
+   "status": 200,
+   "slug": "case-study-old-pro-golf",
+   "title": "Old Pro Golf | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 769,
+   "description": "D3 is proud to partner with Old Pro Golf, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/old-pro-golf/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage+VideoObject"
+   ],
+   "forms": 1,
+   "loadMs": 1668
+  },
+  {
+   "url": "https://d3corp.com/case-study/crabs-to-go/",
+   "requestedUrl": "https://d3corp.com/case-study/crabs-to-go/",
+   "status": 200,
+   "slug": "case-study-crabs-to-go",
+   "title": "Crabs to Go | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 473,
+   "description": "D3 is proud to partner with Crabs to Go, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/crabs-to-go/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage"
+   ],
+   "forms": 1,
+   "loadMs": 1346
+  },
+  {
+   "url": "https://d3corp.com/case-study/visiting-angels-eastern-shore-md/",
+   "requestedUrl": "https://d3corp.com/case-study/visiting-angels-eastern-shore-md/",
+   "status": 200,
+   "slug": "case-study-visiting-angels-eastern-shore-md",
+   "title": "Visiting Angels® Eastern Shore, MD | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 901,
+   "description": "D3 is proud to partner with Visiting Angels® Eastern Shore, MD, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/visiting-angels-eastern-shore-md/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage+VideoObject"
+   ],
+   "forms": 1,
+   "loadMs": 46158
+  },
+  {
+   "url": "https://d3corp.com/case-study/primo-family-restaurant/",
+   "requestedUrl": "https://d3corp.com/case-study/primo-family-restaurant/",
+   "status": 200,
+   "slug": "case-study-primo-family-restaurant",
+   "title": "Primo Family Restaurant | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 588,
+   "description": "D3 is proud to partner with Primo Family Restaurant, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/primo-family-restaurant/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage"
+   ],
+   "forms": 1,
+   "loadMs": 1378
+  },
+  {
+   "url": "https://d3corp.com/case-study/high-stakes-bar-grill/",
+   "requestedUrl": "https://d3corp.com/case-study/high-stakes-bar-grill/",
+   "status": 200,
+   "slug": "case-study-high-stakes-bar-grill",
+   "title": "High Stakes Bar & Grill | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 641,
+   "description": "D3 is proud to partner with High Stakes Bar & Grill, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/high-stakes-bar-grill/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage"
+   ],
+   "forms": 1,
+   "loadMs": 2218
+  },
+  {
+   "url": "https://d3corp.com/case-study/somerset-county-tourism/",
+   "requestedUrl": "https://d3corp.com/case-study/somerset-county-tourism/",
+   "status": 200,
+   "slug": "case-study-somerset-county-tourism",
+   "title": "Somerset County Tourism | D3 Case Study | Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 581,
+   "description": "D3 is proud to partner with Somerset County Tourism, providing a variety of digital marketing services that fit their needs and enhance their brand.",
+   "canonical": "https://d3corp.com/case-study/somerset-county-tourism/",
+   "jsonldTypes": [
+    "CreativeWork+Organization+WebSite+ImageObject+BreadcrumbList+WebPage+VideoObject"
+   ],
+   "forms": 1,
+   "loadMs": 46057
+  },
+  {
+   "url": "https://d3corp.com/testimonials/",
+   "requestedUrl": "https://d3corp.com/testimonials/",
+   "status": 200,
+   "slug": "testimonials",
+   "title": "Testimonials | D3 | Ocean City, MD Digital Marketing Agency",
+   "h1": null,
+   "wordCount": 594,
+   "description": "D3 is proud to partner with so many incredible businesses, providing a variety of digital marketing services. See what they have to say about our work.",
+   "canonical": null,
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+CollectionPage"
+   ],
+   "forms": 1,
+   "loadMs": 1308
+  },
+  {
+   "url": "https://d3corp.com/videos/",
+   "requestedUrl": "https://d3corp.com/videos/",
+   "status": 200,
+   "slug": "videos",
+   "title": "Videos | D3 | Professional Multimedia Services",
+   "h1": null,
+   "wordCount": 394,
+   "description": "View the showcase of D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/videos/",
+   "jsonldTypes": [
+    "Organization+WebSite+BreadcrumbList+CollectionPage"
+   ],
+   "forms": 1,
+   "loadMs": 1377
+  },
+  {
+   "url": "https://d3corp.com/video/mackys-where-life-is-good/",
+   "requestedUrl": "https://d3corp.com/video/mackys-where-life-is-good/",
+   "status": 200,
+   "slug": "video-mackys-where-life-is-good",
+   "title": "Macky's: Where Life is Good | D3 Multimedia",
+   "h1": null,
+   "wordCount": 176,
+   "description": "Macky's: Where Life is Good - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/mackys-where-life-is-good/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2400
+  },
+  {
+   "url": "https://d3corp.com/video/ja-leadership-academy-2024/",
+   "requestedUrl": "https://d3corp.com/video/ja-leadership-academy-2024/",
+   "status": 200,
+   "slug": "video-ja-leadership-academy-2024",
+   "title": "JA Leadership Academy 2024 | D3 Multimedia",
+   "h1": null,
+   "wordCount": 171,
+   "description": "JA Leadership Academy 2024 - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/ja-leadership-academy-2024/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2984
+  },
+  {
+   "url": "https://d3corp.com/video/boardwalk-hotel-group-howard-johnson-plaza/",
+   "requestedUrl": "https://d3corp.com/video/boardwalk-hotel-group-howard-johnson-plaza/",
+   "status": 200,
+   "slug": "video-boardwalk-hotel-group-howard-johnson-plaza",
+   "title": "Boardwalk Hotel Group: Howard Johnson Plaza | D3 Multimedia",
+   "h1": null,
+   "wordCount": 171,
+   "description": "Boardwalk Hotel Group: Howard Johnson Plaza - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/boardwalk-hotel-group-howard-johnson-plaza/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2398
+  },
+  {
+   "url": "https://d3corp.com/video/no-one-does-it-like-thrashers-french-fries/",
+   "requestedUrl": "https://d3corp.com/video/no-one-does-it-like-thrashers-french-fries/",
+   "status": 200,
+   "slug": "video-no-one-does-it-like-thrashers-french-fries",
+   "title": "No One Does It Like Thrasher's® French Fries | D3 Multimedia",
+   "h1": null,
+   "wordCount": 176,
+   "description": "No One Does It Like Thrasher's® French Fries - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/no-one-does-it-like-thrashers-french-fries/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2447
+  },
+  {
+   "url": "https://d3corp.com/video/the-burley-oak-story/",
+   "requestedUrl": "https://d3corp.com/video/the-burley-oak-story/",
+   "status": 200,
+   "slug": "video-the-burley-oak-story",
+   "title": "The Burley Oak Story | D3 Multimedia",
+   "h1": null,
+   "wordCount": 180,
+   "description": "The Burley Oak Story - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/the-burley-oak-story/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2522
+  },
+  {
+   "url": "https://d3corp.com/video/done-proper-at-our-harvest/",
+   "requestedUrl": "https://d3corp.com/video/done-proper-at-our-harvest/",
+   "status": 200,
+   "slug": "video-done-proper-at-our-harvest",
+   "title": "Done Proper at Our Harvest | D3 Multimedia",
+   "h1": null,
+   "wordCount": 161,
+   "description": "Done Proper at Our Harvest - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/done-proper-at-our-harvest/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2282
+  },
+  {
+   "url": "https://d3corp.com/video/meet-us-at-the-border-bar/",
+   "requestedUrl": "https://d3corp.com/video/meet-us-at-the-border-bar/",
+   "status": 200,
+   "slug": "video-meet-us-at-the-border-bar",
+   "title": "Meet Us at the Border Bar! | D3 Multimedia",
+   "h1": null,
+   "wordCount": 177,
+   "description": "Meet Us at the Border Bar! - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/meet-us-at-the-border-bar/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2443
+  },
+  {
+   "url": "https://d3corp.com/video/barrio-taco-real-authentic-mexican/",
+   "requestedUrl": "https://d3corp.com/video/barrio-taco-real-authentic-mexican/",
+   "status": 200,
+   "slug": "video-barrio-taco-real-authentic-mexican",
+   "title": "Barrio Taco: Real, Authentic Mexican | D3 Multimedia",
+   "h1": null,
+   "wordCount": 159,
+   "description": "Barrio Taco: Real, Authentic Mexican - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/barrio-taco-real-authentic-mexican/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2423
+  },
+  {
+   "url": "https://d3corp.com/video/add-georges-to-your-next-tailgate-party/",
+   "requestedUrl": "https://d3corp.com/video/add-georges-to-your-next-tailgate-party/",
+   "status": 200,
+   "slug": "video-add-georges-to-your-next-tailgate-party",
+   "title": "Add George's® to Your Next Tailgate Party | D3 Multimedia",
+   "h1": null,
+   "wordCount": 162,
+   "description": "Add George's® to Your Next Tailgate Party - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/add-georges-to-your-next-tailgate-party/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2430
+  },
+  {
+   "url": "https://d3corp.com/video/the-grand-hotel-in-ocean-city-md/",
+   "requestedUrl": "https://d3corp.com/video/the-grand-hotel-in-ocean-city-md/",
+   "status": 200,
+   "slug": "video-the-grand-hotel-in-ocean-city-md",
+   "title": "The Grand Hotel in Ocean City, MD | D3 Multimedia",
+   "h1": null,
+   "wordCount": 185,
+   "description": "The Grand Hotel in Ocean City, MD - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/the-grand-hotel-in-ocean-city-md/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2580
+  },
+  {
+   "url": "https://d3corp.com/video/the-inn-of-cape-may-movies-at-the-beach/",
+   "requestedUrl": "https://d3corp.com/video/the-inn-of-cape-may-movies-at-the-beach/",
+   "status": 200,
+   "slug": "video-the-inn-of-cape-may-movies-at-the-beach",
+   "title": "The Inn of Cape May: Movies at the Beach | D3 Multimedia",
+   "h1": null,
+   "wordCount": 172,
+   "description": "The Inn of Cape May: Movies at the Beach - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/the-inn-of-cape-may-movies-at-the-beach/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 46079
+  },
+  {
+   "url": "https://d3corp.com/video/boardwalk-hotel-group-days-inn/",
+   "requestedUrl": "https://d3corp.com/video/boardwalk-hotel-group-days-inn/",
+   "status": 200,
+   "slug": "video-boardwalk-hotel-group-days-inn",
+   "title": "Boardwalk Hotel Group: Days Inn | D3 Multimedia",
+   "h1": null,
+   "wordCount": 179,
+   "description": "Boardwalk Hotel Group: Days Inn - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/boardwalk-hotel-group-days-inn/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2300
+  },
+  {
+   "url": "https://d3corp.com/video/the-atlantic-sands-experience/",
+   "requestedUrl": "https://d3corp.com/video/the-atlantic-sands-experience/",
+   "status": 200,
+   "slug": "video-the-atlantic-sands-experience",
+   "title": "The Atlantic Sands Experience | D3 Multimedia",
+   "h1": null,
+   "wordCount": 175,
+   "description": "The Atlantic Sands Experience - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/the-atlantic-sands-experience/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 1667
+  },
+  {
+   "url": "https://d3corp.com/video/bism-on-tap-2025/",
+   "requestedUrl": "https://d3corp.com/video/bism-on-tap-2025/",
+   "status": 200,
+   "slug": "video-bism-on-tap-2025",
+   "title": "BISM on Tap 2025 | D3 Multimedia",
+   "h1": null,
+   "wordCount": 166,
+   "description": "BISM on Tap 2025 - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/bism-on-tap-2025/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 1646
+  },
+  {
+   "url": "https://d3corp.com/video/read-across-america-2023/",
+   "requestedUrl": "https://d3corp.com/video/read-across-america-2023/",
+   "status": 200,
+   "slug": "video-read-across-america-2023",
+   "title": "Read Across America 2023 | D3 Multimedia",
+   "h1": null,
+   "wordCount": 174,
+   "description": "Read Across America 2023 - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/read-across-america-2023/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2728
+  },
+  {
+   "url": "https://d3corp.com/video/junior-achievement-18-under-18-2025/",
+   "requestedUrl": "https://d3corp.com/video/junior-achievement-18-under-18-2025/",
+   "status": 200,
+   "slug": "video-junior-achievement-18-under-18-2025",
+   "title": "Junior Achievement 18 Under 18 2025 | D3 Multimedia",
+   "h1": null,
+   "wordCount": 161,
+   "description": "Junior Achievement 18 Under 18 2025 - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/junior-achievement-18-under-18-2025/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 1573
+  },
+  {
+   "url": "https://d3corp.com/video/bism-annual-golf-tournament-2024/",
+   "requestedUrl": "https://d3corp.com/video/bism-annual-golf-tournament-2024/",
+   "status": 200,
+   "slug": "video-bism-annual-golf-tournament-2024",
+   "title": "BISM Annual Golf Tournament 2024 | D3 Multimedia",
+   "h1": null,
+   "wordCount": 172,
+   "description": "BISM Annual Golf Tournament 2024 - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/bism-annual-golf-tournament-2024/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2727
+  },
+  {
+   "url": "https://d3corp.com/video/consumer-debt-with-mid-shore-pro-bono/",
+   "requestedUrl": "https://d3corp.com/video/consumer-debt-with-mid-shore-pro-bono/",
+   "status": 200,
+   "slug": "video-consumer-debt-with-mid-shore-pro-bono",
+   "title": "Consumer Debt with Mid-Shore Pro Bono | D3 Multimedia",
+   "h1": null,
+   "wordCount": 178,
+   "description": "Consumer Debt with Mid-Shore Pro Bono - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/consumer-debt-with-mid-shore-pro-bono/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 46132
+  },
+  {
+   "url": "https://d3corp.com/video/high-speed-fun-in-worcester-county-md/",
+   "requestedUrl": "https://d3corp.com/video/high-speed-fun-in-worcester-county-md/",
+   "status": 200,
+   "slug": "video-high-speed-fun-in-worcester-county-md",
+   "title": "High Speed Fun in Worcester County, MD! | D3 Multimedia",
+   "h1": null,
+   "wordCount": 160,
+   "description": "High Speed Fun in Worcester County, MD! - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/high-speed-fun-in-worcester-county-md/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 46004
+  },
+  {
+   "url": "https://d3corp.com/video/thank-you-for-another-myjollysummer/",
+   "requestedUrl": "https://d3corp.com/video/thank-you-for-another-myjollysummer/",
+   "status": 200,
+   "slug": "video-thank-you-for-another-myjollysummer",
+   "title": "Thank You for Another #MyJollySummer! | D3 Multimedia",
+   "h1": null,
+   "wordCount": 167,
+   "description": "Thank You for Another #MyJollySummer! - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/thank-you-for-another-myjollysummer/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2423
+  },
+  {
+   "url": "https://d3corp.com/video/maryland-state-preferred-provider-program/",
+   "requestedUrl": "https://d3corp.com/video/maryland-state-preferred-provider-program/",
+   "status": 200,
+   "slug": "video-maryland-state-preferred-provider-program",
+   "title": "Maryland State Preferred Provider Program | D3 Multimedia",
+   "h1": null,
+   "wordCount": 177,
+   "description": "Maryland State Preferred Provider Program - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/maryland-state-preferred-provider-program/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2557
+  },
+  {
+   "url": "https://d3corp.com/video/queen-annes-county-where-shore-living-begins/",
+   "requestedUrl": "https://d3corp.com/video/queen-annes-county-where-shore-living-begins/",
+   "status": 200,
+   "slug": "video-queen-annes-county-where-shore-living-begins",
+   "title": "Queen Anne's County: Where Shore Living Begins | D3 Multimedia",
+   "h1": null,
+   "wordCount": 174,
+   "description": "Queen Anne's County: Where Shore Living Begins - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/queen-annes-county-where-shore-living-begins/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 1624
+  },
+  {
+   "url": "https://d3corp.com/video/do-it-like-a-local-in-ocean-city-md/",
+   "requestedUrl": "https://d3corp.com/video/do-it-like-a-local-in-ocean-city-md/",
+   "status": 200,
+   "slug": "video-do-it-like-a-local-in-ocean-city-md",
+   "title": "Do It Like a Local in Ocean City MD | D3 Multimedia",
+   "h1": null,
+   "wordCount": 180,
+   "description": "Do It Like a Local in Ocean City MD - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/do-it-like-a-local-in-ocean-city-md/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2166
+  },
+  {
+   "url": "https://d3corp.com/video/after-summer-in-somerset-county/",
+   "requestedUrl": "https://d3corp.com/video/after-summer-in-somerset-county/",
+   "status": 200,
+   "slug": "video-after-summer-in-somerset-county",
+   "title": "After Summer in Somerset County | D3 Multimedia",
+   "h1": null,
+   "wordCount": 165,
+   "description": "After Summer in Somerset County - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/after-summer-in-somerset-county/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 46101
+  },
+  {
+   "url": "https://d3corp.com/video/catch-the-action-of-the-white-marlin-open/",
+   "requestedUrl": "https://d3corp.com/video/catch-the-action-of-the-white-marlin-open/",
+   "status": 200,
+   "slug": "video-catch-the-action-of-the-white-marlin-open",
+   "title": "Catch the Action of the White Marlin Open | D3 Multimedia",
+   "h1": null,
+   "wordCount": 177,
+   "description": "Catch the Action of the White Marlin Open - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/catch-the-action-of-the-white-marlin-open/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 1614
+  },
+  {
+   "url": "https://d3corp.com/video/see-the-action-in-somerset-county/",
+   "requestedUrl": "https://d3corp.com/video/see-the-action-in-somerset-county/",
+   "status": 200,
+   "slug": "video-see-the-action-in-somerset-county",
+   "title": "See the Action in Somerset County! | D3 Multimedia",
+   "h1": null,
+   "wordCount": 174,
+   "description": "See the Action in Somerset County! - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/see-the-action-in-somerset-county/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2386
+  },
+  {
+   "url": "https://d3corp.com/video/grab-your-buckets-at-fishers-popcorn/",
+   "requestedUrl": "https://d3corp.com/video/grab-your-buckets-at-fishers-popcorn/",
+   "status": 200,
+   "slug": "video-grab-your-buckets-at-fishers-popcorn",
+   "title": "Grab Your Buckets at Fisher's Popcorn | D3 Multimedia",
+   "h1": null,
+   "wordCount": 169,
+   "description": "Grab Your Buckets at Fisher's Popcorn - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/grab-your-buckets-at-fishers-popcorn/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 1554
+  },
+  {
+   "url": "https://d3corp.com/video/the-creation-of-old-bay-vodka/",
+   "requestedUrl": "https://d3corp.com/video/the-creation-of-old-bay-vodka/",
+   "status": 200,
+   "slug": "video-the-creation-of-old-bay-vodka",
+   "title": "The Creation of Old Bay® Vodka | D3 Multimedia",
+   "h1": null,
+   "wordCount": 171,
+   "description": "The Creation of Old Bay® Vodka - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/the-creation-of-old-bay-vodka/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 1704
+  },
+  {
+   "url": "https://d3corp.com/video/donate-to-bism-today/",
+   "requestedUrl": "https://d3corp.com/video/donate-to-bism-today/",
+   "status": 200,
+   "slug": "video-donate-to-bism-today",
+   "title": "Donate to BISM Today! | D3 Multimedia",
+   "h1": null,
+   "wordCount": 139,
+   "description": "Donate to BISM Today! - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/donate-to-bism-today/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 46019
+  },
+  {
+   "url": "https://d3corp.com/video/junior-achievement-inspire-2023/",
+   "requestedUrl": "https://d3corp.com/video/junior-achievement-inspire-2023/",
+   "status": 200,
+   "slug": "video-junior-achievement-inspire-2023",
+   "title": "Junior Achievement: Inspire 2023 | D3 Multimedia",
+   "h1": null,
+   "wordCount": 175,
+   "description": "Junior Achievement: Inspire 2023 - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/junior-achievement-inspire-2023/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2726
+  },
+  {
+   "url": "https://d3corp.com/video/weddings-at-baywood-greens/",
+   "requestedUrl": "https://d3corp.com/video/weddings-at-baywood-greens/",
+   "status": 200,
+   "slug": "video-weddings-at-baywood-greens",
+   "title": "Weddings at Baywood Greens | D3 Multimedia",
+   "h1": null,
+   "wordCount": 158,
+   "description": "Weddings at Baywood Greens - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/weddings-at-baywood-greens/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 1527
+  },
+  {
+   "url": "https://d3corp.com/video/sussex-county-from-the-sky/",
+   "requestedUrl": "https://d3corp.com/video/sussex-county-from-the-sky/",
+   "status": 200,
+   "slug": "video-sussex-county-from-the-sky",
+   "title": "Sussex County from the Sky | D3 Multimedia",
+   "h1": null,
+   "wordCount": 163,
+   "description": "Sussex County from the Sky - Explore D3's professional multimedia and video content provided for our clients.",
+   "canonical": "https://d3corp.com/video/sussex-county-from-the-sky/",
+   "jsonldTypes": [
+    "BreadcrumbList"
+   ],
+   "forms": 1,
+   "loadMs": 2790
+  },
+  {
+   "url": "https://d3corp.com/locations.kml",
+   "status": 200,
+   "contentType": "text/xml"
+  },
+  {
+   "url": "https://d3corp.com/sitemap/",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/request-a-quote",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/request-a-quote/"
+  },
+  {
+   "url": "https://d3corp.com/id3as/page/2/",
+   "requestedUrl": "https://d3corp.com/id3as/page/2/",
+   "status": 200,
+   "slug": "id3as-page-2",
+   "title": "ID3AS | Page 2 of 9 Blog | D3 | Digital Marketing Tips & Advice",
+   "h1": null,
+   "wordCount": 519,
+   "description": "Looking for digital marketing tips? Check out the ID3AS Blog for expert digital marketing knowledge and prime time examples from our D3 team.",
+   "canonical": null,
+   "jsonldTypes": [
+    "Organization+WebSite+CollectionPage"
+   ],
+   "forms": 2,
+   "loadMs": 1383
+  },
+  {
+   "url": "https://d3corp.com/id3as/page/3/",
+   "requestedUrl": "https://d3corp.com/id3as/page/3/",
+   "status": 200,
+   "slug": "id3as-page-3",
+   "title": "ID3AS | Page 3 of 9 Blog | D3 | Digital Marketing Tips & Advice",
+   "h1": null,
+   "wordCount": 610,
+   "description": "Looking for digital marketing tips? Check out the ID3AS Blog for expert digital marketing knowledge and prime time examples from our D3 team.",
+   "canonical": null,
+   "jsonldTypes": [
+    "Organization+WebSite+CollectionPage"
+   ],
+   "forms": 2,
+   "loadMs": 1560
+  },
+  {
+   "url": "https://d3corp.com/id3as/page/9/",
+   "requestedUrl": "https://d3corp.com/id3as/page/9/",
+   "status": 200,
+   "slug": "id3as-page-9",
+   "title": "ID3AS | Page 9 of 9 Blog | D3 | Digital Marketing Tips & Advice",
+   "h1": null,
+   "wordCount": 468,
+   "description": "Looking for digital marketing tips? Check out the ID3AS Blog for expert digital marketing knowledge and prime time examples from our D3 team.",
+   "canonical": null,
+   "jsonldTypes": [
+    "Organization+WebSite+CollectionPage"
+   ],
+   "forms": 2,
+   "loadMs": 1403
+  },
+  {
+   "url": "https://d3corp.com/post/2025/08/11/are-you-writing-for-ai-or-letting-ai-write-for-you/",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/blog/are-you-writing-for-ai-or-letting-ai-write-for-you/"
+  },
+  {
+   "url": "https://d3corp.com/post/2025/09/26/google-ads-or-meta-heres-what-we-tell-clients/",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/blog/google-ads-or-meta-heres-what-we-tell-clients/"
+  },
+  {
+   "url": "https://d3corp.com/post/2024/06/18/ai-lessons-learned/",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/contact-us",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/contact-us/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/",
+   "requestedUrl": "https://d3corp.com/ID3AS",
+   "status": 200,
+   "slug": "id3as",
+   "title": "ID3AS Blog | D3 | Digital Marketing Tips & Advice",
+   "h1": null,
+   "wordCount": 684,
+   "description": "Looking for digital marketing tips? Check out the ID3AS Blog for expert digital marketing knowledge and prime time examples from our D3 team.",
+   "canonical": "https://d3corp.com/id3as/",
+   "jsonldTypes": [
+    "Organization+WebSite+CollectionPage"
+   ],
+   "forms": 2,
+   "loadMs": 2372
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/How-to-Write-an-Effective-Press-Release",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/Crisis-Communication-and-the-Unknown",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://www.d3corp.com/ID3AS/post/Video-Ads-on-YouTube-Define-Your-Target-Audience",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://www.d3corp.com/ID3AS/post/D3s-5-Pay-Per-Click-Ad-Super-Powers",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/The-Magic-of-Remarketing",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/website-resources-tools/post/Important-SEO-Trends-to-Watch",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/spotlight-september-pr-and-crisis-management",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/d3advises-september-managing-online-comments-and-reviews",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/website-resources-tools/post/Using-Original-Content-to-Drive-Traffic-to-Your-Website",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/brand-reputation",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/video-marketing-musts-d3-advises",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/website-resources-tools/post/Finding-Customer-Comments-and-Reviews",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/august-spotlight-finding-your-social-marketing-voice",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/website-resources-tools/post/Why-Your-Business-Needs-Email-Marketing",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/website-resources-tools/post/Best-Practices-of-Email-Marketing",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/Social-Media-Metrics-and-Why-They-Matter",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/Have-You-Defined-Your-Social-Voice-",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/Which-Social-Network-is-Right-for-Me",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/How-to-Develop-an-Effective-Social-Media-Content-Strategy",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/Improve-Your-Social-Engagement",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/WiFi-Working-for-You",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/Google-Ads",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/Facebook-and-Instagram-Ads-",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/Geofencing-Marketing",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/Connected-TV-Advertising",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://www.d3corp.com/ID3AS/post/Social-Media-Metrics-and-Why-They-Matter",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://www.d3corp.com/ID3AS/post/Google-Ads",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://www.d3corp.com/ID3AS/post/Facebook-and-Instagram-Ads-",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://www.d3corp.com/ID3AS/post/Taking-Email-Marketing-to-the-Next-Level",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://www.d3corp.com/ID3AS/post/Digital-Advertising-for-Modern-Marketing",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://www.d3corp.com/ID3AS/post/Why-Your-Business-Needs-Email-Marketing",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/Using-Social-Media-During-COVID-19-5-Tips-to-Remain-Connected",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/Dont-Be-Spam-",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://www.d3corp.com/ID3AS/post/Design-Trends-for-2021",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/Using-Original-Content-to-Drive-Traffic-to-Your-Website",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/Optimizing-Your-Social-Media-Profiles",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/post/Social-Media-Platforms-to-Use-for-Your-Business",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/social-marketing",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/"
+  },
+  {
+   "url": "https://d3corp.com/id3as/page/1/",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/id3as/"
+  },
+  {
+   "url": "https://d3corp.com/id3as/page/4/",
+   "requestedUrl": "https://d3corp.com/id3as/page/4/",
+   "status": 200,
+   "slug": "id3as-page-4",
+   "title": "ID3AS | Page 4 of 9 Blog | D3 | Digital Marketing Tips & Advice",
+   "h1": null,
+   "wordCount": 609,
+   "description": "Looking for digital marketing tips? Check out the ID3AS Blog for expert digital marketing knowledge and prime time examples from our D3 team.",
+   "canonical": null,
+   "jsonldTypes": [
+    "Organization+WebSite+CollectionPage"
+   ],
+   "forms": 2,
+   "loadMs": 2303
+  },
+  {
+   "url": "https://d3corp.com/id3as/page/5/",
+   "requestedUrl": "https://d3corp.com/id3as/page/5/",
+   "status": 200,
+   "slug": "id3as-page-5",
+   "title": "ID3AS | Page 5 of 9 Blog | D3 | Digital Marketing Tips & Advice",
+   "h1": null,
+   "wordCount": 612,
+   "description": "Looking for digital marketing tips? Check out the ID3AS Blog for expert digital marketing knowledge and prime time examples from our D3 team.",
+   "canonical": null,
+   "jsonldTypes": [
+    "Organization+WebSite+CollectionPage"
+   ],
+   "forms": 2,
+   "loadMs": 1976
+  },
+  {
+   "url": "https://d3corp.com/id3as/page/8/",
+   "requestedUrl": "https://d3corp.com/id3as/page/8/",
+   "status": 200,
+   "slug": "id3as-page-8",
+   "title": "ID3AS | Page 8 of 9 Blog | D3 | Digital Marketing Tips & Advice",
+   "h1": null,
+   "wordCount": 609,
+   "description": "Looking for digital marketing tips? Check out the ID3AS Blog for expert digital marketing knowledge and prime time examples from our D3 team.",
+   "canonical": null,
+   "jsonldTypes": [
+    "Organization+WebSite+CollectionPage"
+   ],
+   "forms": 2,
+   "loadMs": 2213
+  },
+  {
+   "url": "https://d3corp.com/id3as/page/7/",
+   "requestedUrl": "https://d3corp.com/id3as/page/7/",
+   "status": 200,
+   "slug": "id3as-page-7",
+   "title": "ID3AS | Page 7 of 9 Blog | D3 | Digital Marketing Tips & Advice",
+   "h1": null,
+   "wordCount": 613,
+   "description": "Looking for digital marketing tips? Check out the ID3AS Blog for expert digital marketing knowledge and prime time examples from our D3 team.",
+   "canonical": null,
+   "jsonldTypes": [
+    "Organization+WebSite+CollectionPage"
+   ],
+   "forms": 2,
+   "loadMs": 2091
+  },
+  {
+   "url": "https://d3corp.com/ID3AS/",
+   "status": 200,
+   "redirectedTo": "https://d3corp.com/ID3AS/"
+  },
+  {
+   "url": "https://d3corp.com/id3as/page/6/",
+   "requestedUrl": "https://d3corp.com/id3as/page/6/",
+   "status": 200,
+   "slug": "id3as-page-6",
+   "title": "ID3AS | Page 6 of 9 Blog | D3 | Digital Marketing Tips & Advice",
+   "h1": null,
+   "wordCount": 621,
+   "description": "Looking for digital marketing tips? Check out the ID3AS Blog for expert digital marketing knowledge and prime time examples from our D3 team.",
+   "canonical": null,
+   "jsonldTypes": [
+    "Organization+WebSite+CollectionPage"
+   ],
+   "forms": 2,
+   "loadMs": 2001
+  }
+ ]
+}

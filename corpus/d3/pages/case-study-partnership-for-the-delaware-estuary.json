@@ -1,0 +1,958 @@
+{
+ "url": "https://d3corp.com/case-study/partnership-for-the-delaware-estuary/",
+ "requestedUrl": "https://d3corp.com/case-study/partnership-for-the-delaware-estuary/",
+ "status": 200,
+ "headers": {
+  "content-encoding": "gzip",
+  "content-type": "text/html; charset=UTF-8",
+  "date": "Wed, 14 Oct 2026 00:31:32 GMT",
+  "etag": "\"69824696ebb801c0f325745b59f23af9\"",
+  "last-modified": "Wed, 14 Oct 2026 00:31:32 GMT",
+  "link": "<https://d3corp.com/wp-json/>; rel=\"https://api.w.org/\"\n<https://d3corp.com/wp-json/wp/v2/case-study/2019>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\n<https://d3corp.com/?p=2019>; rel=shortlink",
+  "permissions-policy": "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+  "referrer-policy": "no-referrer-when-downgrade\nno-referrer-when-downgrade",
+  "server": "nginx",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block"
+ },
+ "loadMs": 2231,
+ "requestCount": 95,
+ "thirdPartyHosts": [
+  "www.youtube.com",
+  "fonts.googleapis.com",
+  "www.google.com",
+  "website-media.com",
+  "cdn.jsdelivr.net",
+  "d3forms.d3corp.com",
+  "use.typekit.net",
+  "p.typekit.net",
+  "www.gstatic.com",
+  "www.googletagmanager.com",
+  "acsbapp.com",
+  "cdn.acsbapp.com",
+  "cdn.apigateway.co",
+  "fonts.gstatic.com",
+  "lexicon-prod.apigateway.co",
+  "conversation-prod.apigateway.co",
+  "lh3.googleusercontent.com",
+  "www.google-analytics.com"
+ ],
+ "internalLinks": [
+  "https://d3corp.com/request-a-quote",
+  "https://d3corp.com/",
+  "https://d3corp.com/meet-us/",
+  "https://d3corp.com/testimonials/",
+  "https://d3corp.com/services/",
+  "https://d3corp.com/ai-assistant/",
+  "https://d3corp.com/answer-engine-optimization/",
+  "https://d3corp.com/digital-advertising/",
+  "https://d3corp.com/email-marketing/",
+  "https://d3corp.com/graphic-design/",
+  "https://d3corp.com/multimedia/",
+  "https://d3corp.com/print/",
+  "https://d3corp.com/search-engine-optimization/",
+  "https://d3corp.com/social-media-marketing/",
+  "https://d3corp.com/strategy/",
+  "https://d3corp.com/websites/",
+  "https://d3corp.com/rapid-design-websites/",
+  "https://d3corp.com/case-study/partnership-for-the-delaware-estuary/",
+  "https://d3corp.com/case-studies/",
+  "https://d3corp.com/videos/",
+  "https://d3corp.com/id3as/",
+  "https://d3corp.com/careers/",
+  "https://d3corp.com/join-our-team/",
+  "https://d3corp.com/contact-us/",
+  "https://d3corp.com/privacy-policy/",
+  "https://d3corp.com/terms/",
+  "https://d3corp.com/webmail/",
+  "https://d3corp.com/accessibility/",
+  "https://d3corp.com/site-map/"
+ ],
+ "externalLinks": [
+  {
+   "href": "https://accessibe.com/blog/knowledgebase/screen-reader-guide",
+   "text": "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.delawareestuary.org/",
+   "text": "www.delawareestuary.org",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.delawareestuary.org/",
+   "text": "important environmental mission",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://policies.google.com/privacy",
+   "text": "Privacy Policy",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/terms",
+   "text": "Terms of Service",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6",
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8",
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://visitoceancity.com/",
+   "text": "Ocean City MD",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://oceancity.org/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://salisburyarea.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://thequietresorts.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  }
+ ],
+ "lang": "en-US",
+ "title": "Partnership for the Delaware Estuary | D3 Case Study | Digital Marketing Agency",
+ "metas": {
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+  "format-detection": "telephone=no,email=no,url=no",
+  "description": "D3 is proud to partner with Partnership for the Delaware Estuary, providing a variety of digital marketing services that fit their needs and enhance their",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Partnership for the Delaware Estuary | D3 Case Study | Digital Marketing Agency",
+  "og:description": "D3 is proud to partner with Partnership for the Delaware Estuary, providing a variety of digital marketing services that fit their needs and enhance their",
+  "og:url": "https://d3corp.com/case-study/partnership-for-the-delaware-estuary/",
+  "og:site_name": "D3",
+  "og:updated_time": "2026-06-16T07:30:24-04:00",
+  "og:image": "https://website-media.com/d3corp/d3-website-2025/2026/05/06124105/Partnership-for-the-DE-Estuary-1024x768.jpg",
+  "og:image:secure_url": "https://website-media.com/d3corp/d3-website-2025/2026/05/06124105/Partnership-for-the-DE-Estuary-1024x768.jpg",
+  "og:image:width": "1024",
+  "og:image:height": "768",
+  "og:image:alt": "Partnership for the Delaware Estuary",
+  "og:image:type": "image/jpeg",
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Partnership for the Delaware Estuary | D3 Case Study | Digital Marketing Agency",
+  "twitter:description": "D3 is proud to partner with Partnership for the Delaware Estuary, providing a variety of digital marketing services that fit their needs and enhance their",
+  "twitter:image": "https://website-media.com/d3corp/d3-website-2025/2026/05/06124105/Partnership-for-the-DE-Estuary-1024x768.jpg",
+  "generator": "WordPress 7.1.2",
+  "msapplication-tileimage": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102958/d3-favicon.png"
+ },
+ "canonical": "https://d3corp.com/case-study/partnership-for-the-delaware-estuary/",
+ "hreflang": [],
+ "generator": "WordPress 7.1.2",
+ "h1": [],
+ "h2": [],
+ "h3": [
+  "Subscribe"
+ ],
+ "wordCount": 547,
+ "text": "Press Alt+1 for screen-reader mode, Alt+0 to cancel Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window D3 Meet Us Services Our Work Blog Careers Contact Us REQUEST A QUOTE Case Study: Partnership for the Delaware Estuary What We Did Websites www.delawareestuary.org The Story The Partnership for the Delaware Estuary’s website had evolved into a tangled web. It was overgrown, hard to manage, and nearly impossible to navigate. Over time, it had “ballooned” into a sprawling system with overlapping navigation menus, and content spread across an inconsistent hierarchy that made nearly everything hard to find. With an overwhelming amount of information burying critical content, and no clear path for users, PDE’s stunning photography and impactful programs were overshadowed. Beyond user experience challenges, the backend of the website was equally difficult to manage. Administrative usability issues were taking valuable time away from engaging their audience. Recognizing that it was time for an overhaul, PDE sought out D3 after seeing our award-winning work, engaging us to redesign their website in time for their 30th Anniversary. Our Journey This project stood out for its sheer scale. With the extensive volume of content PDE manages, from scientific research products to educational and programmatic resources, our first step was to take a highly strategic approach to organization and usability. The D3 team worked collaboratively with their team to restructure the site, ensuring the navigation allowed users to deeply explore their work without being bombarded with options. We shared the goal of bringing clarity to complexity and designed a scalable system that allows users to move through the content naturally. Custom sub-navigation modules let visitors dive further into topics like freshwater mussels, stormwater management, and coalition building. The bright, welcoming design brings energy to the experience, highlights PDE’s captivating photography, and presents detailed scientific information in an engaging and digestible way. For D3, improving the administrative experience was almost as important as the design. The new WordPress site gives PDE’s team the tools they need to easily manage and expand their content to support ongoing growth. The final product dramatically improved the website experience and performance. Visitors can quickly find what they need or delve into the details on programs, meeting minutes, and educational tools. The new site structure improves SEO and visibility across search engines and AI tools. Ultimately, the new site strengthens PDE’s ability to connect with donors, volunteers, and the communities they serve, making it easier to continue their important environmental mission. Nonprofit, science, and technology companies with a heavy emphasis on documentation or a wide breadth and depth of programs can trust D3 to organize, design, and produce website strategies for large-scale projects Subscribe Get the latest marketing news and advice. First Name Last Name Email SUBSCRIBE This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. 12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842 410-213-2400 212 West Main Street Salisbury, Maryland 21801 Meet Us Testimonials Services Case Studies Videos ID3AS Blog Careers Contact Us Privacy Policy Terms & Conditions Webmail Accessibility Site Map Copyright © 2026 D3. All Rights Reserved. Website Design by D3, Ocean City MD Our Partners PREVIOUS Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google NEXT",
+ "images": [
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website-300x151.png",
+   "alt": "D3",
+   "w": 300,
+   "h": 151,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/05/06124637/monitor-delaware-estuary.png",
+   "alt": "Monitor showing Partnership for the Delaware Estuary home page",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/05/06170120/cell-phone-delaware-estuary.png",
+   "alt": "Cell phone showing the Partnership for the Delaware Estuary homepage",
+   "w": 401,
+   "h": 668,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/05/06113049/extra-graphic-delaware-estuary-235x300.png",
+   "alt": "two women in tall grass working on a study in Delaware",
+   "w": 235,
+   "h": 300,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Robot-Small.webp",
+   "alt": "",
+   "w": 166,
+   "h": 213,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102744/ocean-city-chamber-logo.png",
+   "alt": "Ocean City chamber logo",
+   "w": 1059,
+   "h": 1500,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-82.webp",
+   "alt": "",
+   "w": 44,
+   "h": 62,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-83.webp",
+   "alt": "",
+   "w": 167,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo-300x68.webp",
+   "alt": "YouTube Logo",
+   "w": 192,
+   "h": 43,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo-300x86.webp",
+   "alt": "Shopify logo",
+   "w": 189,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 209,
+   "h": 59,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 78,
+   "h": 105,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo-300x61.webp",
+   "alt": "Woo Commerce logo",
+   "w": 192,
+   "h": 39,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo-300x52.webp",
+   "alt": "WordPress logo",
+   "w": 192,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo-300x60.webp",
+   "alt": "Bing logo",
+   "w": 192,
+   "h": 38,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 664,
+   "h": 196,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo-300x68.webp",
+   "alt": "YouTube Logo",
+   "w": 192,
+   "h": 43,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo-300x86.webp",
+   "alt": "Shopify logo",
+   "w": 189,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 209,
+   "h": 59,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 78,
+   "h": 105,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo-300x61.webp",
+   "alt": "Woo Commerce logo",
+   "w": 192,
+   "h": 39,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo-300x52.webp",
+   "alt": "WordPress logo",
+   "w": 192,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo-300x60.webp",
+   "alt": "Bing logo",
+   "w": 192,
+   "h": 38,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 664,
+   "h": 196,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  }
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "CreativeWork",
+     "name": "Partnership for the Delaware Estuary ",
+     "description": "D3 redesigned the Partnership for the Delaware Estuary’s complex, science-heavy website to simplify navigation, improve content accessibility, and create a more engaging user experience—making environmental topics easier to explore while providing their team with a streamlined, easy-to-manage backend.",
+     "url": "https://d3corp.com/case-study/partnership-for-the-delaware-estuary/",
+     "about": [],
+     "publisher": {
+      "@type": "Organization",
+      "name": "D3"
+     },
+     "author": {
+      "@type": "Organization",
+      "name": "D3"
+     },
+     "citation": "https://www.delawareestuary.org/"
+    },
+    {
+     "@type": "Organization",
+     "@id": "https://d3corp.com/#organization",
+     "name": "D3",
+     "url": "https://d3corp.com",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://d3corp.com/#logo",
+      "url": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "contentUrl": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "caption": "D3",
+      "inLanguage": "en-US",
+      "width": "694",
+      "height": "350"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://d3corp.com/#website",
+     "url": "https://d3corp.com",
+     "name": "D3",
+     "publisher": {
+      "@id": "https://d3corp.com/#organization"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://website-media.com/d3corp/d3-website-2025/2026/05/06124105/Partnership-for-the-DE-Estuary-scaled.jpg",
+     "url": "https://website-media.com/d3corp/d3-website-2025/2026/05/06124105/Partnership-for-the-DE-Estuary-scaled.jpg",
+     "width": "2560",
+     "height": "1920",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://d3corp.com/case-study/partnership-for-the-delaware-estuary/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://d3corp.com/case-studies/",
+        "name": "Case Studies"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://d3corp.com/case-study/partnership-for-the-delaware-estuary/",
+        "name": "Partnership for the Delaware Estuary"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://d3corp.com/case-study/partnership-for-the-delaware-estuary/#webpage",
+     "url": "https://d3corp.com/case-study/partnership-for-the-delaware-estuary/",
+     "name": "Partnership for the Delaware Estuary | D3 Case Study | Digital Marketing Agency",
+     "datePublished": "2026-05-08T16:06:55-04:00",
+     "dateModified": "2026-06-16T07:30:24-04:00",
+     "isPartOf": {
+      "@id": "https://d3corp.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://website-media.com/d3corp/d3-website-2025/2026/05/06124105/Partnership-for-the-DE-Estuary-scaled.jpg"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://d3corp.com/case-study/partnership-for-the-delaware-estuary/#breadcrumb"
+     }
+    }
+   ]
+  }
+ ],
+ "forms": [
+  {
+   "action": "ref: <Node>",
+   "method": "post",
+   "id": "frmD3Forms5112",
+   "fields": [
+    {
+     "name": "submit_to_system",
+     "type": "text",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "first_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "First Name",
+     "label": "First Name"
+    },
+    {
+     "name": "last_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "Last Name",
+     "label": "Last Name"
+    },
+    {
+     "name": "email",
+     "type": "email",
+     "required": false,
+     "placeholder": "Email",
+     "label": "Email"
+    }
+   ]
+  }
+ ],
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-WY4W4ZLGEG&cx=c&gtm=4e6ac1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-NGGH6CL",
+  "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtlvjEjk2TqdwOQz/recaptcha__en.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+  "https://www.google.com/recaptcha/api.js?render=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6",
+  "https://cdn.apigateway.co/webchat-client..prod/sdk.js",
+  "https://d3corp.com/app/plugins/wpconsent-premium/build/frontend-pro.js?ver=69fedfaec866286d7fe0",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/d3forms.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/bload/bload.min.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.iframe-transport.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.fileupload.js",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-client-device-data.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-media-gate.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-youtube.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-vimeo.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-soundcloud.js?ver=2.0.5",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.14.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/bootstrap.bundle.min.js?ver=4.3.1",
+  "https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/slick.min.js?ver=1.8.1",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/lazyload.min.js?ver=12.4.0",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.matchHeight-min.js?ver=0.7.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.fancybox.v3.js?ver=3.5.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/global.js",
+  "https://d3forms.d3corp.com/d3fst/recaptcha.js?ver=7.1.2",
+  "https://acsbapp.com/apps/app/dist/js/app.js"
+ ],
+ "iframes": [
+  "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6&co=aHR0cHM6Ly9kM2NvcnAuY29tOjQ0Mw..&hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz&size=invisible&anchor-ms=20000&execute-ms=30000&cb=gtxdot2ozsox"
+ ],
+ "ctas": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  }
+ ],
+ "phones": [
+  "410-213-2400"
+ ],
+ "emails": [],
+ "telLinks": [
+  "tel:+1-4102132400"
+ ],
+ "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+ "nav": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "AI Assistant",
+   "href": "https://d3corp.com/ai-assistant/"
+  },
+  {
+   "text": "Answer Engine Optimization",
+   "href": "https://d3corp.com/answer-engine-optimization/"
+  },
+  {
+   "text": "Digital Advertising",
+   "href": "https://d3corp.com/digital-advertising/"
+  },
+  {
+   "text": "Email Marketing",
+   "href": "https://d3corp.com/email-marketing/"
+  },
+  {
+   "text": "Graphic Design",
+   "href": "https://d3corp.com/graphic-design/"
+  },
+  {
+   "text": "Multimedia",
+   "href": "https://d3corp.com/multimedia/"
+  },
+  {
+   "text": "Print",
+   "href": "https://d3corp.com/print/"
+  },
+  {
+   "text": "Search Engine Optimization",
+   "href": "https://d3corp.com/search-engine-optimization/"
+  },
+  {
+   "text": "Social Media Marketing",
+   "href": "https://d3corp.com/social-media-marketing/"
+  },
+  {
+   "text": "Strategy",
+   "href": "https://d3corp.com/strategy/"
+  },
+  {
+   "text": "Custom Websites",
+   "href": "https://d3corp.com/websites/"
+  },
+  {
+   "text": "Rapid Design Websites",
+   "href": "https://d3corp.com/rapid-design-websites/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Our Work",
+   "href": ""
+  },
+  {
+   "text": "Our Work",
+   "href": "https://d3corp.com/case-study/partnership-for-the-delaware-estuary/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Join Our Team",
+   "href": "https://d3corp.com/join-our-team/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  }
+ ],
+ "footer": [
+  {
+   "text": "Privacy Policy",
+   "href": "https://policies.google.com/privacy"
+  },
+  {
+   "text": "Terms of Service",
+   "href": "https://policies.google.com/terms"
+  },
+  {
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6"
+  },
+  {
+   "text": "410-213-2400",
+   "href": "tel:+1-4102132400"
+  },
+  {
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "ID3AS Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "Privacy Policy",
+   "href": "https://d3corp.com/privacy-policy/"
+  },
+  {
+   "text": "Terms & Conditions",
+   "href": "https://d3corp.com/terms/"
+  },
+  {
+   "text": "Webmail",
+   "href": "https://d3corp.com/webmail/"
+  },
+  {
+   "text": "Accessibility",
+   "href": "https://d3corp.com/accessibility/"
+  },
+  {
+   "text": "Site Map",
+   "href": "https://d3corp.com/site-map/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Website Design",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Ocean City MD",
+   "href": "https://visitoceancity.com/"
+  }
+ ]
+}

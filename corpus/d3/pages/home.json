@@ -1,0 +1,1254 @@
+{
+ "url": "https://d3corp.com/",
+ "requestedUrl": "https://d3corp.com/",
+ "status": 200,
+ "headers": {
+  "accept-ranges": "bytes",
+  "content-encoding": "gzip",
+  "content-length": "28806",
+  "content-type": "text/html",
+  "date": "Wed, 14 Oct 2026 00:25:32 GMT",
+  "etag": "\"6acebf70-7086\"",
+  "last-modified": "Tue, 13 Oct 2026 23:32:00 GMT",
+  "referrer-policy": "no-referrer-when-downgrade",
+  "server": "nginx"
+ },
+ "loadMs": 3390,
+ "requestCount": 108,
+ "thirdPartyHosts": [
+  "fonts.googleapis.com",
+  "www.google.com",
+  "website-media.com",
+  "www.gstatic.com",
+  "use.typekit.net",
+  "cdn.jsdelivr.net",
+  "www.googletagmanager.com",
+  "p.typekit.net",
+  "d3forms.d3corp.com",
+  "acsbapp.com",
+  "cdn.apigateway.co",
+  "cdn.acsbapp.com",
+  "fonts.gstatic.com",
+  "www.google-analytics.com",
+  "lexicon-prod.apigateway.co",
+  "conversation-prod.apigateway.co",
+  "lh3.googleusercontent.com"
+ ],
+ "internalLinks": [
+  "https://d3corp.com/request-a-quote",
+  "https://d3corp.com/",
+  "https://d3corp.com/meet-us/",
+  "https://d3corp.com/testimonials/",
+  "https://d3corp.com/services/",
+  "https://d3corp.com/ai-assistant/",
+  "https://d3corp.com/answer-engine-optimization/",
+  "https://d3corp.com/digital-advertising/",
+  "https://d3corp.com/email-marketing/",
+  "https://d3corp.com/graphic-design/",
+  "https://d3corp.com/multimedia/",
+  "https://d3corp.com/print/",
+  "https://d3corp.com/search-engine-optimization/",
+  "https://d3corp.com/social-media-marketing/",
+  "https://d3corp.com/strategy/",
+  "https://d3corp.com/websites/",
+  "https://d3corp.com/rapid-design-websites/",
+  "https://d3corp.com/case-studies/",
+  "https://d3corp.com/videos/",
+  "https://d3corp.com/id3as/",
+  "https://d3corp.com/careers/",
+  "https://d3corp.com/join-our-team/",
+  "https://d3corp.com/contact-us/",
+  "https://d3corp.com/case-study/farmers-bank-of-willards/",
+  "https://d3corp.com/case-study/jolly-roger-amusements/",
+  "https://d3corp.com/case-study/partnership-for-the-delaware-estuary/",
+  "https://d3corp.com/case-study/visiting-angels-eastern-shore-md/",
+  "https://d3corp.com/case-study/babe-ruth-birthplace-museum/",
+  "https://d3corp.com/case-study/white-marlin-open/",
+  "https://d3corp.com/case-study/boardwalk-hotel-group/",
+  "https://d3corp.com/case-study/primo-family-restaurant/",
+  "https://d3corp.com/case-study/idec-elevator-products/",
+  "https://d3corp.com/case-study/somerset-county-tourism/",
+  "https://d3corp.com/case-study/crabs-to-go/",
+  "https://d3corp.com/case-study/old-pro-golf/",
+  "https://d3corp.com/case-study/chesapeake-country-byway/",
+  "https://d3corp.com/case-study/seacrets-jamaica-usa/",
+  "https://d3corp.com/case-study/the-land-group/",
+  "https://d3corp.com/case-study/castle-in-the-sand-hotel/",
+  "https://d3corp.com/case-study/delaware-elevator-inc/",
+  "https://d3corp.com/case-study/remember-me-glass/",
+  "https://d3corp.com/case-study/burley-oak/",
+  "https://d3corp.com/case-study/chesapeake-health-care/",
+  "https://d3corp.com/privacy-policy/",
+  "https://d3corp.com/terms/",
+  "https://d3corp.com/webmail/",
+  "https://d3corp.com/accessibility/",
+  "https://d3corp.com/site-map/"
+ ],
+ "externalLinks": [
+  {
+   "href": "https://accessibe.com/blog/knowledgebase/screen-reader-guide",
+   "text": "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://policies.google.com/privacy",
+   "text": "Privacy Policy",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/terms",
+   "text": "Terms of Service",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/privacy",
+   "text": "Privacy Policy",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/terms",
+   "text": "Terms of Service",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6",
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8",
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://visitoceancity.com/",
+   "text": "Ocean City MD",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://oceancity.org/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://salisburyarea.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://thequietresorts.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  }
+ ],
+ "lang": "en-US",
+ "title": "D3 Digital Marketing Agency | Full-Service Marketing Experts in Ocean City & Salisbury, MD | AEO, SEO, PPC, Multimedia, Website & Email Marketing Services",
+ "metas": {
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+  "format-detection": "telephone=no,email=no,url=no",
+  "description": "D3, a full service digital marketing agency based in OCMD & Salisbury, MD, serves clients regionally with web design, digital ads, social media, SEO & more.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og:locale": "en_US",
+  "og:type": "website",
+  "og:title": "D3 Digital Marketing Agency | Full-Service Marketing Experts in Ocean City & Salisbury, MD | AEO, SEO, PPC, Multimedia, Website & Email Marketing Services",
+  "og:description": "D3, a full service digital marketing agency based in OCMD & Salisbury, MD, serves clients regionally with web design, digital ads, social media, SEO & more.",
+  "og:url": "https://d3corp.com/",
+  "og:site_name": "D3",
+  "og:updated_time": "2026-09-25T16:08:08-04:00",
+  "article:published_time": "2025-07-22T09:48:02-04:00",
+  "article:modified_time": "2026-09-25T16:08:08-04:00",
+  "twitter:card": "summary_large_image",
+  "twitter:title": "D3 Digital Marketing Agency | Full-Service Marketing Experts in Ocean City & Salisbury, MD | AEO, SEO, PPC, Multimedia, Website & Email Marketing Services",
+  "twitter:description": "D3, a full service digital marketing agency based in OCMD & Salisbury, MD, serves clients regionally with web design, digital ads, social media, SEO & more.",
+  "twitter:label1": "Written by",
+  "twitter:data1": "D3 Support",
+  "twitter:label2": "Time to read",
+  "twitter:data2": "Less than a minute",
+  "google-site-verification": "Vrg8_0XhjsRYjf1XCCidiMo300ew3rscxQDRvIpLZOY",
+  "generator": "WordPress 7.1.2",
+  "msapplication-tileimage": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102958/d3-favicon.png"
+ },
+ "canonical": "https://d3corp.com/",
+ "hreflang": [],
+ "generator": "WordPress 7.1.2",
+ "h1": [
+  "A Full-Service Digital Marketing Agency That Drives Real Growth"
+ ],
+ "h2": [
+  "A Full-Service Digital Marketing Agency That Drives Real Growth",
+  "Digital Marketing Services That Deliver",
+  "Digital Marketing Services That Deliver",
+  "Client Reviews",
+  "Learn More About D3’s Top-Rated Digital Marketing Services"
+ ],
+ "h3": [
+  "Boardwalk Hotel Group",
+  "Old Pro Golf",
+  "Chesapeake Country All-American Road Alliance",
+  "Balance Experts",
+  "Delaware Elevator & IDEC Elevator Products",
+  "Youth Empowered Society’s YES Drop-In Center",
+  "Worcester County Tourism",
+  "Unscene Productions",
+  "Maryland Tourism Coalition",
+  "Coastal Homes & Design and Delaware Crawlspace Company",
+  "Junior Achievement",
+  "White Marlin Open",
+  "Salisbury Area Chamber of Commerce",
+  "Holman Aviation",
+  "Remember Me Glass",
+  "Maryland Capital Enterprises",
+  "Boardwalk Hotel Group",
+  "Old Pro Golf",
+  "Chesapeake Country All-American Road Alliance",
+  "Balance Experts",
+  "Delaware Elevator & IDEC Elevator Products",
+  "Youth Empowered Society’s YES Drop-In Center",
+  "Worcester County Tourism",
+  "Unscene Productions",
+  "Maryland Tourism Coalition",
+  "Coastal Homes & Design and Delaware Crawlspace Company",
+  "Junior Achievement",
+  "White Marlin Open",
+  "Salisbury Area Chamber of Commerce",
+  "Holman Aviation",
+  "Remember Me Glass",
+  "Maryland Capital Enterprises",
+  "Boardwalk Hotel Group",
+  "Subscribe"
+ ],
+ "wordCount": 3361,
+ "text": "Press Alt+1 for screen-reader mode, Alt+0 to cancel Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window D3 Meet Us Services Our Work Blog Careers Contact Us REQUEST A QUOTE A Full-Service Digital Marketing Agency That Drives Real Growth Branding Website Design Marketing Search Engine Optimization Multimedia Content Creation, Strategy & PR VIEW ALL SERVICES Case Studies Digital Marketing Services That Deliver FARMERS BANK OF WILLARDS A century of trust, built for what’s next: With 101 years of history on Delmarva, Farmers Bank of Willards has long been rooted in the Eastern Shore community. D3 partnered with the bank to modernize its marketing strategy and evolve its digital presence, creating a more cohesive brand experience while staying true to the community-focused institution customers have known for generations. VIEW CASE STUDY JOLLY ROGER AMUSEMENTS A familiar legend, newly charted: D3 reimagined Jolly Roger® Amusement Parks, a beloved Ocean City, MD brand, for a new generation of visitors. Over the years, Jolly Roger’s digital presence had expanded across multiple sister websites representing all of its parks and attractions. We envisioned a solution to reduce complexity from both a management and maintenance perspective, and to modernize the famed amusement park’s brand presence. VIEW CASE STUDY PARTNERSHIP FOR THE DELAWARE ESTUARY The Partnership for the Delaware Estuary drives vital scientific research and delivers engaging educational programs and community events that advance its mission. D3’s website redesign streamlined complex and competing navigation systems for a massive, science-heavy content library. We created a clear, navigable, and visually engaging experience that makes multifaceted environmental topics accessible to all while empowering their team with an easy-to-manage backend. VIEW CASE STUDY VISITING ANGELS® EASTERN SHORE, MD When Visiting Angels consolidated three Eastern Shore offices under one brand, they needed a localized SEO strategy that could compete with both their franchise network and regional competitors. D3 implemented a localized SEO and AEO strategy that included localized landing pages, enhanced service descriptions, structured FAQs, and optimized Google My Business Profiles. D3’s work doubled the number of caregivers and clients, drove measurable growth in organic website traffic, search rankings, referrals, and caregiver applications. VIEW CASE STUDY BABE RUTH BIRTHPLACE & MUSEUM The Babe Ruth Birthplace & Museum near Camden Yards is a historic landmark for baseball fans visiting Baltimore. D3 refreshed the site’s visuals while maintaining the museum’s iconic branding, creating a homepage that is both engaging and functional. The updated website also supports multiple fundraising channels, helping the museum continue its mission of preserving sports history. VIEW CASE STUDY WHITE MARLIN OPEN White Marlin Open has been a valued client of D3 since 2016, with nearly a decade of ongoing collaboration. Each year, D3 partners closely with the WMO team to deliver a seamless digital experience for participants and spectators throughout the tournament, from pre-event to post-event. VIEW CASE STUDY BOARDWALK HOTEL GROUP Building on a long-standing relationship, D3 led a comprehensive overhaul of Boardwalk Hotel Group’s four websites, refreshing photography and video, restructuring and streamlining extensive content, and updating design to better meet evolving guest expectations. The project showcased our project management strength and expertise while integrating seamlessly with ongoing marketing efforts to ensure cohesion across all initiatives. The result is a modern, unified website experience that maintains strong search performance, aligns with industry standards, and continues to drive... VIEW CASE STUDY PRIMO FAMILY RESTAURANT After a longstanding relationship with D3 for website hosting, Primo Family Restaurant partnered with our team to reimagine their digital presence and unify their marketing efforts into a cohesive, growth-focused strategy. Our goal was to create a digital experience that reflects the same quality, warmth, and authenticity guests enjoy in person. Through a comprehensive marketing initiative, including a new website and professional photography, social media and email marketing support, lead capture, and digital advertising, D3 brought Primo’s... VIEW CASE STUDY IDEC ELEVATOR PRODUCTS IDEC Elevator Products partnered with D3 to bring elevator interiors to life online. The custom Cab Configurator lets users design every detail of their elevator cab — wall panels, floors, ceilings, and handrails — with real-time visualization from multiple angles. Beyond the configurator, D3 refreshed IDEC’s website with a modern, flexible design that highlights products, improves usability, and allows IDEC to manage updates without a developer. The result is an innovative, user-friendly platform that elevates the customer... VIEW CASE STUDY SOMERSET COUNTY TOURISM Located along Maryland’s Eastern Shore, Somerset County offers a destination defined by waterfront beauty, local culture, and small-town charm. As competition for travelers’ attention increased, D3 partnered with Somerset County Tourism to elevate the brand through a cohesive, multi-channel strategy. Together, we combined compelling storytelling, vibrant visuals, and targeted digital marketing to reach key feeder markets, sparking discovery, inspiring travel, and positioning Somerset County as a destination worth slowing down for. VIEW CASE STUDY CRABS TO GO Crabs To Go, a long-time local favorite for fresh, carry-out seafood, needed a modern website to match their year-round demand and new payment processing system. By uniting web, social, and creative efforts, we delivered a cohesive, high-performing site that immediately increased online orders and better reflects the quality and character of this community staple. VIEW CASE STUDY OLD PRO GOLF Old Pro Golf has been delighting families in Ocean City, MD, since 1963. D3 helped bring their iconic courses into the modern era with a refreshed brand, vibrant photography, a dynamic new website, and playful social storytelling. From immersive course visuals to an online scorecard and streamlined event booking, every touchpoint celebrates nostalgia while engaging a new generation of mini-golfers. VIEW CASE STUDY CHESAPEAKE COUNTRY BYWAY Nine Eastern Shore counties joined forces to create the Chesapeake Country Byway, preserving history and inspiring exploration. D3 helped bring their vision to life with an interactive platform that guides travelers in real time, highlighting attractions, routes, and local insights. From soft crab sandwiches to family adventures along Route 50, the Byway offers a mobile-friendly, hyper-personalized experience, laying the foundation for the next generation of AI-driven, responsive tourism. VIEW CASE STUDY SEACRETS® JAMAICA USA For over 35 years, Seacrets Jamaica USA has been Ocean City’s premier beach nightclub — and now, with 49th St. & Beyond, it’s a full resort experience featuring fine dining at The Hideaway, bayside weddings at Area 51, cabanas, tiki cruises, and exclusive finds at Seacrets Boutique. D3 brought this vision online with a seamless, energetic website that showcases dining, live music, private events, shopping, and ticketed experiences, all while capturing Seacrets’ playful, beachside personality in a... VIEW CASE STUDY THE LAND GROUP For Ben Alder, founder of The Land Group, land isn’t just a transaction; it’s a long-term asset, an ecological resource, and a part of who he is. The company needed a website that reflected this philosophy, while also functioning as a powerful tool for buyers, sellers, and stakeholders to explore properties and understand the deeper mission behind their work. Previous attempts to build custom features, especially an interactive land mapping tool, had fallen short. The Land Group... VIEW CASE STUDY CASTLE IN THE SAND HOTEL The Castle in the Sand Hotel has been an iconic Ocean City, MD destination for generations. Owned and operated by the Showell family, the hotel is known for its stunning oceanfront location, close to all the action, its variety of accommodations, and its family-friendly atmosphere. VIEW CASE STUDY DELAWARE ELEVATOR, INC. Delaware Elevator, Inc., a fourth-generation family owned and operated business, has roots as far back as the 1930’s in Wilmington, Delaware. The company was officially established and headquartered in Salisbury, Maryland in 1946 and has grown into one of the largest independent elevator corporations in the United States. Delaware Elevator has expanded its footprint from Wilmington, Delaware all the way down to the Florida Keys, offering a full range of services, including maintenance, repair, and installation of... VIEW CASE STUDY REMEMBER ME GLASS Jeffrey Auxer’s venture into Venetian glassmaking started as a casual elective during his time at Salisbury University, quickly blossoming into a full-blown passion. In 2009, Jeffrey opened his own gallery and studio, Jeffrey Auxer Designs, in Berlin, Maryland and his enthusiasm for glassblowing evolved into a successful art career. VIEW CASE STUDY BURLEY OAK Burley Oak Brewing Company has been a staple in Berlin, MD, since 2009, known for its handcrafted beers, community-driven spirit, and creative, laid-back atmosphere. Founded by Bryan Brushmiller, Burley Oak is more than just a brewery; it’s where locals gather, artists showcase their work, and craft beer lovers find something new with every visit. Burley Oak is a hub for a good time, from their historical space and passionate team to their constantly evolving tap list, live... VIEW CASE STUDY CHESAPEAKE HEALTH CARE Chesapeake Health Care, CHC, formerly known as Three Lower Counties Community Services, has a rich history rooted in healthcare excellence and community service. CHC was founded to address the healthcare needs of underserved communities on Maryland’s Eastern Shore, serving as a vital resource for affordable, accessible, patient and family-centered healthcare services. Over the years, the organization has grown its workforce to over 600 team members, treating more than 65,000 patients yearly, throughout its 16 specialized locations, two... VIEW CASE STUDY 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 Client Reviews PREVIOUS Boardwalk Hotel Group I have been working for the Boardwalk Hotel Group for 22+ years, and for much of that time, my position has been Revenue Manager for our three hotels. D3 corp. has been our website designer, online reservations provider, email blast/social media manager, and so ...Read More Karen Decker Old Pro Golf D3 was an amazing partner (and continues to be) for all our marketing needs at Old Pro Golf. A creative, talented, and caring group of people, they were there for all our marketing needs with expert advice and have gone above and beyond at ...Read More Anthony Cerrato Chesapeake Country All-American Road Alliance The Chesapeake Country All-American Road Alliance (CCAAR) selected D3 to design and launch a custom website for the 419-mile All-American Road. From the beginning, it was clear this project was more than “just another website build” for the D3 team. D3’s team worked collaboratively ...Read More Kristen Goller Balance Experts A 5-star team delivering 5-star service and support! I have had the pleasure of working with D3 on multiple projects: websites for my current company and the one I previously worked at. D3 team makes it easy as they guide you through the process ...Read More Alena Pauliuchkova Delaware Elevator & IDEC Elevator Products I absolutely love working with the D3 Team! They’ve been an invaluable partner for me and the companies I oversee. I highly recommend D3 to anyone looking for a strategic, reliable marketing agency to partner with. Their team is incredibly responsive, creative, and consistently ...Read More Charley Meeks Youth Empowered Society’s YES Drop-In Center Thank you, D3, for capturing the heart of our work so beautifully. We’re truly grateful for your partnership and the care your team brought to this project. This new website isn’t just a digital refresh—it’s a doorway. A doorway for young people in Baltimore ...Read More Allen Blackwell Worcester County Tourism We recently partnered with the D3 team to create a brand-new website highlighting the Chesapeake Country Byway. Their team made the entire process incredibly smooth, with excellent communication and attention to detail at every stage. We're thrilled with the final result and couldn’t be ...Read More Unscene Productions We love working with D3 over the years! Their website design is amazing and the support we receive for our TV show \"Hooked On OC\" is like none-other. We continue to work with them on many projects and the experience is always great. Amber ...Read More Maryland Tourism Coalition Maryland Tourism Coalition has been using D3 for more years than I can count. We are very lucky to have them as a vendor as they are part of our team and are always there to help out, have great turn around times and ...Read More Ruth Toomey Coastal Homes & Design and Delaware Crawlspace Company D3 has been a great resource for website building and SEO strategy for both of our companies (Delaware Crawlspace Company and Coastal Homes & Design) since 2018. John and his team are very responsive to our needs and offer valuable consultation that in the ...Read More J.R. Ennis Junior Achievement The D3 team has been instrumental in capturing the mission of JA Inspire, which is to give eighth grade students throughout the Eastern Shore an opportunity to plan their careers from an early age. The event pairs students with business and organization representatives in ...Read More Ricky Pollitt White Marlin Open The staff at D3 is knowledgeable, professional and very responsive. They are able to tackle all of our website, print and social media needs effortlessly, no matter how complex the project! I highly recommend D3! Madelyne Rowan Salisbury Area Chamber of Commerce D3Corp is one of the most client focused and driven companies serving Delmarva businesses and organizations. The TEAM at D3Corp works with clients to insure success at all levels. The Salisbury Area Chamber of Commerce and our membership representing five mid-Atlantic States, have valued ...Read More Bill Chambers Holman Aviation A great team of people at D3Corp. They helped us design a new website in a timely, professional manner. Would highly recommend this group! Jamie Holman-Ronholdt Remember Me Glass I would encourage anyone who wants to start a new business or is looking for marketing solutions for their existing business to contact D3. I brought D3 a new business idea that I was working on that needed a specialized website including a custom ...Read More Jeffrey Auxer Maryland Capital Enterprises The team at D3 is the best you will find. The customer service is responsive, respectful and helps me to clarify the many details that a website encompasses. They are local and right here when you need them. I highly recommend. Dory Boardwalk Hotel Group I have been working for the Boardwalk Hotel Group for 22+ years, and for much of that time, my position has been Revenue Manager for our three hotels. D3 corp. has been our website designer, online reservations provider, email blast/social media manager, and so ...Read More Karen Decker Old Pro Golf D3 was an amazing partner (and continues to be) for all our marketing needs at Old Pro Golf. A creative, talented, and caring group of people, they were there for all our marketing needs with expert advice and have gone above and beyond at ...Read More Anthony Cerrato Chesapeake Country All-American Road Alliance The Chesapeake Country All-American Road Alliance (CCAAR) selected D3 to design and launch a custom website for the 419-mile All-American Road. From the beginning, it was clear this project was more than “just another website build” for the D3 team. D3’s team worked collaboratively ...Read More Kristen Goller Balance Experts A 5-star team delivering 5-star service and support! I have had the pleasure of working with D3 on multiple projects: websites for my current company and the one I previously worked at. D3 team makes it easy as they guide you through the process ...Read More Alena Pauliuchkova Delaware Elevator & IDEC Elevator Products I absolutely love working with the D3 Team! They’ve been an invaluable partner for me and the companies I oversee. I highly recommend D3 to anyone looking for a strategic, reliable marketing agency to partner with. Their team is incredibly responsive, creative, and consistently ...Read More Charley Meeks Youth Empowered Society’s YES Drop-In Center Thank you, D3, for capturing the heart of our work so beautifully. We’re truly grateful for your partnership and the care your team brought to this project. This new website isn’t just a digital refresh—it’s a doorway. A doorway for young people in Baltimore ...Read More Allen Blackwell Worcester County Tourism We recently partnered with the D3 team to create a brand-new website highlighting the Chesapeake Country Byway. Their team made the entire process incredibly smooth, with excellent communication and attention to detail at every stage. We're thrilled with the final result and couldn’t be ...Read More Unscene Productions We love working with D3 over the years! Their website design is amazing and the support we receive for our TV show \"Hooked On OC\" is like none-other. We continue to work with them on many projects and the experience is always great. Amber ...Read More Maryland Tourism Coalition Maryland Tourism Coalition has been using D3 for more years than I can count. We are very lucky to have them as a vendor as they are part of our team and are always there to help out, have great turn around times and ...Read More Ruth Toomey Coastal Homes & Design and Delaware Crawlspace Company D3 has been a great resource for website building and SEO strategy for both of our companies (Delaware Crawlspace Company and Coastal Homes & Design) since 2018. John and his team are very responsive to our needs and offer valuable consultation that in the ...Read More J.R. Ennis Junior Achievement The D3 team has been instrumental in capturing the mission of JA Inspire, which is to give eighth grade students throughout the Eastern Shore an opportunity to plan their careers from an early age. The event pairs students with business and organization representatives in ...Read More Ricky Pollitt White Marlin Open The staff at D3 is knowledgeable, professional and very responsive. They are able to tackle all of our website, print and social media needs effortlessly, no matter how complex the project! I highly recommend D3! Madelyne Rowan Salisbury Area Chamber of Commerce D3Corp is one of the most client focused and driven companies serving Delmarva businesses and organizations. The TEAM at D3Corp works with clients to insure success at all levels. The Salisbury Area Chamber of Commerce and our membership representing five mid-Atlantic States, have valued ...Read More Bill Chambers Holman Aviation A great team of people at D3Corp. They helped us design a new website in a timely, professional manner. Would highly recommend this group! Jamie Holman-Ronholdt Remember Me Glass I would encourage anyone who wants to start a new business or is looking for marketing solutions for their existing business to contact D3. I brought D3 a new business idea that I was working on that needed a specialized website including a custom ...Read More Jeffrey Auxer Maryland Capital Enterprises The team at D3 is the best you will find. The customer service is responsive, respectful and helps me to clarify the many details that a website encompasses. They are local and right here when you need them. I highly recommend. Dory Boardwalk Hotel Group I have been working for the Boardwalk Hotel Group for 22+ years, and for much of that time, my position has been Revenue Manager for our three hotels. D3 corp. has been our website designer, online reservations provider, email blast/social media manager, and so ...Read More Karen Decker NEXT VIEW ALL TESTIMONIALS Learn More About D3’s Top-Rated Digital Marketing Services Submit the form below, or give us a call at 410-213-2400 First Name Last Name Company Name Phone Email How Did You Hear About D3? How Did You Hear About D3?* Google Search Social Media Word of Mouth Referral from a Friend or Colleague Event or Trade Show Walk-In / Drove By Print Advertisement Email Newsletter From Another Business Existing Client I'm Interested in the following Services: This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. SUBMIT Subscribe Get the latest marketing news and advice. First Name Last Name Email SUBSCRIBE This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. 12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842 410-213-2400 212 West Main Street Salisbury, Maryland 21801 Meet Us Testimonials Services Case Studies Videos ID3AS Blog Careers Contact Us Privacy Policy Terms & Conditions Webmail Accessibility Site Map Copyright © 2026 D3. All Rights Reserved. Website Design by D3, Ocean City MD Our Partners PREVIOUS Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google NEXT",
+ "images": [
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website-300x151.png",
+   "alt": "D3",
+   "w": 300,
+   "h": 151,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102947/Hero-car-1536x872.webp",
+   "alt": "Yellow car with surfboard on top",
+   "w": 1439,
+   "h": 817,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Robot-Small.webp",
+   "alt": "",
+   "w": 166,
+   "h": 213,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102946/Layer-49-1-1536x708.webp",
+   "alt": "",
+   "w": 1439,
+   "h": 663,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/09/16142614/famers-bank-monitor-d3-homepage.png",
+   "alt": "Monitor displaying home page of Farmers Bank of Willards",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/15124532/monitor-d3-homepage-jolly-roger-park-2026.png",
+   "alt": "Monitor displaying homepage of Jolly Roger Park",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/05/06170124/monitor-d3-homepage-delaware-estuary.png",
+   "alt": "Monitor displaying home page of Partnership for the Delaware Estuary",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/04/09085529/visiting-angels-monitor-D3-homepage.png",
+   "alt": "",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/03/18160607/monitor-d3-homepage-babe-ruth-museum.png",
+   "alt": "Monitor showing Babe Ruth Birthplace & Museum home page",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102817/monitor-home-wmo.png",
+   "alt": "Monitor displaying home page of WMO",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/01/19105606/bhg-monitor-d3-homepage.png",
+   "alt": "Monitor displaying home page of Boardwalk Hotel Group",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/01/08081005/monitor-D3-homepage-primo-family-restaurant.png",
+   "alt": "Monitor displaying home page of Primo Family Restaurant",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/11/13033449/idec-monitor-D3-homepage.png",
+   "alt": "Monitor showing the IDEC Elevator Products homepage for D3 Case Study",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/01/30075605/somerset-monitor-D3-homepage.png",
+   "alt": "Monitor showing Somerset County Tourism home page",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/12/04110836/monitor-home.png",
+   "alt": "Monitor displaying home page of Crabs to Go",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/10/31115224/monitor-homepage-old-pro-golf.png",
+   "alt": "Monitor showing Old Pro Golf homepage",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102803/monitor-home-chesapeake-country-byway.png",
+   "alt": "Monitor showing Chesapeake Country Byway home page",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/10/13091909/monitor-d3-homepage-seacrets.png",
+   "alt": "Monitor showing Seacrets Jamaica USA home page",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102905/monitor-home-the-land-group.png",
+   "alt": "Monitor displaying home page of the land group",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102817/monitor-home-castle-in-the-sand.png",
+   "alt": "Monitor displaying home page of Castle in The Sand",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/08/09102815/monitor-home-de-elevator.png",
+   "alt": "Monitor displaying home page for Delaware Elevator",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102816/monitor-home-remember-me-glass.png",
+   "alt": "Monitor displaying home page of Remember Me Glass",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102816/monitor-home-burley-oak.png",
+   "alt": "Monitor displaying home page of Burley Oak",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102816/monitor-home-chesapeak-healthcare.png",
+   "alt": "Monitor displaying home page of Chesapeake Health Care",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102809/testimonial-yellow-background-1536x768.jpg",
+   "alt": "",
+   "w": 1439,
+   "h": 719,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/03/03095511/record-player-home-testimonials.png",
+   "alt": "",
+   "w": 1132,
+   "h": 781,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/08/09102943/Background-Photo-1536x644.webp",
+   "alt": "Digital marketing contact form",
+   "w": 1439,
+   "h": 603,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102927/talkideas-768x123.webp",
+   "alt": "Let's Talk Ideas neon glowing text",
+   "w": 700,
+   "h": 112,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Robot-Small.webp",
+   "alt": "",
+   "w": 166,
+   "h": 213,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102744/ocean-city-chamber-logo.png",
+   "alt": "Ocean City chamber logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-82.webp",
+   "alt": "",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-83.webp",
+   "alt": "",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo.webp",
+   "alt": "Google partner logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo.webp",
+   "alt": "YouTube Logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo.webp",
+   "alt": "Shopify logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo.webp",
+   "alt": "Woo Commerce logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo.webp",
+   "alt": "WordPress logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo.webp",
+   "alt": "Bing logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo.webp",
+   "alt": "Google partner logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo.webp",
+   "alt": "YouTube Logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo.webp",
+   "alt": "Shopify logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo.webp",
+   "alt": "Woo Commerce logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo.webp",
+   "alt": "WordPress logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo.webp",
+   "alt": "Bing logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo.webp",
+   "alt": "Google partner logo",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  }
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "Organization",
+     "@id": "https://d3corp.com/#organization",
+     "name": "D3",
+     "url": "https://d3corp.com",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://d3corp.com/#logo",
+      "url": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "contentUrl": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "caption": "D3",
+      "inLanguage": "en-US",
+      "width": "694",
+      "height": "350"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://d3corp.com/#website",
+     "url": "https://d3corp.com",
+     "name": "D3",
+     "publisher": {
+      "@id": "https://d3corp.com/#organization"
+     },
+     "inLanguage": "en-US",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://d3corp.com/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://d3corp.com/#webpage",
+     "url": "https://d3corp.com/",
+     "name": "D3 Digital Marketing Agency | Full-Service Marketing Experts in Ocean City &amp; Salisbury, MD | AEO, SEO, PPC, Multimedia, Website &amp; Email Marketing Services",
+     "datePublished": "2025-07-22T09:48:02-04:00",
+     "dateModified": "2026-09-25T16:08:08-04:00",
+     "about": {
+      "@id": "https://d3corp.com/#organization"
+     },
+     "isPartOf": {
+      "@id": "https://d3corp.com/#website"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "Person",
+     "@id": "https://d3corp.com/#author",
+     "name": "D3 Support",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/4b06e363e9bc7ebe19454b1c1b57049dda89fdcb9ad96ca0065307e9ca3ecc0b?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/4b06e363e9bc7ebe19454b1c1b57049dda89fdcb9ad96ca0065307e9ca3ecc0b?s=96&amp;d=mm&amp;r=g",
+      "caption": "D3 Support",
+      "inLanguage": "en-US"
+     },
+     "worksFor": {
+      "@id": "https://d3corp.com/#organization"
+     }
+    },
+    {
+     "@type": "Article",
+     "headline": "D3 Digital Marketing Agency | Full-Service Marketing Experts in Ocean City &amp; Salisbury, MD | AEO, SEO,",
+     "keywords": "D3",
+     "datePublished": "2025-07-22T09:48:02-04:00",
+     "dateModified": "2026-09-25T16:08:08-04:00",
+     "author": {
+      "@id": "https://d3corp.com/#author",
+      "name": "D3 Support"
+     },
+     "publisher": {
+      "@id": "https://d3corp.com/#organization"
+     },
+     "description": "D3, a full service digital marketing agency based in OCMD &amp; Salisbury, MD, serves clients regionally with web design, digital ads, social media, SEO &amp; more.",
+     "name": "D3 Digital Marketing Agency | Full-Service Marketing Experts in Ocean City &amp; Salisbury, MD | AEO, SEO,",
+     "@id": "https://d3corp.com/#richSnippet",
+     "isPartOf": {
+      "@id": "https://d3corp.com/#webpage"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://d3corp.com/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "forms": [
+  {
+   "action": "ref: <Node>",
+   "method": "post",
+   "id": "frmD3Forms5650",
+   "fields": [
+    {
+     "name": "submit_to_system",
+     "type": "text",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "first_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "First Name*",
+     "label": "First Name"
+    },
+    {
+     "name": "last_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "Last Name*",
+     "label": "Last Name"
+    },
+    {
+     "name": "company_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "Company Name*",
+     "label": "Company Name"
+    },
+    {
+     "name": "phone",
+     "type": "text",
+     "required": false,
+     "placeholder": "Phone*",
+     "label": "Phone"
+    },
+    {
+     "name": "email",
+     "type": "email",
+     "required": false,
+     "placeholder": "Email*",
+     "label": "Email"
+    },
+    {
+     "name": "how_did_you_hear_about_d3",
+     "type": "select-one",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "i_m_interested_in_the_following_services",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "I'm Interested in the following Services:*",
+     "label": null
+    },
+    {
+     "name": "_rctkn",
+     "type": "text",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    }
+   ]
+  },
+  {
+   "action": "ref: <Node>",
+   "method": "post",
+   "id": "frmD3Forms5112",
+   "fields": [
+    {
+     "name": "submit_to_system",
+     "type": "text",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "first_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "First Name",
+     "label": "First Name"
+    },
+    {
+     "name": "last_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "Last Name",
+     "label": "Last Name"
+    },
+    {
+     "name": "email",
+     "type": "email",
+     "required": false,
+     "placeholder": "Email",
+     "label": "Email"
+    },
+    {
+     "name": "_rctkn",
+     "type": "text",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    }
+   ]
+  }
+ ],
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-WY4W4ZLGEG&cx=c&gtm=4e6ac1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-NGGH6CL",
+  "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtlvjEjk2TqdwOQz/recaptcha__en.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+  "https://www.google.com/recaptcha/api.js?render=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6",
+  "https://cdn.apigateway.co/webchat-client..prod/sdk.js",
+  "https://d3corp.com/app/plugins/wpconsent-premium/build/frontend-pro.js?ver=69fedfaec866286d7fe0",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/d3forms.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/bload/bload.min.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.iframe-transport.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.fileupload.js",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-client-device-data.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-media-gate.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-youtube.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-vimeo.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-soundcloud.js?ver=2.0.5",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.14.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/bootstrap.bundle.min.js?ver=4.3.1",
+  "https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/slick.min.js?ver=1.8.1",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/lazyload.min.js?ver=12.4.0",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.matchHeight-min.js?ver=0.7.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.fancybox.v3.js?ver=3.5.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/global.js",
+  "https://d3forms.d3corp.com/d3fst/recaptcha.js?ver=7.1.2",
+  "https://acsbapp.com/apps/app/dist/js/app.js"
+ ],
+ "iframes": [
+  "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6&co=aHR0cHM6Ly9kM2NvcnAuY29tOjQ0Mw..&hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz&size=invisible&anchor-ms=20000&execute-ms=30000&cb=fbrm6jlf6iqr"
+ ],
+ "ctas": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  }
+ ],
+ "phones": [
+  "410-213-2400"
+ ],
+ "emails": [],
+ "telLinks": [
+  "tel: +14102132400",
+  "tel:+1-4102132400"
+ ],
+ "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+ "nav": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "AI Assistant",
+   "href": "https://d3corp.com/ai-assistant/"
+  },
+  {
+   "text": "Answer Engine Optimization",
+   "href": "https://d3corp.com/answer-engine-optimization/"
+  },
+  {
+   "text": "Digital Advertising",
+   "href": "https://d3corp.com/digital-advertising/"
+  },
+  {
+   "text": "Email Marketing",
+   "href": "https://d3corp.com/email-marketing/"
+  },
+  {
+   "text": "Graphic Design",
+   "href": "https://d3corp.com/graphic-design/"
+  },
+  {
+   "text": "Multimedia",
+   "href": "https://d3corp.com/multimedia/"
+  },
+  {
+   "text": "Print",
+   "href": "https://d3corp.com/print/"
+  },
+  {
+   "text": "Search Engine Optimization",
+   "href": "https://d3corp.com/search-engine-optimization/"
+  },
+  {
+   "text": "Social Media Marketing",
+   "href": "https://d3corp.com/social-media-marketing/"
+  },
+  {
+   "text": "Strategy",
+   "href": "https://d3corp.com/strategy/"
+  },
+  {
+   "text": "Custom Websites",
+   "href": "https://d3corp.com/websites/"
+  },
+  {
+   "text": "Rapid Design Websites",
+   "href": "https://d3corp.com/rapid-design-websites/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Our Work",
+   "href": ""
+  },
+  {
+   "text": "Our Work",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Join Our Team",
+   "href": "https://d3corp.com/join-our-team/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  }
+ ],
+ "footer": [
+  {
+   "text": "Privacy Policy",
+   "href": "https://policies.google.com/privacy"
+  },
+  {
+   "text": "Terms of Service",
+   "href": "https://policies.google.com/terms"
+  },
+  {
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6"
+  },
+  {
+   "text": "410-213-2400",
+   "href": "tel:+1-4102132400"
+  },
+  {
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "ID3AS Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "Privacy Policy",
+   "href": "https://d3corp.com/privacy-policy/"
+  },
+  {
+   "text": "Terms & Conditions",
+   "href": "https://d3corp.com/terms/"
+  },
+  {
+   "text": "Webmail",
+   "href": "https://d3corp.com/webmail/"
+  },
+  {
+   "text": "Accessibility",
+   "href": "https://d3corp.com/accessibility/"
+  },
+  {
+   "text": "Site Map",
+   "href": "https://d3corp.com/site-map/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Website Design",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Ocean City MD",
+   "href": "https://visitoceancity.com/"
+  }
+ ]
+}

@@ -1,0 +1,1081 @@
+{
+ "url": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/",
+ "requestedUrl": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/",
+ "status": 200,
+ "headers": {
+  "content-encoding": "gzip",
+  "content-type": "text/html; charset=UTF-8",
+  "date": "Wed, 14 Oct 2026 00:28:18 GMT",
+  "etag": "\"df478d4e7e32f581b973e38947930b75\"",
+  "last-modified": "Wed, 14 Oct 2026 00:28:17 GMT",
+  "link": "<https://d3corp.com/wp-json/>; rel=\"https://api.w.org/\"\n<https://d3corp.com/wp-json/wp/v2/posts/859>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\n<https://d3corp.com/?p=859>; rel=shortlink",
+  "permissions-policy": "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+  "referrer-policy": "no-referrer-when-downgrade\nno-referrer-when-downgrade",
+  "server": "nginx",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-frame-options": "SAMEORIGIN",
+  "x-pingback": "https://d3corp.com/wp/xmlrpc.php",
+  "x-xss-protection": "1; mode=block"
+ },
+ "loadMs": 2129,
+ "requestCount": 94,
+ "thirdPartyHosts": [
+  "www.google.com",
+  "website-media.com",
+  "fonts.googleapis.com",
+  "use.typekit.net",
+  "p.typekit.net",
+  "www.gstatic.com",
+  "www.googletagmanager.com",
+  "cdn.jsdelivr.net",
+  "d3forms.d3corp.com",
+  "acsbapp.com",
+  "cdn.acsbapp.com",
+  "cdn.apigateway.co",
+  "fonts.gstatic.com",
+  "lh6.googleusercontent.com",
+  "lh5.googleusercontent.com",
+  "lexicon-prod.apigateway.co",
+  "conversation-prod.apigateway.co",
+  "lh3.googleusercontent.com",
+  "www.google-analytics.com"
+ ],
+ "internalLinks": [
+  "https://d3corp.com/request-a-quote",
+  "https://d3corp.com/",
+  "https://d3corp.com/meet-us/",
+  "https://d3corp.com/testimonials/",
+  "https://d3corp.com/services/",
+  "https://d3corp.com/ai-assistant/",
+  "https://d3corp.com/answer-engine-optimization/",
+  "https://d3corp.com/digital-advertising/",
+  "https://d3corp.com/email-marketing/",
+  "https://d3corp.com/graphic-design/",
+  "https://d3corp.com/multimedia/",
+  "https://d3corp.com/print/",
+  "https://d3corp.com/search-engine-optimization/",
+  "https://d3corp.com/social-media-marketing/",
+  "https://d3corp.com/strategy/",
+  "https://d3corp.com/websites/",
+  "https://d3corp.com/rapid-design-websites/",
+  "https://d3corp.com/blog/digital-advertising-for-modern-marketing/",
+  "https://d3corp.com/case-studies/",
+  "https://d3corp.com/videos/",
+  "https://d3corp.com/id3as/",
+  "https://d3corp.com/careers/",
+  "https://d3corp.com/join-our-team/",
+  "https://d3corp.com/contact-us/",
+  "https://d3corp.com/ID3AS/post/Google-Ads",
+  "https://d3corp.com/ID3AS/post/Facebook-and-Instagram-Ads-",
+  "https://d3corp.com/ID3AS/post/Geofencing-Marketing",
+  "https://d3corp.com/ID3AS/post/Connected-TV-Advertising",
+  "https://d3corp.com/blog/capturing-leads-for-your-business/",
+  "https://d3corp.com/blog/b2b-vs-b2c-marketing-made-easy/",
+  "https://d3corp.com/privacy-policy/",
+  "https://d3corp.com/terms/",
+  "https://d3corp.com/webmail/",
+  "https://d3corp.com/accessibility/",
+  "https://d3corp.com/site-map/"
+ ],
+ "externalLinks": [
+  {
+   "href": "https://accessibe.com/blog/knowledgebase/screen-reader-guide",
+   "text": "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.smallbizgenius.net/by-the-numbers/ppc-stats/#gref",
+   "text": "$2 for every $1 spent",
+   "rel": "noopener",
+   "target": null
+  },
+  {
+   "href": "https://www.searchenginejournal.com/seo-101/meet-search-engines/",
+   "text": "internet’s largest search engine",
+   "rel": "noopener",
+   "target": null
+  },
+  {
+   "href": "https://www.omnicoreagency.com/facebook-statistics/",
+   "text": "2.5 billion",
+   "rel": "noopener",
+   "target": null
+  },
+  {
+   "href": "https://www.omnicoreagency.com/instagram-statistics/",
+   "text": "1 billion",
+   "rel": "noopener",
+   "target": null
+  },
+  {
+   "href": "https://www.digitaltveurope.com/2020/06/08/80-of-us-households-have-at-least-one-streaming-device/#:~:text=Streaming%20is%20undoubtedly%20in%20the,one%20Internet-connected%20TV%20device.",
+   "text": "80% of households",
+   "rel": "noopener",
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/privacy",
+   "text": "Privacy Policy",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/terms",
+   "text": "Terms of Service",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/privacy",
+   "text": "Privacy Policy",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/terms",
+   "text": "Terms of Service",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6",
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8",
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://visitoceancity.com/",
+   "text": "Ocean City MD",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://oceancity.org/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://salisburyarea.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://thequietresorts.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  }
+ ],
+ "lang": "en-US",
+ "title": "Digital Advertising for Modern Marketing | D3 | Digital Marketing Agency",
+ "metas": {
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+  "format-detection": "telephone=no,email=no,url=no",
+  "description": "Digital advertising is a tried and true way to create brand awareness and increase sales. Did you know that paid, digital, advertising returns $2 for every $1",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Digital Advertising for Modern Marketing | D3 | Digital Marketing Agency",
+  "og:description": "Digital advertising is a tried and true way to create brand awareness and increase sales. Did you know that paid, digital, advertising returns $2 for every $1",
+  "og:url": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/",
+  "og:site_name": "D3",
+  "article:section": "Content Creation",
+  "og:updated_time": "2025-09-10T13:45:43-04:00",
+  "og:image": "https://website-media.com/d3corp/d3-website-2025/2020/08/09102855/pexels-andrea-piacquadio-37629401-1024x683.jpg",
+  "og:image:secure_url": "https://website-media.com/d3corp/d3-website-2025/2020/08/09102855/pexels-andrea-piacquadio-37629401-1024x683.jpg",
+  "og:image:width": "1024",
+  "og:image:height": "683",
+  "og:image:alt": "Woman video calling on her laptop",
+  "og:image:type": "image/jpeg",
+  "article:published_time": "2020-08-11T19:17:27-04:00",
+  "article:modified_time": "2025-09-10T13:45:43-04:00",
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Digital Advertising for Modern Marketing | D3 | Digital Marketing Agency",
+  "twitter:description": "Digital advertising is a tried and true way to create brand awareness and increase sales. Did you know that paid, digital, advertising returns $2 for every $1",
+  "twitter:image": "https://website-media.com/d3corp/d3-website-2025/2020/08/09102855/pexels-andrea-piacquadio-37629401-1024x683.jpg",
+  "twitter:label1": "Written by",
+  "twitter:data1": "D3 Support",
+  "twitter:label2": "Time to read",
+  "twitter:data2": "5 minutes",
+  "generator": "WordPress 7.1.2",
+  "msapplication-tileimage": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102958/d3-favicon.png"
+ },
+ "canonical": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/",
+ "hreflang": [],
+ "generator": "WordPress 7.1.2",
+ "h1": [],
+ "h2": [
+  "Digital Advertising for Modern Marketing",
+  "Google Ads",
+  "Facebook and Instagram Ads",
+  "Geofencing Marketing",
+  "Connected TV Advertising"
+ ],
+ "h3": [
+  "Subscribe"
+ ],
+ "wordCount": 1359,
+ "text": "Press Alt+1 for screen-reader mode, Alt+0 to cancel Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window D3 Meet Us Services Our Work Blog Careers Contact Us REQUEST A QUOTE ID3AS Blog Digital Advertising for Modern Marketing August 11, 2020 Digital advertising is a tried and true way to create brand awareness and increase sales. Did you know that paid, digital, advertising returns $2 for every $1 spent? That’s a 200% ROI rate! But, with an ever-increasing number of ad-channels, how do you know which one is the right fit for your business? Promoting your brand online is an important way to reach the full extent of your audience. As an umbrella term in online-marketing, digital advertising is the house that holds multiple forms of paid digital advertising strategies. In the same respect, your business will want a wide range of outcomes from each digital advertising effort. To accommodate these differences, there are a variety of available channels for you to market through. Ready to dive in? Check out these top advertising channels to connect to your audience from where they are. Google Ads Google Ads (formerly known as Google AdWords) is Google’s paid advertising (PPC) product, and one of the most effective methods of paid advertising! Google has three principle ad formats: Search, Display, and Video/YouTube. Google Search Ads: These ads appear on the Google SERP (Search Engine Results Page). These ads are shown based on keywords a user types into the search bar. Google Display Ads: These ads are shown throughout the Display Ad Network, a network of over 2 million sites across the web that opt into advertising! Do you recall being on a website, and seeing an advertisement to the left/right, or at the top and bottom of the page? Yep, you guessed it, many of those are Google Ads in the wild! Video/Youtube Ads: These ads appear before, during, or after YouTube videos. YouTube is owned by Google and receives over 30 million visitors every day. Whether you like them or not, they are a hugely successful marketing tool to drive traffic to your site and convert leads! When you utilize Google Ads, you have the chance to appear on the first page of the internet’s largest search engine! Allowing you to achieve that extra edge in meeting your business goals, in ways that were simply not possible before. Not only do Google Ads have the power to serve ads to people who are actively searching for what your company has to offer when they need it, but also puts your brand top of mind, before potential customers need you; because when they do, there you are. Facebook and Instagram Ads Social media platforms, such as Facebook and Instagram, remain amongst some of the most popular advertising channels for digital advertising. Largely due to its vast targeting options, Facebook Ads are not just a popular, but an effective platform for paid advertising! Let’s face the facts, there are 2.5 billion people that are active on Facebook! When those people fill out their profiles with information such as where they live, their age, interests, and so on, Facebook allows you as a business owner, to target users based on that collected data. Not to mention, you can use Facebook Ads to advertise on Instagram as well! With more than 1 billion active users, Instagram is a leading social media platform that has a diverse online community with unlimited marketing potential. In conjunction with Facebook, digital advertising on Instagram is another effective way for your business to connect with your potential customers, and achieve their goals. In addition, since you only pay to reach the most valuable potential customers, Facebook, and Instagram advertising is great for your budget, conversions, and return on investment! Facebook’s micro-targeting features allow you to reach your exact target audience. This means that Facebook ads will get your message in front of the people who are most likely to purchase from you. Geofencing Marketing What if you were able to market to your target audience while they’re shopping with your competitor? Or, even as they’re preparing to use your service, or browsing your online, or offline in-store? Welcome to the world of Geofencing! Geofence marketing is location-based and allows you to connect with smartphone users in a designated geographic area through mobile apps or mobile web pages. In short, this is how geofencing can work for your company. You create a geofence in a designated area and ad campaign for that geofence. A user steps (or drives) into that geofence, and gets automatically added to your advertising audience. Your company starts delivering ads to that user, whether via notifications, in-app advertisements, or search and display ads on Google. When you utilize geofencing, you can create a virtual fence around any geographic area that you want! Whenever someone enters and leaves your perimeter, they automatically become eligible to receive your ads for up to 30 days! Connected TV Advertising Connected TV (CTV) refers to any television that can be connected to the internet and access content beyond what is available from a cable provider. Connected TV includes ads that are bought and sold programmatically. These ads are shown on Roku, SlingTV, Direct TV, OnDemand, Apple TV, and similar providers, and are shown on a computer and mobile streaming devices, as well as over-the-top (OTT) devices, which are streaming services offered directly via the Internet. Why is Connected TV the future of video advertising? It’s simple: Connected TV is Everywhere: Studies show that 80% of households in the United States own a Connected TV streaming device, and this is only the beginning! Millennials and Gen Z-ers Love Connected TV: They are attracted to the content that is made available by powerhouses such as Hulu and Amazon, and no longer feel the need to purchase conventional television packages. People Don’t Mind Connected TV Ads!: Connected TV offers an experience that is close to traditional television advertising, however, there is a much greater ability to target your audience based on the data that they provide to their streaming service. Since these services are less expensive than traditional TV, users don’t mind experiencing video advertising as a fair trade-off. The Opportunity is Vast: The massive growth of Connected TV is creating a huge opportunity for video advertising. As technology continues to improve, and even more people adopt the Connected TV experience into their homes, more TV ad dollars will shift in the direction of Connected TV. It’s Personalized: For example, on Hulu, some ads give the user the option to choose which ad experience they prefer. In turn, this gives the advertiser even more information about their target audience while making the ad much more relevant to that consumer because it’s now content they’ve chosen to consume. As you continue to align your marketing goals with your budget, it’s easy to see why the impact and efficiency of digital advertising are appreciated by businesses worldwide! Are you interested in learning more? Contact the digital advertising experts at D3! You know where to find us. ID3AS Blog Stay up to date with the latest marketing tips, tricks, and trends from the experts at D3. Ready to brush up on something new to take your business to new heights? Check here for insight, inspiration, and most importantly – ID3AS! Subscribe Get the latest marketing news and advice. First Name Last Name Email SUBSCRIBE This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. « Previous Next » Subscribe Get the latest marketing news and advice. First Name Last Name Email SUBSCRIBE This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. 12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842 410-213-2400 212 West Main Street Salisbury, Maryland 21801 Meet Us Testimonials Services Case Studies Videos ID3AS Blog Careers Contact Us Privacy Policy Terms & Conditions Webmail Accessibility Site Map Copyright © 2026 D3. All Rights Reserved. Website Design by D3, Ocean City MD Our Partners PREVIOUS Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google NEXT",
+ "images": [
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website-300x151.png",
+   "alt": "D3",
+   "w": 300,
+   "h": 151,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2020/08/09102855/pexels-andrea-piacquadio-37629401-1024x683.jpg",
+   "alt": "Woman video calling on her laptop",
+   "w": 1024,
+   "h": 683,
+   "loading": "auto"
+  },
+  {
+   "src": "https://d3corp.com/media/images/image-23.png",
+   "alt": "Digital Advertising for Modern Marketing",
+   "w": 0,
+   "h": 0,
+   "loading": "auto"
+  },
+  {
+   "src": "https://lh5.googleusercontent.com/TOHFhUzZ3xu8CoPhzJzMwa0X3VYS1ukJx_IZzQB9uIP9wPlWsvKPzz44qHp4pAWbA5PMLTs4YRRBG4ux9nhapIDZiFoaMpENVnGJvKFe5SkYNsZl7m2JLZO345eI93RjS1rQ4eHg",
+   "alt": "TOHFhUzZ3xu8CoPhzJzMwa0X3VYS1ukJx_IZzQB9",
+   "w": 1200,
+   "h": 628,
+   "loading": "auto"
+  },
+  {
+   "src": "https://lh6.googleusercontent.com/6DF1TwQfR4Tv7tffvAYxG8t9LVZvnG15kCiSyQkCrlgvA5lCPNIPUB5EsPROT97lPVD85lwO7fj5EwmZlqfYSnzHWcI2oCWvM5WieK7dRWJCg3HWzrqRHS0LtCofiq2cW4Bdk45W",
+   "alt": "6DF1TwQfR4Tv7tffvAYxG8t9LVZvnG15kCiSyQkC",
+   "w": 1600,
+   "h": 1067,
+   "loading": "auto"
+  },
+  {
+   "src": "https://lh6.googleusercontent.com/51NWTPBXS5Gha9sMRpFAniAwfl7O_kvLUi-g5GME5ed4q2N3VFJk51z_MGDhU2yC54RGyZxCZUJTuuXEtmG7oHNKjycii8ehm2laTCLxYjK2X5Ye4LGj-GwlhImzcyUea_j2Yt7K",
+   "alt": "51NWTPBXS5Gha9sMRpFAniAwfl7O_kvLUi-g5GME",
+   "w": 0,
+   "h": 0,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Robot-Small.webp",
+   "alt": "",
+   "w": 166,
+   "h": 213,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102744/ocean-city-chamber-logo.png",
+   "alt": "Ocean City chamber logo",
+   "w": 1059,
+   "h": 1500,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-82.webp",
+   "alt": "",
+   "w": 44,
+   "h": 62,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-83.webp",
+   "alt": "",
+   "w": 167,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo-300x68.webp",
+   "alt": "YouTube Logo",
+   "w": 192,
+   "h": 43,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo-300x86.webp",
+   "alt": "Shopify logo",
+   "w": 189,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 209,
+   "h": 59,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 78,
+   "h": 105,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo-300x61.webp",
+   "alt": "Woo Commerce logo",
+   "w": 192,
+   "h": 39,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo-300x52.webp",
+   "alt": "WordPress logo",
+   "w": 192,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo-300x60.webp",
+   "alt": "Bing logo",
+   "w": 192,
+   "h": 38,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 664,
+   "h": 196,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo-300x68.webp",
+   "alt": "YouTube Logo",
+   "w": 192,
+   "h": 43,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo-300x86.webp",
+   "alt": "Shopify logo",
+   "w": 189,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 209,
+   "h": 59,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 78,
+   "h": 105,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo-300x61.webp",
+   "alt": "Woo Commerce logo",
+   "w": 192,
+   "h": 39,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo-300x52.webp",
+   "alt": "WordPress logo",
+   "w": 192,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo-300x60.webp",
+   "alt": "Bing logo",
+   "w": 192,
+   "h": 38,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 664,
+   "h": 196,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  }
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "Organization",
+     "@id": "https://d3corp.com/#organization",
+     "name": "D3",
+     "url": "https://d3corp.com",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://d3corp.com/#logo",
+      "url": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "contentUrl": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "caption": "D3",
+      "inLanguage": "en-US",
+      "width": "694",
+      "height": "350"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://d3corp.com/#website",
+     "url": "https://d3corp.com",
+     "name": "D3",
+     "publisher": {
+      "@id": "https://d3corp.com/#organization"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://website-media.com/d3corp/d3-website-2025/2020/08/09102855/pexels-andrea-piacquadio-37629401-scaled.jpg",
+     "url": "https://website-media.com/d3corp/d3-website-2025/2020/08/09102855/pexels-andrea-piacquadio-37629401-scaled.jpg",
+     "width": "2560",
+     "height": "1707",
+     "caption": "Woman video calling on her laptop",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/",
+        "name": "Digital Advertising for Modern Marketing"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/#webpage",
+     "url": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/",
+     "name": "Digital Advertising for Modern Marketing | D3 | Digital Marketing Agency",
+     "datePublished": "2020-08-11T19:17:27-04:00",
+     "dateModified": "2025-09-10T13:45:43-04:00",
+     "isPartOf": {
+      "@id": "https://d3corp.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://website-media.com/d3corp/d3-website-2025/2020/08/09102855/pexels-andrea-piacquadio-37629401-scaled.jpg"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/#author",
+     "name": "D3 Support",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/4b06e363e9bc7ebe19454b1c1b57049dda89fdcb9ad96ca0065307e9ca3ecc0b?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/4b06e363e9bc7ebe19454b1c1b57049dda89fdcb9ad96ca0065307e9ca3ecc0b?s=96&amp;d=mm&amp;r=g",
+      "caption": "D3 Support",
+      "inLanguage": "en-US"
+     },
+     "worksFor": {
+      "@id": "https://d3corp.com/#organization"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "Digital Advertising for Modern Marketing | D3 | Digital Marketing Agency",
+     "datePublished": "2020-08-11T19:17:27-04:00",
+     "dateModified": "2025-09-10T13:45:43-04:00",
+     "author": {
+      "@id": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/#author",
+      "name": "D3 Support"
+     },
+     "publisher": {
+      "@id": "https://d3corp.com/#organization"
+     },
+     "description": "Digital advertising is a tried and true way to create brand awareness and increase sales. Did you know that paid, digital, advertising returns $2 for every $1",
+     "name": "Digital Advertising for Modern Marketing | D3 | Digital Marketing Agency",
+     "@id": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/#richSnippet",
+     "isPartOf": {
+      "@id": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/#webpage"
+     },
+     "image": {
+      "@id": "https://website-media.com/d3corp/d3-website-2025/2020/08/09102855/pexels-andrea-piacquadio-37629401-scaled.jpg"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "forms": [
+  {
+   "action": "ref: <Node>",
+   "method": "post",
+   "id": "frmD3Forms5112",
+   "fields": [
+    {
+     "name": "submit_to_system",
+     "type": "text",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "first_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "First Name",
+     "label": "First Name"
+    },
+    {
+     "name": "last_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "Last Name",
+     "label": "Last Name"
+    },
+    {
+     "name": "email",
+     "type": "email",
+     "required": false,
+     "placeholder": "Email",
+     "label": "Email"
+    }
+   ]
+  },
+  {
+   "action": "ref: <Node>",
+   "method": "post",
+   "id": "frmD3Forms5112",
+   "fields": [
+    {
+     "name": "submit_to_system",
+     "type": "text",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "first_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "First Name",
+     "label": null
+    },
+    {
+     "name": "last_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "Last Name",
+     "label": null
+    },
+    {
+     "name": "email",
+     "type": "email",
+     "required": false,
+     "placeholder": "Email",
+     "label": null
+    }
+   ]
+  }
+ ],
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-WY4W4ZLGEG&cx=c&gtm=4e6ac1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-NGGH6CL",
+  "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtlvjEjk2TqdwOQz/recaptcha__en.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+  "https://www.google.com/recaptcha/api.js?render=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6",
+  "https://cdn.apigateway.co/webchat-client..prod/sdk.js",
+  "https://d3corp.com/app/plugins/wpconsent-premium/build/frontend-pro.js?ver=69fedfaec866286d7fe0",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/d3forms.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/bload/bload.min.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.iframe-transport.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.fileupload.js",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-client-device-data.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-media-gate.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-youtube.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-vimeo.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-soundcloud.js?ver=2.0.5",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.14.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/bootstrap.bundle.min.js?ver=4.3.1",
+  "https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/slick.min.js?ver=1.8.1",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/lazyload.min.js?ver=12.4.0",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.matchHeight-min.js?ver=0.7.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.fancybox.v3.js?ver=3.5.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/global.js",
+  "https://d3forms.d3corp.com/d3fst/recaptcha.js?ver=7.1.2",
+  "https://acsbapp.com/apps/app/dist/js/app.js"
+ ],
+ "iframes": [
+  "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6&co=aHR0cHM6Ly9kM2NvcnAuY29tOjQ0Mw..&hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz&size=invisible&anchor-ms=20000&execute-ms=30000&cb=ilupb9s7h7uv"
+ ],
+ "ctas": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook, and Instagram advertising",
+   "href": "https://d3corp.com/ID3AS/post/Facebook-and-Instagram-Ads-",
+   "tag": "a"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  }
+ ],
+ "phones": [
+  "410-213-2400"
+ ],
+ "emails": [],
+ "telLinks": [
+  "tel:+1-4102132400"
+ ],
+ "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+ "nav": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "AI Assistant",
+   "href": "https://d3corp.com/ai-assistant/"
+  },
+  {
+   "text": "Answer Engine Optimization",
+   "href": "https://d3corp.com/answer-engine-optimization/"
+  },
+  {
+   "text": "Digital Advertising",
+   "href": "https://d3corp.com/digital-advertising/"
+  },
+  {
+   "text": "Email Marketing",
+   "href": "https://d3corp.com/email-marketing/"
+  },
+  {
+   "text": "Graphic Design",
+   "href": "https://d3corp.com/graphic-design/"
+  },
+  {
+   "text": "Multimedia",
+   "href": "https://d3corp.com/multimedia/"
+  },
+  {
+   "text": "Print",
+   "href": "https://d3corp.com/print/"
+  },
+  {
+   "text": "Search Engine Optimization",
+   "href": "https://d3corp.com/search-engine-optimization/"
+  },
+  {
+   "text": "Social Media Marketing",
+   "href": "https://d3corp.com/social-media-marketing/"
+  },
+  {
+   "text": "Strategy",
+   "href": "https://d3corp.com/strategy/"
+  },
+  {
+   "text": "Custom Websites",
+   "href": "https://d3corp.com/websites/"
+  },
+  {
+   "text": "Rapid Design Websites",
+   "href": "https://d3corp.com/rapid-design-websites/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Our Work",
+   "href": ""
+  },
+  {
+   "text": "Our Work",
+   "href": "https://d3corp.com/blog/digital-advertising-for-modern-marketing/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Join Our Team",
+   "href": "https://d3corp.com/join-our-team/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  }
+ ],
+ "footer": [
+  {
+   "text": "Privacy Policy",
+   "href": "https://policies.google.com/privacy"
+  },
+  {
+   "text": "Terms of Service",
+   "href": "https://policies.google.com/terms"
+  },
+  {
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6"
+  },
+  {
+   "text": "410-213-2400",
+   "href": "tel:+1-4102132400"
+  },
+  {
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "ID3AS Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "Privacy Policy",
+   "href": "https://d3corp.com/privacy-policy/"
+  },
+  {
+   "text": "Terms & Conditions",
+   "href": "https://d3corp.com/terms/"
+  },
+  {
+   "text": "Webmail",
+   "href": "https://d3corp.com/webmail/"
+  },
+  {
+   "text": "Accessibility",
+   "href": "https://d3corp.com/accessibility/"
+  },
+  {
+   "text": "Site Map",
+   "href": "https://d3corp.com/site-map/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Website Design",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Ocean City MD",
+   "href": "https://visitoceancity.com/"
+  }
+ ]
+}

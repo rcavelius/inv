@@ -1,0 +1,167 @@
+{
+ "url": "https://d3corp.com/",
+ "formFactor": "mobile",
+ "scores": {
+  "performance": 0.54,
+  "accessibility": 0.8,
+  "best-practices": 0.79,
+  "seo": 0.92
+ },
+ "audits": {
+  "first-contentful-paint": {
+   "score": 0.58,
+   "value": "2.7 s",
+   "numeric": 2748.0575000000003
+  },
+  "largest-contentful-paint": {
+   "score": 0.59,
+   "value": "3.6 s",
+   "numeric": 3646.470000000001
+  },
+  "total-blocking-time": {
+   "score": 0.07,
+   "value": "2,050 ms",
+   "numeric": 2047.5000000000018
+  },
+  "cumulative-layout-shift": {
+   "score": 1,
+   "value": "0.031",
+   "numeric": 0.03136233054605165
+  },
+  "speed-index": {
+   "score": 0.62,
+   "value": "5.1 s",
+   "numeric": 5084.511488402484
+  },
+  "interactive": {
+   "score": 0,
+   "value": "26.9 s",
+   "numeric": 26851.972210000007
+  },
+  "total-byte-weight": {
+   "score": 0.5,
+   "value": "Total size was 8,166 KiB",
+   "numeric": 8362387
+  },
+  "render-blocking-resources": {
+   "score": 0,
+   "value": "Potential savings of 100 ms",
+   "numeric": 102
+  },
+  "unused-javascript": {
+   "score": 0.5,
+   "value": "Potential savings of 1,470 KiB",
+   "numeric": 0
+  },
+  "unused-css-rules": {
+   "score": 0,
+   "value": "Potential savings of 50 KiB",
+   "numeric": 320
+  },
+  "uses-responsive-images": {
+   "score": 0.5,
+   "value": "Potential savings of 1,100 KiB",
+   "numeric": 0
+  },
+  "modern-image-formats": {
+   "score": 0.5,
+   "value": "Potential savings of 3,680 KiB",
+   "numeric": 0
+  },
+  "server-response-time": {
+   "score": 1,
+   "value": "Root document took 60 ms",
+   "numeric": 57.554
+  },
+  "dom-size": {
+   "score": 0,
+   "value": "1,345 elements",
+   "numeric": 1345
+  },
+  "font-display": {
+   "score": 0.5,
+   "value": null,
+   "numeric": null
+  },
+  "image-alt": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "document-title": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "meta-description": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "link-text": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "crawlable-anchors": {
+   "score": 0,
+   "value": null,
+   "numeric": null
+  },
+  "is-crawlable": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "robots-txt": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "hreflang": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "canonical": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "structured-data": {
+   "score": null,
+   "value": null,
+   "numeric": null
+  },
+  "viewport": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "color-contrast": {
+   "score": 0,
+   "value": null,
+   "numeric": null
+  },
+  "heading-order": {
+   "score": 0,
+   "value": null,
+   "numeric": null
+  },
+  "is-on-https": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "errors-in-console": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "third-party-summary": {
+   "score": 0,
+   "value": "Third-party code blocked the main thread for 1,730 ms",
+   "numeric": null
+  }
+ }
+}

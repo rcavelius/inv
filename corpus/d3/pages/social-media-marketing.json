@@ -1,0 +1,1241 @@
+{
+ "url": "https://d3corp.com/social-media-marketing/",
+ "requestedUrl": "https://d3corp.com/social-media-marketing/",
+ "status": 200,
+ "headers": {
+  "accept-ranges": "bytes",
+  "content-encoding": "gzip",
+  "content-length": "24640",
+  "content-type": "text/html",
+  "date": "Wed, 14 Oct 2026 00:29:28 GMT",
+  "etag": "\"6acebfbc-6040\"",
+  "last-modified": "Tue, 13 Oct 2026 23:33:16 GMT",
+  "referrer-policy": "no-referrer-when-downgrade",
+  "server": "nginx"
+ },
+ "loadMs": 1370,
+ "requestCount": 102,
+ "thirdPartyHosts": [
+  "www.google.com",
+  "website-media.com",
+  "fonts.googleapis.com",
+  "use.typekit.net",
+  "p.typekit.net",
+  "www.gstatic.com",
+  "www.googletagmanager.com",
+  "cdn.jsdelivr.net",
+  "d3forms.d3corp.com",
+  "acsbapp.com",
+  "cdn.acsbapp.com",
+  "cdn.apigateway.co",
+  "fonts.gstatic.com",
+  "lexicon-prod.apigateway.co",
+  "conversation-prod.apigateway.co",
+  "lh3.googleusercontent.com",
+  "www.google-analytics.com"
+ ],
+ "internalLinks": [
+  "https://d3corp.com/request-a-quote",
+  "https://d3corp.com/",
+  "https://d3corp.com/meet-us/",
+  "https://d3corp.com/testimonials/",
+  "https://d3corp.com/services/",
+  "https://d3corp.com/ai-assistant/",
+  "https://d3corp.com/answer-engine-optimization/",
+  "https://d3corp.com/digital-advertising/",
+  "https://d3corp.com/email-marketing/",
+  "https://d3corp.com/graphic-design/",
+  "https://d3corp.com/multimedia/",
+  "https://d3corp.com/print/",
+  "https://d3corp.com/search-engine-optimization/",
+  "https://d3corp.com/social-media-marketing/",
+  "https://d3corp.com/strategy/",
+  "https://d3corp.com/websites/",
+  "https://d3corp.com/rapid-design-websites/",
+  "https://d3corp.com/case-studies/",
+  "https://d3corp.com/videos/",
+  "https://d3corp.com/id3as/",
+  "https://d3corp.com/careers/",
+  "https://d3corp.com/join-our-team/",
+  "https://d3corp.com/contact-us/",
+  "https://d3corp.com/request-a-quote/",
+  "https://d3corp.com/case-study/crabs-to-go/",
+  "https://d3corp.com/case-study/old-pro-golf/",
+  "https://d3corp.com/case-study/castle-in-the-sand-hotel/",
+  "https://d3corp.com/case-study/zen-spa-studio-z/",
+  "https://d3corp.com/case-study/jolly-roger-amusements/",
+  "https://d3corp.com/case-study/boardwalk-hotel-group/",
+  "https://d3corp.com/case-study/primo-family-restaurant/",
+  "https://d3corp.com/privacy-policy/",
+  "https://d3corp.com/terms/",
+  "https://d3corp.com/webmail/",
+  "https://d3corp.com/accessibility/",
+  "https://d3corp.com/site-map/"
+ ],
+ "externalLinks": [
+  {
+   "href": "https://accessibe.com/blog/knowledgebase/screen-reader-guide",
+   "text": "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://policies.google.com/privacy",
+   "text": "Privacy Policy",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/terms",
+   "text": "Terms of Service",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/privacy",
+   "text": "Privacy Policy",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/terms",
+   "text": "Terms of Service",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/privacy",
+   "text": "Privacy Policy",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/terms",
+   "text": "Terms of Service",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6",
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8",
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://visitoceancity.com/",
+   "text": "Ocean City MD",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://oceancity.org/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://salisburyarea.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://thequietresorts.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  }
+ ],
+ "lang": "en-US",
+ "title": "Social Media Marketing Services | Local Social Experts for Every Platform (TikTok, Meta, YouTube, X/Twitter and More)",
+ "metas": {
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+  "format-detection": "telephone=no,email=no,url=no",
+  "description": "Choose a social media management team that helps you stand out! D3 is the trusted partner in Ocean City, MD to achieve real engagement & results on social.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Social Media Marketing Services | Local Social Experts for Every Platform (TikTok, Meta, YouTube, X/Twitter and More)",
+  "og:description": "Choose a social media management team that helps you stand out! D3 is the trusted partner in Ocean City, MD to achieve real engagement & results on social.",
+  "og:url": "https://d3corp.com/social-media-marketing/",
+  "og:site_name": "D3",
+  "og:updated_time": "2026-05-05T11:41:20-04:00",
+  "article:published_time": "2025-09-12T13:25:38-04:00",
+  "article:modified_time": "2026-05-05T11:41:20-04:00",
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Social Media Marketing Services | Local Social Experts for Every Platform (TikTok, Meta, YouTube, X/Twitter and More)",
+  "twitter:description": "Choose a social media management team that helps you stand out! D3 is the trusted partner in Ocean City, MD to achieve real engagement & results on social.",
+  "twitter:label1": "Time to read",
+  "twitter:data1": "Less than a minute",
+  "generator": "WordPress 7.1.2",
+  "msapplication-tileimage": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102958/d3-favicon.png"
+ },
+ "canonical": "https://d3corp.com/social-media-marketing/",
+ "hreflang": [],
+ "generator": "WordPress 7.1.2",
+ "h1": [
+  "Social Media Marketing & Management Services"
+ ],
+ "h2": [
+  "Is Your Social Media Agency Just Going Through the Motions?",
+  "Custom Social Content That Delivers Returns",
+  "Custom Social Content That Delivers Returns",
+  "Grow Your Audience With D3’s Social Media Services"
+ ],
+ "h3": [
+  "Does Your Social Media Agency Make You Feel Socially Deprived?",
+  "Get Started With D3 Social Media Services",
+  "Subscribe"
+ ],
+ "wordCount": 1424,
+ "text": "Press Alt+1 for screen-reader mode, Alt+0 to cancel Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window D3 Meet Us Services Our Work Blog Careers Contact Us REQUEST A QUOTE Social Media Marketing Social Media Marketing & Management Services Let’s be real— your social media presence is way too important to be managed by the interns! Your brand deserves more than generic posts and outdated strategies. In a world filled with self-proclaimed gurus and experts, anyone can take their phone, point, shoot, and post. But what happens to your brand reputation when your online voice is misaligned and disengaged in the day-to-day of your business? Our D3 team creates scroll-stopping content that connects, engages, and converts. We don’t just post for the sake of posting. Our team crafts compelling, strategic, and data-driven content tailored to your brand. Whether you need to boost engagement, drive traffic, or establish industry authority, we’ve got you covered! Is Your Social Media Agency Just Going Through the Motions? Not us. We believe in real engagement, real results, and real strategy. Custom Content: No cookie-cutter templates. Everything we create is tailored to your brand. Expertise and Strategy: We know what works and what doesn’t, saving you from guesswork and wasted effort. ROI-Focused: Social media should drive business growth. We make sure that it does. Consistent Branding: Align yourself with a dedicated team of creators and designers that ensure your content aligns with your brand voice and business goals. Better Engagement and Growth: A social media team should actively interact with your audience, helping to build stronger relationships and brand loyalty. Our team keeps a close eye on your performance metrics and adjusts strategies to meet the unique needs of each account. We continuously analyze engagement trends, audience behavior, and campaign effectiveness to ensure the best results. We keep in consistent communication, providing regular updates and insights so you will never be left in the dark about how your accounts are performing or your online sentiment. With our hands-on approach, you can be confident that your brand’s online presence is in the best care. Does Your Social Media Agency Make You Feel Socially Deprived? Well, we’re here to change that! With our team behind your brand, you’ll never feel like you’re shouting into the void. Our proactive approach ensures your brand stays relevant, connected, and ahead of the competition. Running a business is already a full-time job—juggling operations, finances, customer service, and growth strategies. Now, add social media management to the mix, and suddenly, you’re wearing yet another hat that demands constant attention. From creating content to engaging with followers and keeping up with ever-changing algorithms, maintaining an effective social presence can feel like a second full-time job. Before you know it, you’re stretched thin, feeling drained, and still not seeing the results you want. Instead of trying to do it all yourself, allowing a professional team to handle your social media can save you time, energy, and frustration. Oh, and it’s worth mentioning—we ensure that every social media account is properly set up and secured, so you never have to worry about access issues. No matter what, you’ll always retain control over your accounts. Our team takes proactive measures to safeguard your login credentials, verify account ownership, and ensure smooth transitions—giving you peace of mind and full control of your digital presence. Let’s make your social media presence unforgettable. Contact us today! Get Started With D3 Social Media Services Tell us about your company, and we’ll be in touch with recommendations from our D3 social experts! Company Name Contact Person Position/Title City State Phone Email Preferred Method of Contact Preferred Method of Contact Phone Email Current Website URL Type of Website What Social Do You Currently Have? (ie. Facebook) Corporate Website Portfolio Website Landing Page E-commerce Website What is Your Timeframe for a New Site? What is Your Timeframe? ASAP 3-6 months 6-12 months Not Sure How Did You Discover D3? How Did You Discover D3? Google Search Social Media Word of Mouth Referral from a Friend or Colleague Event or Trade Show Walk-In / Drove By Print Advertisement Email Newsletter From Another Business Existing Client Comments This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. SUBMIT REQUEST Case Studies Custom Social Content That Delivers Returns CRABS TO GO Crabs To Go, a long-time local favorite for fresh, carry-out seafood, needed a modern website to match their year-round demand and new payment processing system. By uniting web, social, and creative efforts, we delivered a cohesive, high-performing site that immediately increased online orders and better reflects the quality and character of this community staple. VIEW CASE STUDY OLD PRO GOLF Old Pro Golf has been delighting families in Ocean City, MD, since 1963. D3 helped bring their iconic courses into the modern era with a refreshed brand, vibrant photography, a dynamic new website, and playful social storytelling. From immersive course visuals to an online scorecard and streamlined event booking, every touchpoint celebrates nostalgia while engaging a new generation of mini-golfers. VIEW CASE STUDY CASTLE IN THE SAND HOTEL The Castle in the Sand Hotel has been an iconic Ocean City, MD destination for generations. Owned and operated by the Showell family, the hotel is known for its stunning oceanfront location, close to all the action, its variety of accommodations, and its family-friendly atmosphere. VIEW CASE STUDY ZEN SPA & STUDIO Z Zen Spa, nestled along the coast of Delaware, offers a peaceful escape from daily life with a wide array of services dedicated to rejuvenation and wellness for both locals and visitors to the area. The spa specializes in personalized massage therapies, advanced skincare treatments, and restorative body treatments that combine traditional techniques with modern wellness practices. With a focus on holistic health and a serene ambiance, Zen Spa provides a sanctuary where guests can relax, recharge, and... VIEW CASE STUDY JOLLY ROGER AMUSEMENTS A familiar legend, newly charted: D3 reimagined Jolly Roger® Amusement Parks, a beloved Ocean City, MD brand, for a new generation of visitors. Over the years, Jolly Roger’s digital presence had expanded across multiple sister websites representing all of its parks and attractions. We envisioned a solution to reduce complexity from both a management and maintenance perspective, and to modernize the famed amusement park’s brand presence. VIEW CASE STUDY BOARDWALK HOTEL GROUP Building on a long-standing relationship, D3 led a comprehensive overhaul of Boardwalk Hotel Group’s four websites, refreshing photography and video, restructuring and streamlining extensive content, and updating design to better meet evolving guest expectations. The project showcased our project management strength and expertise while integrating seamlessly with ongoing marketing efforts to ensure cohesion across all initiatives. The result is a modern, unified website experience that maintains strong search performance, aligns with industry standards, and continues to drive... VIEW CASE STUDY PRIMO FAMILY RESTAURANT After a longstanding relationship with D3 for website hosting, Primo Family Restaurant partnered with our team to reimagine their digital presence and unify their marketing efforts into a cohesive, growth-focused strategy. Our goal was to create a digital experience that reflects the same quality, warmth, and authenticity guests enjoy in person. Through a comprehensive marketing initiative, including a new website and professional photography, social media and email marketing support, lead capture, and digital advertising, D3 brought Primo’s... VIEW CASE STUDY 1 2 3 4 5 6 7 Grow Your Audience With D3’s Social Media Services Submit the form below, or give us a call at 410-213-2400 First Name Last Name Company Name Phone Email How Did You Hear About D3? How Did You Hear About D3?* Google Search Social Media Word of Mouth Referral from a Friend or Colleague Event or Trade Show Walk-In / Drove By Print Advertisement Email Newsletter From Another Business Existing Client I'm Interested in the following Services: This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. SUBMIT Subscribe Get the latest marketing news and advice. First Name Last Name Email SUBSCRIBE This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. 12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842 410-213-2400 212 West Main Street Salisbury, Maryland 21801 Meet Us Testimonials Services Case Studies Videos ID3AS Blog Careers Contact Us Privacy Policy Terms & Conditions Webmail Accessibility Site Map Copyright © 2026 D3. All Rights Reserved. Website Design by D3, Ocean City MD Our Partners PREVIOUS Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google NEXT",
+ "images": [
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website-300x151.png",
+   "alt": "D3",
+   "w": 300,
+   "h": 151,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/01/07033452/retro-standout-social-media-marketing.png",
+   "alt": "",
+   "w": 560,
+   "h": 573,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/10/09102749/d3-social-media-content-graphic.png",
+   "alt": "",
+   "w": 940,
+   "h": 619,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102812/form-background-1536x659.jpg",
+   "alt": "",
+   "w": 1439,
+   "h": 617,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102946/Layer-49-1-1536x708.webp",
+   "alt": "",
+   "w": 1439,
+   "h": 663,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/12/04110836/monitor-home.png",
+   "alt": "Monitor displaying home page of Crabs to Go",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/10/31115224/monitor-homepage-old-pro-golf.png",
+   "alt": "Monitor showing Old Pro Golf homepage",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102817/monitor-home-castle-in-the-sand.png",
+   "alt": "Monitor displaying home page of Castle in The Sand",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102818/monitor-home-zen-spa.png",
+   "alt": "Monitor displaying home page of Zen Spa",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/15124532/monitor-d3-homepage-jolly-roger-park-2026.png",
+   "alt": "Monitor displaying homepage of Jolly Roger Park",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/01/19105606/bhg-monitor-d3-homepage.png",
+   "alt": "Monitor displaying home page of Boardwalk Hotel Group",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2026/01/08081005/monitor-D3-homepage-primo-family-restaurant.png",
+   "alt": "Monitor displaying home page of Primo Family Restaurant",
+   "w": 798,
+   "h": 669,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/08/09102943/Background-Photo-1536x644.webp",
+   "alt": "Digital marketing contact form",
+   "w": 1439,
+   "h": 603,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102927/talkideas-768x123.webp",
+   "alt": "Let's Talk Ideas neon glowing text",
+   "w": 700,
+   "h": 112,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Robot-Small.webp",
+   "alt": "",
+   "w": 166,
+   "h": 213,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102744/ocean-city-chamber-logo.png",
+   "alt": "Ocean City chamber logo",
+   "w": 1059,
+   "h": 1500,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-82.webp",
+   "alt": "",
+   "w": 44,
+   "h": 62,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-83.webp",
+   "alt": "",
+   "w": 167,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo-300x68.webp",
+   "alt": "YouTube Logo",
+   "w": 192,
+   "h": 43,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo-300x86.webp",
+   "alt": "Shopify logo",
+   "w": 189,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 209,
+   "h": 59,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 78,
+   "h": 105,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo-300x61.webp",
+   "alt": "Woo Commerce logo",
+   "w": 192,
+   "h": 39,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo-300x52.webp",
+   "alt": "WordPress logo",
+   "w": 192,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo-300x60.webp",
+   "alt": "Bing logo",
+   "w": 192,
+   "h": 38,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 664,
+   "h": 196,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo-300x68.webp",
+   "alt": "YouTube Logo",
+   "w": 192,
+   "h": 43,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo-300x86.webp",
+   "alt": "Shopify logo",
+   "w": 189,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 209,
+   "h": 59,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 78,
+   "h": 105,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo-300x61.webp",
+   "alt": "Woo Commerce logo",
+   "w": 192,
+   "h": 39,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo-300x52.webp",
+   "alt": "WordPress logo",
+   "w": 192,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo-300x60.webp",
+   "alt": "Bing logo",
+   "w": 192,
+   "h": 38,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 664,
+   "h": 196,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  }
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "Service",
+     "name": "Social Media Marketing",
+     "description": "Our D3 social media team creates scroll-stopping content that connects, engages, and converts. By crafting compelling, strategic, and data-driven content tailored to your brand, you social media will boost engagement, drive traffic, and establish industry authority. D3 creates custom content that is ROI-focused and brand consistent, built and strategized by our experts to improve engagement and growth of all of your social media platforms.",
+     "url": "https://d3corp.com/social-media-marketing/",
+     "provider": {
+      "@type": "Organization",
+      "name": "D3"
+     }
+    },
+    {
+     "@type": "Organization",
+     "@id": "https://d3corp.com/#organization",
+     "name": "D3",
+     "url": "https://d3corp.com",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://d3corp.com/#logo",
+      "url": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "contentUrl": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "caption": "D3",
+      "inLanguage": "en-US",
+      "width": "694",
+      "height": "350"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://d3corp.com/#website",
+     "url": "https://d3corp.com",
+     "name": "D3",
+     "publisher": {
+      "@id": "https://d3corp.com/#organization"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://d3corp.com/social-media-marketing/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://d3corp.com/social-media-marketing/",
+        "name": "Social Media Marketing"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://d3corp.com/social-media-marketing/#webpage",
+     "url": "https://d3corp.com/social-media-marketing/",
+     "name": "Social Media Marketing Services | Local Social Experts for Every Platform (TikTok, Meta, YouTube, X/Twitter and More)",
+     "datePublished": "2025-09-12T13:25:38-04:00",
+     "dateModified": "2026-05-05T11:41:20-04:00",
+     "isPartOf": {
+      "@id": "https://d3corp.com/#website"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://d3corp.com/social-media-marketing/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://d3corp.com/social-media-marketing/#author",
+     "name": "D3 Support",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/4b06e363e9bc7ebe19454b1c1b57049dda89fdcb9ad96ca0065307e9ca3ecc0b?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/4b06e363e9bc7ebe19454b1c1b57049dda89fdcb9ad96ca0065307e9ca3ecc0b?s=96&amp;d=mm&amp;r=g",
+      "caption": "D3 Support",
+      "inLanguage": "en-US"
+     },
+     "worksFor": {
+      "@id": "https://d3corp.com/#organization"
+     }
+    },
+    {
+     "@type": "Article",
+     "headline": "Social Media Marketing Services | Local Social Experts for Every Platform (TikTok, Meta, YouTube, X/Twitter",
+     "keywords": "Social Marketing",
+     "datePublished": "2025-09-12T13:25:38-04:00",
+     "dateModified": "2026-05-05T11:41:20-04:00",
+     "author": {
+      "@id": "https://d3corp.com/social-media-marketing/#author",
+      "name": "D3 Support"
+     },
+     "publisher": {
+      "@id": "https://d3corp.com/#organization"
+     },
+     "description": "Choose a social media management team that helps you stand out! D3 is the trusted partner in Ocean City, MD to achieve real engagement &amp; results on social.",
+     "name": "Social Media Marketing Services | Local Social Experts for Every Platform (TikTok, Meta, YouTube, X/Twitter",
+     "@id": "https://d3corp.com/social-media-marketing/#richSnippet",
+     "isPartOf": {
+      "@id": "https://d3corp.com/social-media-marketing/#webpage"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://d3corp.com/social-media-marketing/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "forms": [
+  {
+   "action": "ref: <Node>",
+   "method": "post",
+   "id": "frmD3Forms5657",
+   "fields": [
+    {
+     "name": "submit_to_system",
+     "type": "text",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "company_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "Company Name",
+     "label": "Company Name"
+    },
+    {
+     "name": "contact_person",
+     "type": "text",
+     "required": false,
+     "placeholder": "Contact Person",
+     "label": "Contact Person"
+    },
+    {
+     "name": "position_title",
+     "type": "text",
+     "required": false,
+     "placeholder": "Position/Title",
+     "label": "Position/Title"
+    },
+    {
+     "name": "city",
+     "type": "text",
+     "required": false,
+     "placeholder": "City",
+     "label": "City"
+    },
+    {
+     "name": "state",
+     "type": "text",
+     "required": false,
+     "placeholder": "State",
+     "label": "State"
+    },
+    {
+     "name": "phone",
+     "type": "text",
+     "required": false,
+     "placeholder": "Phone",
+     "label": "Phone"
+    },
+    {
+     "name": "email",
+     "type": "email",
+     "required": false,
+     "placeholder": "Email",
+     "label": "Email"
+    },
+    {
+     "name": "preferred_method_of_contact",
+     "type": "select-one",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "current_website_url",
+     "type": "text",
+     "required": false,
+     "placeholder": "Current Website URL",
+     "label": "Current Website URL"
+    },
+    {
+     "name": "type_of_website",
+     "type": "select-one",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "what_is_your_timeframe_for_a_new_site",
+     "type": "select-one",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "how_did_you_discover_d3",
+     "type": "select-one",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "comments",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Comments",
+     "label": "Comments"
+    }
+   ]
+  },
+  {
+   "action": "ref: <Node>",
+   "method": "post",
+   "id": "frmD3Forms5650",
+   "fields": [
+    {
+     "name": "submit_to_system",
+     "type": "text",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "first_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "First Name*",
+     "label": "First Name"
+    },
+    {
+     "name": "last_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "Last Name*",
+     "label": "Last Name"
+    },
+    {
+     "name": "company_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "Company Name*",
+     "label": "Company Name"
+    },
+    {
+     "name": "phone",
+     "type": "text",
+     "required": false,
+     "placeholder": "Phone*",
+     "label": "Phone"
+    },
+    {
+     "name": "email",
+     "type": "email",
+     "required": false,
+     "placeholder": "Email*",
+     "label": "Email"
+    },
+    {
+     "name": "how_did_you_hear_about_d3",
+     "type": "select-one",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "i_m_interested_in_the_following_services",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "I'm Interested in the following Services:*",
+     "label": null
+    }
+   ]
+  },
+  {
+   "action": "ref: <Node>",
+   "method": "post",
+   "id": "frmD3Forms5112",
+   "fields": [
+    {
+     "name": "submit_to_system",
+     "type": "text",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "first_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "First Name",
+     "label": "First Name"
+    },
+    {
+     "name": "last_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "Last Name",
+     "label": "Last Name"
+    },
+    {
+     "name": "email",
+     "type": "email",
+     "required": false,
+     "placeholder": "Email",
+     "label": "Email"
+    }
+   ]
+  }
+ ],
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-WY4W4ZLGEG&cx=c&gtm=4e6ac1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-NGGH6CL",
+  "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtlvjEjk2TqdwOQz/recaptcha__en.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+  "https://www.google.com/recaptcha/api.js?render=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6",
+  "https://cdn.apigateway.co/webchat-client..prod/sdk.js",
+  "https://d3corp.com/app/plugins/wpconsent-premium/build/frontend-pro.js?ver=69fedfaec866286d7fe0",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/d3forms.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/bload/bload.min.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.iframe-transport.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.fileupload.js",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-client-device-data.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-media-gate.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-youtube.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-vimeo.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-soundcloud.js?ver=2.0.5",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.14.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/bootstrap.bundle.min.js?ver=4.3.1",
+  "https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/slick.min.js?ver=1.8.1",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/lazyload.min.js?ver=12.4.0",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.matchHeight-min.js?ver=0.7.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.fancybox.v3.js?ver=3.5.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/global.js",
+  "https://d3forms.d3corp.com/d3fst/recaptcha.js?ver=7.1.2",
+  "https://acsbapp.com/apps/app/dist/js/app.js"
+ ],
+ "iframes": [
+  "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6&co=aHR0cHM6Ly9kM2NvcnAuY29tOjQ0Mw..&hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz&size=invisible&anchor-ms=20000&execute-ms=30000&cb=r4dzv7gc48vj"
+ ],
+ "ctas": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Contact us",
+   "href": "https://d3corp.com/request-a-quote/",
+   "tag": "a"
+  },
+  {
+   "text": "SUBMIT REQUEST",
+   "href": null,
+   "tag": "button"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  }
+ ],
+ "phones": [
+  "410-213-2400"
+ ],
+ "emails": [],
+ "telLinks": [
+  "tel: +14102132400",
+  "tel:+1-4102132400"
+ ],
+ "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+ "nav": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "AI Assistant",
+   "href": "https://d3corp.com/ai-assistant/"
+  },
+  {
+   "text": "Answer Engine Optimization",
+   "href": "https://d3corp.com/answer-engine-optimization/"
+  },
+  {
+   "text": "Digital Advertising",
+   "href": "https://d3corp.com/digital-advertising/"
+  },
+  {
+   "text": "Email Marketing",
+   "href": "https://d3corp.com/email-marketing/"
+  },
+  {
+   "text": "Graphic Design",
+   "href": "https://d3corp.com/graphic-design/"
+  },
+  {
+   "text": "Multimedia",
+   "href": "https://d3corp.com/multimedia/"
+  },
+  {
+   "text": "Print",
+   "href": "https://d3corp.com/print/"
+  },
+  {
+   "text": "Search Engine Optimization",
+   "href": "https://d3corp.com/search-engine-optimization/"
+  },
+  {
+   "text": "Social Media Marketing",
+   "href": "https://d3corp.com/social-media-marketing/"
+  },
+  {
+   "text": "Strategy",
+   "href": "https://d3corp.com/strategy/"
+  },
+  {
+   "text": "Custom Websites",
+   "href": "https://d3corp.com/websites/"
+  },
+  {
+   "text": "Rapid Design Websites",
+   "href": "https://d3corp.com/rapid-design-websites/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Our Work",
+   "href": ""
+  },
+  {
+   "text": "Our Work",
+   "href": "https://d3corp.com/social-media-marketing/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Join Our Team",
+   "href": "https://d3corp.com/join-our-team/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  }
+ ],
+ "footer": [
+  {
+   "text": "Privacy Policy",
+   "href": "https://policies.google.com/privacy"
+  },
+  {
+   "text": "Terms of Service",
+   "href": "https://policies.google.com/terms"
+  },
+  {
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6"
+  },
+  {
+   "text": "410-213-2400",
+   "href": "tel:+1-4102132400"
+  },
+  {
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "ID3AS Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "Privacy Policy",
+   "href": "https://d3corp.com/privacy-policy/"
+  },
+  {
+   "text": "Terms & Conditions",
+   "href": "https://d3corp.com/terms/"
+  },
+  {
+   "text": "Webmail",
+   "href": "https://d3corp.com/webmail/"
+  },
+  {
+   "text": "Accessibility",
+   "href": "https://d3corp.com/accessibility/"
+  },
+  {
+   "text": "Site Map",
+   "href": "https://d3corp.com/site-map/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Website Design",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Ocean City MD",
+   "href": "https://visitoceancity.com/"
+  }
+ ]
+}

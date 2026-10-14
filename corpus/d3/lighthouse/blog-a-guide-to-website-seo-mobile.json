@@ -1,0 +1,167 @@
+{
+ "url": "https://d3corp.com/blog/a-guide-to-website-seo/",
+ "formFactor": "mobile",
+ "scores": {
+  "performance": 0.44,
+  "accessibility": 0.84,
+  "best-practices": 0.75,
+  "seo": 0.92
+ },
+ "audits": {
+  "first-contentful-paint": {
+   "score": 0.67,
+   "value": "2.5 s",
+   "numeric": 2499.9948000000004
+  },
+  "largest-contentful-paint": {
+   "score": 0,
+   "value": "26.9 s",
+   "numeric": 26943.959100000004
+  },
+  "total-blocking-time": {
+   "score": 0.22,
+   "value": "1,150 ms",
+   "numeric": 1150
+  },
+  "cumulative-layout-shift": {
+   "score": 1,
+   "value": "0.034",
+   "numeric": 0.03410361820536382
+  },
+  "speed-index": {
+   "score": 0.57,
+   "value": "5.4 s",
+   "numeric": 5368.965119823228
+  },
+  "interactive": {
+   "score": 0,
+   "value": "26.9 s",
+   "numeric": 26943.959100000007
+  },
+  "total-byte-weight": {
+   "score": 0.5,
+   "value": "Total size was 4,491 KiB",
+   "numeric": 4598862
+  },
+  "render-blocking-resources": {
+   "score": 0.5,
+   "value": "Potential savings of 0 ms",
+   "numeric": 0
+  },
+  "unused-javascript": {
+   "score": 0,
+   "value": "Potential savings of 1,470 KiB",
+   "numeric": 8710
+  },
+  "unused-css-rules": {
+   "score": 0.5,
+   "value": "Potential savings of 52 KiB",
+   "numeric": 0
+  },
+  "uses-responsive-images": {
+   "score": 1,
+   "value": null,
+   "numeric": 0
+  },
+  "modern-image-formats": {
+   "score": 0,
+   "value": "Potential savings of 914 KiB",
+   "numeric": 4650
+  },
+  "server-response-time": {
+   "score": 1,
+   "value": "Root document took 60 ms",
+   "numeric": 64.916
+  },
+  "dom-size": {
+   "score": 1,
+   "value": "575 elements",
+   "numeric": 575
+  },
+  "font-display": {
+   "score": 0.5,
+   "value": null,
+   "numeric": null
+  },
+  "image-alt": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "document-title": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "meta-description": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "link-text": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "crawlable-anchors": {
+   "score": 0,
+   "value": null,
+   "numeric": null
+  },
+  "is-crawlable": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "robots-txt": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "hreflang": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "canonical": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "structured-data": {
+   "score": null,
+   "value": null,
+   "numeric": null
+  },
+  "viewport": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "color-contrast": {
+   "score": 0,
+   "value": null,
+   "numeric": null
+  },
+  "heading-order": {
+   "score": 0,
+   "value": null,
+   "numeric": null
+  },
+  "is-on-https": {
+   "score": 1,
+   "value": null,
+   "numeric": null
+  },
+  "errors-in-console": {
+   "score": 0,
+   "value": null,
+   "numeric": null
+  },
+  "third-party-summary": {
+   "score": 0,
+   "value": "Third-party code blocked the main thread for 1,290 ms",
+   "numeric": null
+  }
+ }
+}

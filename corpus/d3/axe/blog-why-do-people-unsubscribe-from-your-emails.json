@@ -1,0 +1,95 @@
+{
+ "url": "https://d3corp.com/blog/why-do-people-unsubscribe-from-your-emails/",
+ "violations": [
+  {
+   "id": "aria-allowed-role",
+   "impact": "minor",
+   "help": "ARIA role should be appropriate for the element",
+   "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role?application=axeAPI",
+   "nodes": 2,
+   "sample": [
+    "<form action=\"\" method=\"post\" enctype=\"application/x-www-form-urlencoded\" name=\"frmD3Forms5112\" id=\"frmD3Forms5112\" role=\"form\" class=\"frm frm-no-redirect\">",
+    "<form action=\"\" method=\"post\" enctype=\"application/x-www-form-urlencoded\" name=\"frmD3Forms5112\" id=\"frmD3Forms5112\" role=\"form\" class=\"frm frm-no-redirect\">"
+   ]
+  },
+  {
+   "id": "aria-dialog-name",
+   "impact": "serious",
+   "help": "ARIA dialog and alertdialog nodes should have an accessible name",
+   "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/aria-dialog-name?application=axeAPI",
+   "nodes": 1,
+   "sample": [
+    "<div class=\"wpconsent-banner-holder wpconsent-banner-long wpconsent-banner-long-bottom wpconsent-banner-visible\" id=\"wpconsent-banner-holder\" tabindex=\"-1\" role=\"dialog\">"
+   ]
+  },
+  {
+   "id": "color-contrast",
+   "impact": "serious",
+   "help": "Elements must meet minimum color contrast ratio thresholds",
+   "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+   "nodes": 19,
+   "sample": [
+    "<a href=\"https://d3corp.com/meet-us/\" class=\"nav-link dropdown-toggle\">Meet Us</a>",
+    "<a href=\"https://d3corp.com/services/\" class=\"nav-link dropdown-toggle\">Services</a>",
+    "<a class=\"nav-link dropdown-toggle\">Our Work</a>"
+   ]
+  },
+  {
+   "id": "heading-order",
+   "impact": "moderate",
+   "help": "Heading levels should only increase by one",
+   "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/heading-order?application=axeAPI",
+   "nodes": 2,
+   "sample": [
+    "<h5 class=\"fw-regular blue-text\">ID3AS Blog</h5>",
+    "<h6 class=\"partners-title\">Our Partners</h6>"
+   ]
+  },
+  {
+   "id": "landmark-complementary-is-top-level",
+   "impact": "moderate",
+   "help": "Aside should not be contained in another landmark",
+   "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/landmark-complementary-is-top-level?application=axeAPI",
+   "nodes": 1,
+   "sample": [
+    "<aside class=\"sidebar blog-sidebar\">"
+   ]
+  },
+  {
+   "id": "link-in-text-block",
+   "impact": "serious",
+   "help": "Links must be distinguishable without relying on color",
+   "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block?application=axeAPI",
+   "nodes": 5,
+   "sample": [
+    "<a href=\"https://www.d3corp.com/ID3AS/post/Why-Your-Business-Needs-Email-Marketing\" data-cke-saved-href=\"https://www.d3corp.com/ID3AS/post/Why-Your-Business-Needs-Email-Marketing\">key assets to growin",
+    "<a href=\"https://www.mediapost.com/publications/article/205984/53-of-consumers-say-they-get-too-many-emails-from.html\" data-cke-saved-href=\"https://www.mediapost.com/publications/article/205984/53-of-",
+    "<a href=\"https://www.d3corp.com/ID3AS/post/Taking-Email-Marketing-to-the-Next-Level\" data-cke-saved-href=\"https://www.d3corp.com/ID3AS/post/Taking-Email-Marketing-to-the-Next-Level\" data-cke-saved-=\"\""
+   ]
+  },
+  {
+   "id": "link-name",
+   "impact": "serious",
+   "help": "Links must have discernible text",
+   "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+   "nodes": 2,
+   "sample": [
+    "<a href=\"https://salisburyarea.com/\" target=\"_blank\" class=\"chamber\">",
+    "<a href=\"https://thequietresorts.com/\" target=\"_blank\" class=\"chamber\">"
+   ]
+  },
+  {
+   "id": "region",
+   "impact": "moderate",
+   "help": "All page content should be contained by landmarks",
+   "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=axeAPI",
+   "nodes": 3,
+   "sample": [
+    "<a href=\"https://accessibe.com/blog/knowledgebase/screen-reader-guide\" target=\"_blank\" rel=\"noopener\" tabindex=\"-1\" data-acsb=\"sr-trigger\" data-acsb-sr-only=\"true\" class=\"acsb-sr-only\" style=\"position",
+    "<div class=\"col-12 col-xxl-2 d-flex align-items-center justify-content-center\">\n                                <h6 class=\"partners-title\">Our Partners</h6>\n                            </div>",
+    "<div class=\"slick-slide slick-current slick-active\" data-slick-index=\"0\" aria-hidden=\"false\">"
+   ]
+  }
+ ],
+ "incomplete": 5
+}

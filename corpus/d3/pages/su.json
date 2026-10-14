@@ -1,0 +1,2593 @@
+{
+ "url": "https://d3corp.com/su/",
+ "requestedUrl": "https://d3corp.com/su/",
+ "status": 200,
+ "headers": {
+  "content-encoding": "gzip",
+  "content-type": "text/html; charset=UTF-8",
+  "date": "Wed, 14 Oct 2026 00:29:51 GMT",
+  "etag": "\"a0451dcbe79effd544721ff3c132d6cf\"",
+  "last-modified": "Wed, 14 Oct 2026 00:29:51 GMT",
+  "link": "<https://d3corp.com/wp-json/>; rel=\"https://api.w.org/\"\n<https://d3corp.com/wp-json/wp/v2/pages/1790>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\n<https://d3corp.com/?p=1790>; rel=shortlink",
+  "permissions-policy": "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+  "referrer-policy": "no-referrer-when-downgrade\nno-referrer-when-downgrade",
+  "server": "nginx",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block"
+ },
+ "loadMs": 2222,
+ "requestCount": 89,
+ "thirdPartyHosts": [
+  "www.google.com",
+  "website-media.com",
+  "fonts.googleapis.com",
+  "use.typekit.net",
+  "cdn.jsdelivr.net",
+  "d3forms.d3corp.com",
+  "p.typekit.net",
+  "www.gstatic.com",
+  "www.googletagmanager.com",
+  "acsbapp.com",
+  "cdn.acsbapp.com",
+  "cdn.apigateway.co",
+  "fonts.gstatic.com",
+  "lexicon-prod.apigateway.co",
+  "conversation-prod.apigateway.co",
+  "lh3.googleusercontent.com",
+  "www.google-analytics.com"
+ ],
+ "internalLinks": [
+  "https://d3corp.com/request-a-quote",
+  "https://d3corp.com/",
+  "https://d3corp.com/meet-us/",
+  "https://d3corp.com/testimonials/",
+  "https://d3corp.com/services/",
+  "https://d3corp.com/ai-assistant/",
+  "https://d3corp.com/answer-engine-optimization/",
+  "https://d3corp.com/digital-advertising/",
+  "https://d3corp.com/email-marketing/",
+  "https://d3corp.com/graphic-design/",
+  "https://d3corp.com/multimedia/",
+  "https://d3corp.com/print/",
+  "https://d3corp.com/search-engine-optimization/",
+  "https://d3corp.com/social-media-marketing/",
+  "https://d3corp.com/strategy/",
+  "https://d3corp.com/websites/",
+  "https://d3corp.com/rapid-design-websites/",
+  "https://d3corp.com/su/",
+  "https://d3corp.com/case-studies/",
+  "https://d3corp.com/videos/",
+  "https://d3corp.com/id3as/",
+  "https://d3corp.com/careers/",
+  "https://d3corp.com/join-our-team/",
+  "https://d3corp.com/contact-us/",
+  "https://d3corp.com/privacy-policy/",
+  "https://d3corp.com/terms/",
+  "https://d3corp.com/webmail/",
+  "https://d3corp.com/accessibility/",
+  "https://d3corp.com/site-map/"
+ ],
+ "externalLinks": [
+  {
+   "href": "https://accessibe.com/blog/knowledgebase/screen-reader-guide",
+   "text": "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://policies.google.com/privacy",
+   "text": "Privacy Policy",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/terms",
+   "text": "Terms of Service",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/privacy",
+   "text": "Privacy Policy",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://policies.google.com/terms",
+   "text": "Terms of Service",
+   "rel": null,
+   "target": null
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6",
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8",
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/D3DoesIt",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.linkedin.com/company/d3corp",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/c/D3CorpOceanCity",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.instagram.com/d3corp/",
+   "text": "",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://visitoceancity.com/",
+   "text": "Ocean City MD",
+   "rel": "noopener",
+   "target": "_blank"
+  },
+  {
+   "href": "https://oceancity.org/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://salisburyarea.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://thequietresorts.com/",
+   "text": "",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.youtube.com/",
+   "text": "YouTube",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.shopify.com/",
+   "text": "Shopify",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.amazon.com/",
+   "text": "Amazon",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.adobe.com/",
+   "text": "Adobe",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://woocommerce.com/",
+   "text": "Woocommerce",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://wordpress.com/",
+   "text": "Wordpress",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.bing.com/",
+   "text": "Bing",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.facebook.com/",
+   "text": "Facebook",
+   "rel": null,
+   "target": "_blank"
+  },
+  {
+   "href": "https://www.google.com/",
+   "text": "Google",
+   "rel": null,
+   "target": "_blank"
+  }
+ ],
+ "lang": "en-US",
+ "title": "SU Entrepreneur Intake Form | Online Brand Performance Audit Checklist | D3",
+ "metas": {
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+  "format-detection": "telephone=no,email=no,url=no",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "SU Entrepreneur Intake Form | Online Brand Performance Audit Checklist | D3",
+  "og:url": "https://d3corp.com/su/",
+  "og:site_name": "D3",
+  "article:published_time": "2026-02-11T14:32:53-05:00",
+  "twitter:card": "summary_large_image",
+  "twitter:title": "SU Entrepreneur Intake Form | Online Brand Performance Audit Checklist | D3",
+  "twitter:label1": "Time to read",
+  "twitter:data1": "Less than a minute",
+  "generator": "WordPress 7.1.2",
+  "msapplication-tileimage": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102958/d3-favicon.png"
+ },
+ "canonical": "https://d3corp.com/su/",
+ "hreflang": [],
+ "generator": "WordPress 7.1.2",
+ "h1": [],
+ "h2": [],
+ "h3": [
+  "Website",
+  "Search",
+  "Social Media",
+  "Online Listings",
+  "Subscribe"
+ ],
+ "wordCount": 986,
+ "text": "Press Alt+1 for screen-reader mode, Alt+0 to cancel Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window D3 Meet Us Services Our Work Blog Careers Contact Us REQUEST A QUOTE SU Entrepreneur Intake Form | Online Brand Performance Audit Checklist Company Name Website URL Social Media Accounts + ADD SOCIAL MEDIA Closest Competitor 1 Closest Competitor 2 Notes Company Keyword 1 Company Keyword 2 Company Keyword 3 Website Website URL is easy to recall Yes No Unsure Notes Company logo appears on all pages Yes No Unsure Company logo appears on all pages - Notes Colors are pleasing or complimentary Yes No Unsure Colors are pleasing or complimentary - Notes Site uses high quality images Yes No Unsure Site uses high quality images - Notes Website uses three or less fonts Yes No Unsure Website uses three or less fonts - Notes Website looks and operates well on laptop and mobile devices Yes No Unsure Website looks and operates well on laptop and mobile devices - Notes The navigation system is simple, intuitive and consistent across all website pages Yes No Unsure The navigation system is simple, intuitive and consistent across all website pages - Notes About Us and Contact are easy to find Yes No Unsure Notes Contact forms and phone/email links work properly Yes No Unsure Notes Business has ownership of Google Business Profile Yes No Unsure Notes Google maps icon points to the business' actual location Yes No Unsure Notes Website layout uses ample white space and is not cluttered Yes No Unsure Notes Content is not used in large paragraphs Yes No Unsure Notes Content uses everyday language Yes No Unsure Notes Website includes a call to action Yes No Unsure Notes Website loads in 2-3 seconds Yes No Unsure Notes No dead links or page load (404) errors or redirect issues Yes No Unsure Notes Website has a valid sitemap and robots.txt Yes No Unsure Notes Analytics and tracking codes (Google Analytics, Meta Pixel) are installed Yes No Unsure Notes Search Company has updated web page meta-data or uses an SEO optimizer on their website. Title tags and meta descriptions are unique and optimized Yes No Unsure Notes Headers (H1, H2, etc.) include relevant keywords Yes No Unsure Notes URL structures are clean and keyword-friendly Yes No Unsure Notes Images have alt text and are compressed Yes No Unsure Notes Website has an XML sitemap submitted to Google Search Console Yes No Unsure Notes Backlinks are from reputable and relevant sites Yes No Unsure Notes Company website appears at the top of the first half of the first Google search results page when searching by each of provided keywords Yes No Unsure Notes Company website appears at the top of the first half of the first Google search results page when searching the Company name Yes No Unsure Notes Company website appears at the top of the first half of the first Google search results page when searching the Industry and city Yes No Unsure Notes Google score (stars) average is on par with or higher than competitors and above 4.0 Yes No Unsure Notes Company ranks in the top 10 for its industry and location (city) and near or above closest competitors Yes No Unsure Notes On Google, comments are responded to within 3 business days Yes No Unsure Notes Social Media About US and Profile sections are completed Yes No Unsure Notes Account Profiles have consistent brand look, (colors, logo) Yes No Unsure Notes Posting at least 2 times a week on each platform Yes No Unsure Notes Company voice is being used in posts Yes No Unsure Notes Original video and photos are being used Yes No Unsure Notes The number of followers is on par with or higher than competitors in the the same market Yes No Unsure Notes The number of comments, likes and shares is on par with or higher than competitors in the the same market Yes No Unsure Notes Comments are responded to promptly Yes No Unsure Notes Company includes CTA's in posts Yes No Unsure Notes Company uses a social media calendar or scheduling platform to plan posts in advance Yes No Unsure Notes Company uses paid posts or ads to reach new customers Yes No Unsure Notes Profile and cover images match brand guidelines Yes No Unsure Notes Bio/About sections clearly state what you do Yes No Unsure Notes Links to your website are correct Yes No Unsure Notes Posts include relevant hashtags and keywords Yes No Unsure Notes Audience engagement is tracked and responded to Yes No Unsure Notes Analytics are reviewed monthly Yes No Unsure Notes Top-performing content is identified and repurposed Yes No Unsure Notes Competitor benchmarking is done at least quarterly Yes No Unsure Notes Online Listings Business is listed on Google Business Profile Bing Places Yelp Notes All directory information matches your NAP (Name, Address, Phone) Yes No Unsure Notes Reviews are monitored and responded to Yes No Unsure Notes Star ratings are consistent (aim for 4★+) Yes No Unsure Notes Recent positive reviews are being collected Yes No Unsure Notes Listings include updated business hours, photos, and services Yes No Unsure Notes This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. SUBMIT Subscribe Get the latest marketing news and advice. First Name Last Name Email SUBSCRIBE This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. 12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842 410-213-2400 212 West Main Street Salisbury, Maryland 21801 Meet Us Testimonials Services Case Studies Videos ID3AS Blog Careers Contact Us Privacy Policy Terms & Conditions Webmail Accessibility Site Map Copyright © 2026 D3. All Rights Reserved. Website Design by D3, Ocean City MD Our Partners PREVIOUS Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google YouTube Shopify Amazon Adobe Woocommerce Wordpress Bing Facebook Google NEXT",
+ "images": [
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website-300x151.png",
+   "alt": "D3",
+   "w": 300,
+   "h": 151,
+   "loading": "auto"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Robot-Small.webp",
+   "alt": "",
+   "w": 166,
+   "h": 213,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102744/ocean-city-chamber-logo.png",
+   "alt": "Ocean City chamber logo",
+   "w": 1059,
+   "h": 1500,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-82.webp",
+   "alt": "",
+   "w": 44,
+   "h": 62,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102957/Layer-83.webp",
+   "alt": "",
+   "w": 167,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo-300x68.webp",
+   "alt": "YouTube Logo",
+   "w": 192,
+   "h": 43,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo-300x86.webp",
+   "alt": "Shopify logo",
+   "w": 189,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 209,
+   "h": 59,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 78,
+   "h": 105,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo-300x61.webp",
+   "alt": "Woo Commerce logo",
+   "w": 192,
+   "h": 39,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo-300x52.webp",
+   "alt": "WordPress logo",
+   "w": 192,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo-300x60.webp",
+   "alt": "Bing logo",
+   "w": 192,
+   "h": 38,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 664,
+   "h": 196,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/youtube-logo-300x68.webp",
+   "alt": "YouTube Logo",
+   "w": 192,
+   "h": 43,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/shopify-logo-300x86.webp",
+   "alt": "Shopify logo",
+   "w": 189,
+   "h": 54,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102952/aws-logo.webp",
+   "alt": "AWS logo",
+   "w": 209,
+   "h": 59,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/adobe-logo.webp",
+   "alt": "Adobe logo",
+   "w": 78,
+   "h": 105,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/woocommerce-logo-300x61.webp",
+   "alt": "Woo Commerce logo",
+   "w": 192,
+   "h": 39,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/wordpress-logo-300x52.webp",
+   "alt": "WordPress logo",
+   "w": 192,
+   "h": 33,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102951/bing-logo-300x60.webp",
+   "alt": "Bing logo",
+   "w": 192,
+   "h": 38,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102949/facebook-logo.svg",
+   "alt": "Facebook Partner Logo",
+   "w": 664,
+   "h": 196,
+   "loading": "lazy"
+  },
+  {
+   "src": "https://website-media.com/d3corp/d3-website-2025/2025/07/09102950/google-logo-300x134.webp",
+   "alt": "Google partner logo",
+   "w": 121,
+   "h": 54,
+   "loading": "lazy"
+  }
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "Organization",
+     "@id": "https://d3corp.com/#organization",
+     "name": "D3",
+     "url": "https://d3corp.com",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://d3corp.com/#logo",
+      "url": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "contentUrl": "https://website-media.com/d3corp/d3-website-2025/2025/09/09102749/cropped-D3-Logo-30years-website.png",
+      "caption": "D3",
+      "inLanguage": "en-US",
+      "width": "694",
+      "height": "350"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://d3corp.com/#website",
+     "url": "https://d3corp.com",
+     "name": "D3",
+     "publisher": {
+      "@id": "https://d3corp.com/#organization"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://d3corp.com/su/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://d3corp.com/su/",
+        "name": "SU Entrepreneur Intake Form | Online Brand Performance Audit Checklist"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://d3corp.com/su/#webpage",
+     "url": "https://d3corp.com/su/",
+     "name": "SU Entrepreneur Intake Form | Online Brand Performance Audit Checklist | D3",
+     "datePublished": "2026-02-11T14:32:53-05:00",
+     "dateModified": "2026-02-11T14:32:53-05:00",
+     "isPartOf": {
+      "@id": "https://d3corp.com/#website"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://d3corp.com/su/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://d3corp.com/su/#author",
+     "name": "D3 Support",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/4b06e363e9bc7ebe19454b1c1b57049dda89fdcb9ad96ca0065307e9ca3ecc0b?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/4b06e363e9bc7ebe19454b1c1b57049dda89fdcb9ad96ca0065307e9ca3ecc0b?s=96&amp;d=mm&amp;r=g",
+      "caption": "D3 Support",
+      "inLanguage": "en-US"
+     },
+     "worksFor": {
+      "@id": "https://d3corp.com/#organization"
+     }
+    },
+    {
+     "@type": "Article",
+     "headline": "SU Entrepreneur Intake Form | Online Brand Performance Audit Checklist | D3",
+     "datePublished": "2026-02-11T14:32:53-05:00",
+     "dateModified": "2026-02-11T14:32:53-05:00",
+     "author": {
+      "@id": "https://d3corp.com/su/#author",
+      "name": "D3 Support"
+     },
+     "publisher": {
+      "@id": "https://d3corp.com/#organization"
+     },
+     "name": "SU Entrepreneur Intake Form | Online Brand Performance Audit Checklist | D3",
+     "@id": "https://d3corp.com/su/#richSnippet",
+     "isPartOf": {
+      "@id": "https://d3corp.com/su/#webpage"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://d3corp.com/su/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "forms": [
+  {
+   "action": "ref: <Node>",
+   "method": "post",
+   "id": "frmD3Forms5652",
+   "fields": [
+    {
+     "name": "submit_to_system",
+     "type": "text",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "company_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "Company Name",
+     "label": "Company Name"
+    },
+    {
+     "name": "website_url",
+     "type": "text",
+     "required": false,
+     "placeholder": "Website URL",
+     "label": "Website URL"
+    },
+    {
+     "name": "",
+     "type": "text",
+     "required": false,
+     "placeholder": "Site Name (e.g. Facebook, Instagram)",
+     "label": null
+    },
+    {
+     "name": "",
+     "type": "text",
+     "required": false,
+     "placeholder": "URL",
+     "label": null
+    },
+    {
+     "name": "social_media_accounts",
+     "type": "textarea",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "closest_competitor_1",
+     "type": "text",
+     "required": false,
+     "placeholder": "Closest Competitor 1",
+     "label": "Closest Competitor 1"
+    },
+    {
+     "name": "closest_competitor_2",
+     "type": "text",
+     "required": false,
+     "placeholder": "Closest Competitor 2",
+     "label": "Closest Competitor 2"
+    },
+    {
+     "name": "reviews_from_customers",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Reviews from Customers",
+     "label": null
+    },
+    {
+     "name": "company_keyword_1",
+     "type": "text",
+     "required": false,
+     "placeholder": "Company Keyword 1",
+     "label": "Company Keyword 1"
+    },
+    {
+     "name": "company_keyword_2",
+     "type": "text",
+     "required": false,
+     "placeholder": "Company Keyword 2",
+     "label": "Company Keyword 2"
+    },
+    {
+     "name": "company_keyword_3",
+     "type": "text",
+     "required": false,
+     "placeholder": "Company Keyword 3",
+     "label": "Company Keyword 3"
+    },
+    {
+     "name": "website_url_is_easy_to_recall",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "website_url_is_easy_to_recall",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "website_url_is_easy_to_recall",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "website_url_is_easy_to_recall_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Website URL Notes",
+     "label": null
+    },
+    {
+     "name": "company_logo_appears_on_all_pages",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "company_logo_appears_on_all_pages",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "company_logo_appears_on_all_pages",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "company_logo_appears_on_all_pages_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Company logo Notes",
+     "label": null
+    },
+    {
+     "name": "colors_are_pleasing_or_complimentary",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "colors_are_pleasing_or_complimentary",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "colors_are_pleasing_or_complimentary",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "colors_are_pleasing_or_complimentary_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Colors Notes",
+     "label": null
+    },
+    {
+     "name": "site_uses_high_quality_images",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "site_uses_high_quality_images",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "site_uses_high_quality_images",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "site_uses_high_quality_images_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Site Image Quality Notes",
+     "label": null
+    },
+    {
+     "name": "website_uses_three_or_less_fonts",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "website_uses_three_or_less_fonts",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "website_uses_three_or_less_fonts",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "website_uses_three_or_less_fonts_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Website Font Notes",
+     "label": null
+    },
+    {
+     "name": "website_looks_and_operates_well_on_laptop_and_mobile_devices",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "website_looks_and_operates_well_on_laptop_and_mobile_devices",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "website_looks_and_operates_well_on_laptop_and_mobile_devices",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "website_looks_and_operates_well_on_laptop_and_mobile_devices_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Website Mobile Laptop Operation Notes",
+     "label": null
+    },
+    {
+     "name": "navigation_system_is_simple_intuitive_and_consistent",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "navigation_system_is_simple_intuitive_and_consistent",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "navigation_system_is_simple_intuitive_and_consistent",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "navigation_system_is_simple_intuitive_and_consistent_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Website Navigation Notes",
+     "label": null
+    },
+    {
+     "name": "about_us_and_contact_are_easy_to_find",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "about_us_and_contact_are_easy_to_find",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "about_us_and_contact_are_easy_to_find",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "about_us_and_contact_are_easy_to_find_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "About Us / Contact Notes",
+     "label": null
+    },
+    {
+     "name": "contact_forms_and_phone_email_links_work_properly",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "contact_forms_and_phone_email_links_work_properly",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "contact_forms_and_phone_email_links_work_properly",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "contact_forms_and_phone_email_links_work_properly_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Contact Forms Notes",
+     "label": null
+    },
+    {
+     "name": "business_has_ownership_of_google_business_profile",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "business_has_ownership_of_google_business_profile",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "business_has_ownership_of_google_business_profile",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "business_has_ownership_of_google_business_profile_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Google Business Profile Notes",
+     "label": null
+    },
+    {
+     "name": "google_maps_icon_points_to_the_business_actual_location",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "google_maps_icon_points_to_the_business_actual_location",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "google_maps_icon_points_to_the_business_actual_location",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "google_maps_icon_points_to_the_business_actual_location_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Google Maps Notes",
+     "label": null
+    },
+    {
+     "name": "website_layout_uses_ample_white_space_and_is_not_cluttered",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "website_layout_uses_ample_white_space_and_is_not_cluttered",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "website_layout_uses_ample_white_space_and_is_not_cluttered",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "website_layout_uses_ample_white_space_and_is_not_cluttered_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Website Layout Notes",
+     "label": null
+    },
+    {
+     "name": "content_is_not_used_in_large_paragraphs",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "content_is_not_used_in_large_paragraphs",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "content_is_not_used_in_large_paragraphs",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "content_is_not_used_in_large_paragraphs_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Content Paragraphs Notes",
+     "label": null
+    },
+    {
+     "name": "content_uses_everyday_language",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "content_uses_everyday_language",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "content_uses_everyday_language",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "content_uses_everyday_language_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Content Language Notes",
+     "label": null
+    },
+    {
+     "name": "website_includes_a_call_to_action",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "website_includes_a_call_to_action",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "website_includes_a_call_to_action",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "website_includes_a_call_to_action_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Call to Action Notes",
+     "label": null
+    },
+    {
+     "name": "website_loads_in_2_3_seconds",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "website_loads_in_2_3_seconds",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "website_loads_in_2_3_seconds",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "website_loads_in_2_3_seconds_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Website Load Time Notes",
+     "label": null
+    },
+    {
+     "name": "no_dead_links_or_page_load_404_errors_or_redirect_issues",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "no_dead_links_or_page_load_404_errors_or_redirect_issues",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "no_dead_links_or_page_load_404_errors_or_redirect_issues",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "no_dead_links_or_page_load_404_errors_or_redirect_issues_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Dead Links / 404 Notes",
+     "label": null
+    },
+    {
+     "name": "website_has_a_valid_sitemap_and_robotstxt",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "website_has_a_valid_sitemap_and_robotstxt",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "website_has_a_valid_sitemap_and_robotstxt",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "website_has_a_valid_sitemap_and_robotstxt_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Sitemap / Robots.txt Notes",
+     "label": null
+    },
+    {
+     "name": "analytics_and_tracking_codes_installed",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "analytics_and_tracking_codes_installed",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "analytics_and_tracking_codes_installed",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "analytics_and_tracking_codes_installed_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Analytics / Tracking Notes",
+     "label": null
+    },
+    {
+     "name": "company_has_updated_web_page_meta_data",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "company_has_updated_web_page_meta_data",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "company_has_updated_web_page_meta_data",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "company_has_updated_web_page_meta_data_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Meta-data / SEO Notes",
+     "label": null
+    },
+    {
+     "name": "headers_include_relevant_keywords",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "headers_include_relevant_keywords",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "headers_include_relevant_keywords",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "headers_include_relevant_keywords_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Header Keywords Notes",
+     "label": null
+    },
+    {
+     "name": "url_structures_are_clean_and_keyword_friendly",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "url_structures_are_clean_and_keyword_friendly",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "url_structures_are_clean_and_keyword_friendly",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "url_structures_are_clean_and_keyword_friendly_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "URL Structure Notes",
+     "label": null
+    },
+    {
+     "name": "images_have_alt_text_and_are_compressed",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "images_have_alt_text_and_are_compressed",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "images_have_alt_text_and_are_compressed",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "images_have_alt_text_and_are_compressed_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Image Alt Text Notes",
+     "label": null
+    },
+    {
+     "name": "website_has_xml_sitemap_submitted_to_google_search_console",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "website_has_xml_sitemap_submitted_to_google_search_console",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "website_has_xml_sitemap_submitted_to_google_search_console",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "website_has_xml_sitemap_submitted_to_google_search_console_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "XML Sitemap Notes",
+     "label": null
+    },
+    {
+     "name": "backlinks_are_from_reputable_and_relevant_sites",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "backlinks_are_from_reputable_and_relevant_sites",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "backlinks_are_from_reputable_and_relevant_sites",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "backlinks_are_from_reputable_and_relevant_sites_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Backlinks Notes",
+     "label": null
+    },
+    {
+     "name": "company_website_appears_at_top_of_first_half_of_search_results_by_keywords",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "company_website_appears_at_top_of_first_half_of_search_results_by_keywords",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "company_website_appears_at_top_of_first_half_of_search_results_by_keywords",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "company_website_appears_at_top_of_first_half_of_search_results_by_keywords_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Keyword Search Results Notes",
+     "label": null
+    },
+    {
+     "name": "company_website_appears_at_top_of_first_half_of_search_results_by_company_name",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "company_website_appears_at_top_of_first_half_of_search_results_by_company_name",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "company_website_appears_at_top_of_first_half_of_search_results_by_company_name",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "company_website_appears_at_top_of_first_half_of_search_results_by_company_name_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Company Name Search Notes",
+     "label": null
+    },
+    {
+     "name": "company_website_appears_at_top_of_first_half_of_search_results_by_industry_and_city",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "company_website_appears_at_top_of_first_half_of_search_results_by_industry_and_city",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "company_website_appears_at_top_of_first_half_of_search_results_by_industry_and_city",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "company_website_appears_at_top_of_first_half_of_search_results_by_industry_and_city_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Industry / City Search Notes",
+     "label": null
+    },
+    {
+     "name": "google_score_average_is_on_par_with_or_higher_than_competitors",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "google_score_average_is_on_par_with_or_higher_than_competitors",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "google_score_average_is_on_par_with_or_higher_than_competitors",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "google_score_average_is_on_par_with_or_higher_than_competitors_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Google Score Notes",
+     "label": null
+    },
+    {
+     "name": "company_ranks_in_top_10_for_industry_and_location",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "company_ranks_in_top_10_for_industry_and_location",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "company_ranks_in_top_10_for_industry_and_location",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "company_ranks_in_top_10_for_industry_and_location_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Company Ranking Notes",
+     "label": null
+    },
+    {
+     "name": "on_google_comments_responded_to_within_3_business_days",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "on_google_comments_responded_to_within_3_business_days",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "on_google_comments_responded_to_within_3_business_days",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "on_google_comments_responded_to_within_3_business_days_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Google Comments Notes",
+     "label": null
+    },
+    {
+     "name": "about_us_profile_sections_completed",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "about_us_profile_sections_completed",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "about_us_profile_sections_completed",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "about_us_profile_sections_completed_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Profile Sections Notes",
+     "label": null
+    },
+    {
+     "name": "account_profiles_have_consistent_brand_look",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "account_profiles_have_consistent_brand_look",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "account_profiles_have_consistent_brand_look",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "account_profiles_have_consistent_brand_look_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Brand Consistency Notes",
+     "label": null
+    },
+    {
+     "name": "posting_at_least_2_times_a_week_each_platform",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "posting_at_least_2_times_a_week_each_platform",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "posting_at_least_2_times_a_week_each_platform",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "posting_at_least_2_times_a_week_each_platform_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Posting Frequency Notes",
+     "label": null
+    },
+    {
+     "name": "company_voice_is_being_used_in_posts",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "company_voice_is_being_used_in_posts",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "company_voice_is_being_used_in_posts",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "company_voice_is_being_used_in_posts_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Company Voice Notes",
+     "label": null
+    },
+    {
+     "name": "original_video_and_photos_are_being_used",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "original_video_and_photos_are_being_used",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "original_video_and_photos_are_being_used",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "original_video_and_photos_are_being_used_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Original Media Notes",
+     "label": null
+    },
+    {
+     "name": "number_of_followers_on_par_with_or_higher_than_competitors",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "number_of_followers_on_par_with_or_higher_than_competitors",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "number_of_followers_on_par_with_or_higher_than_competitors",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "number_of_followers_on_par_with_or_higher_than_competitors_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Follower Count Notes",
+     "label": null
+    },
+    {
+     "name": "number_of_comments_likes_and_shares_on_par_with_or_higher_than_competitors",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "number_of_comments_likes_and_shares_on_par_with_or_higher_than_competitors",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "number_of_comments_likes_and_shares_on_par_with_or_higher_than_competitors",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "number_of_comments_likes_and_shares_on_par_with_or_higher_than_competitors_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Engagement Notes",
+     "label": null
+    },
+    {
+     "name": "comments_are_responded_to_promptly",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "comments_are_responded_to_promptly",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "comments_are_responded_to_promptly",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "comments_are_responded_to_promptly_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Comment Response Notes",
+     "label": null
+    },
+    {
+     "name": "company_includes_ctas_in_posts",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "company_includes_ctas_in_posts",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "company_includes_ctas_in_posts",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "company_includes_ctas_in_posts_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "CTAs in Posts Notes",
+     "label": null
+    },
+    {
+     "name": "company_uses_social_media_calendar_scheduler_to_plan_posts",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "company_uses_social_media_calendar_scheduler_to_plan_posts",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "company_uses_social_media_calendar_scheduler_to_plan_posts",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "company_uses_social_media_calendar_scheduler_to_plan_posts_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Social Calendar Notes",
+     "label": null
+    },
+    {
+     "name": "company_uses_paid_posts_or_ads_to_reach_new_customers",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "company_uses_paid_posts_or_ads_to_reach_new_customers",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "company_uses_paid_posts_or_ads_to_reach_new_customers",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "company_uses_paid_posts_or_ads_to_reach_new_customers_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Paid Posts / Ads Notes",
+     "label": null
+    },
+    {
+     "name": "profile_and_cover_images_match_brand_guidelines",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "profile_and_cover_images_match_brand_guidelines",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "profile_and_cover_images_match_brand_guidelines",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "profile_and_cover_images_match_brand_guidelines_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Profile / Cover Images Notes",
+     "label": null
+    },
+    {
+     "name": "bio_about_sections_clearly_state_what_you_do",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "bio_about_sections_clearly_state_what_you_do",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "bio_about_sections_clearly_state_what_you_do",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "bio_about_sections_clearly_state_what_you_do_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Bio / About Notes",
+     "label": null
+    },
+    {
+     "name": "links_to_your_website_are_correct",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "links_to_your_website_are_correct",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "links_to_your_website_are_correct",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "links_to_your_website_are_correct_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Website Links Notes",
+     "label": null
+    },
+    {
+     "name": "posts_include_relevant_hashtags_and_keywords",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "posts_include_relevant_hashtags_and_keywords",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "posts_include_relevant_hashtags_and_keywords",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "posts_include_relevant_hashtags_and_keywords_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Hashtags / Keywords Notes",
+     "label": null
+    },
+    {
+     "name": "audience_engagement_is_tracked_and_responded_to",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "audience_engagement_is_tracked_and_responded_to",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "audience_engagement_is_tracked_and_responded_to",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "audience_engagement_is_tracked_and_responded_to_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Audience Engagement Notes",
+     "label": null
+    },
+    {
+     "name": "analytics_are_reviewed_monthly",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "analytics_are_reviewed_monthly",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "analytics_are_reviewed_monthly",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "analytics_are_reviewed_monthly_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Monthly Analytics Notes",
+     "label": null
+    },
+    {
+     "name": "top_performing_content_is_identified_and_repurposed",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "top_performing_content_is_identified_and_repurposed",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "top_performing_content_is_identified_and_repurposed",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "top_performing_content_is_identified_and_repurposed_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Top Content Notes",
+     "label": null
+    },
+    {
+     "name": "competitor_benchmarking_is_done_at_least_quarterly",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "competitor_benchmarking_is_done_at_least_quarterly",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "competitor_benchmarking_is_done_at_least_quarterly",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "competitor_benchmarking_is_done_at_least_quarterly_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Competitor Benchmarking Notes",
+     "label": null
+    },
+    {
+     "name": "business_is_listed_on[]",
+     "type": "checkbox",
+     "required": false,
+     "placeholder": null,
+     "label": "Google Business Profile"
+    },
+    {
+     "name": "business_is_listed_on[]",
+     "type": "checkbox",
+     "required": false,
+     "placeholder": null,
+     "label": "Bing Places"
+    },
+    {
+     "name": "business_is_listed_on[]",
+     "type": "checkbox",
+     "required": false,
+     "placeholder": null,
+     "label": "Yelp"
+    },
+    {
+     "name": "business_is_listed_on_others",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Other Listings",
+     "label": null
+    },
+    {
+     "name": "all_directory_information_matches_your_nap_name_address_phone",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "all_directory_information_matches_your_nap_name_address_phone",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "all_directory_information_matches_your_nap_name_address_phone",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "all_directory_information_matches_your_nap_name_address_phone_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "NAP Directory Notes",
+     "label": null
+    },
+    {
+     "name": "reviews_are_monitored_and_responded_to",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "reviews_are_monitored_and_responded_to",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "reviews_are_monitored_and_responded_to",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "reviews_are_monitored_and_responded_to_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Reviews Notes",
+     "label": null
+    },
+    {
+     "name": "star_ratings_consistent",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "star_ratings_consistent",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "star_ratings_consistent",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "star_ratings_consistent_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Star Ratings Notes",
+     "label": null
+    },
+    {
+     "name": "recent_positive_reviews_are_being_collected",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "recent_positive_reviews_are_being_collected",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "recent_positive_reviews_are_being_collected",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "recent_positive_reviews_are_being_collected_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Positive Reviews Notes",
+     "label": null
+    },
+    {
+     "name": "listings_include_updated_business_hours_photos_and_services",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Yes"
+    },
+    {
+     "name": "listings_include_updated_business_hours_photos_and_services",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "No"
+    },
+    {
+     "name": "listings_include_updated_business_hours_photos_and_services",
+     "type": "radio",
+     "required": false,
+     "placeholder": null,
+     "label": "Unsure"
+    },
+    {
+     "name": "listings_include_updated_business_hours_photos_and_services_notes",
+     "type": "textarea",
+     "required": false,
+     "placeholder": "Business Hours / Services Notes",
+     "label": null
+    }
+   ]
+  },
+  {
+   "action": "ref: <Node>",
+   "method": "post",
+   "id": "frmD3Forms5112",
+   "fields": [
+    {
+     "name": "submit_to_system",
+     "type": "text",
+     "required": false,
+     "placeholder": null,
+     "label": null
+    },
+    {
+     "name": "first_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "First Name",
+     "label": "First Name"
+    },
+    {
+     "name": "last_name",
+     "type": "text",
+     "required": false,
+     "placeholder": "Last Name",
+     "label": "Last Name"
+    },
+    {
+     "name": "email",
+     "type": "email",
+     "required": false,
+     "placeholder": "Email",
+     "label": "Email"
+    }
+   ]
+  }
+ ],
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=G-WY4W4ZLGEG&cx=c&gtm=4e6ac1",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-NGGH6CL",
+  "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtlvjEjk2TqdwOQz/recaptcha__en.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+  "https://d3corp.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+  "https://www.google.com/recaptcha/api.js?render=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6",
+  "https://cdn.apigateway.co/webchat-client..prod/sdk.js",
+  "https://d3corp.com/app/plugins/wpconsent-premium/build/frontend-pro.js?ver=69fedfaec866286d7fe0",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/d3forms.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/bload/bload.min.js",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.iframe-transport.js",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+  "https://d3corp.com/app/plugins/d3forms//asset/js/fileUpload/jquery.fileupload.js",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-client-device-data.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-media-gate.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-youtube.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-vimeo.js?ver=2.0.5",
+  "https://d3corp.com/app/plugins/duracelltomi-google-tag-manager/build/gtm4wp-soundcloud.js?ver=2.0.5",
+  "https://d3corp.com/wp/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.14.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/bootstrap.bundle.min.js?ver=4.3.1",
+  "https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/slick.min.js?ver=1.8.1",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/lazyload.min.js?ver=12.4.0",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.matchHeight-min.js?ver=0.7.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/plugins/jquery.fancybox.v3.js?ver=3.5.2",
+  "https://d3corp.com/app/themes/d3-corp-template/assets/js/global.js",
+  "https://d3forms.d3corp.com/d3fst/recaptcha.js?ver=7.1.2",
+  "https://acsbapp.com/apps/app/dist/js/app.js"
+ ],
+ "iframes": [
+  "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfQCCMpAAAAAI4fP9CCzkifAUQ3mOzKHZThQhS6&co=aHR0cHM6Ly9kM2NvcnAuY29tOjQ0Mw..&hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz&size=invisible&anchor-ms=20000&execute-ms=30000&cb=d1uh4l5dj2uz"
+ ],
+ "ctas": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote",
+   "tag": "a"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/",
+   "tag": "a"
+  }
+ ],
+ "phones": [
+  "410-213-2400"
+ ],
+ "emails": [],
+ "telLinks": [
+  "tel:+1-4102132400"
+ ],
+ "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes",
+ "nav": [
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "AI Assistant",
+   "href": "https://d3corp.com/ai-assistant/"
+  },
+  {
+   "text": "Answer Engine Optimization",
+   "href": "https://d3corp.com/answer-engine-optimization/"
+  },
+  {
+   "text": "Digital Advertising",
+   "href": "https://d3corp.com/digital-advertising/"
+  },
+  {
+   "text": "Email Marketing",
+   "href": "https://d3corp.com/email-marketing/"
+  },
+  {
+   "text": "Graphic Design",
+   "href": "https://d3corp.com/graphic-design/"
+  },
+  {
+   "text": "Multimedia",
+   "href": "https://d3corp.com/multimedia/"
+  },
+  {
+   "text": "Print",
+   "href": "https://d3corp.com/print/"
+  },
+  {
+   "text": "Search Engine Optimization",
+   "href": "https://d3corp.com/search-engine-optimization/"
+  },
+  {
+   "text": "Social Media Marketing",
+   "href": "https://d3corp.com/social-media-marketing/"
+  },
+  {
+   "text": "Strategy",
+   "href": "https://d3corp.com/strategy/"
+  },
+  {
+   "text": "Custom Websites",
+   "href": "https://d3corp.com/websites/"
+  },
+  {
+   "text": "Rapid Design Websites",
+   "href": "https://d3corp.com/rapid-design-websites/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Our Work",
+   "href": ""
+  },
+  {
+   "text": "Our Work",
+   "href": "https://d3corp.com/su/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Join Our Team",
+   "href": "https://d3corp.com/join-our-team/"
+  },
+  {
+   "text": "Back",
+   "href": "javascript:void(0)"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "REQUEST A QUOTE",
+   "href": "https://d3corp.com/request-a-quote"
+  }
+ ],
+ "footer": [
+  {
+   "text": "Privacy Policy",
+   "href": "https://policies.google.com/privacy"
+  },
+  {
+   "text": "Terms of Service",
+   "href": "https://policies.google.com/terms"
+  },
+  {
+   "text": "12319 Ocean Gateway, Suite 202 Ocean City, Maryland 21842",
+   "href": "https://goo.gl/maps/w27ULcs9Ub3R6LYT6"
+  },
+  {
+   "text": "410-213-2400",
+   "href": "tel:+1-4102132400"
+  },
+  {
+   "text": "212 West Main Street Salisbury, Maryland 21801",
+   "href": "https://goo.gl/maps/BGv112N6DJi2bPCQ8"
+  },
+  {
+   "text": "Meet Us",
+   "href": "https://d3corp.com/meet-us/"
+  },
+  {
+   "text": "Testimonials",
+   "href": "https://d3corp.com/testimonials/"
+  },
+  {
+   "text": "Services",
+   "href": "https://d3corp.com/services/"
+  },
+  {
+   "text": "Case Studies",
+   "href": "https://d3corp.com/case-studies/"
+  },
+  {
+   "text": "Videos",
+   "href": "https://d3corp.com/videos/"
+  },
+  {
+   "text": "ID3AS Blog",
+   "href": "https://d3corp.com/id3as/"
+  },
+  {
+   "text": "Careers",
+   "href": "https://d3corp.com/careers/"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://d3corp.com/contact-us/"
+  },
+  {
+   "text": "Privacy Policy",
+   "href": "https://d3corp.com/privacy-policy/"
+  },
+  {
+   "text": "Terms & Conditions",
+   "href": "https://d3corp.com/terms/"
+  },
+  {
+   "text": "Webmail",
+   "href": "https://d3corp.com/webmail/"
+  },
+  {
+   "text": "Accessibility",
+   "href": "https://d3corp.com/accessibility/"
+  },
+  {
+   "text": "Site Map",
+   "href": "https://d3corp.com/site-map/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Website Design",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "D3",
+   "href": "https://d3corp.com/"
+  },
+  {
+   "text": "Ocean City MD",
+   "href": "https://visitoceancity.com/"
+  }
+ ]
+}
