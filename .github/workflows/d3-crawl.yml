@@ -4,6 +4,10 @@
 name: Crawl competitor site for analysis
 
 on:
+  # Push trigger: touch scripts/d3-crawl/RUN (or edit target.txt) and push to start a crawl.
+  push:
+    branches: ["claude/**", "crawl/**"]
+    paths: ["scripts/d3-crawl/RUN", "scripts/d3-crawl/target.txt"]
   workflow_dispatch:
     inputs:
       target_origin:
@@ -46,10 +50,14 @@ jobs:
       - name: Crawl
         working-directory: scripts/d3-crawl
         env:
-          TARGET_ORIGIN: ${{ inputs.target_origin }}
-          MAX_PAGES: ${{ inputs.max_pages }}
+          INPUT_TARGET: ${{ inputs.target_origin }}
+          INPUT_MAX_PAGES: ${{ inputs.max_pages }}
           OUT_DIR: ${{ github.workspace }}/media-masters/research/raw/d3
-        run: node crawl.mjs
+        run: |
+          export TARGET_ORIGIN="${INPUT_TARGET:-$(head -1 target.txt | tr -d '[:space:]')}"
+          export MAX_PAGES="${INPUT_MAX_PAGES:-400}"
+          echo "Crawling $TARGET_ORIGIN (max $MAX_PAGES pages)"
+          node crawl.mjs
       - name: Upload results as a workflow artifact
         if: always()
         uses: actions/upload-artifact@v4
@@ -59,9 +67,10 @@ jobs:
           retention-days: 1
       - name: Push results to the throwaway results branch
         env:
-          RESULTS_BRANCH: ${{ inputs.results_branch }}
+          INPUT_RESULTS_BRANCH: ${{ inputs.results_branch }}
         run: |
           set -e
+          RESULTS_BRANCH="${INPUT_RESULTS_BRANCH:-research-corpus-d3}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           rm -rf /tmp/corpus && mkdir -p /tmp/corpus && cp -r media-masters/research/raw/d3 /tmp/corpus/d3
