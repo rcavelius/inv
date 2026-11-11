@@ -9,14 +9,17 @@ import path from 'node:path';
 import { createRequire } from 'node:module';
 
 const require = createRequire(import.meta.url);
-const ORIGIN = (process.env.TARGET_ORIGIN || 'https://d3corp.com').replace(/\/$/, '');
-const HOST = new URL(ORIGIN).host.replace(/^www\./, '');
-const OUT = process.env.OUT_DIR || 'media-masters/research/raw/d3';
-const MAX_PAGES = +(process.env.MAX_PAGES || 400);
+let ORIGIN = (process.env.TARGET_ORIGIN || 'https://d3corp.com').replace(/\/$/, '');
+let HOST = new URL(ORIGIN).host.replace(/^www\./, '');
+let OUT = process.env.OUT_DIR || 'media-masters/research/raw/d3';
+let MAX_PAGES = +(process.env.MAX_PAGES || 400);
 const DELAY_MS = +(process.env.DELAY_MS || 1100);
-const SHOT_LIMIT = +(process.env.SHOT_LIMIT || 30);
-const LH_LIMIT = +(process.env.LH_LIMIT || 6);
-const PSI_LIMIT = +(process.env.PSI_LIMIT || 6);
+let SHOT_LIMIT = +(process.env.SHOT_LIMIT || 30);
+let LH_LIMIT = +(process.env.LH_LIMIT || 6);
+let PSI_LIMIT = +(process.env.PSI_LIMIT || 6);
+let FOLLOW = true; // false in page mode: fetch the one URL, do not enqueue links
+let FOLD_ONLY = false; // true in page mode: first-screen screenshots only, no axe
+const PRIORITY_LINK = /join|member|pricing|price|plans|advertis|sponsor|services|about|contact|portfolio|our-work|work|team|review|testimonial|locations?/i;
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 (research-crawl; respects robots.txt; 1 req/s)';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -81,7 +84,7 @@ async function sitemapUrls(u, seen = new Set(), depth = 0) {
 const PRIORITY = [/^\/$/, /services/, /website/, /seo|search-engine/, /advertis|ppc|paid/, /social/, /email/, /graphic|design|brand/, /multimedia|video/, /print/, /our-work|portfolio/, /case-stud/, /testimonial/, /meet|about|team/, /contact/, /blog/, /career/, /pricing|plans/, /site-map|sitemap/, /terms|privacy/];
 function priorityRank(u) { const p = new URL(u).pathname; const i = PRIORITY.findIndex((re) => re.test(p)); return i < 0 ? 99 : i; }
 
-async function main() {
+async function runJob() {
   await fs.mkdir(path.join(OUT, 'pages'), { recursive: true });
   await fs.mkdir(path.join(OUT, 'screenshots'), { recursive: true });
   await fs.mkdir(path.join(OUT, 'axe'), { recursive: true });
@@ -91,13 +94,14 @@ async function main() {
   const meta = { origin: ORIGIN, started, maxPages: MAX_PAGES, delayMs: DELAY_MS, errors: [], notes: [] };
 
   // robots + sitemaps
+  const START_URL = process.env.START_URL || ORIGIN + '/';
   const robotsRes = await fetchText(ORIGIN + '/robots.txt');
   await fs.writeFile(path.join(OUT, 'robots.txt'), robotsRes.text || `# fetch failed: status ${robotsRes.status}\n`);
   const robots = parseRobots(robotsRes.text || '');
   meta.robots = robots;
   const sitemapCandidates = [...new Set([...robots.sitemaps, ORIGIN + '/sitemap.xml', ORIGIN + '/sitemap_index.xml', ORIGIN + '/wp-sitemap.xml'])];
   let fromSitemap = [];
-  for (const s of sitemapCandidates) { const urls = await sitemapUrls(s); if (urls.length) { fromSitemap.push(...urls); meta.notes.push(`sitemap ${s}: ${urls.length} urls`); } }
+  for (const s of (FOLLOW ? sitemapCandidates : [])) { const urls = await sitemapUrls(s); if (urls.length) { fromSitemap.push(...urls); meta.notes.push(`sitemap ${s}: ${urls.length} urls`); } }
   fromSitemap = [...new Set(fromSitemap.map((u) => normalize(u, ORIGIN)).filter(Boolean))];
   await fs.writeFile(path.join(OUT, 'sitemap-urls.json'), JSON.stringify(fromSitemap, null, 2));
   log('sitemap urls', fromSitemap.length);
@@ -111,7 +115,7 @@ async function main() {
   const browser = await chromium.launch({ args: ['--no-sandbox'], executablePath: process.env.CHROMIUM_PATH || undefined });
   const ctx = await browser.newContext({ userAgent: UA, viewport: { width: 1440, height: 900 }, locale: 'en-US' });
   const page = await ctx.newPage();
-  const queue = [ORIGIN + '/', ...fromSitemap, ORIGIN + '/site-map/', ORIGIN + '/sitemap/'];
+  const queue = FOLLOW ? [ORIGIN + '/', ...fromSitemap, ORIGIN + '/site-map/', ORIGIN + '/sitemap/'] : [START_URL];
   const seen = new Set(); const done = new Map(); const index = [];
   const thirdParty = {};
 
@@ -164,7 +168,7 @@ async function main() {
     });
     const loadMs = Date.now() - t0;
     const slug = slugFor(finalUrl);
-    const internal = []; for (const l of data.links) { const n = normalize(l.href, finalUrl); if (n) { internal.push(n); if (!seen.has(n) && !queue.includes(n)) queue.push(n); } }
+    const internal = []; for (const l of data.links) { const n = normalize(l.href, finalUrl); if (n) { internal.push(n); if (FOLLOW && !seen.has(n) && !queue.includes(n)) { if (PRIORITY_LINK.test(new URL(n).pathname)) queue.unshift(n); else queue.push(n); } } }
     const external = data.links.filter((l) => !normalize(l.href, finalUrl));
     for (const r of reqs) { if (r.host.replace(/^www\./, '') !== HOST) thirdParty[r.host] = (thirdParty[r.host] || 0) + 1; }
     const rec = { url: finalUrl, requestedUrl: u, status, headers: resp.headers(), loadMs, requestCount: reqs.length, thirdPartyHosts: [...new Set(reqs.map((r) => r.host).filter((h) => h.replace(/^www\./, '') !== HOST))], internalLinks: [...new Set(internal)], externalLinks: external.slice(0, 200), ...data };
@@ -188,15 +192,18 @@ async function main() {
       await page.setViewportSize({ width: 1440, height: 900 });
       await page.goto(u, { waitUntil: 'networkidle', timeout: 45000 }).catch(() => page.goto(u, { waitUntil: 'load', timeout: 45000 }));
       await page.evaluate(async () => { for (let y = 0; y < Math.min(document.body.scrollHeight, 8000); y += 700) { window.scrollTo(0, y); await new Promise((r) => setTimeout(r, 120)); } window.scrollTo(0, 0); });
-      await page.screenshot({ path: path.join(OUT, 'screenshots', slug + '-desktop.jpg'), fullPage: true, type: 'jpeg', quality: 60 });
+      if (!FOLD_ONLY) await page.screenshot({ path: path.join(OUT, 'screenshots', slug + '-desktop.jpg'), fullPage: true, type: 'jpeg', quality: 60 });
       await page.screenshot({ path: path.join(OUT, 'screenshots', slug + '-desktop-fold.jpg'), fullPage: false, type: 'jpeg', quality: 70 });
-      await page.addScriptTag({ content: axeSource });
-      const axe = await page.evaluate(async () => { const r = await window.axe.run(document, { resultTypes: ['violations', 'incomplete'] }); return { url: r.url, violations: r.violations.map((v) => ({ id: v.id, impact: v.impact, help: v.help, helpUrl: v.helpUrl, nodes: v.nodes.length, sample: v.nodes.slice(0, 3).map((n) => n.html.slice(0, 200)) })), incomplete: r.incomplete.length }; });
-      await fs.writeFile(path.join(OUT, 'axe', slug + '.json'), JSON.stringify(axe, null, 1));
+      let axe = { violations: [] };
+      if (!FOLD_ONLY) {
+        await page.addScriptTag({ content: axeSource });
+        axe = await page.evaluate(async () => { const r = await window.axe.run(document, { resultTypes: ['violations', 'incomplete'] }); return { url: r.url, violations: r.violations.map((v) => ({ id: v.id, impact: v.impact, help: v.help, helpUrl: v.helpUrl, nodes: v.nodes.length, sample: v.nodes.slice(0, 3).map((n) => n.html.slice(0, 200)) })), incomplete: r.incomplete.length }; });
+        await fs.writeFile(path.join(OUT, 'axe', slug + '.json'), JSON.stringify(axe, null, 1));
+      }
       const mctx = await browser.newContext({ ...devices['iPhone 13'], userAgent: UA });
       const mp = await mctx.newPage();
       await mp.goto(u, { waitUntil: 'networkidle', timeout: 45000 }).catch(() => mp.goto(u, { waitUntil: 'load', timeout: 45000 }));
-      await mp.screenshot({ path: path.join(OUT, 'screenshots', slug + '-mobile.jpg'), fullPage: true, type: 'jpeg', quality: 60 });
+      if (!FOLD_ONLY) await mp.screenshot({ path: path.join(OUT, 'screenshots', slug + '-mobile.jpg'), fullPage: true, type: 'jpeg', quality: 60 });
       await mp.screenshot({ path: path.join(OUT, 'screenshots', slug + '-mobile-fold.jpg'), fullPage: false, type: 'jpeg', quality: 70 });
       await mctx.close();
       shots.push({ url: u, slug, axeViolations: axe.violations.length });
@@ -241,5 +248,31 @@ async function main() {
   const md = ['# Crawl index: ' + ORIGIN, '', `Crawled ${done.size} pages, ${meta.errors.length} errors. Started ${started}, finished ${meta.finished}.`, '', '| Status | URL | Title | H1 | Words | Forms | JSON-LD |', '|---|---|---|---|---|---|---|', ...index.filter((p) => p.slug).map((p) => `| ${p.status} | ${p.url} | ${(p.title || '').replace(/\|/g, '/')} | ${(p.h1 || '').replace(/\|/g, '/')} | ${p.wordCount} | ${p.forms} | ${p.jsonldTypes.join(', ')} |`), '', '## Redirects and non-HTML', ...index.filter((p) => !p.slug).map((p) => `- ${p.status} ${p.url} ${p.redirectedTo ? '→ ' + p.redirectedTo : ''} ${p.error || p.contentType || ''}`), '', '## Third-party hosts (request counts)', ...Object.entries(thirdParty).sort((a, b) => b[1] - a[1]).map(([h, n]) => `- ${h}: ${n}`), '', '## Notes', ...meta.notes.map((n) => '- ' + n), '', '## Errors', ...meta.errors.map((e) => '- ' + JSON.stringify(e))];
   await fs.writeFile(path.join(OUT, 'INDEX.md'), md.join('\n') + '\n');
   log('done', done.size, 'pages');
+}
+function jobSlug(u) { const x = new URL(u); return (x.host.replace(/^www\./, '') + (x.pathname !== '/' ? '-' + x.pathname.replace(/[^a-z0-9]+/gi, '-') : '')).replace(/-+$/g, '').slice(0, 90); }
+async function main() {
+  const jobsFile = process.env.JOBS_FILE;
+  if (!jobsFile) { await runJob(); return; }
+  const OUT_ROOT = process.env.OUT_DIR || 'media-masters/research/raw/jobs';
+  const lines = (await fs.readFile(jobsFile, 'utf8')).split(/\r?\n/).map((l) => l.trim()).filter((l) => l && !l.startsWith('#'));
+  const summary = [];
+  for (const line of lines) {
+    const [mode, url, max] = line.split(/\s+/);
+    if (!/^(page|crawl)$/.test(mode) || !/^https?:/.test(url || '')) { summary.push({ line, error: 'bad job line' }); continue; }
+    try {
+      const u = new URL(url);
+      ORIGIN = u.origin; HOST = u.host.replace(/^www\./, '');
+      OUT = path.join(OUT_ROOT, jobSlug(url));
+      if (mode === 'page') { MAX_PAGES = 1; FOLLOW = false; FOLD_ONLY = true; SHOT_LIMIT = 1; LH_LIMIT = 0; PSI_LIMIT = 0; process.env.START_URL = url; }
+      else { MAX_PAGES = +(max || 10); FOLLOW = true; FOLD_ONLY = false; SHOT_LIMIT = Math.min(3, MAX_PAGES); LH_LIMIT = 0; PSI_LIMIT = 0; delete process.env.START_URL; }
+      log('=== job', mode, url, 'max', MAX_PAGES, '->', OUT);
+      await runJob();
+      const idx = JSON.parse(await fs.readFile(path.join(OUT, 'index.json'), 'utf8'));
+      summary.push({ mode, url, out: OUT, pages: idx.meta.pagesCrawled, errors: idx.meta.errors.length, first: idx.pages[0] ? { status: idx.pages[0].status, title: idx.pages[0].title, words: idx.pages[0].wordCount } : null });
+    } catch (e) { summary.push({ line, error: String(e).split('\n')[0] }); log('job failed', line, String(e).split('\n')[0]); }
+  }
+  await fs.mkdir(OUT_ROOT, { recursive: true });
+  await fs.writeFile(path.join(OUT_ROOT, 'JOBS-SUMMARY.json'), JSON.stringify(summary, null, 1));
+  await fs.writeFile(path.join(OUT_ROOT, 'JOBS-SUMMARY.md'), '# Jobs summary\n\n| Mode | URL | Pages | Errors | First page status | Title |\n|---|---|---|---|---|---|\n' + summary.map((j) => `| ${j.mode || ''} | ${j.url || j.line} | ${j.pages ?? ''} | ${j.errors ?? j.error ?? ''} | ${j.first ? j.first.status : ''} | ${j.first ? String(j.first.title || '').replace(/\|/g, '/').slice(0, 80) : ''} |`).join('\n') + '\n');
 }
 main().catch((e) => { console.error(e); process.exit(1); });

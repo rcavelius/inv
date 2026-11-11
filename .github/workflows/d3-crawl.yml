@@ -7,7 +7,7 @@ on:
   # Push trigger: touch scripts/d3-crawl/RUN (or edit target.txt) and push to start a crawl.
   push:
     branches: ["claude/**", "crawl/**"]
-    paths: ["scripts/d3-crawl/RUN", "scripts/d3-crawl/target.txt"]
+    paths: ["scripts/d3-crawl/RUN"]
   workflow_dispatch:
     inputs:
       target_origin:
@@ -54,16 +54,27 @@ jobs:
           INPUT_MAX_PAGES: ${{ inputs.max_pages }}
           OUT_DIR: ${{ github.workspace }}/media-masters/research/raw/d3
         run: |
-          export TARGET_ORIGIN="${INPUT_TARGET:-$(head -1 target.txt | tr -d '[:space:]')}"
-          export MAX_PAGES="${INPUT_MAX_PAGES:-400}"
-          echo "Crawling $TARGET_ORIGIN (max $MAX_PAGES pages)"
-          node crawl.mjs
+          # The last line of RUN picks the mode: a line containing "jobs" runs every job in
+          # jobs.txt (page fetches and mini-crawls); anything else crawls the origin in target.txt.
+          if tail -1 RUN | grep -qi jobs; then
+            echo "Jobs mode: $(grep -cv '^#' jobs.txt) jobs"
+            JOBS_FILE=jobs.txt OUT_DIR="${{ github.workspace }}/media-masters/research/raw/run-${{ github.run_number }}" node crawl.mjs
+            echo "RESULT_DIR=media-masters/research/raw/run-${{ github.run_number }}" >> "$GITHUB_ENV"
+            echo "RESULT_NAME=run-${{ github.run_number }}-jobs" >> "$GITHUB_ENV"
+          else
+            export TARGET_ORIGIN="${INPUT_TARGET:-$(head -1 target.txt | tr -d '[:space:]')}"
+            export MAX_PAGES="${INPUT_MAX_PAGES:-400}"
+            echo "Crawling $TARGET_ORIGIN (max $MAX_PAGES pages)"
+            node crawl.mjs
+            echo "RESULT_DIR=media-masters/research/raw/d3" >> "$GITHUB_ENV"
+            echo "RESULT_NAME=d3" >> "$GITHUB_ENV"
+          fi
       - name: Upload results as a workflow artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: d3-crawl-${{ github.run_number }}
-          path: media-masters/research/raw/d3
+          path: media-masters/research/raw
           retention-days: 1
       - name: Push results to the throwaway results branch
         env:
@@ -73,12 +84,18 @@ jobs:
           RESULTS_BRANCH="${INPUT_RESULTS_BRANCH:-research-corpus-d3}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          rm -rf /tmp/corpus && mkdir -p /tmp/corpus && cp -r media-masters/research/raw/d3 /tmp/corpus/d3
-          git checkout --orphan "$RESULTS_BRANCH"
-          git rm -rf --quiet . || true
+          rm -rf /tmp/corpus && mkdir -p /tmp/corpus && cp -r "$RESULT_DIR" "/tmp/corpus/$RESULT_NAME"
+          # Accumulate runs on the results branch: check it out if it exists, else start an orphan.
+          if git fetch origin "$RESULTS_BRANCH" 2>/dev/null; then
+            git checkout -B "$RESULTS_BRANCH" FETCH_HEAD
+          else
+            git checkout --orphan "$RESULTS_BRANCH"
+            git rm -rf --quiet . || true
+          fi
           git clean -fdxq
-          mkdir -p corpus && cp -r /tmp/corpus/d3 corpus/d3
-          printf '# Crawl corpus (temporary)\n\nRaw crawl results for competitive analysis, produced by the "Crawl competitor site for analysis" workflow (run %s). This branch is a transfer mechanism only: fetch it, analyze locally, then delete the branch.\n' "${{ github.run_number }}" > README.md
+          mkdir -p corpus && rm -rf "corpus/$RESULT_NAME" && cp -r "/tmp/corpus/$RESULT_NAME" "corpus/$RESULT_NAME"
+          printf '# Crawl corpus (temporary)\n\nRaw crawl results for competitive analysis, produced by the "Crawl competitor site for analysis" workflow. One folder per run under corpus/. This branch is a transfer mechanism only: fetch it, analyze locally, then delete the branch.\n\nLatest run: %s (%s)\n' "${{ github.run_number }}" "$RESULT_NAME" > README.md
           git add -A
-          git commit -qm "Crawl corpus for analysis (run ${{ github.run_number }})"
-          git push --force origin "HEAD:$RESULTS_BRANCH"
+          git commit -qm "Crawl corpus for analysis (run ${{ github.run_number }}: $RESULT_NAME)"
+          for i in 1 2 3; do git push origin "HEAD:$RESULTS_BRANCH" && exit 0; git pull --rebase origin "$RESULTS_BRANCH" || true; sleep 5; done
+          exit 1

@@ -1,0 +1,67 @@
+# Run 2 (2026-11-11): D3's directory listings, agency directories for the region, chambers/tourism, news on the Town of OC agency, competitor pages.
+# Format: page <url>   |   crawl <origin> <max_pages>
+page https://www.yelp.com/biz/d3corp-ocean-city
+page https://www.chamberofcommerce.com/united-states/maryland/ocean-city/internet-marketing-service/2007341235-d3corp
+page https://www.bestprosintown.com/md/ocean-city/d3corp-/
+page https://www.alignable.com/ocean-city-md/d3corp-17
+page https://www.mapquest.com/us/maryland/d3corp-354393993
+page https://pr.business/d-3-corporation-ocean-city-maryland
+page https://web.mdtourism.org/Services/D3-Corp-38
+page https://local.yahoo.com/info-30156975-d3corp-ocean-city
+page https://wpengine.com/agency-directory/d3-group
+page https://agencies.semrush.com/list/ocean-city
+page https://agencies.semrush.com/list/seo/ocean-city
+page https://techbehemoths.com/companies/web-design/ocean-city
+page https://techbehemoths.com/companies/seo/ocean-city
+page https://techbehemoths.com/companies/web-design/salisbury-2
+page https://techbehemoths.com/companies/digital-marketing/salisbury
+page https://techbehemoths.com/companies/web-design/rehoboth-beach
+page https://techbehemoths.com/companies/web-design/lewes-de-19958
+page https://techbehemoths.com/company/delmarva-digital
+page https://techbehemoths.com/company/richmond-web-factory
+page https://techbehemoths.com/company/infinitee-designs
+page https://www.designrush.com/agency/profile/standout-fast
+page https://www.designrush.com/agency/profile/ocean-computer-tech
+page https://www.designrush.com/agency/profile/salisbury-media
+page https://www.designrush.com/agency/profile/vivid-creative-studio-llc
+page https://www.designrush.com/agency/profile/webbed-presence
+page https://clutch.co/agencies/digital-marketing/maryland
+page https://clutch.co/profile/delmarva-digital
+page https://www.bbb.org/us/md/ocean-city/category/web-design
+page https://www.bbb.org/us/md/salisbury/category/digital-marketing
+page https://www.bbb.org/us/md/berlin/category/web-design
+page https://www.bbb.org/us/de/lewes/category/web-design
+page https://trends.builtwith.com/agency/Full-City-Media
+page https://techreviewer.co/companies/marketeer-experts
+page https://www.g2.com/products/standout-fast/reviews
+page https://www.alignable.com/millsboro-de/mc-creative-group
+page https://mdcoastdispatch.com/2022/04/14/new-oc-advertising-agency-rolls-out-enjoy-campaign/
+page https://www.mghus.com/blog/ocean-city-maryland-renews-mghs-contract-for-three-more-years
+page https://mghus.com/mgh-ocean-city
+page https://www.oceancity.com/advertise
+page https://www.pragermicrosystems.com/solutions/web-design/web-design-company-maryland/web-design-company-ocean-city/
+page https://www.pragermicrosystems.com/
+page https://www.ezmarketing.com/?p=89588
+page https://www.ezmarketing.com/
+page https://702pros.com/markets/ocean-city-md/web
+page https://creativemarketing.ai/ocean-md-seo-agency
+page https://onelittleweb.com/seo-agency/salisbury/
+page https://www.cyberoptik.net/web-design/salisbury-md/
+page https://alwaystopofmind.com/digitalmarketing/online-marketing-agency-in-sussex-county
+page https://defynedseo.com/contractor-website-design/united-states/maryland/salisbury
+page https://www.cloudswitched.com/services/google-ads/salisbury
+page https://fishinoc.com/services/unscene-productions/
+page https://www.rosemontmedia.com/website/clients/delmarva-dental-services/
+crawl https://standoutfast.com 10
+crawl https://inclind.com 10
+crawl https://www.delmarvadigital.com 8
+crawl https://sproutcreatives.com 8
+crawl https://chamber.oceancity.org 10
+crawl https://www.salisburyarea.com 10
+crawl https://www.oceanpineschamber.org 8
+crawl https://www.berlinchamber.org 8
+crawl https://www.leweschamber.com 8
+crawl https://www.chooseworcester.org 6
+crawl https://www.visitworcester.org 6
+crawl https://sbybiz.org 6
+crawl https://web.mdtourism.org 6
