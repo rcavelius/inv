@@ -253,7 +253,7 @@ XML sitemap and robots submitted to Google and Bing; clean URL structure (`/serv
 
 ### 6.2 Local SEO (the fastest win)
 - **Google Business Profile:** complete every field, add services with prices, post weekly, answer every review within 24 hours, upload 10+ photos a month, use the Q&A section, add booking link, track calls and direction requests.
-- **Reviews:** a review-request process (SMS plus email link after each milestone), a target of two new Google reviews a week, and never any incentives (Google bans them). Also route a few reviews to Yelp, Facebook, and Clutch.
+- **Reviews:** a review-request process (SMS plus email link after each milestone), a target of two new Google reviews a week, and never any incentives (Google bans them). Also route a few reviews to Facebook and Clutch. Do not ask for Yelp reviews: Yelp's policy forbids soliciting them (the blueprint corrected the earlier version of this line).
 - **Citations:** 50 consistent listings in month one (data aggregators plus the top directories), then local ones: Ocean City Chamber, Salisbury Area Chamber, Greater Salisbury Committee, Ocean Pines Chamber, Bethany-Fenwick Chamber, Rehoboth-Dewey Chamber, Maryland Office of Tourism services directory (D3 is in it), Worcester and Wicomico economic development pages, BBB, Alignable.
 - **Second office signal:** D3 ranks in two map packs because it has two addresses. When budget allows, a Salisbury coworking address with signage and staffed hours is a legitimate second location.
 
