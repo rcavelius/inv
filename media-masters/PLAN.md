@@ -81,6 +81,40 @@ Ocean City. The pool is thin, which is good for us.
 
 ---
 
+## 2b. Phase 1 results (2026-11-11)
+
+Phase 1 ran. The verified findings supersede the October recon above where they differ.
+Start with `research/D3-SCORECARD.md` (one page), then the six documents it cites.
+
+**Scorecard grades:** Website speed F · Pricing transparency F · Accessibility D · SEO hygiene D ·
+Lead capture and response D · AI-search readiness D · Content depth C · Proof C · Local coverage C ·
+Reviews C (provisional, Google Business Profile not yet checked).
+
+**The sharpest facts**
+- Mobile Lighthouse performance 38 to 54; main content takes 15 to 30 seconds on 5 of 6 tested pages; pages weigh 4 to 8 MB (`02-d3-seo-audit.md` §9).
+- No price anywhere except "$195/hr" in their Terms. Their ads page says "No long-term commitments," while their Terms set a 3-year auto-renewing contract with a full-term payout on exit (`03b-d3-conversion-messaging.md` §3).
+- 145 of 157 pages have no H1; Organization schema carries only name, URL and logo; no town pages and no town names in service-page copy (`02` §5, §8, §10).
+- 910 accessibility failures on 30 pages (34 critical, some in the lead forms) despite an accessibility overlay on every page (`03-d3-ux-critique.md` §7).
+- 7 inquiry forms; the header quote form asks 13 questions; no booking link; only a chat bot promises a reply (`01-d3-site-inventory.md` §5).
+- Blog: 31 of 52 posts dated 2020, 4 posts in the 12 months before the crawl, all by "D3 Support" (`01b-d3-content-inventory.md` §2).
+- Service menu grew from 8 to 12 since October: Answer Engine Optimization, an AI Assistant product, Rapid Design Websites, Strategy, Print. Still no PR page (`01` §4).
+
+**Corrections to the October recon:** the `/our-work` page does not exist (menu label only); the testimonials
+page is a single `noindex` page, not ten; the Semrush and WP Engine badges are not on their site;
+the Clutch listing shows no reviews and a "$10,000+" minimum that conflicts with WP Engine's
+"under $10,000" band.
+
+**Still open:** D3's Google Business Profile rating and review count, Bing and Apple Maps listings,
+and the AI-assistant mention test were not checked because the session's web search budget ran
+out. Competitor profiles beyond D3 are low confidence for the same reason. The prepared crawl run 2
+(`scripts/d3-crawl/jobs.txt`) fetches D3's listings and the competitors' own sites to close this;
+it starts when a line containing "jobs" is appended to `scripts/d3-crawl/RUN` and pushed.
+
+**Blueprint:** `research/05-mmg-site-blueprint.md` (written from two independent drafts, judged,
+merged, and verified against the research).
+
+---
+
 ## 3. Phase 0 — Foundations (week 0–1, before the agents run)
 
 Everything here is a prerequisite. Most items are an hour each.

@@ -199,7 +199,8 @@ Source: `pages/<slug>.json` `ctas` (text, href, tag), plus button-like text foun
 |---|---|---|---|
 | REQUEST A QUOTE | Header, every page (desktop top right; mobile full-width bar above the logo) | `/request-a-quote` (no trailing slash; the canonical is `/request-a-quote/`) | `ctas`; `screenshots/home-desktop-fold.jpg`, `home-mobile-fold.jpg` |
 | Contact Us | Main nav, every page | `/contact-us/` | `ctas` |
-| Facebook | Footer, every page | `https://www.facebook.com/` (the Facebook home page, not a D3 profile) | `ctas`; `pages/home.json` `externalLinks` |
+| Facebook | Footer "Our Partners" logo carousel, every page (one slide beside Google, YouTube, Shopify, Amazon, Adobe, WooCommerce, WordPress and Bing, each linking to the vendor home page) | `https://www.facebook.com/` (a partner logo, not a social link) | `ctas`; `pages/home.json` `externalLinks` |
+| Social icons (no link text) | Footer, every page | D3's own profiles: facebook.com/D3DoesIt, linkedin.com/company/d3corp, youtube.com/c/D3CorpOceanCity, instagram.com/d3corp/ | `pages/home.json` `externalLinks` |
 | SUBMIT | Footer lead form (12 pages), AEO form, AI Assistant form, Contact form, Quote form | Form post (target URL not captured: `forms[].action` reads "ref: <Node>") | `forms` |
 | SUBMIT REQUEST | Rapid Design and Social Media long forms | Form post | `ctas` (tag `button`) |
 | SUBSCRIBE | Newsletter form in footer, every page | Form post | `pages/*.txt` |
@@ -213,7 +214,8 @@ Source: `pages/<slug>.json` `ctas` (text, href, tag), plus button-like text foun
 | "chat with our AI Assistant" | AEO body text (not a link in `ctas`) | Chat widget (inferred) | `pages/answer-engine-optimization.txt` |
 | Chat bubble, "Hi, how can we help you today? We respond immediately" | Every page, bottom right, opens over content | AI chat (vendor host `apigateway.co`) | `derived/tech.json` `chat_or_ai_widget_hosts`; `screenshots/home-desktop-fold.jpg` |
 | Phone 410-213-2400 (tel: link) | Footer, every page; "give us a call" line above the footer form | Phone call | `pages/*.json` `telLinks`; `derived/tech.json` `phones_seen` = 157 pages |
-| emergency@d3corp.com | Contact Us only | Email | `pages/contact-us.json` `emails` |
+| emergency@d3corp.com | Contact Us only | Email | `pages/contact-us.json` `emails` (not listed in `derived/tech.json` `emails_seen`, which is incomplete) |
+| clientservices@d3corp.com, support@d3corp.com | Accessibility and webmail pages; terms and privacy policy (not on the 16 marketing pages) | Email | `pages/accessibility.txt`, `pages/webmail.txt`, `pages/terms.txt`, `pages/privacy-policy.txt`; a Rackspace webmail support page also exists (`pages/webmail.txt`) |
 
 ### 4.2 The dominant CTA
 
@@ -229,34 +231,34 @@ Every service page ends with the same "Submit the form below, or give us a call 
 | Live human chat | **Not shown.** A chat widget exists on all 157 pages; its robot avatar and the AI Assistant product suggest a bot (inferred). | `derived/tech.json`; `screenshots/home-desktop-fold.jpg` |
 | SMS / text us | **No** for prospects. The only SMS text is in terms section 19, for employee two-factor login. | `pages/terms.txt` |
 | Pricing page or price ranges | **No.** | Site-wide `$` search; `derived/services-and-company-pages.csv` `pricing_signals` |
-| Free audit or lead magnet | **No.** Only a newsletter signup. | `forms` on all pages |
+| Free audit or lead magnet | **None promoted.** The marketing pages offer only a newsletter. But an indexable audit intake form exists at `/su/`, "SU Entrepreneur Intake Form \| Online Brand Performance Audit Checklist" (frmD3Forms5652, 55 Yes/No/Unsure items on website, SEO, social, Google Business Profile and reviews; `robots_meta` "follow, index"; in sitemap; 1 inlink). It appears to serve a Salisbury University entrepreneur programme (inferred). Its criteria show what D3 audits on, for example "Business has ownership of Google Business Profile", Google comments "responded to within 3 business days" and "Website loads in 2-3 seconds". | `forms` on all pages; `pages/su.json`, `pages/su.txt`; `derived/pages.csv` row `su` |
 | Click-to-call on the first screen | **No.** The phone number is in the footer and above the bottom form only. | `screenshots/*-fold.jpg` |
 
-**Our standard:** Every page carries one primary CTA ("Book a 15-minute call", live calendar) and one secondary ("See prices"), both on the first screen at 390px and 1440px. Click-to-call and text-us are in the mobile header. CTA wording and destination are identical across pages, and a CTA named "Contact" always goes to the same page.
+**Our standard:** Every page carries one primary CTA ("Book a 15-minute call", live calendar) and one secondary ("See prices"), both on the first screen at 390px and 1440px. Click-to-call and text-us are in the mobile header. CTA wording and destination are identical across pages, and a CTA named "Contact" always goes to the same page. Our free audit is promoted, not buried, and our own site beats the bars D3's `/su/` checklist sets for others: mobile load under 2 seconds (not 2-3) and every Google review answered within 1 business day (not 3).
 
 ---
 
 ## 5. Forms
 
-Friction score (our method, stated so others can recompute): +1 per visible question, +1 per field marked required, +2 per file upload, +1 if a free-text answer is required. Lower is better. "Required" uses the visible asterisk, because every field's HTML `required` attribute is false (`forms[].fields[].required`), which means validation, if any, is done by script (inferred).
+Friction score (our method, stated so others can recompute): +1 per visible question, +1 per field marked required, +2 per file upload, +1 if a free-text answer is required. Lower is better. "Required" uses the visible asterisk, because every field's HTML `required` attribute is false (`forms[].fields[].required`), which means validation, if any, is done by script (inferred). The asterisks are drawn by CSS and mostly missing from the `.txt` files (the footer form shows one asterisk in `pages/home.txt` but seven in `screenshots/websites-desktop.jpg`), so required marking is confirmed only where a screenshot exists: the footer form (7 of 7) and the Social project form (0, `screenshots/social-media-marketing-desktop.jpg`). The Rapid Design form's count is read from the `.txt` only. No screenshot exists for request-a-quote, contact-us, answer-engine-optimization or ai-assistant (`derived/screenshots-index.md`), so their required counts are not in corpus and their friction scores are **lower bounds**.
 
 | Form (id) | Where | Questions | Marked required | Friction | Notes | Evidence |
 |---|---|---|---|---|---|---|
 | Footer lead form (frmD3Forms5650) | 12 of 16 pages: home, websites, rapid-design, SEO, AEO, digital-ads, social, email, graphic-design, multimedia, print, ai-assistant (also strategy) | 7: first, last, company, phone, email, "How Did You Hear About D3?", "I'm Interested in the following Services" (free text) | 7 (all asterisked) | **15** | Phone and company required for a first touch; the service question is a blank text box, not choices | `pages/home.json` `forms`; `pages/home.txt` |
-| Request a Quote (frmD3Forms748) | `/request-a-quote/` (header button) | 13: company, contact person, title, city, state, phone, email, preferred contact (email/phone), current website, timeframe (0-3, 4-8, 8+ months, not certain), how discovered (5 options), comments, service (7 options) | 0 | **13** | Service list out of date (no ads, AEO, multimedia, AI); timeframe is "for a New Site" even if you want SEO | `pages/request-a-quote.json`; `.txt` |
-| Website project (frmD3Forms5656) | Rapid Design, mid-page | 13 (same as quote form, with type of website and timeframe ASAP / 3-6 / 6-12 months) | 0 | **13** | Shown in addition to the footer form: two lead forms on one page | `pages/rapid-design-websites.json` |
-| Social project (frmD3Forms5657) | Social Media, mid-page | 13 | 0 | **13** | Copied from the website form: asks "Type of Website" (Corporate, Portfolio, Landing Page, E-commerce) and "What is Your Timeframe for a New Site?" | `pages/social-media-marketing.json`; `.txt` |
-| AEO inquiry (frmD3Forms5680) | AEO, mid-page | 11 | 0 | **11** | Plus the footer form | `pages/answer-engine-optimization.json` |
-| AI Assistant inquiry (frmD3Forms5681) | AI Assistant, mid-page | 11 | 0 | **11** | Email field is `type: text`, so mobile keyboards will not switch to email layout | `pages/ai-assistant.json` |
-| Contact (frmD3Forms5375) | `/contact-us/` | 5: first, last, email, service (40-option dropdown), comments | 0 | **5** | Lowest friction, but no phone field and no message about what happens next | `pages/contact-us.json`; `.txt` |
+| Request a Quote (frmD3Forms748) | `/request-a-quote/` (header button) | 13: company, contact person, title, city, state, phone, email, preferred contact (email/phone), current website, timeframe (0-3, 4-8, 8+ months, not certain), how discovered (5 options), comments, service (7 options) | Not in corpus | **13+** (lower bound) | Service list out of date (no ads, AEO, multimedia, AI); timeframe is "for a New Site" even if you want SEO | `pages/request-a-quote.json`; `.txt` |
+| Website project (frmD3Forms5656) | Rapid Design, mid-page | 13 (same as quote form, with type of website and timeframe ASAP / 3-6 / 6-12 months) | 0 in `.txt` (unconfirmed) | **13+** (lower bound) | Shown in addition to the footer form: two lead forms on one page | `pages/rapid-design-websites.json` |
+| Social project (frmD3Forms5657) | Social Media, mid-page | 13 | 0 (confirmed in screenshot) | **13** | Copy-paste error from the website form: the visible question is "What Social Do You Currently Have?" but the answers are Corporate, Portfolio, Landing Page or E-commerce Website; hidden labels and field names (`type_of_website`, `what_is_your_timeframe_for_a_new_site`) still say "Type of Website" and "Timeframe for a New Site", while the visible placeholder reads "What is Your Timeframe?" | `pages/social-media-marketing.json`; `.txt`; `screenshots/social-media-marketing-desktop.jpg` |
+| AEO inquiry (frmD3Forms5680) | AEO, mid-page | 11 | Not in corpus | **11+** (lower bound) | Plus the footer form | `pages/answer-engine-optimization.json` |
+| AI Assistant inquiry (frmD3Forms5681) | AI Assistant, mid-page | 11 | Not in corpus | **11+** (lower bound) | Email field is `type: text`, so mobile keyboards will not switch to email layout | `pages/ai-assistant.json` |
+| Contact (frmD3Forms5375) | `/contact-us/` | 5: first, last, email, service (40-option dropdown), comments | Not in corpus | **5+** (lower bound) | Lowest friction; the page says "We will connect you with the right D3 expert on our team." but not when | `pages/contact-us.json`; `.txt` |
 | Newsletter (frmD3Forms5112) | Footer, every page | 3: first, last, email | 0 | 3 | "Get the latest marketing news and advice." | `pages/home.json` |
-| AI Assistant Questionnaire (no id) | `/ai-assistant-questionnaire/` | 11: business name, website, email to receive leads, assistant name, icon upload, FAQs, third-party URLs, lead/booking tools, instructions, extra info, knowledge upload | 5 (business name, website, lead email, assistant name, tools) | **20** | 2 uploads of "Max upload size: 100 MB Any file type accepted" | `pages/ai-assistant-questionnaire.txt`, `.json` |
+| AI Assistant Questionnaire (no id) | `/ai-assistant-questionnaire/` | 11: business name, website, email to receive leads, assistant name, icon upload, FAQs, third-party URLs, lead/booking tools, instructions, extra info, knowledge upload | 5 (business name, website, lead email, assistant name, tools) | **21** (11 + 5 + 4 for two uploads + 1 because the required tools question is a free-text textarea) | 2 uploads of "Max upload size: 100 MB Any file type accepted" | `pages/ai-assistant-questionnaire.txt`, `.json` |
 
 Measured: 4 of the 16 pages show two different lead forms plus the newsletter (rapid-design, AEO, social, ai-assistant; `derived/pages.csv` `forms` = 3). The "How did you hear" question is asked in three different wordings with three different option sets (footer: 10 options; quote: 5; long forms: 10).
 
-**What happens after submit:** not in corpus. The crawler did not submit forms, no thank-you or confirmation page is in the sitemap (the only "thank" URL is a video, `sitemap-urls.json`), and no form text says when or how D3 will reply. The social form alone says "we'll be in touch with recommendations from our D3 social experts" with no time frame (`pages/social-media-marketing.txt`). Every form carries the reCAPTCHA notice (`pages/*.txt`).
+**What happens after submit:** not in corpus. The crawler did not submit forms, no thank-you or confirmation page is in the sitemap (the only "thank" URL is a video, `sitemap-urls.json`), and no form text says when D3 will reply. The contact page says who will reply ("We will connect you with the right D3 expert on our team.", `pages/contact-us.txt`) and the social form says "we'll be in touch with recommendations from our D3 social experts" with no time frame (`pages/social-media-marketing.txt`). Every form carries the reCAPTCHA notice (`pages/*.txt`).
 
-**The AI Assistant questionnaire as a lead form:** it is not one. Inferred from its fields ("Email Address to Receive Leads", "AI Assistant Name", uploads), it is post-sale onboarding for clients who have already bought the AI Assistant. It has one inlink, no meta description and no H1 (`derived/pages.csv` row `ai-assistant-questionnaire`: `inlinks`=1, `desc_len` empty, `h1_count`=0), yet it is indexable and in the sitemap (`robots_meta` "follow, index"; `in_sitemap` True). A prospect who lands on it from search meets a 20-point form with no explanation, price or contact path beyond the header button. It also accepts "Any file type" up to 100 MB on a public URL (measured copy; the security exposure is inferred).
+**The AI Assistant questionnaire as a lead form:** it is not one. Inferred from its fields ("Email Address to Receive Leads", "AI Assistant Name", uploads), it is post-sale onboarding for clients who have already bought the AI Assistant. It has one inlink, no meta description and no H1 (`derived/pages.csv` row `ai-assistant-questionnaire`: `inlinks`=1, `desc_len` empty, `h1_count`=0), yet it is indexable and in the sitemap (`robots_meta` "follow, index"; `in_sitemap` True). A prospect who lands on it from search meets a 21-point form with no explanation, price or contact path beyond the header button. It also accepts "Any file type" up to 100 MB on a public URL (measured copy; the security exposure is inferred). It is not the only internal page exposed to search: `/two-factor-authentication-2fa-mobile-number-registration/`, an employee SMS-consent form, is also indexable ("index, follow") and in the sitemap (`derived/pages.csv` row of that slug), and so are `/site-down/` and `/su/` (section 4.3).
 
 **Our standard:** One lead form site-wide, at most 4 fields (name, email or phone, what you need as checkboxes from the single service list, optional message), friction score 5 or less, correct input types (`email`, `tel`), and real `required` attributes with accessible error text. After submit, a confirmation page names who will reply and by when, and offers the booking calendar. Client onboarding forms sit behind a link sent to clients, are `noindex`, and accept only listed file types with a size limit.
 
@@ -270,7 +272,7 @@ Measured: 4 of the 16 pages show two different lead forms plus the newsletter (r
 |---|---|---|---|
 | "they doubled their caregivers and clients from 100 to 200 of each!" | Visiting Angels case study; summary repeated on home, SEO, strategy ("doubled the number of caregivers and clients") | `pages/case-study-visiting-angels-eastern-shore-md.txt`; `pages/home.txt` | Yes (claimed) |
 | "A 70% increase in total website users translated directly into operational expansion." | Visiting Angels case study | same | Yes (claimed) |
-| "approximately 40% of website visitors" captured by lead tools | Primo case study | `pages/case-study-primo-family-restaurant.txt` | Process figure, not a sales result |
+| "approximately 40% of website visitors" captured by lead tools | Primo case study | `pages/case-study-primo-family-restaurant.txt` | Yes (claimed): a measured lead-capture result, though not a sales or revenue outcome |
 | "since 2016, with nearly a decade of ongoing collaboration" | White Marlin Open blurb, home and strategy | `pages/home.txt` | Retention, not result |
 | "a trusted D3 client for over a decade" | High Stakes blurb, websites page | `pages/websites.txt` | Retention |
 | "Over 40% of websites worldwide are using this tried and true platform." | Websites (about WordPress) | `pages/websites.txt` | Industry stat |
@@ -278,7 +280,7 @@ Measured: 4 of the 16 pages show two different lead forms plus the newsletter (r
 | "30 years", "over 40 dedicated professionals", "Founded in 1995" | Meet Us | `pages/meet-us.txt` | Company facts |
 | "immediately increased online orders" | Crabs To Go blurb (no figure) | `pages/home.txt` | Claimed, unquantified |
 
-Across all 28 case studies, `derived/case-studies.csv` `result_figures` and the sibling report `media-masters/research/01b-d3-content-inventory.md` (section 3) find only 1 of 28 states a measured outcome of D3's work (Visiting Angels). No service page states a client metric in its own copy.
+Across all 28 case studies, `derived/case-studies.csv` `result_figures` and the sibling report `media-masters/research/01b-d3-content-inventory.md` (section 3) show that 2 of 28 give a measured figure from D3's work: Visiting Angels (growth outcome) and Primo (about 40% visitor capture). Only Visiting Angels states a business-growth outcome. White Marlin Open's "$113 million" is tournament prize money, not a result. No service page states a client metric in its own copy.
 
 ### 6.2 Named clients on service pages (case-study carousels, first slides as crawled)
 
@@ -302,9 +304,10 @@ Inferred: the same 6 to 8 hospitality names rotate through every service. The AE
 | Recon difference | The 2026-10-13 recon said testimonials were "paginated, at least 10 pages"; the crawl shows a single load-more page. The corpus supersedes it. | `media-masters/research/00-d3-recon-2026-10-13.md` line 43 |
 | Review platform feed or star rating | None on the 16 pages | `pages/*.txt`; `derived/tech.json` |
 | Badges | Footer "Our Partners" carousel of platform logos (Google, YouTube, Shopify, AWS/Amazon, Adobe, WooCommerce, WordPress, Bing, Facebook) and an "Ocean City chamber logo". These are platform logos, not certifications. The Semrush Agency Partner and WP Engine badges noted in PLAN section 2 are **not in corpus**. | `pages/meet-us.json` `images` alt; `grep -i semrush` no match |
+| Accessibility overlay | The accessiBe overlay (acsbapp.com) loads on all 157 pages (`derived/tech.json` `accessibe_overlay` true), yet all 30 pages axe-tested still have serious violations, including `color-contrast` and `link-name` on every one (`derived/axe-summary.csv`). D3's own terms disclaim overlays: they are provided "as is" and the "No Guarantee of Compliance" clause applies (`pages/terms.txt`, Regulatory and Legal Compliance Disclaimer). Inferred: an agency selling accessibility help with an overlay and failing pages is a credibility gap. | `derived/tech.json`; `derived/axe-summary.csv`; `pages/terms.txt` |
 | "Top-Rated" | Used in titles and headings (graphic design, AEO, home form heading "D3's Top-Rated Digital Marketing Services") with no rating source shown | `pages/graphic-design.json` `title`; `pages/home.txt` |
 
-**Our standard:** Every service page carries at least one case study with two before-and-after metrics, the measurement window and the data source, plus one dated, named testimonial relevant to that service. The testimonials page is indexable, with each quote dated and linked to its Google review where one exists. Any "top-rated" claim cites its source and rating on the same screen.
+**Our standard:** Every service page carries at least one case study with two before-and-after metrics, the measurement window and the data source, plus one dated, named testimonial relevant to that service. The testimonials page is indexable, with each quote dated and linked to its Google review where one exists. Any "top-rated" claim cites its source and rating on the same screen. No accessibility overlay; zero critical or serious axe violations on every page at launch, with every icon link and badge image given an accessible name.
 
 ---
 
@@ -315,6 +318,8 @@ Inferred: the same 6 to 8 hospitality names rotate through every service. The AE
 | Chat response | "We respond immediately" | Chat widget, every page | `screenshots/home-desktop-fold.jpg`, `home-mobile-fold.jpg`, `websites-desktop-fold.jpg` |
 | AI Assistant (product for clients) | "Engage visitors 24/7, answer questions instantly" | AI Assistant page | `pages/ai-assistant.txt` |
 | After-hours | "For urgent support after hours, contact: emergency@d3corp.com" | Contact Us only | `pages/contact-us.txt` |
+| Site-down form | "THE REQUESTED SITE IS TEMPORARILY DOWN" form (name, email, Site, comments), indexable and in the sitemap; no response time stated | `/site-down/` | `pages/site-down.json` (frmD3Forms3338); `derived/pages.csv` |
+| Client support email | clientservices@d3corp.com and support@d3corp.com | Accessibility, webmail, terms, privacy pages | `pages/accessibility.txt`, `pages/webmail.txt`, `pages/terms.txt`, `pages/privacy-policy.txt` |
 | Support included | "Personal, ongoing support via phone, email, or video is included with service." | Terms | `pages/terms.txt` Exclusions 3 |
 | Error correction | "D3 agrees to promptly correct any mistakes of its own accord upon notification" | Terms | `pages/terms.txt` 9 |
 | Security incident | notify "within a commercially reasonable time" | Terms | `pages/terms.txt` 2c |
@@ -323,7 +328,7 @@ Inferred: the same 6 to 8 hospitality names rotate through every service. The AE
 | Delivery speed | "We're talking days, not months." | Rapid Design | `pages/rapid-design-websites.txt` |
 | Guarantees | None. The terms say the opposite: "No one, including D3, can guarantee you placement" and services are "as is". | Terms | `pages/terms.txt` Exclusions 9, section 10 |
 
-Not in corpus: business hours, a reply time for forms or email, a support SLA, an uptime commitment for hosting, a reporting cadence, a named contact, or what "urgent" means for the emergency address. Testimonials repeatedly praise responsiveness ("great turn around times", "very responsive"; `pages/home.txt`), so D3 relies on clients to make the promise D3 does not put in writing (inferred).
+Not in corpus: business hours, a reply time for forms or email, a support SLA, an uptime commitment for hosting, a reporting cadence, a named contact, or what "urgent" means for the emergency address or how fast the `/site-down/` form is answered (the form itself is the closest thing D3 has to a hosting-support path). Testimonials repeatedly praise responsiveness ("great turn around times", "very responsive"; `pages/home.txt`), so D3 relies on clients to make the promise D3 does not put in writing (inferred).
 
 **Our standard:** Published office hours on every page footer. Form and email replies from a named human within the same business day (inquiries after 3 pm get a reply by 10 am the next business day). Hosting clients get a written 99.9% uptime target and a 1-hour first response for site-down issues, 7 days a week. Monthly report on a fixed date, with a sample published. Any chat bot is labelled as a bot and offers "text a person" and "book a call" within the first reply.
 
@@ -335,14 +340,14 @@ Not in corpus: business hours, a reply time for forms or email, a support SLA, a
 |---|---|---|---|
 | No pricing | Cannot tell whether D3 is a $2,000 or $20,000 decision without filling a 13-question form | No price on any page except "$195/hr" in terms Exclusions 12 | Public pricing page; starting-at price on every service page |
 | No process or timeline | Does not know the steps, how long a website or SEO engagement takes, or when results show. Only "days, not months" (rapid sites) and "can take weeks after launch" (terms, about Google crawling). | `pages/rapid-design-websites.txt`; `pages/terms.txt` Exclusions 9 | A numbered process with week counts on every service page |
-| No owner or team visibility | Cannot see who they would work with; 40 staff claimed, zero shown | `pages/meet-us.txt` (founder named once; no team list); `pages/meet-us.json` `images` (no staff photos by alt) | Owner photo and name on every page; named account lead per client |
+| No owner or team visibility | Cannot see who they would work with; "over 40" staff claimed (or "35+" on the careers page), zero shown. D3 does employ client-success account managers (careers page) but does not name them to prospects | `pages/meet-us.txt` (founder named once; no team list); `pages/meet-us.json` `images` (no staff photos by alt); `pages/career-client-success-manager.txt` | Owner photo and name on every page; named account lead per client |
 | No comparison guidance | Cannot tell Custom vs WordPress vs Rapid Design apart on cost, time or fit; cannot tell SEO vs AEO vs GEO in practical terms | `pages/websites.txt`; `pages/rapid-design-websites.txt`; `pages/answer-engine-optimization.txt` | A "which one is right for me" table on Websites and SEO pages |
 | Contract surprise | Ads page says no contracts; terms say 3 years auto-renewing | Section 3.2 above | Month-to-month, stated on every service page and the pricing page |
 | What is included | Content, photos, printing, social, PPC, domain, plug-ins and compliance are all excluded by default in terms | `pages/terms.txt` Exclusions 1-14 | Each package lists inclusions and exclusions in plain language |
 | No FAQ | No service page has an FAQ section | `pages/*.json` `h2`/`h3` (no FAQ heading on the 16 pages) | 4 to 6 real questions per page with `FAQPage` schema (PLAN 5.4) |
 | Wrong form for the job | Social prospects are asked about a "New Site"; SEO prospects pick from a quote form that has no ads or AEO option | Section 5 | One form, one service list |
-| First screen on mobile | The cookie banner and chat panel cover most of the 390px first screen; the only visible action is "REQUEST A QUOTE" | `screenshots/home-mobile-fold.jpg`, `digital-advertising-mobile-fold.jpg` | Nothing covers the H1 or primary CTA on a 390x844 first screen |
-| Broken social proof link | The footer "Facebook" link goes to facebook.com, not D3's page | `pages/home.json` `ctas` | Every social link resolves to our own profile, checked by the link QA gate |
+| First screen on mobile | The cookie banner and chat panel cover roughly the bottom 35-40% of the 390px first screen, below the H1. The quote bar and headline stay visible, but no body copy or secondary action is | `screenshots/home-mobile-fold.jpg`, `digital-advertising-mobile-fold.jpg` | Nothing covers the H1 or primary CTA on a 390x844 first screen |
+| Unlabelled social and badge links | D3's own Facebook, LinkedIn, YouTube and Instagram icon links have no link text, and the chamber badges have empty alts, so screen-reader users hear nothing useful | `pages/home.json` `externalLinks`; `derived/axe-summary.csv` (`link-name` on all 30 pages) | Every icon link and badge has an accessible name; zero `link-name` violations |
 | PR promised, not offered | Home hero lists "Content Creation, Strategy & PR"; there is no PR page in the nav | `pages/home.txt`; `pages/home.json` `nav` | A PR page if we sell it, otherwise we do not mention it |
 
 ---
@@ -380,3 +385,22 @@ Each line is a commitment the build team can test before launch.
 7. Will we match D3 on AI chat for our own site, or position "a human answers" as the difference? Owner decision.
 8. Which three packages and starting prices will we publish first (websites, SEO, social)? Owner decision, needed before the pricing page in build week 2 (PLAN 5.5).
 9. Who is the named account lead on day one if the owner is the only staff member, and what reply-time promise can we keep during the summer season? Owner decision.
+
+---
+
+## Verification (2026-11-11)
+
+A skeptic re-checked 27 claims against the corpus: **17 supported, 2 wrong, 7 overstated, 1 unsupported.** Corrections made:
+
+- Wrong: AI Assistant Questionnaire friction is 21, not 20 (the required tools question is free text; section 5).
+- Wrong: the footer "Facebook" link is a partner logo; D3 links its own Facebook, LinkedIn, YouTube and Instagram from icon links on every page. "Broken social link" gap replaced by "unlabelled social and badge links" (sections 4.1, 8).
+- Overstated: "full ownership" versus terms section 7 is now an ambiguity, not a contradiction (summary 3, section 3.2).
+- Overstated: social form wording now quotes the visible question and notes the hidden website labels (summary 5, section 5).
+- Overstated: mobile cover reduced to roughly the bottom 35-40% of the first screen; H1 and quote bar stay visible (summary 6, section 8).
+- Overstated: "no audit offer" now notes the indexable `/su/` audit checklist (section 4.3).
+- Overstated: 2 of 28 case studies give a measured figure (Visiting Angels, Primo); only Visiting Angels states growth (summary 7, section 6.1).
+- Overstated: team invisibility scoped to marketing pages; careers page shows client-success account managers (summary 9, section 8).
+- Overstated: contact page says who replies but not when (section 5).
+- Overstated: audits and "Ready in Minutes" rows now marked inferred tensions; only the contract-length contradiction is measured (section 3.2).
+- Unsupported: required-field counts confirmed only for the footer (7) and Social (0) forms; other scores marked lower bounds (section 5).
+- Added: `/site-down/` support form (3.2, 7); `/su/` benchmarks (4.3); headcount conflict 40 vs 35+ (summary 9, 2.3); clientservices@ and support@ emails and the `emails_seen` gap (4.1, 7); Salisbury chamber and Quiet Resorts badges (2.3); `/two-factor-authentication-.../` exposed to search (5); accessiBe overlay versus axe results and terms disclaimer (6.3); 5c retroactive discount repayment and 6b standing charge authority (summary 3, 3.2).

@@ -342,6 +342,8 @@ Measured from `derived/lighthouse-summary.csv` and `lighthouse/*-mobile.json` (s
 What this feels like, tied to the screenshots (inferred):
 - **The visitor sees chrome first, then waits.** The first paint at about 2.5 s is likely the header, the banner title and the cookie bar. The largest element arrives 15 to 30 s later on 5 of 6 pages, which on these templates is likely the full-width banner illustration or a below-banner image (the LCP element is not recorded in the corpus).
 - **The page looks ready long before it works.** Time to Interactive of 24 to 31 s, with 1.0 to 2.1 s of blocking time, means taps on "Request a Quote" or the menu may lag while the chat, overlay, tag manager and reCAPTCHA scripts run.
+- **Images weigh as much as scripts.** Lighthouse modern-image-formats reports potential savings of 3,680 KiB on home and 914 to 1,597 KiB on the other pages, and uses-responsive-images 1,100 KiB on home (`lighthouse/*-mobile.json`). Unoptimised images are a main driver of the 4.3 to 8.4 MB page weight, alongside third-party JS.
+- **Crawl-wide averages.** Across all 157 pages: 110 requests and 6,447 ms load per page on average (crawler runner, networkidle), and 32 pages unreachable from home through crawled links (`derived/site-issues.md`).
 - **Every page carries the same third-party stack.** About 1.47 MB of unused JavaScript per page is reported on all 6 pages. 17 third-party hosts load on every page (`derived/tech.json` third_party_hosts_pages): Google Tag Manager, Analytics, reCAPTCHA, accessiBe, the apigateway chat, Typekit, Google Fonts and jsDelivr.
 - **Layout shift is low.** CLS was 0.031 to 0.049, so pages do not jump. Their one measured strength.
 - **Server response is fast.** 60 to 100 ms for the root document, so the slowness is front-end weight, not hosting.
@@ -364,11 +366,11 @@ What this feels like, tied to the screenshots (inferred):
 | 2 | Cookie banner takes 35.7% of the first screen and is covered by the chat card | Consent UI 15% or less of the viewport. Reject reachable in 1 tap with nothing on top | Mobile screenshot plus manual tap test |
 | 3 | Chat auto-opens over content on desktop (7.6% of viewport) and mobile | No auto-opening widgets. Chat (if any) only after a tap on a launcher of at least 48 px | Screenshot review |
 | 4 | No phone number on any mobile first screen; first tel link about 61% down home | Tap-to-call of at least 44x44 px in the sticky header on every page | Template check |
-| 5 | Five-second test: average 1.3 of 5 on mobile | Every money page scores 4 or more on mobile with 5 testers | Five-second test log |
+| 5 | Five-second test (inferred, one reviewer): average 1.3 of 5 on mobile, about 2.0 under a consistent rubric | Every money page scores 4 or more on mobile with 5 testers | Five-second test log |
 | 6 | No pricing page; quote form has 13 questions (`pages/request-a-quote.json`) | Pricing in the top nav (1 tap). Starting-at price on every service page. Quote form 5 fields or fewer | Nav audit, form audit |
 | 7 | Required stars with no `required` attribute (`pages/home.json` forms) | Every required field has a `required` attribute and a visible label | axe plus manual check |
 | 8 | Mislabelled links ("Contact D3" goes to the blog) | Zero links whose label names a different destination; one label per destination | Link audit script |
-| 9 | 21 of 21 blog posts have no H1; titles set in thin type (`derived/pages.csv`) | Exactly one H1 per page; article titles at weight 600 or heavier | Crawl check |
+| 9 | 145 of 157 pages have no H1, including all 21 sampled blog posts; blog titles set in thin type (`derived/site-issues.md`, `derived/pages.csv`) | Exactly one H1 per page; article titles at weight 600 or heavier | Crawl check |
 | 10 | 15 of 21 posts show a 2020 date; all authored "D3 Support" | Named author with photo on every post; "last reviewed" date within 12 months | Content audit, quarterly |
 | 11 | Stock and AI-style imagery; duplicated hero photos; placeholder text in a mockup | Real photos only, no image reused as a hero on two pages, no placeholder text anywhere | Image inventory, `lorem` grep before deploy |
 | 12 | No team photos on Meet Us (`pages/meet-us.json`) | Owner and every team member pictured with name and role | Page review |
@@ -378,9 +380,13 @@ What this feels like, tied to the screenshots (inferred):
 | 16 | Unlabelled selects and icon buttons in lead forms and sliders | Every control has an accessible name; visible labels, not placeholders | axe plus screen-reader pass |
 | 17 | accessiBe overlay plus an Accessibility page promising progress | No overlay. Statement names WCAG 2.2 AA, the audit date and the results | Statement page review |
 | 18 | Lighthouse mobile performance 0.38 to 0.54; LCP up to 30.3 s | Performance 95 or more on money pages; LCP under 2.5 s; INP under 200 ms; CLS under 0.1 | Lighthouse CI on each deploy |
-| 19 | 4.2 to 8.2 MB pages; 1.47 MB unused JS; 17 third-party hosts | Pages under 1 MB; CSS+JS under 100 KB; no third-party script above the fold | Lighthouse budget |
+| 19 | 4.3 to 8.4 MB pages (4,215 to 8,166 KiB); 1.47 MB unused JS; up to 3,680 KiB of image savings; 17 third-party hosts | Pages under 1 MB; CSS+JS under 100 KB; no third-party script above the fold | Lighthouse budget |
 | 20 | Two font services (Typekit plus Google Fonts) and 3 or more visible families | One self-hosted family, 2 weights at most, `font-display: swap` | Network panel check |
 | 21 | Inconsistent CTA labels and "ID3AS" jargon | One CTA vocabulary (for example "Get a price", "Call now") used site-wide | Copy style sheet |
+| 22 | 506 of 4,155 images (12%) lack alt text (`derived/site-issues.md`) | Every informative image has alt text; decorative images use `alt=""` | Crawl check plus axe |
+| 23 | Testimonials page is noindex with no headings (`derived/pages.csv`) | Reviews page indexable, with one H1 and reviews marked up as text | Crawl check |
+| 24 | Meet Us promises the team but names only the founder (`pages/meet-us.txt`) | Every team member named with photo and role | Page review |
+| 25 | Accessibility statement names no WCAG level or audit date and has a stray URL (`pages/accessibility.txt`) | Statement names WCAG 2.2 AA, last audit date and results; no broken copy | Statement page review |
 
 ---
 
@@ -429,4 +435,31 @@ Screenshots (all in `media-masters/research/raw/d3/screenshots/`):
 
 Not in corpus: `contact-us-mobile.jpg` and any case-study screenshot.
 
-Data files cited: `derived/screenshots-index.md`, `derived/axe-summary.csv`, `derived/axe-rules-sitewide.md`, `axe/home.json`, `axe/services.json`, `axe/blog-a-guide-to-website-seo.json` (read in full), `axe/rapid-design-websites.json` and `axe/digital-advertising.json` (samples), `derived/lighthouse-summary.csv`, `lighthouse/*-mobile.json`, `derived/tech.json`, `derived/pages.csv`, `derived/blog-posts.csv`, `pages/home.json`, `pages/meet-us.json`, `pages/contact-us.json`, `pages/request-a-quote.json`, `pages/testimonials.json`, `pages/case-studies.json`, `pages/accessibility.txt`, `pages/websites.json`, `pages/social-media-marketing.json`, `pages/blog-a-guide-to-website-seo.json`, `INDEX.md`, `media-masters/PLAN.md`, `media-masters/research/00-d3-recon-2026-10-13.md`.
+Data files cited: `derived/screenshots-index.md`, `derived/axe-summary.csv`, `derived/axe-rules-sitewide.md`, `axe/home.json`, `axe/services.json`, `axe/blog-a-guide-to-website-seo.json` (read in full), `axe/rapid-design-websites.json` and `axe/digital-advertising.json` (samples), `derived/lighthouse-summary.csv`, `lighthouse/*-mobile.json`, `derived/tech.json`, `derived/pages.csv`, `derived/blog-posts.csv`, `derived/site-issues.md`, `derived/services-and-company-pages.csv`, `pages/home.json`, `pages/home.txt`, `pages/meet-us.json`, `pages/meet-us.txt`, `pages/contact-us.json`, `pages/request-a-quote.json`, `pages/testimonials.json`, `pages/case-studies.json`, `pages/accessibility.txt`, `pages/websites.json`, `pages/social-media-marketing.json`, `pages/blog-a-guide-to-website-seo.json`, `INDEX.md`, `media-masters/PLAN.md`, `media-masters/research/00-d3-recon-2026-10-13.md`.
+
+---
+
+## Verification (2026-11-11)
+
+A skeptic checked 31 claims against the corpus: 23 supported, 3 wrong, 5 overstated, 0 unsupported. Eleven missing facts were added.
+
+Corrections made:
+- Wrong: quote form inputs changed from 22 to 21 user-facing inputs (22 entries including hidden `submit_to_system`) (section 5).
+- Wrong: "Where" note now says Ocean City and Salisbury appear in titles, footers, case-study copy and the Meet Us body, never above the fold (section 2).
+- Wrong: Services menu described as alphabetical except the two website services appended out of order (section 5).
+- Overstated: page weight restated as 4.3 to 8.4 MB (4,215 to 8,166 KiB) (section 9 row 19).
+- Overstated: overlay prompt starts 155 of 157 page texts, not every page; script still loads on all 157 (section 7.3).
+- Overstated: form labels; text inputs have programmatic labels, the select and textarea have none (sections 5 and 7.4).
+- Overstated: service template heading colour varies (grey or blue), and websites and ai-assistant have no H1 (summary 7, sections 4.1 and 4.4).
+- Overstated: five-second scores relabelled as inferred, with a rubric caveat (mobile about 2.0 if applied consistently) (section 2, section 9 row 5).
+- Added: site-wide missing H1, 145 of 157 pages (summary 4, section 4.1, section 9 row 9).
+- Added: Testimonials page is noindex with no H1 or H2 (section 6, section 9 row 23).
+- Added: 506 of 4,155 images (12%) lack alt text (sections 4.3 and 7.2, section 9 row 22).
+- Added: image weight savings from Lighthouse (section 8, section 9 row 19).
+- Added: 31 of 52 posts dated 2020, 40 modified 2025-09-10, 2 with no date or author (summary 4, section 4.5).
+- Added: Meet Us promises the team but names only the founder (section 4.3, section 9 row 24).
+- Added: pricing-adjacent copy in `derived/services-and-company-pages.csv` (summary 3, section 5).
+- Added: Accessibility statement has no WCAG level or audit date and a stray URL (section 7.3, section 9 row 25).
+- Added: home Client Reviews block holds more reviews than Old Pro Golf (section 6).
+- Added: crawl-wide 110 requests, 6,447 ms load, 32 pages unreachable from home (section 8).
+- Added: second, longer lead form with 5 unlabelled selects on rapid-design-websites and social-media-marketing (section 5).
