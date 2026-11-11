@@ -13,12 +13,40 @@ Orchestrate the five Opus agents defined in `.claude/agents/`. Outputs land in
 - Read `media-masters/intake.md`. If more than three fields still say `TODO`, tell the user which
   ones and ask whether to proceed anyway (the agents can run, but the blueprint will carry gaps).
 - Check network: `curl -sS -o /dev/null -w "%{http_code}\n" --max-time 20 https://d3corp.com/`.
-  Anything other than a 2xx or 3xx means the environment cannot reach D3. Stop and tell the user:
-  the network policy denied `d3corp.com`; add it (plus `web.archive.org`, `www.googleapis.com`,
-  `pagespeed.googleapis.com`, `validator.schema.org`) under Allowed domains, or run this skill
-  from Claude Code on a laptop. Do not fabricate results.
-- Confirm Chromium is available for screenshots: `ls /opt/pw-browsers/chromium* 2>/dev/null || which chromium chromium-browser google-chrome`. If none, note that the UX critic will fall back to text analysis.
-- Create `media-masters/research/screenshots/d3/` if missing.
+  - 2xx/3xx: the agents may crawl live (route A).
+  - Anything else (a 403 CONNECT from the proxy means the environment's network policy denies the
+    host): use route B below. Do not fabricate results, and do not wait for the user to change
+    network settings.
+- Confirm Chromium is available for screenshots: `ls /opt/pw-browsers/chromium* 2>/dev/null || which chromium chromium-browser google-chrome`.
+- Web search budget: the session shares roughly 200 WebSearch calls per turn across all agents.
+  Give every agent that searches a hard cap in its prompt (8 to 50 depending on role), and keep
+  the total under 180.
+
+### Route B: crawl from GitHub Actions, analyze from the corpus
+1. Append a line to `scripts/d3-crawl/RUN` (the origin lives in `scripts/d3-crawl/target.txt`),
+   commit, and push to the current `claude/**` branch. The workflow
+   `.github/workflows/d3-crawl.yml` runs on GitHub's runners: a polite Playwright crawl
+   (robots.txt respected, about 1 request/second), screenshots, axe, Lighthouse, PageSpeed.
+   It force-pushes the results to the orphan branch `research-corpus-d3`. Manual dispatch is
+   not permitted for the integration (403), so the push is the trigger.
+2. Wait for the branch (a background `until git ls-remote --exit-code --heads origin research-corpus-d3`
+   loop); a 150-page site takes about 40 minutes.
+3. Extract locally into the gitignored folder and compute the derived facts:
+   ```
+   mkdir -p media-masters/research/raw
+   git fetch origin research-corpus-d3
+   git archive origin/research-corpus-d3 corpus/d3 | tar -x -C media-masters/research/raw --strip-components=1
+   python3 -I scripts/d3-crawl/derive.py media-masters/research/raw/d3
+   ```
+   `derive.py` writes `derived/pages.csv`, `site-issues.md`, `blog-posts.csv`, `case-studies.csv`,
+   `services-and-company-pages.csv`, `tech.json`, `lighthouse-summary.csv`, `axe-summary.csv`,
+   `axe-rules-sitewide.md`, `screenshots-index.md`.
+4. Point the research agents at the corpus instead of the live site (tell them WebFetch and
+   curl are blocked and that `media-masters/research/raw/d3/` is the source of truth), and let
+   only the off-page analyst use WebSearch.
+5. The repo is public: never commit `media-masters/research/raw/` (it is gitignored), and delete
+   the `research-corpus-d3` branch once the analysis documents are committed
+   (`git push origin --delete research-corpus-d3`).
 
 ## 2. Research wave (launch all four in one message so they run concurrently)
 Use the Agent tool with these `subagent_type` values and a prompt that names the inputs and the

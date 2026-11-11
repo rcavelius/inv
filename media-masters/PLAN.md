@@ -92,7 +92,7 @@ Everything here is a prerequisite. Most items are an hour each.
 5. **Claim the rest of the map stack:** Bing Places (feeds Bing, Yahoo, DuckDuckGo, and ChatGPT search), Apple Business Connect (Apple Maps and Siri), Yelp, Facebook page, LinkedIn company page, Nextdoor business page.
 6. **Set up measurement:** Google Search Console, Google Analytics 4, Bing Webmaster Tools, a call-tracking number (CallRail or similar), and a rank tracker that can compare you against d3corp.com (Semrush, Ahrefs, or BrightLocal's cheaper local tracker).
 7. **Decide the content ownership rule:** who signs off on copy, who answers leads, and the promised response time (we recommend "every inquiry answered by a human the same business day").
-8. **Unblock the agents' network access.** In this cloud environment, the network policy denied `d3corp.com`, so Phase 1 cannot run here until the environment's Network access is widened or these hosts are added under Allowed domains: `d3corp.com`, `www.d3corp.com`, `web.archive.org`, `pagespeed.googleapis.com`, `www.googleapis.com`, `validator.schema.org`, `fonts.googleapis.com`, `yelp.com`, `www.google.com`, `www.bing.com`. Steps: https://code.claude.com/docs/en/cloud-environments#network-access. Alternatively run Phase 1 from Claude Code on a laptop, where there is no such policy.
+8. **Agent network access (optional).** This cloud environment's network policy denies `d3corp.com`, so the agents cannot crawl it live from here. Phase 1 does not need that any more: the `/analyze-d3` skill has a second route that crawls from GitHub Actions and analyzes the saved corpus (see `.claude/skills/analyze-d3/SKILL.md`, Route B). If you ever want live checks from this environment, add `d3corp.com`, `www.d3corp.com`, `www.googleapis.com` and `web.archive.org` under Allowed domains (https://code.claude.com/docs/en/cloud-environments#network-access), or run from Claude Code on a laptop.
 
 ---
 
@@ -117,9 +117,19 @@ orchestrates the whole run and writes every output to `media-masters/research/`.
 /analyze-d3
 ```
 
-The skill checks that `intake.md` is filled in and that d3corp.com is reachable, launches agents
-1–4 in parallel, waits, launches agent 5, then summarizes the blueprint and the top ten
-"better than D3" opportunities in chat.
+The skill checks that `intake.md` is filled in and whether d3corp.com is reachable. If it is not
+(this cloud environment blocks it), it triggers the GitHub Actions crawl in
+`.github/workflows/d3-crawl.yml`, pulls the resulting corpus into the ignored folder
+`media-masters/research/raw/d3/`, computes site-wide facts with `scripts/d3-crawl/derive.py`,
+and runs the agents against that corpus. Either way it then runs the architect and summarizes
+the blueprint and the top ten "better than D3" opportunities in chat.
+
+**How the first run actually went (2026-10-14 to 2026-11-11).** The crawl ran on GitHub's runners
+and captured 157 pages, 120 screenshots, 30 accessibility reports and 6 Lighthouse reports. The
+market research ran on web search and hit the shared search budget, so its competitor profiles
+and verification were re-run with hard caps a second time. The six analysis documents in
+`media-masters/research/` were each checked by a skeptic agent against the corpus and corrected
+before the scorecard and blueprint were written.
 
 **Acceptance criteria for Phase 1**
 - Every URL in D3's sitemap is accounted for in the inventory (page count matches).
