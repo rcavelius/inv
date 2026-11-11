@@ -824,7 +824,7 @@ Word counts are body copy, excluding nav and footer. Every service page uses the
 | `/scoreboard/` (noindex, follow) | `Our Website Speed & Accessibility Scores \| Media Masters` | Our own website's speed and accessibility scores, live | None (rule 5): no speed-test term in `keywords.csv`; searchers for a speed check are served by the audit tool. Candidates for the keyword pass: "website speed test", "accessible website example" | 500 | Check my site free | 4 |
 | `/blog/` | `Marketing Advice for Delmarva Businesses \| Media Masters` | Marketing advice for Delmarva business owners | how do ai overviews affect local businesses (r181), answered by the hub's opening section "How search changed for local businesses this year", which then links to every article | 500 | Check my site free | 4 |
 | `/blog/how-much-does-a-website-cost/` | `How Much Does a Website Cost? Real Numbers \| Media Masters` | How much does a website cost? A plain-English breakdown | how much does a website cost (r82); how much does a website redesign cost (r85); how much does an ecommerce website cost (r91); what does a hotel website cost ocean city (r92) | 1,500 | See website prices | 4 |
-| `/blog/website-maintenance-cost/` | `Website Maintenance Cost Per Month, Explained \| Media Masters` | How much does website maintenance cost per month? | how much does website maintenance cost per month (r84) | 1,200 | See care plan prices | 4 |
+| `/blog/website-maintenance-cost/` | `Website Maintenance Cost Per Month \| Media Masters Group` | How much does website maintenance cost per month? | how much does website maintenance cost per month (r84) | 1,200 | See care plan prices | 4 |
 | `/blog/how-much-does-seo-cost/` | `How Much Does SEO Cost for a Small Business? \| Media Masters` | How much does SEO cost for a small business? | how much does seo cost for a small business (r175); how much does local seo cost (r184) | 1,300 | See SEO prices | 4 |
 | `/blog/show-up-in-chatgpt/` | `Get Your Business Into ChatGPT Answers \| Media Masters` | How to get your business to show up in ChatGPT and AI answers | how do i get my business to show up in chatgpt (r177); what is generative engine optimization (r178); geo vs seo what's the difference (r179) | 1,400 | Check my site free | 4 |
 | `/blog/rank-higher-on-google-maps/` | `How to Rank Higher on Google Maps \| Media Masters` | How to rank higher on Google Maps: a guide for local businesses | how to rank higher on google maps (r180) | 1,400 | Check my site free | 4 |
@@ -1162,7 +1162,7 @@ PLAN §5.5 sets four sprints: (1) the money pages, weeks 2 to 3; (2) the remaini
 5. `/services/web-design/` (money page, full brief in 9; C: web design SELL/SUB)
 6. `/services/seo/` (money page, full brief in 9; C: SEO SELL/SUB)
 7. `/about/` (money page, full brief in 9)
-8. `/about/[owner-slug]/`
+8. `/about/[owner-slug]/` (noindex, follow; rule 5)
 9. `/locations/salisbury-md/` (money page, full brief in 9; C: Salisbury in intake towns)
 10. `/locations/ocean-city-md/` (money page, full brief in 9; C: Ocean City in intake towns)
 11. `/industries/hospitality-vacation-rentals/` (money page, full brief in 9; C: hospitality in intake industries)
@@ -1185,12 +1185,12 @@ PLAN §5.5 sets four sprints: (1) the money pages, weeks 2 to 3; (2) the remaini
 25. `/services/email-sms-marketing/` (C: email/SMS SELL/SUB)
 26. `/services/branding-logo-design/` (C: branding SELL/SUB)
 27. `/services/graphic-design/` (C: graphic design and print SELL/SUB)
-28. `/services/print-design/` (C: graphic design and print SELL/SUB)
+28. `/services/print-design/` (C: graphic design and print SELL/SUB; noindex until the keyword pass)
 29. `/services/video-photo-drone/` (C: video/photo/drone SELL/SUB)
 30. `/services/marketing-strategy/` (C: intake "Other" lists strategy, or 2+ marketing services SELL)
-31. `/services/public-relations/` (C: PR SELL/SUB)
-32. `/services/reputation-management/` (C: reputation SELL/SUB)
-33. `/services/website-chat-assistant/` (C: intake "Other" lists an AI chat product; NOT built by default)
+31. `/services/public-relations/` (C: PR SELL/SUB; noindex until the keyword pass)
+32. `/services/reputation-management/` (C: reputation SELL/SUB; noindex until the keyword pass)
+33. `/services/website-chat-assistant/` (C: intake "Other" lists an AI chat product; NOT built by default; noindex if built)
 34. `/work/`
 35. `/work/media-masters-site-build/`
 36. `/work/[client-2-slug]/` (C: a client with written permission)
@@ -1207,16 +1207,16 @@ PLAN §5.5 sets four sprints: (1) the money pages, weeks 2 to 3; (2) the remaini
 44. `/locations/salisbury-md/graphic-design-branding/` (C: Salisbury; branding or graphic design SELL/SUB; localness gate)
 45. `/locations/ocean-city-md/web-design/` (C: Ocean City; web design SELL/SUB; localness gate)
 46. `/locations/ocean-city-md/seo/` (C: Ocean City; SEO SELL/SUB; localness gate)
-47. `/locations/ocean-city-md/social-media/` (C: Ocean City; social SELL/SUB; localness gate)
-48. `/locations/ocean-city-md/video-production/` (C: Ocean City; video SELL/SUB; localness gate)
-49. `/locations/ocean-city-md/graphic-design-print/` (C: Ocean City; branding, graphic design or print SELL/SUB; localness gate)
-50. `/locations/berlin-ocean-pines-md/` (C: Berlin or Ocean Pines in intake towns; localness gate)
-51. `/locations/rehoboth-beach-lewes-de/` (C: Rehoboth or Lewes in intake towns; localness gate)
-52. `/locations/bethany-beach-fenwick-island-de/` (C: Bethany or Fenwick in intake towns; localness gate)
-53. `/locations/sussex-county-de/` (C: Sussex County towns in intake; localness gate)
-54. `/locations/easton-cambridge-md/` (C: Easton or Cambridge in intake towns; localness gate)
-55. `/locations/pocomoke-snow-hill-md/` (C: Pocomoke or Snow Hill in intake towns; localness gate)
-56. `/locations/west-ocean-city-md/` (C: West Ocean City in intake towns AND passes the localness gate and the overlap guard against the Ocean City pages; otherwise never published and its terms move to /locations/ocean-city-md/)
+47. `/locations/ocean-city-md/video-production/` (C: Ocean City; video SELL/SUB; localness gate)
+48. `/locations/berlin-ocean-pines-md/` (C: Berlin or Ocean Pines in intake towns; localness gate)
+49. `/locations/rehoboth-beach-lewes-de/` (C: Rehoboth or Lewes in intake towns; localness gate)
+50. `/locations/bethany-beach-fenwick-island-de/` (C: Bethany or Fenwick in intake towns; localness gate)
+51. `/locations/sussex-county-de/` (C: Sussex County towns in intake; localness gate)
+52. `/locations/easton-cambridge-md/` (C: Easton or Cambridge in intake towns; localness gate)
+53. `/locations/pocomoke-snow-hill-md/` (C: Pocomoke or Snow Hill in intake towns; localness gate)
+54. `/locations/west-ocean-city-md/` (C: West Ocean City in intake towns AND passes the localness gate and the overlap guard against the Ocean City pages; otherwise never published and its terms move to /locations/ocean-city-md/)
+55. `/locations/ocean-city-md/social-media/` (C: Ocean City; social SELL/SUB; localness gate; **lower-confidence**, 6.2: if it fails the gate or the owner prefers, its terms stay on the Ocean City hub)
+56. `/locations/ocean-city-md/graphic-design-print/` (C: Ocean City; branding, graphic design or print SELL/SUB; localness gate; **lower-confidence**, 6.2: same fallback)
 57. `/industries/`
 58. `/industries/restaurants-bars/` (C: restaurants in intake industries)
 59. `/industries/amusements-attractions/` (C: amusements in intake industries)
@@ -1230,22 +1230,22 @@ PLAN §5.5 sets four sprints: (1) the money pages, weeks 2 to 3; (2) the remaini
 
 65. `/free-website-audit/` (money page, full brief in 9; ships with the noindex `/free-website-audit/report/{id}/` template)
 66. `/reporting/`
-67. `/scoreboard/`
+67. `/scoreboard/` (noindex until the keyword pass)
 68. `/blog/`
 69. `/blog/how-much-does-a-website-cost/`
 70. `/blog/how-much-does-seo-cost/`
 71. `/blog/show-up-in-chatgpt/`
 72. `/blog/rank-higher-on-google-maps/`
 73. `/blog/vacation-rental-direct-bookings-ocean-city/`
-74. `/blog/off-season-marketing-ocean-city/`
-75. `/careers/` (C: intake shows hiring or a contractor network)
+74. `/blog/website-maintenance-cost/` (replaces the off-season article of the first draft, whose question now sits on `/services/marketing-strategy/`; conflict C13)
+75. `/careers/` (C: intake shows hiring or a contractor network; noindex)
 
 
 Off-site work and non-page items in sprint 1: the sitewide schema node, `robots.txt`, `llms.txt`, the sitemap, `_redirects`, `_headers`, the form Worker and lead routing, the booking link, analytics, and Search Console and Bing verification.
 
-**Totals:** 75 pages. With every service sold and the chat page, careers, the two client case studies and West Ocean City not built, 70 pages go live, 68 of them indexable. Sprint 3 is the heaviest; within it, the Salisbury and Ocean City service-in-town pages go first. A page that fails the localness gate does not ship in sprint 3 (6.2).
+**Totals:** 75 pages (16 + 22 + 26 + 11). With every service sold and the chat page, careers, the two client case studies and West Ocean City not built, 70 pages go live, 63 of them indexable (section 5 lists the 7 `noindex` pages). Sprint 3 is the heaviest; within it, the 8 evidence-backed service-in-town pages go first and the 2 lower-confidence Ocean City pages last. A page that fails the localness gate does not ship in sprint 3 (6.2).
 
-**After launch (backlog, not counted above):** one article a week (PLAN §6.3), starting with the 8 industry pillars (01b §7 #2); a Google Ads spend calculator; the keyword pass (decision 23); a re-run of the 10 SERP consistency checks and the missing top-3 lookups (04 SERP consistency check; 04 Additions).
+**After launch (backlog, not counted above):** one article a week (PLAN §6.3), starting with the 8 industry pillars (01b §7 #2) and an off-season marketing guide for Ocean City businesses; a Google Ads spend calculator; the keyword pass (decision 23), which can move the 5 `noindex` content pages into the index; a re-run of the 10 SERP consistency checks; and **the missing top-3 lookups: PLAN §4 acceptance criterion 3 (a current top-3 for at least 150 keywords) is still unmet, with 40 of 301 rows done, so at least 110 more queries are needed** (04 SERP consistency check; 04 Additions).
 
 ---
 
@@ -1292,7 +1292,7 @@ The first nine block sprint 1; nothing can be published without them.
 
 1. `[[NEEDS: trademark clearance]]` A registered mark "MM Media Masters" exists for advertising services (PLAN §3 #3, §9). Get an attorney's answer before money goes into the logo, signage, ads or the domain.
 2. `[[NEEDS: business identity]]` Legal and brand name, domain, public street address or service-area business, the one phone number (and whether it takes texts), the one email, business hours. These go on every page and every listing and must never change.
-3. `[[NEEDS: SELL / SUB / NO for each service line]]` Decides which of the 17 service pages exist, the nav, the form checkboxes, `/pricing/`, and whether PR is mentioned anywhere.
+3. `[[NEEDS: SELL / SUB / NO for each service line]]` Decides which of the 18 service pages under `/services/` exist (17 if the chat page stays unbuilt, as recommended), the nav, the form checkboxes, `/pricing/`, and whether PR is mentioned anywhere.
 4. `[[NEEDS: starting prices and three packages]]` Websites, SEO and social first (03b §10 #8), then every service you sell. Market reference points are in 9.0; none is our price.
 5. `[[NEEDS: named lead, the 3 pm / 10 am reply rule, and summer availability]]` Who answers in July, and the booking calendar's summer hours (03b §10 #9).
 6. `[[NEEDS: approve month-to-month terms, the "What you own" page and milestone billing, with an attorney]]` (03b §3.2).
@@ -1300,7 +1300,7 @@ The first nine block sprint 1; nothing can be published without them.
 8. `[[NEEDS: list of past and current clients who will review, and any who allow a case study with numbers]]` Three or more names keep the 25-review target; fewer than three switches to the fallback of 12 (11.1).
 9. `[[NEEDS: towns you will drive to, and a named meeting spot in each]]` Decides which town pages exist (6.2); the meeting spot is a hard stop for each town page, Salisbury and Ocean City included.
 10. `[[NEEDS: owner confirms each service promise]]` The 99.9% uptime target, the 1-hour first response to site-down reports 7 days a week, every process timeline, the proposal turnaround, and the FAA Part 107 certificate and insurance if drone work is sold.
-11. `[[NEEDS: sprint 1 composition]]` Accept the default (Salisbury hub, Ocean City hub and hospitality in sprint 1; audit tool in sprint 4) or keep PLAN §5.5's original order.
+11. `[[NEEDS: sprint 1 composition]]` Accept the default (Salisbury hub, Ocean City hub and hospitality in sprint 1; audit tool in sprint 4) or keep PLAN §5.5's original order. Also: build or skip the two lower-confidence Ocean City pages (social media and design and print, 6.2).
 12. `[[NEEDS: chat decision]]` None at launch (recommended), a person, or a labelled bot (03b §10 #7).
 13. `[[NEEDS: photo shoot]]` Owner, workspace, and real photos in each town we build a page for (localness check 6).
 14. `[[NEEDS: which chambers to join in quarter 1, and the budget]]` 02b §8 #9 suggests Ocean City, Salisbury Area, Ocean Pines and Bethany-Fenwick.
@@ -1312,10 +1312,12 @@ The first nine block sprint 1; nothing can be published without them.
 20. `[[NEEDS: allow or block AI training crawlers]]` AI search crawlers stay allowed either way (12.7).
 21. `[[NEEDS: real certifications and memberships]]` Only verifiable ones are shown, each linked to its listing (02b §4 standard).
 22. `[[NEEDS: bid on D3's brand terms in Google Ads, yes or no]]` We never name D3 on our site (PLAN Appendix B); ads on a competitor's name are legal but a judgement call.
-23. `[[NEEDS: keyword pass with fresh search budget]]` PR, reputation, print, amusements, the audit tool, the scoreboard, the chat assistant and the other marker pages (9.11), plus SERP checks for the golf and real estate rows and real volumes from a keyword tool before large content spend (04 Open questions 4).
-24. `[[NEEDS: manual check of D3's Google Business Profile(s), Bing and Apple listings, the 5 AI-answer prompts, and who holds the Ocean City and Salisbury map packs today]]` Not a decision, but the most important missing facts (02b §10 #1–3; 04 Open questions 3, 5; SC §6). Until then we never cite D3's Google rating.
+23. `[[NEEDS: keyword pass with fresh search budget]]` Researched terms for the 7 `noindex` pages with no term (print, PR, reputation, the chat assistant, careers, the scoreboard, the owner page), for amusements, the audit tool and our own brand query (9.11); SERP checks for the golf and real estate rows; real volumes from a keyword tool before large content spend (04 Open questions 4); and **the top-3 lookups PLAN §4 acceptance criterion 3 still lacks: at least 110 more queries to reach 150 of 301 rows (40 done today; 04 Additions)**.
+24. `[[NEEDS: manual check of D3's Google Business Profile(s), Bing and Apple listings, the 5 AI-answer prompts, and who holds the Ocean City and Salisbury map packs today]]` Not a decision, but the most important missing facts (02b §10 #1–3; 04 Open questions 3, 5; SC §6). Until then we never cite D3's Google rating. Add two smaller checks: what thequietresorts.com is (Bethany-Fenwick chamber, as 01 and 04 infer, or Worcester County Tourism, as 02b reads it) and whether D3 is a listed member (6.5 note); and whether D3's Maryland Office of Tourism listing is still live (02b §10 #5).
 25. `[[NEEDS: mystery-shop D3's inquiry flow, yes or no]]` An ethics call (03b §10 #1; PLAN Appendix B). Nothing in the build depends on it.
 26. `[[NEEDS: Salisbury second location at the day-90 review]]` Open a staffed location only if 2 of the 3 thresholds in 6.6 are met; never a virtual address.
+27. `[[NEEDS: destination and tourism-board marketing in year two, yes or no]]` D3's strongest vertical (section 3, Contact-dropdown table). Default: not pursued in year one; revisit once we have one tourism client. Also confirm that booking engines, reservations, group housing, live web cams, Wi-Fi marketing and mobile apps are not sold, and whether banks and credit unions are target clients.
+28. `[[NEEDS: approve updating PLAN §8 to the day-90 review target]]` PLAN §8's 10 reviews by week 4 and 25 by weeks 5 to 6 conflict with PLAN §1's 25 by day 90 (standards table; 11.1).
 
 ---
 
@@ -1323,38 +1325,43 @@ The first nine block sprint 1; nothing can be published without them.
 
 Every keyword in `keywords.csv`, by name and CSV line number, assigned to exactly one page, in build order. If intake marks a service NO or leaves out a town, that page's keywords return here for re-mapping. If the West Ocean City page fails its gate, its three terms move to `/locations/ocean-city-md/`. Two consumer wedding-video terms (r240, r262) sit on the Berlin and Bethany pages only through a short paragraph on event and venue video for local businesses; if video is NO, they join the unassigned list.
 
-- `/` (6): marketing agency eastern shore md (r128); delmarva marketing agency (r132); delmarva digital marketing (r133); delmarva advertising agency (r135); digital marketing agency near me (r155); marketing agency near me (r156)
+- `/` (6): marketing agency eastern shore md (r128); delmarva marketing agency (r132); delmarva advertising agency (r135); digital marketing agency near me (r155); marketing agency near me (r156); advertising agency near me (r159)
 - `/contact/` (1): marketing company near me (r160)
-- `/pricing/` (11): how much does a website cost ocean city md (r10); how much does a website cost salisbury md (r19); web design pricing salisbury md (r77); how much does a small business website cost in maryland (r83); seo pricing ocean city md (r173); marketing agency pricing salisbury md (r174); how much does a marketing agency cost (r176); how much does social media management cost (r279); how much does a logo design cost for a small business (r280); how much does google ads management cost (r281); how much does a commercial video cost to produce on the eastern shore (r288)
+- `/pricing/` (12): how much does a website cost ocean city md (r10); how much does a website cost salisbury md (r19); web design pricing salisbury md (r77); how much does a small business website cost in maryland (r83); seo pricing ocean city md (r173); marketing agency pricing salisbury md (r174); how much does a marketing agency cost (r176); how much does social media management cost (r279); how much does a logo design cost for a small business (r280); how much does google ads management cost (r281); how much should a small business spend on google ads (r282); how much does a commercial video cost to produce on the eastern shore (r288)
 - `/services/web-design/` (14): web design eastern shore md (r29); eastern shore web design company (r30); web developer eastern shore maryland (r31); delmarva web design (r32); website company delmarva (r33); web designer near me (r54); web design near me (r55); website design company near me (r56); web developer near me (r57); wordpress developer near me (r58); website redesign near me (r60); ecommerce website designer near me (r61); woocommerce developer eastern shore (r71); wordpress website design eastern shore md (r72)
 - `/services/seo/` (6): seo eastern shore maryland (r130); seo company delmarva (r134); seo company near me (r157); local seo services near me (r158); seo services near me (r161); seo company maryland eastern shore small business (r188)
 - `/about/` (1): local vs national marketing agency (r183)
 - `/locations/salisbury-md/` (10): digital marketing agency salisbury md (r107); marketing agency salisbury md (r108); marketing company salisbury md (r109); advertising agency salisbury md (r110); marketing agency wicomico county (r126); email marketing services salisbury md (r202); video production salisbury md (r210); drone videography salisbury md (r212); marketing agency wicomico county md (r245); digital marketing salisbury md (r293)
 - `/locations/ocean-city-md/` (11): digital marketing agency ocean city md (r97); marketing agency ocean city md (r98); marketing company ocean city md (r99); advertising agency ocean city md (r100); ocmd marketing agency (r118); social media and seo agency ocean city md (r190); google ads management ocean city md (r197); ppc management ocean city md (r199); email marketing services ocean city md (r201); facebook ads management ocean city md (r275); geofencing advertising ocean city md (r276)
 - `/industries/hospitality-vacation-rentals/` (11): hotel website design ocean city md (r64); vacation rental website design ocean city md (r66); hotel marketing agency ocean city md (r171); hotel marketing ocean city md (r215); hotel marketing agency salisbury md (r216); vacation rental marketing ocean city md (r217); vacation rental marketing salisbury md (r218); vacation rental marketing worcester county md (r244); vacation rental marketing bethany beach de (r263); hotel marketing agency rehoboth beach (r273); short term rental marketing ocean city md (r278)
-- `/services/` (1): advertising agency near me (r159)
+- `/services/` (1): delmarva digital marketing (r133)
 - `/services/web-design/starter-website/` (1): how long does it take to build a website for a small business (r86)
-- `/services/website-care-plans/` (4): website maintenance delmarva (r34); website maintenance near me (r59); website maintenance packages maryland (r73); how much does website maintenance cost per month (r84)
+- `/services/website-care-plans/` (3): website maintenance delmarva (r34); website maintenance near me (r59); website maintenance packages maryland (r73)
 - `/services/accessible-websites/` (2): ada compliant website design maryland (r76); does my website need to be ada compliant (r89)
 - `/services/ai-search-optimization/` (3): ai seo agency near me (r163); generative engine optimization maryland (r164); ai search optimization delaware (r165)
 - `/services/google-business-profile/` (4): google business profile optimization eastern shore (r131); google business profile optimization near me (r162); google business profile optimization delaware (r167); google business profile management service (r187)
-- `/services/paid-ads/` (3): google ads agency near me (r229); ppc company near me (r235); how much should a small business spend on google ads (r282)
+- `/services/paid-ads/` (2): google ads agency near me (r229); ppc company near me (r235)
 - `/services/social-media-management/` (4): social media marketing near me (r227); social media manager near me (r228); delmarva social media marketing (r253); should i hire a freelance social media manager or an agency (r283)
 - `/services/email-sms-marketing/` (2): email marketing agency near me (r236); email marketing eastern shore md (r247)
 - `/services/branding-logo-design/` (3): logo design near me (r230); branding agency near me (r234); branding agency eastern shore md (r246)
 - `/services/graphic-design/` (1): graphic designer near me (r231)
-- `/services/video-photo-drone/` (6): video production company near me (r232); drone videographer near me (r233); delmarva video production (r250); delmarva drone services (r251); do you need a part 107 license to fly a drone for real estate in maryland (r286); can you fly a drone in ocean city md (r287)
-- `/services/marketing-strategy/` (1): ocean city md marketing for seasonal businesses (r170)
+- `/services/video-photo-drone/` (5): video production company near me (r232); drone videographer near me (r233); delmarva video production (r250); delmarva drone services (r251); do you need a part 107 license to fly a drone for real estate in maryland (r286)
+- `/services/marketing-strategy/` (1): how to market a seasonal business in the off season (r185)
+- `/work/` (1): best marketing agency eastern shore maryland (r129)
+- `/work/media-masters-site-build/` (1): wordpress vs wix vs squarespace for small business (r87)
+- `/work/[client-2-slug]/` (1, provisional; returns to `/blog/vacation-rental-direct-bookings-ocean-city/` if the slot is not built): how to use email marketing to get repeat hotel and vacation rental guests (r285)
+- `/work/[client-3-slug]/` (1, provisional; returns to `/industries/restaurants-bars/` if the slot is not built): how to market a restaurant in a beach town (r289)
+- `/reviews/` (1): seo company salisbury md reviews (r189)
 - `/locations/` (3): web design worcester county md (r27); marketing agency worcester county md (r125); social media marketing worcester county md (r243)
 - `/locations/salisbury-md/web-design/` (14): web design salisbury md (r11); website design salisbury md (r12); web developer salisbury md (r13); website company salisbury md (r14); wordpress developer salisbury md (r15); ecommerce website design salisbury md (r16); website maintenance salisbury md (r17); website redesign salisbury md (r18); web design wicomico county md (r28); small business website design salisbury md (r63); shopify developer salisbury md (r70); wordpress maintenance plans salisbury md (r74); web design delmar md (r96); who builds websites in salisbury maryland (r297)
-- `/locations/salisbury-md/seo/` (7): seo company salisbury md (r111); seo services salisbury md (r112); local seo salisbury md (r113); ai search optimization salisbury md (r114); google business profile optimization salisbury md (r115); seo company wicomico county md (r127); seo company salisbury md reviews (r189)
+- `/locations/salisbury-md/seo/` (6): seo company salisbury md (r111); seo services salisbury md (r112); local seo salisbury md (r113); ai search optimization salisbury md (r114); google business profile optimization salisbury md (r115); seo company wicomico county md (r127)
 - `/locations/salisbury-md/google-ads/` (2): google ads management salisbury md (r198); ppc agency salisbury md (r200)
 - `/locations/salisbury-md/social-media/` (2): social media marketing salisbury md (r194); social media management salisbury md (r196)
 - `/locations/salisbury-md/graphic-design-branding/` (4): branding agency salisbury md (r204); logo design salisbury md (r206); graphic design salisbury md (r208); print design salisbury md (r214)
 - `/locations/ocean-city-md/web-design/` (12): web design ocean city md (r2); website design ocean city md (r3); web developer ocean city md (r4); website company ocean city md (r5); wordpress developer ocean city md (r6); ecommerce website design ocean city md (r7); website maintenance ocean city md (r8); website redesign ocean city md (r9); web design ocmd (r20); small business website design ocean city md (r62); website hosting and maintenance ocean city md (r75); web designer ocean city md (r291)
 - `/locations/ocean-city-md/seo/` (7): seo company ocean city md (r101); seo services ocean city md (r102); local seo ocean city md (r103); ai search optimization ocean city md (r104); google business profile optimization ocean city md (r105); ocmd seo (r119); seo ocean city md (r292)
 - `/locations/ocean-city-md/social-media/` (3): social media marketing ocean city md (r193); social media management ocean city md (r195); social media marketing ocmd (r237)
-- `/locations/ocean-city-md/video-production/` (3): video production ocean city md (r209); drone videography ocean city md (r211); video production ocmd (r238)
+- `/locations/ocean-city-md/video-production/` (4): video production ocean city md (r209); drone videography ocean city md (r211); video production ocmd (r238); can you fly a drone in ocean city md (r287)
 - `/locations/ocean-city-md/graphic-design-print/` (5): branding agency ocean city md (r203); logo design ocean city md (r205); graphic design ocean city md (r207); print design ocean city md (r213); rack card design ocean city md (r277)
 - `/locations/berlin-ocean-pines-md/` (12): web design berlin md (r23); website design berlin maryland (r24); website design ocean pines md (r25); web designer ocean pines (r26); marketing agency berlin md (r121); web design and marketing berlin maryland (r122); seo berlin md (r123); marketing company ocean pines md (r124); graphic design berlin md (r239); wedding videographer berlin md (r240); social media marketing berlin md (r241); marketing agency ocean pines md (r242)
 - `/locations/rehoboth-beach-lewes-de/` (21): web design rehoboth beach de (r35); website design rehoboth beach (r36); web developer rehoboth beach de (r37); ecommerce website design rehoboth beach (r38); web design lewes de (r39); web developer lewes de (r40); wordpress developer lewes rehoboth (r41); ecommerce website design lewes de (r42); marketing agency rehoboth beach de (r136); seo company rehoboth beach (r137); digital marketing agency lewes de (r138); seo company lewes de (r139); local seo rehoboth beach (r166); social media marketing rehoboth beach de (r254); google ads agency rehoboth beach de (r255); ppc management lewes de (r256); logo design rehoboth beach de (r257); graphic design lewes de (r258); branding agency lewes de (r259); video production lewes de (r260); video production rehoboth beach de (r261)
@@ -1364,26 +1371,63 @@ Every keyword in `keywords.csv`, by name and CSV line number, assigned to exactl
 - `/locations/pocomoke-snow-hill-md/` (6): website design pocomoke city md (r50); web design snow hill md (r51); marketing pocomoke city md (r153); seo snow hill md (r154); google ads management pocomoke city md (r271); marketing agency snow hill md (r272)
 - `/locations/west-ocean-city-md/` (3): web design west ocean city md (r21); web design agency west ocean city (r22); marketing agency west ocean city md (r120)
 - `/industries/` (1): law firm website design eastern shore md (r69)
-- `/industries/restaurants-bars/` (5): restaurant website design ocean city (r65); restaurant marketing ocean city md (r172); restaurant marketing salisbury md (r219); restaurant marketing rehoboth beach (r274); how to market a restaurant in a beach town (r289)
-- `/industries/amusements-attractions/` (1): tourism marketing agency eastern shore (r191)
+- `/industries/restaurants-bars/` (4): restaurant website design ocean city (r65); restaurant marketing ocean city md (r172); restaurant marketing salisbury md (r219); restaurant marketing rehoboth beach (r274)
+- `/industries/amusements-attractions/` (2): ocean city md marketing for seasonal businesses (r170); tourism marketing agency eastern shore (r191)
 - `/industries/golf/` (5): golf course marketing agency ocean city md (r298); golf course website design maryland eastern shore (r299); ocean city golf getaway marketing (r300); golf package marketing delmarva (r301); golf course social media marketing berlin md (r302)
 - `/industries/real-estate/` (6): real estate website design ocean city md (r67); real estate marketing sussex county de (r192); real estate marketing ocean city md (r220); real estate marketing salisbury md (r221); delmarva real estate photography and video (r252); how should realtors use video and drone footage to sell second homes (r290)
 - `/industries/medical-dental/` (3): medical practice marketing ocean city md (r222); medical practice marketing salisbury md (r223); dental marketing eastern shore md (r249)
 - `/industries/home-services/` (5): contractor website design salisbury md (r68); home services marketing ocean city md (r224); home services marketing salisbury md (r225); hvac marketing salisbury md (r226); home services marketing eastern shore (r248)
-- `/compare/how-to-choose-a-marketing-agency/` (8): best web design company salisbury md (r79); best web design company ocean city md (r80); best marketing agency ocean city md (r106); best marketing agency salisbury md (r116); top digital marketing agencies salisbury md (r117); best marketing agency eastern shore maryland (r129); how to choose a marketing agency (r182); best digital marketing agency in ocean city maryland (r296)
+- `/how-to-choose-a-marketing-agency/` (7): best web design company salisbury md (r79); best web design company ocean city md (r80); best marketing agency ocean city md (r106); best marketing agency salisbury md (r116); top digital marketing agencies salisbury md (r117); how to choose a marketing agency (r182); best digital marketing agency in ocean city maryland (r296)
 - `/free-website-audit/` (2): do i need a website if i have a google business profile (r88); website refresh vs redesign (r90)
 - `/reporting/` (1): how long does seo take to work (r186)
 - `/blog/how-much-does-a-website-cost/` (4): how much does a website cost (r82); how much does a website redesign cost (r85); how much does an ecommerce website cost (r91); what does a hotel website cost ocean city (r92)
+- `/blog/website-maintenance-cost/` (1): how much does website maintenance cost per month (r84)
 - `/blog/how-much-does-seo-cost/` (2): how much does seo cost for a small business (r175); how much does local seo cost (r184)
-- `/blog/show-up-in-chatgpt/` (4): how do i get my business to show up in chatgpt (r177); what is generative engine optimization (r178); geo vs seo what's the difference (r179); how do ai overviews affect local businesses (r181)
+- `/blog/show-up-in-chatgpt/` (3): how do i get my business to show up in chatgpt (r177); what is generative engine optimization (r178); geo vs seo what's the difference (r179)
 - `/blog/rank-higher-on-google-maps/` (1): how to rank higher on google maps (r180)
-- `/blog/vacation-rental-direct-bookings-ocean-city/` (2): how to get more direct bookings for a vacation rental in ocean city (r284); how to use email marketing to get repeat hotel and vacation rental guests (r285)
-- `/blog/off-season-marketing-ocean-city/` (1): how to market a seasonal business in the off season (r185)
+- `/blog/vacation-rental-direct-bookings-ocean-city/` (1): how to get more direct bookings for a vacation rental in ocean city (r284)
+- `/blog/` (1): how do ai overviews affect local businesses (r181)
 
-**Deliberately unassigned (4):**
+**Pages that own no term (rule 5 in 6.1; `noindex, follow` until the keyword pass):** `/about/[owner-slug]/`, `/scoreboard/`, `/services/print-design/`, `/services/public-relations/`, `/services/reputation-management/`, `/services/website-chat-assistant/`, `/careers/`. Exempt legal pages: `/terms/`, `/privacy/`, `/accessibility/`, `/what-you-own/`. Exempt `noindex` utility pages: `/thanks/`, audit reports, 404.
+
+**Deliberately unassigned (3):**
 - d3corp alternatives (r78): D3 brand term. We never name D3 on our site and do not target its name (PLAN Appendix B).
-- wordpress vs wix vs squarespace for small business (r87): National comparison of three site builders we do not use (we build static sites), contested by 15+ affiliate guides (keywords.csv basis column), priority 3, little local buying intent. Revisit only as a future article if the owner wants it.
 - d3 corp alternatives (r168): D3 brand term (same reason).
 - d3corp reviews (r169): D3 brand term (same reason).
 
-**Check (run by script on keywords.csv before saving):** 301 rows; 297 assigned to exactly one page; 4 unassigned with a reason; 0 duplicates; 0 orphans.
+(The first draft also left "wordpress vs wix vs squarespace for small business" (r87) unassigned. It now sits on our own build case study, which answers it from real measurements of the platform we chose.)
+
+**Check (run by script on keywords.csv before saving):** 301 rows; 298 assigned to exactly one page; 3 unassigned with a reason; 0 duplicates; 0 orphans; every page count above matches its list.
+
+---
+
+## Verification (2026-11-11)
+
+A checker compared this blueprint with its sources and ran scripted checks against `keywords.csv`. It flagged 10 claims (1 wrong, 8 overstated, 1 unsupported) and 10 missing items. All 20 were fixed with targeted edits. The acceptance checks it ran (every D3 service matched, 40+ pages in build order, keywords mapped once, owner needs listed, standards consistent) were re-run by script after the edits and still pass.
+
+**Claims corrected (10):**
+- Wrong: the reason for the 24-hour review-reply standard. 03b §4.3 sets "1 business day" as our own bar, not as a bar for D3's checklist. The table now states the real conflict (03b §4.3 against PLAN §6.2 and 02b §3) and that the stricter 24 hours wins.
+- Unsupported: "CSV r21 notes D3 ranks first" for West Ocean City, given as a 04 snapshot reading. Now "No snapshot; the CSV basis note asserts D3 ranks first, unverified" (6.2).
+- Overstated, now narrowed:
+  - "No town in any heading" → no town page and no town in any of its 12 H1s; town names do appear in 9 and 3 titles (summary 6; 02 §10; SC #8).
+  - Case-study proof → none shows a visible date or before-and-after screenshots or scores; 27 of 28 give no timeline; Visiting Angels' "100 to 200" is a before-and-after figure (11.2; 01b §3.3).
+  - Quiet Resorts → an inferred Bethany-Fenwick membership that 02b reads as Worcester County Tourism; flagged for a manual check (6.5 note; decision 24).
+  - Maryland Office of Tourism → listed in the October recon, not re-confirmed (6.5; 02b §10 #5).
+  - Salisbury "no D3 page in the top 10, no local agency page" → limited to the SEO, Google Ads, web design and graphic design terms; D3 ranks for the agency terms and local firms appear (6.6).
+  - "No local agency publishes prices" → D3 and the Salisbury agencies found publish none (11.2 #8, 11.3; 04 Summary 8).
+  - LCP sources → 2 of 5 favour 2.0 s (01 §8 #8 and 03b §4.3); 2.5 s stays the gate, 2.0 s the stretch goal (standards table).
+  - Service-in-town evidence → 8 evidence-backed pages separated from 2 lower-confidence ones (Ocean City social, Ocean City design and print), which are built last (6.2; section 13).
+
+**Missing items added (10):**
+1. Keyword clusters: every indexable page now owns at least one `keywords.csv` term, or is `noindex, follow` until the keyword pass where the CSV has no fitting term (standards table; rule 5; 9.11). Terms were moved to `/services/`, the strategy page, `/work/`, the site-build case study, both client slots, `/reviews/`, `/blog/` and the attractions page. `/what-you-own/` is treated as a legal page. 298 of 301 rows are now assigned and 3 are unassigned (D3 brand terms).
+2. Ownership rules: rules 3 and 4 restated and rule 5 added; r159, r170, r287, r84 and r282 moved (conflict C13); a new cost article, `/blog/website-maintenance-cost/`, replaces the off-season article.
+3. Lead form: the text-message consent tick-box is removed, so the friction score is truly 5. The booking path is scored on its own (name and email required by the scheduler, 5 by the 03b method) (10.2, 10.3).
+4. Review math: the table now uses 1 in 3 at every stage, with one request per intake name. PLAN §8's week-4 and week-6 figures are named as a conflict, and day 90 is chosen (standards table; 11.1; decision 28).
+5. Summary 6 now matches the 6-of-9 launch rule; decision 3 now counts 18 service pages (17 without the chat page).
+6. `/compare/` folder removed: the checklist lives at `/how-to-choose-a-marketing-agency/`, so every breadcrumb parent is a real page (section 5).
+7. Parity decisions for D3's 8 dropdown-only services (booking engines, reservations, group housing, live web cams, Wi-Fi marketing, CRM, mobile app, destination marketing), a counter-position on destination marketing, and the nonprofit and bank verticals (section 3; section 7 hub row; decision 27).
+8. Selection criterion (3) for the 60 keywords now gives each "very low" pick its true reason (section 8).
+9. PLAN §4 acceptance criterion 3 is stated as still unmet: 40 of 301 rows have a top-3, and at least 110 more queries are needed (summary 11; section 8; section 13; decision 23).
+10. The thequietresorts.com conflict between 01, 04 and 02b is flagged in the 6.5 note and in decision 24.
+
+**Counts after the edits:** 75 pages in build order (16 + 22 + 26 + 11), the same 75 in the sitemap; 70 live by default, 63 indexable; 60 priority-1 keywords, each with one owner that matches Appendix A; every title 60 characters or fewer.
