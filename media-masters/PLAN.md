@@ -110,8 +110,13 @@ out. Competitor profiles beyond D3 are low confidence for the same reason. The p
 (`scripts/d3-crawl/jobs.txt`) fetches D3's listings and the competitors' own sites to close this;
 it starts when a line containing "jobs" is appended to `scripts/d3-crawl/RUN` and pushed.
 
-**Blueprint:** `research/05-mmg-site-blueprint.md` (written from two independent drafts, judged,
-merged, and verified against the research).
+**Blueprint:** `research/05-mmg-site-blueprint.md`, written from two independent drafts, judged,
+merged, and verified against the research: all 13 D3 service pages matched, 75 pages in four
+sprints, the 60 priority keywords each assigned to one page, and one set of standards (main
+content in 2.5 s or less on mobile, under 1 MB per page, one 4-field form, Lighthouse 95+, zero
+critical or serious accessibility errors). Its section 15.2 lists 26 owner decisions in priority
+order; the first nine (trademark, identity, services, prices, lead and hours, terms, bio, review
+clients, towns) block sprint 1 and supersede the shorter list in section 10 below.
 
 ---
 
