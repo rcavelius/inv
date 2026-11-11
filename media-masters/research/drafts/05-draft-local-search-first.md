@@ -650,7 +650,7 @@ These are priority 2 or 3 in the CSV but they are the reason the Berlin, Ocean P
 - **H1:** Marketing for Ocean City hotels and vacation rentals
 - **H2 outline:**
   1. Who this is for (hotels and motels, property managers, rental owners, from Ocean City to Bethany)
-  2. Win more direct bookings (booking-engine speed, Google Vacation Rentals and hotel listings, off-season demand; 01b §7 #1)
+  2. Where direct bookings come from, and what we work on (booking-engine speed, Google Vacation Rentals and hotel listings, off-season demand; 01b §7 #1)
   3. The hospitality package and starting price `[[NEEDS]]`
   4. A 12-month hospitality calendar (pre-season, peak, shoulder, owner-recruitment season; 04 Seasonality)
   5. Accessible booking sites (why accessibility matters to hotels; facts only, no legal advice)

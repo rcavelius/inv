@@ -812,24 +812,24 @@ Word counts are body copy, excluding nav and footer. Every service page uses the
 | `/locations/pocomoke-snow-hill-md/` (C) | `Pocomoke City & Snow Hill, MD Marketing \| Media Masters` | Web design and marketing for Pocomoke City, MD and Snow Hill, MD | website design pocomoke city md (r50); web design snow hill md (r51); marketing pocomoke city md (r153); seo snow hill md (r154); google ads management pocomoke city md (r271); marketing agency snow hill md (r272) | 900 | Book a 15-minute call | 3 |
 | `/locations/west-ocean-city-md/` (C) | `Marketing & Web Design, West Ocean City, MD \| Media Masters` | Marketing and web design for West Ocean City, MD businesses | web design west ocean city md (r21); web design agency west ocean city (r22); marketing agency west ocean city md (r120) | 900 | Book a 15-minute call | 3 |
 | `/industries/` | `Industries We Market on Delmarva \| Media Masters Group` | Marketing for the industries that run Delmarva | law firm website design eastern shore md (r69) | 600 | Book a 15-minute call | 3 |
-| `/industries/restaurants-bars/` (C) | `Restaurant & Bar Marketing, Ocean City, MD \| Media Masters` | Marketing for Ocean City restaurants and bars | restaurant website design ocean city (r65); restaurant marketing ocean city md (r172); restaurant marketing salisbury md (r219); restaurant marketing rehoboth beach (r274); how to market a restaurant in a beach town (r289) | 1,200 | Check my site free | 3 |
-| `/industries/amusements-attractions/` (C) | `Amusement & Attraction Marketing, Ocean City \| Media Masters` | Marketing for Ocean City amusements and attractions | tourism marketing agency eastern shore (r191). `[[NEEDS: keyword pass: "amusement park marketing", "boardwalk business marketing", "attraction website design" (04 "Review gaps still open")]]` | 1,200 | Book a 15-minute call | 3 |
+| `/industries/restaurants-bars/` (C) | `Restaurant & Bar Marketing, Ocean City, MD \| Media Masters` | Marketing for Ocean City restaurants and bars | restaurant website design ocean city (r65); restaurant marketing ocean city md (r172); restaurant marketing salisbury md (r219); restaurant marketing rehoboth beach (r274) | 1,200 | Check my site free | 3 |
+| `/industries/amusements-attractions/` (C) | `Amusement & Attraction Marketing, Ocean City \| Media Masters` | Marketing for Ocean City amusements, attractions and events | ocean city md marketing for seasonal businesses (r170); tourism marketing agency eastern shore (r191). Candidates for the keyword pass: "amusement park marketing", "boardwalk business marketing", "attraction website design" (04 "Review gaps still open") | 1,200 | Book a 15-minute call | 3 |
 | `/industries/golf/` (C) | `Golf Course & Golf Package Marketing \| Media Masters Group` | Marketing for Ocean City and Berlin, MD golf courses and golf packages | golf course marketing agency ocean city md (r298); golf course website design maryland eastern shore (r299); ocean city golf getaway marketing (r300); golf package marketing delmarva (r301); golf course social media marketing berlin md (r302) | 1,200 | Book a 15-minute call | 3 |
 | `/industries/real-estate/` (C) | `Real Estate Marketing, Ocean City, MD \| Media Masters Group` | Marketing, video and drone for Delmarva real estate agents | real estate website design ocean city md (r67); real estate marketing sussex county de (r192); real estate marketing ocean city md (r220); real estate marketing salisbury md (r221); delmarva real estate photography and video (r252); how should realtors use video and drone footage to sell second homes (r290) | 1,200 | Book a 15-minute call | 3 |
 | `/industries/medical-dental/` (C) | `Medical & Dental Marketing, Salisbury, MD \| Media Masters` | Marketing for medical and dental practices in Salisbury, MD and Delmarva | medical practice marketing ocean city md (r222); medical practice marketing salisbury md (r223); dental marketing eastern shore md (r249) | 1,200 | Book a 15-minute call | 3 |
 | `/industries/home-services/` (C) | `Contractor & Home Services Marketing \| Media Masters Group` | Marketing for Delmarva contractors and home service businesses | contractor website design salisbury md (r68); home services marketing ocean city md (r224); home services marketing salisbury md (r225); hvac marketing salisbury md (r226); home services marketing eastern shore (r248) | 1,200 | Book a 15-minute call | 3 |
-| `/compare/how-to-choose-a-marketing-agency/` | `How to Choose a Marketing Agency on Delmarva \| Media Masters` | How to choose a marketing agency on the Eastern Shore | best web design company salisbury md (r79); best web design company ocean city md (r80); best marketing agency ocean city md (r106); best marketing agency salisbury md (r116); top digital marketing agencies salisbury md (r117); best marketing agency eastern shore maryland (r129); how to choose a marketing agency (r182); best digital marketing agency in ocean city maryland (r296) | 1,500 | Check my site free | 3 |
+| `/how-to-choose-a-marketing-agency/` | `How to Choose a Marketing Agency on Delmarva \| Media Masters` | How to choose a marketing agency on the Eastern Shore | best web design company salisbury md (r79); best web design company ocean city md (r80); best marketing agency ocean city md (r106); best marketing agency salisbury md (r116); top digital marketing agencies salisbury md (r117); how to choose a marketing agency (r182); best digital marketing agency in ocean city maryland (r296) | 1,500 | Check my site free | 3 |
 | `/free-website-audit/report/{id}/` (noindex) | `Your Website Audit Results \| Media Masters Group` | Your website audit results | Exempt (noindex generated report) | generated | Book a 15-minute call to go through it | 4 |
 | `/reporting/` | `What's in Our Monthly Marketing Report \| Media Masters` | What you get in your monthly marketing report | how long does seo take to work (r186) | 900 | Book a 15-minute call | 4 |
-| `/scoreboard/` | `Our Website Speed & Accessibility Scores \| Media Masters` | Our own website's speed and accessibility scores, live | `[[NEEDS: keyword pass: "website speed test", "accessible website example"; none in keywords.csv]]` | 500 | Check my site free | 4 |
-| `/blog/` | `Marketing Advice for Delmarva Businesses \| Media Masters` | Marketing advice for Delmarva business owners | `[[NEEDS: keyword pass: "delmarva marketing blog"; hub page, none in keywords.csv]]` | 300 | Check my site free | 4 |
+| `/scoreboard/` (noindex, follow) | `Our Website Speed & Accessibility Scores \| Media Masters` | Our own website's speed and accessibility scores, live | None (rule 5): no speed-test term in `keywords.csv`; searchers for a speed check are served by the audit tool. Candidates for the keyword pass: "website speed test", "accessible website example" | 500 | Check my site free | 4 |
+| `/blog/` | `Marketing Advice for Delmarva Businesses \| Media Masters` | Marketing advice for Delmarva business owners | how do ai overviews affect local businesses (r181), answered by the hub's opening section "How search changed for local businesses this year", which then links to every article | 500 | Check my site free | 4 |
 | `/blog/how-much-does-a-website-cost/` | `How Much Does a Website Cost? Real Numbers \| Media Masters` | How much does a website cost? A plain-English breakdown | how much does a website cost (r82); how much does a website redesign cost (r85); how much does an ecommerce website cost (r91); what does a hotel website cost ocean city (r92) | 1,500 | See website prices | 4 |
+| `/blog/website-maintenance-cost/` | `Website Maintenance Cost Per Month, Explained \| Media Masters` | How much does website maintenance cost per month? | how much does website maintenance cost per month (r84) | 1,200 | See care plan prices | 4 |
 | `/blog/how-much-does-seo-cost/` | `How Much Does SEO Cost for a Small Business? \| Media Masters` | How much does SEO cost for a small business? | how much does seo cost for a small business (r175); how much does local seo cost (r184) | 1,300 | See SEO prices | 4 |
-| `/blog/show-up-in-chatgpt/` | `Get Your Business Into ChatGPT Answers \| Media Masters` | How to get your business to show up in ChatGPT and AI answers | how do i get my business to show up in chatgpt (r177); what is generative engine optimization (r178); geo vs seo what's the difference (r179); how do ai overviews affect local businesses (r181) | 1,400 | Check my site free | 4 |
+| `/blog/show-up-in-chatgpt/` | `Get Your Business Into ChatGPT Answers \| Media Masters` | How to get your business to show up in ChatGPT and AI answers | how do i get my business to show up in chatgpt (r177); what is generative engine optimization (r178); geo vs seo what's the difference (r179) | 1,400 | Check my site free | 4 |
 | `/blog/rank-higher-on-google-maps/` | `How to Rank Higher on Google Maps \| Media Masters` | How to rank higher on Google Maps: a guide for local businesses | how to rank higher on google maps (r180) | 1,400 | Check my site free | 4 |
-| `/blog/vacation-rental-direct-bookings-ocean-city/` | `More Direct Bookings for Ocean City Rentals \| Media Masters` | How to get more direct bookings for an Ocean City vacation rental | how to get more direct bookings for a vacation rental in ocean city (r284); how to use email marketing to get repeat hotel and vacation rental guests (r285) | 1,300 | Check my booking site free | 4 |
-| `/blog/off-season-marketing-ocean-city/` | `Off-Season Marketing in Ocean City, MD \| Media Masters` | How to market a seasonal Ocean City business in the off-season | how to market a seasonal business in the off season (r185) | 1,200 | Book a 15-minute call | 4 |
-| `/careers/` (C) | `Careers at Media Masters Group \| Delmarva` | Work with Media Masters Group | `[[NEEDS: keyword pass: "marketing jobs ocean city md"; none in keywords.csv]]` | 400 | Apply | 4 |
+| `/blog/vacation-rental-direct-bookings-ocean-city/` | `More Direct Bookings for Ocean City Rentals \| Media Masters` | How to get more direct bookings for an Ocean City vacation rental | how to get more direct bookings for a vacation rental in ocean city (r284). (The email question, r285, is held by the `/work/[client-2-slug]/` slot and returns here if that slot is not built) | 1,300 | Check my booking site free | 4 |
+| `/careers/` (C; noindex, follow) | `Careers at Media Masters Group \| Delmarva` | Work with Media Masters Group | None (rule 5): no job term in `keywords.csv`; openings are posted on Handshake for Salisbury University students and on job boards (04 authority table). Candidate for the keyword pass: "marketing jobs ocean city md" | 400 | Apply | 4 |
 
 ---
 
@@ -863,19 +863,20 @@ D3 has 7 inquiry forms of 5 to 13 questions, with conflicting service lists and 
 | 3 | What do you need? | Checkboxes generated from the same service list as the nav (only SELL and SUB services), plus "Not sure yet" | No |
 | 4 | Anything we should know? | `<textarea>`, 500-character limit | No |
 
-- **Friction score by the 03b §5 method:** 4 visible questions + 1 required field = **5**, which meets 03b's "5 or less". D3's footer form scores 15 (03b §5).
+- **Friction score by the 03b §5 method:** 4 visible questions + 1 required field = **5**, which meets 03b's "5 or less". D3's footer form scores 15 (03b §5). The form has exactly these 4 visible controls and nothing else: no consent tick-box, no newsletter tick-box, no "how did you hear" question. A fifth control would make the score 6.
 - Real `required` attribute on field 2; accessible error messages tied with `aria-describedby`; visible labels, never placeholder-only labels (03 §7.4).
 - **Hidden fields:** page URL, page town (from the page's front matter), UTM source, medium and campaign, `gclid` if present, and a timestamp.
 - Button text: "Send to [lead first name]". Under the button: "A person replies the same business day. We never sell or share your details."
 - **Spam protection:** Cloudflare Turnstile, loaded only when the visitor focuses the first field (01 §8 #19), plus a honeypot field hidden from everyone, including assistive technology.
 - No "how did you hear about us" question: source comes from analytics and call tracking, and we ask on the call (D3 asks it three different ways, 03b §5).
-- Text-message replies only to people who ticked a consent line under the form; the wording is reviewed by counsel first `[[NEEDS: decision 19]]`.
+- **Text messages and the form.** The form carries no text-message consent tick-box. A visitor who leaves a mobile number gets a phone call back, not a text, unless counsel confirms that a one-to-one text reply about their own message is allowed without a separate consent step `[[NEEDS: decision 19]]`. Visitors who want to text can use "Text us" in the header, which starts the conversation from their side. Consent for any marketing texts is collected separately, later, never on this form.
 
 ### 10.3 Booking link
 
 - Primary CTA on every page: "Book a 15-minute call", linking to `/contact/#book`, which loads a hosted scheduler (Cal.com or Calendly `[[NEEDS: choice and account]]`) only on tap. No booking script on page load. D3 has no booking path (03b §4.3).
 - Two event types: "15-minute intro call" and, from sprint 4, "30-minute audit walkthrough".
-- Business hours only `[[NEEDS: hours]]`, a separate summer schedule `[[NEEDS: summer availability, decision 5]]`, 2-hour minimum notice, 15-minute buffers. The booking form asks the same 4 questions, prefilled from the form when there is one.
+- Business hours only `[[NEEDS: hours]]`, a separate summer schedule `[[NEEDS: summer availability, decision 5]]`, 2-hour minimum notice, 15-minute buffers.
+- **The booking form is a separate path with its own score.** Hosted schedulers such as Cal.com and Calendly always require a name and an email address, so the booking form cannot match the site form's "1 required field". It asks 3 things: name (required), email (required) and an optional "What do you need?" with the same service choices. By the 03b §5 method that is 3 visible questions + 2 required = **5**, which still meets "5 or less". Answers are prefilled from the site form when the visitor came from it.
 - Confirmation and reminder emails come from the scheduler, signed by the lead.
 
 ### 10.4 Phone and text
@@ -959,19 +960,20 @@ Events: `form_submit` (with service and town), `booking_complete`, `call_click`,
 
 ### 11.1 Getting to 25 Google reviews in 90 days
 
-PLAN sets 25 Google reviews by day 90, 60 by day 180 and 120 by day 365 (PLAN §1), about 2 a week (PLAN §6.2). D3's Google rating is unknown because it was never checked (02b §3), so we never cite it. D3 has 0 Clutch reviews (02b §3), which makes Clutch the first place we can be visibly ahead.
+PLAN sets 25 Google reviews by day 90, 60 by day 180 and 120 by day 365 (PLAN §1), about 2 a week (PLAN §6.2). PLAN §8's timeline asks for more, sooner: 10 reviews by week 4 and 25 by weeks 5 to 6. The two cannot both hold, and at the request rate below PLAN §8's dates cannot be met by an agency that starts with no clients. **We use day 90 as the standard** (standards table) and ask the owner to update PLAN §8 to match. D3's Google rating is unknown because it was never checked (02b §3), so we never cite it. D3 has 0 Clutch reviews (02b §3), which makes Clutch the first place we can be visibly ahead.
 
-**The math (conservative).** We assume about **1 review for every 3 honest requests** (assumption A9) and track the real rate from week 1. 25 reviews need about 75 requests to people who really received work from us. **The 25-by-day-90 target depends on the client list asked for in intake** (`intake.md` → Proof; decision 8).
+**The math (conservative).** We assume about **1 review for every 3 honest requests** (assumption A9), at every stage, and track the real rate from week 1. A "request" is one person asked once, with the single reminder in the routine below; asking the same person twice does not count as two requests. 25 reviews need about 75 requests to people who really received work from us. **The 25-by-day-90 target depends on the client list asked for in intake** (`intake.md` → Proof; decision 8) and, above all, on how many paid milestones we complete in weeks 3 to 13.
 
-| Weeks | Who is asked (all real customers) | Requests | Reviews | Running total |
+| Weeks | Who is asked (all real customers) | Requests | Reviews (1 in 3) | Running total |
 |---|---|---|---|---|
-| 0 to 2 | Past and current clients from intake `[[NEEDS: 3 to 5+ names]]`, asked by a personal text from the owner on the day the Google Business Profile is verified | 10 | 5 | 5 |
-| 3 to 6 | Launch-period clients at each completed milestone (starter sites, profile setups, care plans, ad accounts) | 25 | 8 | 13 |
-| 7 to 13 | Ongoing clients at each milestone; people who received a real paid service | 40 | 12 | 25 |
+| 0 to 2 | Past and current clients from intake `[[NEEDS: names]]`, asked by a personal text from the owner on the day the Google Business Profile is verified. One request per name: 3 names give 1 review, 6 names give 2 | 6 | 2 | 2 |
+| 3 to 6 | Launch-period clients at each completed milestone (starter sites, profile setups, care plans, ad accounts) | 27 | 9 | 11 |
+| 7 to 13 | Ongoing clients at each milestone; people who received a real paid service | 42 | 14 | 25 |
+| **Total** | | **75** | **25** | |
 
-**Day-45 check.** The running total should be about 13 by week 6. If it is under 8, the owner chooses between (a) widening the honest ask list to everyone the owner has done real work for, or (b) one or two pro-bono projects for local nonprofits (real work, real reviews), and the paid-search bridge carries more lead flow (PLAN §9).
+**Day-45 check.** The running total should be about 11 by week 6. If it is under 7, the owner chooses between (a) widening the honest ask list to everyone the owner has done real work for, or (b) one or two pro-bono projects for local nonprofits (real work, real reviews), and the paid-search bridge carries more lead flow (PLAN §9).
 
-**Fallback (decision 8).** If intake lists **fewer than 3 clients**, the 90-day target drops to **12**, the review count is **hidden on the site until it reaches 5**, and paid search carries more of the lead load (PLAN §6.7, §9).
+**Fallback (decision 8).** If intake lists **fewer than 3 clients**, the 90-day target drops to **12**, the review count is **hidden on the site until it reaches 5**, and paid search carries more of the lead load (PLAN §6.7, §9). Why 3: fewer than 3 names is the clearest early sign that there will also be few launch-period clients, and at 1 in 3, 12 reviews still need about 36 honest requests in 90 days. The same fallback applies if the day-45 total is under 7 and neither option above closes the gap.
 
 **The routine at every completed milestone:**
 1. Same day: the person who did the work sends a personal text with the short Google review link and one open question ("What did we work on together, and what's your business?"). No script, no suggested wording.
@@ -988,7 +990,7 @@ PLAN sets 25 Google reviews by day 90, 60 by day 180 and 120 by day 365 (PLAN §
 
 ### 11.2 Case study format
 
-D3: 1 of 28 case studies states a growth result from D3's work in numbers (Visiting Angels) and 1 more a lead-capture rate (Primo); none has a visible date, a timeline or a before-and-after measurement (01b §3.1, §3.3).
+D3: 1 of 28 case studies states a growth result from D3's work in numbers (Visiting Angels, whose caregivers and clients went "from 100 to 200", a before-and-after figure) and 1 more a lead-capture rate (Primo) (01b §3.1). None shows a visible date or before-and-after screenshots or speed scores, and 27 of 28 give no timeline; Visiting Angels gives "first six months" with no dates (01b §3.3).
 
 1. **H1:** "[Result] for [client] in [town], [state]" (only after the client signs off on the number).
 2. **At-a-glance box:** client, industry, town, services used (linked), dates (kickoff, launch, "results as of").
@@ -997,7 +999,7 @@ D3: 1 of 28 case studies states a growth result from D3's work in numbers (Visit
 5. **Results:** at least 2 metrics, each baseline → after, with the measurement window and the data source (GA4, Google Business Profile insights, booking engine, call tracking).
 6. **Before and after:** phone screenshots, plus mobile Lighthouse scores and page weight for any website work.
 7. **Quote:** a named person and job title, with written permission on file.
-8. **What it cost:** the package name and price band, if the client agrees (no local agency publishes prices, 04 Summary 8).
+8. **What it cost:** the package name and price band, if the client agrees (D3 and the Salisbury agencies found publish no prices, 04 Summary 8).
 9. **Links:** each service used, the town page, the industry page and one related article; each links back.
 10. **Visible dates** (published; results as of) and **client sign-off filed before publishing.**
 11. **Schema:** `Article` with `about` the client `Organization`; no `Review` markup. Video, if any, with transcript and `VideoObject`.
@@ -1008,7 +1010,7 @@ D3: 1 of 28 case studies states a growth result from D3's work in numbers (Visit
 |---|---|---|
 | Our own live speed and accessibility scores, re-measured on every deploy | `/scoreboard/`, the proof strip | Anyone can re-test them; D3's mobile performance is 38 to 54 (02 §9.1) |
 | Case study 1: building our own site, with a dated build log and before-and-after numbers | `/work/media-masters-site-build/` | Real numbers we control |
-| Every starting price and package | `/pricing/`, every service page | No local agency publishes prices (04 Summary 8) |
+| Every starting price and package | `/pricing/`, every service page | D3 and the Salisbury agencies found publish no prices (04 Summary 8) |
 | The process and timeline for every service | each service page | D3 publishes none (01 §3) |
 | The owner: name, photo, bio, LinkedIn, direct line `[[NEEDS]]` | `/about/`, the owner page, every page footer | D3 names only its founder, once (03b §1 #9) |
 | Plain-English terms and ownership | `/what-you-own/`, `/terms/` | Answers the 3-year auto-renewing Terms directly (03b §3.2) |
@@ -1138,7 +1140,8 @@ From PLAN §5.5, plus the checks this blueprint adds:
 - Lighthouse 90+ floor on all four mobile scores (95 target, reported); zero critical or serious axe violations; valid schema; zero broken or redirecting internal links.
 - Exactly one H1 containing the page's lead keyword or town; title 60 characters or fewer and meta description 120 to 155, both unique; no `noindex` page in the sitemap.
 - Location pages: localness score recorded, launch rule met (6.3), overlap guard under 30%, name-swap check passed.
-- **Any `[[NEEDS` string in rendered HTML or JSON-LD fails the build.** Keyword-pass markers in front matter are listed as warnings in the build report.
+- **Any `[[NEEDS` string in rendered HTML or JSON-LD fails the build.**
+- **Keyword check:** every indexable page except the four legal pages names at least one owned `keywords.csv` row in its front matter, and no row is owned twice; otherwise the build fails. A page with no owned row must carry `noindex, follow` and stay out of the sitemap (rule 5 in 6.1); its candidate phrases are listed in the build report for the keyword pass.
 - A `lorem` and placeholder grep; spelling; grade-8 reading level; the banned-phrase check (2.1); a no-ranking-promise check on body copy and FAQ answers; a price block present on service, town and industry pages; 3+ Delmarva towns named on generic service pages.
 - One human read-through.
 
@@ -1221,7 +1224,7 @@ PLAN §5.5 sets four sprints: (1) the money pages, weeks 2 to 3; (2) the remaini
 61. `/industries/real-estate/` (C: real estate in intake industries)
 62. `/industries/medical-dental/` (C: medical in intake industries)
 63. `/industries/home-services/` (C: home services in intake industries)
-64. `/compare/how-to-choose-a-marketing-agency/`
+64. `/how-to-choose-a-marketing-agency/`
 
 **Sprint 4, weeks 5 to 6: audit tool, reporting, scoreboard, blog launch with six articles (11 pages)**
 

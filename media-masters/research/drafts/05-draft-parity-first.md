@@ -34,7 +34,7 @@
 7. **One short form, one booking link, tap-to-call on every phone screen.** D3 runs 7 different inquiry forms, the longest with 13 questions, and no booking link (01 §5.1; 03b §4.3). Ours: 4 fields, a 15-minute booking link, and a call button in the header.
 8. **Town pages come second, but they come.** D3 has no page for any town (02 §10). We build 8 town pages and 4 Salisbury service pages in sprint 3, starting with Salisbury, where D3 has an office but does not appear for "web design Salisbury MD" (04 snapshot table).
 9. **Reviews are the slowest asset, so they start on day one.** The target is 25 Google reviews in 90 days, which needs a real list of past clients or customers who will post (section 11). If that list is short, the target slips and paid search carries more of the load (PLAN §9).
-10. **About 68 pages in four sprints, weeks 2 to 6.** Sprint 1 is the six money pages plus contact and legal basics. We cannot start sprint 1 copy until you answer the first five items in section 15.
+10. **67 pages in four sprints, weeks 2 to 6.** Sprint 1 is the six money pages plus contact and legal basics. We cannot start sprint 1 copy until you answer the first five items in section 15.
 
 ---
 
@@ -200,7 +200,7 @@ URL rules: lowercase, trailing slash, hyphens, no dates in URLs, no more than th
 Non-page files: /sitemap-index.xml, /robots.txt, /llms.txt, /_redirects, /_headers
 ```
 
-Firm indexable pages at launch (all conditionals built, chat and careers excluded, two client case studies excluded): **63**. With the two client case studies: 65. Plus `/thanks/`, `/404` and generated audit reports. This clears the PLAN §4 bar of 40 pages.
+Pages to build: **67** (section 13). Assuming every service is SELL or SUB, and leaving out the chat page, careers and the two client case studies, that is 63 pages, of which 61 are indexable (all but `/thanks/` and the 404 page), plus generated audit reports. This clears the PLAN §4 bar of 40 pages.
 
 West Ocean City: PLAN §5.1 lists it as its own location page. This draft folds it into the Ocean City page because D3's 21842 address and ours would share the ZIP, the 3 West Ocean City keywords are all very low volume (keywords.csv rows "web design west ocean city md", "web design agency west ocean city", "marketing agency west ocean city md"), and a separate page would be hard to make genuinely different (02 §10 notes the 21842 ZIP covers both). Revisit if our office is in West Ocean City (assumption A1).
 
@@ -664,23 +664,23 @@ Word counts are body copy, excluding nav and footer. Every service page uses the
 | `/locations/berlin-ocean-pines-md/` | `Web Design & Marketing, Berlin & Ocean Pines | Media Masters` | Web design and marketing for Berlin and Ocean Pines, MD | web design berlin md; marketing agency berlin md; marketing agency ocean pines md; website design ocean pines md | 1,100 | Book a 15-minute call |
 | `/locations/bethany-beach-fenwick-island-de/` | `Marketing for Bethany Beach & Fenwick Island | Media Masters` | Web design and marketing for Bethany Beach and Fenwick Island | web design bethany beach de; marketing agency bethany beach de; marketing agency fenwick island de; web design fenwick island de | 1,000 | Book a 15-minute call |
 | `/locations/sussex-county-de/` | `Web Design & Marketing in Sussex County, DE | Media Masters` | Web design and marketing for Sussex County, Delaware businesses | web design sussex county de; marketing agency sussex county de; seo company sussex county de; digital marketing sussex county de | 1,100 | Book a 15-minute call |
-| `/locations/easton-cambridge-md/` | `Web Design & Marketing, Easton & Cambridge MD | Media Masters` | Web design and marketing for Easton and Cambridge, MD | website design easton md; marketing agency easton md; marketing agency cambridge md; web design cambridge md | 1,000 | Book a 15-minute call |
+| `/locations/easton-cambridge-md/` | `Web Design & Marketing, Easton & Cambridge | Media Masters` | Web design and marketing for Easton and Cambridge, MD | website design easton md; marketing agency easton md; marketing agency cambridge md; web design cambridge md | 1,000 | Book a 15-minute call |
 | `/locations/pocomoke-snow-hill-md/` | `Marketing for Pocomoke City & Snow Hill, MD | Media Masters` | Web design and marketing for Pocomoke City and Snow Hill | website design pocomoke city md; web design snow hill md; marketing agency snow hill md; marketing pocomoke city md | 900 | Book a 15-minute call |
 | `/industries/` | `Industries We Market on Delmarva | Media Masters Group` | Marketing for the industries that run Delmarva | No owned keyword (hub) | 500 | Book a 15-minute call |
 | `/industries/restaurants-bars/` | `Restaurant & Bar Marketing, Ocean City MD | Media Masters` | Marketing for Ocean City restaurants and bars | restaurant marketing ocean city md; restaurant website design ocean city; restaurant marketing salisbury md; restaurant marketing rehoboth beach | 1,200 | Check my site free |
 | `/industries/amusements-attractions/` | `Amusement & Attraction Marketing, Ocean City | Media Masters` | Marketing for Ocean City amusements and attractions | tourism marketing agency eastern shore `[[NEEDS: keyword pass]]` | 1,200 | Book a 15-minute call |
 | `/industries/golf/` | `Golf Course & Golf Package Marketing, OC MD | Media Masters` | Marketing for Ocean City and Berlin golf courses and golf packages | golf course marketing agency ocean city md; golf course website design maryland eastern shore; ocean city golf getaway marketing | 1,200 | Book a 15-minute call |
 | `/industries/real-estate/` | `Real Estate Marketing, Ocean City MD | Media Masters Group` | Marketing, video and drone for Delmarva real estate agents | real estate marketing ocean city md; real estate website design ocean city md; delmarva real estate photography and video | 1,200 | Book a 15-minute call |
-| `/industries/medical-dental/` | `Medical & Dental Practice Marketing, Salisbury | Media Masters` | Marketing for medical and dental practices in Salisbury and Delmarva | medical practice marketing salisbury md; dental marketing eastern shore md; medical practice marketing ocean city md | 1,200 | Book a 15-minute call |
-| `/industries/home-services/` | `Home Services & Contractor Marketing, Salisbury | Media Masters` | Marketing for Delmarva contractors and home service businesses | home services marketing salisbury md; hvac marketing salisbury md; contractor website design salisbury md | 1,200 | Book a 15-minute call |
+| `/industries/medical-dental/` | `Medical & Dental Marketing, Salisbury MD | Media Masters` | Marketing for medical and dental practices in Salisbury and Delmarva | medical practice marketing salisbury md; dental marketing eastern shore md; medical practice marketing ocean city md | 1,200 | Book a 15-minute call |
+| `/industries/home-services/` | `Contractor & Home Services Marketing, MD | Media Masters` | Marketing for Delmarva contractors and home service businesses | home services marketing salisbury md; hvac marketing salisbury md; contractor website design salisbury md | 1,200 | Book a 15-minute call |
 | `/compare/how-to-choose-a-marketing-agency/` | `How to Choose a Marketing Agency on Delmarva | Media Masters` | How to choose a marketing agency on the Eastern Shore | how to choose a marketing agency; best marketing agency ocean city md; best marketing agency salisbury md; best web design company ocean city md | 1,500 | Check my site free |
 | `/blog/` | `Marketing Advice for Delmarva Businesses | Media Masters` | Marketing advice for Delmarva business owners | No owned keyword (hub) | 300 | Check my site free |
 | `/blog/how-much-does-a-website-cost/` | `How Much Does a Website Cost? Real Numbers | Media Masters` | How much does a website cost? A plain-English breakdown | how much does a website cost; how much does a website redesign cost; how much does an ecommerce website cost | 1,500 | See website prices |
 | `/blog/how-much-does-seo-cost/` | `How Much Does SEO Cost for a Small Business? | Media Masters` | How much does SEO cost for a small business? | how much does seo cost for a small business; how much does local seo cost | 1,300 | See SEO prices |
-| `/blog/show-up-in-chatgpt/` | `How to Get Your Business to Show Up in ChatGPT | Media Masters` | How to get your business to show up in ChatGPT and AI answers | how do i get my business to show up in chatgpt; what is generative engine optimization; geo vs seo what's the difference | 1,400 | Check my site free |
-| `/blog/rank-higher-on-google-maps/` | `How to Rank Higher on Google Maps: Local Guide | Media Masters` | How to rank higher on Google Maps: a guide for local businesses | how to rank higher on google maps | 1,400 | Check my site free |
+| `/blog/show-up-in-chatgpt/` | `Get Your Business Into ChatGPT Answers | Media Masters` | How to get your business to show up in ChatGPT and AI answers | how do i get my business to show up in chatgpt; what is generative engine optimization; geo vs seo what's the difference | 1,400 | Check my site free |
+| `/blog/rank-higher-on-google-maps/` | `How to Rank Higher on Google Maps | Media Masters` | How to rank higher on Google Maps: a guide for local businesses | how to rank higher on google maps | 1,400 | Check my site free |
 | `/blog/vacation-rental-direct-bookings-ocean-city/` | `More Direct Bookings for Ocean City Rentals | Media Masters` | How to get more direct bookings for an Ocean City vacation rental | how to get more direct bookings for a vacation rental in ocean city; how to use email marketing to get repeat hotel and vacation rental guests | 1,300 | Check my booking site free |
-| `/blog/off-season-marketing-ocean-city/` | `Off-Season Marketing for Ocean City Businesses | Media Masters` | How to market a seasonal Ocean City business in the off-season | how to market a seasonal business in the off season | 1,200 | Book a 15-minute call |
+| `/blog/off-season-marketing-ocean-city/` | `Off-Season Marketing in Ocean City, MD | Media Masters` | How to market a seasonal Ocean City business in the off-season | how to market a seasonal business in the off season | 1,200 | Book a 15-minute call |
 | `/about/[owner-slug]/` | `[Owner Name], [Title] | Media Masters Group` `[[NEEDS]]` | [Owner name], [title] at Media Masters Group | No keyword (author and E-E-A-T page) | 500 | Book a call with [first name] |
 | `/what-you-own/` | `What You Own and How to Cancel | Media Masters Group` | What you own, and how to cancel, in plain English | No owned keyword (trust page); supporting: how to choose a marketing agency | 600 | See prices |
 | `/careers/` (C) | `Careers at Media Masters Group | Delmarva` | Work with Media Masters Group | No keyword | 400 | Apply |
@@ -934,13 +934,13 @@ Sketch of the sitewide node (placeholders, not facts):
   "telephone": "[[NEEDS: +1XXXXXXXXXX]]",
   "email": "[[NEEDS]]",
   "address": "[[NEEDS: PostalAddress, or omit if service-area business]]",
-  "areaServed": ["Worcester County, MD", "Wicomico County, MD", "Sussex County, DE", "Somerset County, MD", "Talbot County, MD", "Dorchester County, MD"],
+  "areaServed": ["Worcester County, MD", "Wicomico County, MD", "Sussex County, DE", "Talbot County, MD", "Dorchester County, MD"],
   "sameAs": ["[[NEEDS: GBP URL]]", "[[NEEDS: LinkedIn]]", "[[NEEDS: Facebook]]"],
   "founder": { "@id": "https://[[NEEDS: domain]]/about/[owner-slug]/#person" }
 }
 ```
 
-(`areaServed` lists only the counties of the towns intake confirms; Somerset is listed because Pocomoke and Snow Hill sit on its border in Worcester; remove any county intake rules out.)
+(`areaServed` lists only the counties of the towns intake confirms: Worcester, Wicomico, Sussex, Talbot for Easton and Dorchester for Cambridge. Remove any county intake rules out.)
 
 ### 12.6 Analytics and call tracking
 
